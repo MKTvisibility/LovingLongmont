@@ -6,3 +6,12 @@ body{background:#fffcf6;background-image:none;color:var(--ink)}.sb-ribbon{displa
 /* Forest green direction: cooler artwork, white surfaces and blue accents. */
 :root{--teal:#174F3D;--deep-teal:#103D30;--ink:#102D28;--sky-blue:#08659A;--cream:#FFFFFF;--text:#102D28;--navy:#102D28;--gray:#4C625B}
 body{background:#fff;color:var(--ink)}.st-button{background:#fff}.st-button:hover{background:#EDF7F2}.st-sign.eat,.st-sign.history{background:#195D43}.st-sign.shop{background:#1C7050}.st-sign.arts{background:#285F88;color:#fff}.st-sign.events{background:#08659A}.st-sign.outside{background:#164D32}.st-date{background:#E8F3ED;border-color:#B8D0C1;color:#164D32}.st-event-empty{background:#EFF7F2;border-color:#174F3D}.st-neighbor img{border-color:#F3FAF6}.sb-copyright{background:#0C3026}.st-route-dialog{background:#fff}.st-concept-note{color:#52675F}.st-event-card{border-color:#C6D7CE}.st-route-dialog .route-path{color:#52675F}
+
+/* Distinct category colors drawn from the parade illustration. */
+.st-sign.eat{background:#BD303A;left:8%;top:22%;color:#fff}
+.st-sign.shop{background:#B52470;left:25%;top:29%;color:#fff}
+.st-sign.arts{background:#7545A0;left:40%;top:25%;color:#fff}
+.st-sign.events{background:#08659A;left:56%;top:22%;color:#fff}
+.st-sign.outside{background:#21623E;left:86%;top:38%;color:#fff}
+.st-sign.history{background:#087A7C;left:89%;top:9%;color:#fff}
+.st-sign:focus-visible{outline:3px solid #fff;outline-offset:4px;box-shadow:0 0 0 7px #102D28}

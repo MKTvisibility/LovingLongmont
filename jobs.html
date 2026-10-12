@@ -1,923 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
 
+<html lang="en">
 <head>
 <!-- Google tag (gtag.js) -->
-
-
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Find Work in Longmont | Loving Longmont</title>
-
-<meta name="description"
-content="Find jobs, temp agencies, resume help, job training, side gigs, remote work resources and career support in Longmont, Colorado.">
-
-<style>
-
-:root {
-    --navy:#062f52;
-    --dark-navy:#03233e;
-    --red:#c8101e;
-    --cream:#fffaf1;
-    --sage:#e8f0ec;
-    --light:#f4f7f7;
-    --blue-light:#edf4f6;
-    --text:#293b45;
-    --gray:#667780;
-    --white:#ffffff;
-    --green:#347455;
-    --gold:#9b6808;
-}
-
-* {
-    box-sizing:border-box;
-}
-
-html {
-    scroll-behavior:smooth;
-}
-
-body {
-    margin:0;
-    font-family:Arial, Helvetica, sans-serif;
-    color:var(--text);
-    background:#fff;
-    line-height:1.6;
-}
-
-img {
-    max-width:100%;
-    display:block;
-}
-
-a {
-    color:inherit;
-}
-
-
-/* =========================================================
-   HEADER
-========================================================= */
-
-.site-header {
-    background:rgba(255,255,255,.98);
-    border-bottom:1px solid #e6e6e6;
-    position:sticky;
-    top:0;
-    z-index:1000;
-}
-
-.navbar {
-    max-width:1450px;
-    margin:auto;
-    padding:9px 22px;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    gap:20px;
-}
-
-.nav-logo {
-    display:flex;
-    align-items:center;
-    text-decoration:none;
-    min-width:250px;
-}
-
-.nav-logo img {
-    width:68px;
-    height:68px;
-    object-fit:cover;
-    border-radius:5px;
-}
-
-.nav-brand-text {
-    margin-left:13px;
-}
-
-.nav-brand-text strong {
-    display:block;
-    color:var(--navy);
-    font-size:23px;
-    line-height:1.1;
-}
-
-.nav-brand-text small {
-    display:block;
-    margin-top:6px;
-    color:var(--navy);
-    font-size:9px;
-    font-weight:bold;
-    letter-spacing:2px;
-}
-
-.heart {
-    color:var(--red);
-}
-
-.nav-links {
-    display:flex;
-    align-items:center;
-    gap:15px;
-}
-
-.nav-links a {
-    text-decoration:none;
-    color:var(--navy);
-    font-size:12px;
-    font-weight:bold;
-    padding:25px 0 22px;
-    border-bottom:3px solid transparent;
-    white-space:nowrap;
-}
-
-.nav-links a:hover,
-.nav-links a.active {
-    color:var(--red);
-    border-bottom-color:var(--red);
-}
-
-.nav-contact {
-    background:var(--navy);
-    color:white !important;
-    padding:12px 18px !important;
-    border-radius:7px;
-    border-bottom:none !important;
-}
-
-.nav-contact:hover {
-    background:var(--red);
-}
-
-
-/* =========================================================
-   HERO
-========================================================= */
-
-.hero {
-    position:relative;
-    background:var(--cream);
-}
-
-.hero img {
-    width:100%;
-    max-height:550px;
-    object-fit:cover;
-}
-
-.hero-overlay {
-    position:absolute;
-    inset:0;
-    display:flex;
-    align-items:flex-end;
-    justify-content:center;
-    padding:45px 25px;
-    background:
-        linear-gradient(
-            to top,
-            rgba(3,35,62,.80),
-            rgba(3,35,62,.04) 60%
-        );
-}
-
-.hero-text {
-    text-align:center;
-    color:white;
-}
-
-.hero-text h1 {
-    font-family:Georgia, "Times New Roman", serif;
-    font-size:clamp(42px,6vw,66px);
-    margin:0 0 8px;
-    line-height:1.05;
-}
-
-.hero-text p {
-    margin:0;
-    font-size:18px;
-}
-
-
-/* =========================================================
-   SHARED
-========================================================= */
-
-.container {
-    max-width:1200px;
-    margin:auto;
-}
-
-.eyebrow {
-    color:var(--red);
-    text-transform:uppercase;
-    letter-spacing:4px;
-    font-size:12px;
-    font-weight:bold;
-    margin-bottom:8px;
-}
-
-.section-title {
-    font-family:Georgia, "Times New Roman", serif;
-    color:var(--navy);
-    font-size:clamp(34px,5vw,50px);
-    line-height:1.12;
-    margin:0 0 15px;
-}
-
-.section-description {
-    max-width:850px;
-    margin:auto;
-    color:var(--gray);
-    font-size:17px;
-}
-
-.section-heading {
-    text-align:center;
-    margin-bottom:42px;
-}
-
-
-/* =========================================================
-   INTRO
-========================================================= */
-
-.intro {
-    text-align:center;
-    background:var(--cream);
-    padding:60px 25px 35px;
-}
-
-
-/* =========================================================
-   QUICK CHOICES
-========================================================= */
-
-.quick-start {
-    background:var(--cream);
-    padding:15px 25px 65px;
-}
-
-.quick-grid {
-    max-width:1180px;
-    margin:auto;
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:16px;
-}
-
-.quick-card {
-    background:white;
-    border:1px solid #e1e8e8;
-    border-radius:14px;
-    padding:24px;
-    text-decoration:none;
-    transition:.25s;
-    text-align:center;
-}
-
-.quick-card:hover {
-    transform:translateY(-4px);
-    box-shadow:0 12px 28px rgba(0,0,0,.08);
-}
-
-.quick-icon {
-    font-size:34px;
-}
-
-.quick-card h3 {
-    font-family:Georgia,serif;
-    color:var(--navy);
-    margin:8px 0 5px;
-    font-size:19px;
-}
-
-.quick-card p {
-    margin:0;
-    color:var(--gray);
-    font-size:13px;
-}
-
-
-/* =========================================================
-   FEATURED WORKFORCE
-========================================================= */
-
-.featured {
-    padding:75px 25px;
-    background:#fff;
-}
-
-.featured-box {
-    max-width:1100px;
-    margin:auto;
-    display:grid;
-    grid-template-columns:1.2fr .8fr;
-    gap:40px;
-    align-items:center;
-    border-radius:18px;
-    overflow:hidden;
-    background:linear-gradient(135deg,#edf5f4,#f8fbfa);
-    border:1px solid #dbe7e4;
-    padding:45px;
-}
-
-.feature-icon {
-    width:95px;
-    height:95px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    border-radius:50%;
-    background:var(--navy);
-    color:white;
-    font-size:44px;
-    margin-bottom:20px;
-}
-
-.featured h2 {
-    font-family:Georgia,serif;
-    color:var(--navy);
-    font-size:38px;
-    margin:0 0 12px;
-}
-
-.featured p {
-    color:var(--gray);
-}
-
-.feature-list {
-    margin:20px 0;
-    padding-left:22px;
-}
-
-.feature-list li {
-    margin:9px 0;
-}
-
-.contact-panel {
-    background:white;
-    border-radius:14px;
-    padding:28px;
-    box-shadow:0 7px 20px rgba(0,0,0,.07);
-}
-
-.contact-panel h3 {
-    margin-top:0;
-    color:var(--navy);
-    font-family:Georgia,serif;
-}
-
-.contact-line {
-    margin:10px 0;
-    color:#40515b;
-    font-size:14px;
-}
-
-.contact-line strong {
-    color:var(--navy);
-}
-
-.contact-line a {
-    color:var(--navy);
-    text-decoration:none;
-}
-
-.contact-line a:hover {
-    text-decoration:underline;
-}
-
-
-/* =========================================================
-   BUTTONS
-========================================================= */
-
-.button-row {
-    display:flex;
-    flex-wrap:wrap;
-    gap:10px;
-    margin-top:20px;
-}
-
-.button {
-    display:inline-block;
-    padding:11px 16px;
-    border-radius:6px;
-    text-decoration:none;
-    font-size:13px;
-    font-weight:bold;
-}
-
-.button-primary {
-    background:var(--navy);
-    color:white;
-}
-
-.button-primary:hover {
-    background:#0b4c79;
-}
-
-.button-light {
-    background:#e8f0f1;
-    color:var(--navy);
-}
-
-.button-red {
-    background:var(--red);
-    color:white;
-}
-
-.button-red:hover {
-    background:#aa0d16;
-}
-
-
-/* =========================================================
-   RESOURCE CARDS
-========================================================= */
-
-.resources {
-    padding:75px 25px;
-}
-
-.resources.alt {
-    background:var(--sage);
-}
-
-.resource-grid {
-    max-width:1200px;
-    margin:auto;
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:25px;
-}
-
-.resource-card {
-    background:white;
-    border:1px solid #e2e6e7;
-    border-radius:15px;
-    padding:27px;
-    display:flex;
-    flex-direction:column;
-    box-shadow:0 6px 20px rgba(0,0,0,.05);
-    transition:.25s;
-}
-
-.resource-card:hover {
-    transform:translateY(-4px);
-    box-shadow:0 12px 28px rgba(0,0,0,.09);
-}
-
-.resource-icon {
-    width:55px;
-    height:55px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    background:var(--blue-light);
-    border-radius:12px;
-    font-size:29px;
-    margin-bottom:14px;
-}
-
-.resource-label {
-    text-transform:uppercase;
-    letter-spacing:2px;
-    color:var(--red);
-    font-size:10px;
-    font-weight:bold;
-}
-
-.resource-card h3 {
-    font-family:Georgia,serif;
-    color:var(--navy);
-    font-size:22px;
-    line-height:1.2;
-    margin:7px 0 10px;
-}
-
-.resource-card p {
-    color:var(--gray);
-    font-size:14px;
-    margin-top:0;
-}
-
-.resource-details {
-    margin-top:auto;
-    border-top:1px solid #eee;
-    padding-top:14px;
-}
-
-.resource-detail {
-    font-size:13px;
-    margin:6px 0;
-    color:#465760;
-}
-
-.resource-detail strong {
-    color:var(--navy);
-}
-
-
-/* =========================================================
-   JOB SEARCH SITE GRID
-========================================================= */
-
-.job-sites {
-    padding:75px 25px;
-    background:#fff;
-}
-
-.site-grid {
-    max-width:1100px;
-    margin:auto;
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:16px;
-}
-
-.site-card {
-    text-decoration:none;
-    text-align:center;
-    background:#f7f9f9;
-    border:1px solid #e1e6e7;
-    border-radius:13px;
-    padding:22px 15px;
-    transition:.25s;
-}
-
-.site-card:hover {
-    transform:translateY(-3px);
-    background:#fff;
-    box-shadow:0 8px 22px rgba(0,0,0,.07);
-}
-
-.site-icon {
-    font-size:30px;
-    margin-bottom:7px;
-}
-
-.site-card strong {
-    display:block;
-    color:var(--navy);
-    font-size:16px;
-}
-
-.site-card span {
-    display:block;
-    color:var(--gray);
-    font-size:12px;
-    margin-top:4px;
-}
-
-
-/* =========================================================
-   SIDE GIGS
-========================================================= */
-
-.gigs {
-    background:var(--cream);
-    padding:75px 25px;
-}
-
-.gig-grid {
-    max-width:1100px;
-    margin:auto;
-    display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:16px;
-}
-
-.gig-card {
-    background:white;
-    border:1px solid #e7e2d9;
-    border-radius:14px;
-    padding:23px;
-    text-align:center;
-}
-
-.gig-icon {
-    font-size:34px;
-}
-
-.gig-card h3 {
-    color:var(--navy);
-    font-family:Georgia,serif;
-    margin:9px 0 5px;
-}
-
-.gig-card p {
-    color:var(--gray);
-    font-size:13px;
-    min-height:58px;
-}
-
-.gig-card a {
-    display:inline-block;
-    margin-top:8px;
-    color:var(--navy);
-    font-weight:bold;
-    text-decoration:none;
-    font-size:13px;
-}
-
-.gig-card a:hover {
-    text-decoration:underline;
-}
-
-
-/* =========================================================
-   TIPS
-========================================================= */
-
-.tips {
-    padding:70px 25px;
-    background:var(--sage);
-}
-
-.tip-box {
-    max-width:1000px;
-    margin:auto;
-    background:white;
-    border-left:6px solid var(--red);
-    border-radius:14px;
-    padding:35px;
-}
-
-.tip-box h2 {
-    font-family:Georgia,serif;
-    color:var(--navy);
-    margin-top:0;
-}
-
-.tip-box li {
-    margin:10px 0;
-    color:var(--gray);
-}
-
-
-/* =========================================================
-   CTA
-========================================================= */
-
-.cta {
-    padding:75px 25px;
-    background:linear-gradient(135deg,var(--navy),#0a4a77);
-    color:white;
-    text-align:center;
-}
-
-.cta .eyebrow {
-    color:#ffc1c5;
-}
-
-.cta h2 {
-    font-family:Georgia,serif;
-    font-size:42px;
-    margin:5px 0 14px;
-}
-
-.cta p {
-    max-width:760px;
-    margin:0 auto 25px;
-    color:#dce9ef;
-}
-
-
-/* =========================================================
-   FOOTER
-========================================================= */
-
-footer {
-    background:linear-gradient(135deg,#03233e,#063b62);
-    color:white;
-    padding:55px 25px 20px;
-}
-
-.footer-grid {
-    max-width:1150px;
-    margin:auto;
-    display:grid;
-    grid-template-columns:1.5fr .8fr 1.2fr;
-    gap:60px;
-}
-
-.footer-brand {
-    display:flex;
-    align-items:center;
-    gap:15px;
-}
-
-.footer-brand img {
-    width:90px;
-    height:90px;
-    object-fit:cover;
-    border-radius:5px;
-}
-
-.footer-brand h2 {
-    margin:0;
-    font-size:25px;
-}
-
-.footer-brand small {
-    font-size:9px;
-    letter-spacing:2px;
-}
-
-.footer-about,
-.footer-contact {
-    color:#d6e2e9;
-    font-size:14px;
-}
-
-.footer-about {
-    max-width:380px;
-    margin-top:18px;
-}
-
-.footer-heading {
-    font-weight:bold;
-    font-size:16px;
-    margin-bottom:12px;
-}
-
-.footer-links a {
-    display:block;
-    color:#e2ebf0;
-    text-decoration:none;
-    font-size:14px;
-    margin:7px 0;
-}
-
-.footer-links a:hover {
-    text-decoration:underline;
-    color:white;
-}
-
-.footer-email {
-    display:inline-block;
-    margin-top:8px;
-    color:white;
-    text-decoration:none;
-    font-weight:bold;
-}
-
-.footer-bottom {
-    max-width:1150px;
-    margin:40px auto 0;
-    padding-top:20px;
-    border-top:1px solid rgba(255,255,255,.2);
-    text-align:center;
-    color:#c6d6df;
-    font-size:12px;
-}
-
-
-/* =========================================================
-   RESPONSIVE
-========================================================= */
-
-@media (max-width:1180px) {
-
-    .navbar {
-        flex-direction:column;
-        padding-bottom:15px;
-    }
-
-    .nav-logo {
-        min-width:auto;
-    }
-
-    .nav-links {
-        flex-wrap:wrap;
-        justify-content:center;
-    }
-
-    .nav-links a {
-        padding:5px 0;
-    }
-}
-
-@media (max-width:1050px) {
-
-    .quick-grid,
-    .resource-grid {
-        grid-template-columns:repeat(2,1fr);
-    }
-
-    .site-grid,
-    .gig-grid {
-        grid-template-columns:repeat(2,1fr);
-    }
-
-    .featured-box {
-        grid-template-columns:1fr;
-    }
-}
-
-@media (max-width:900px) {
-
-    .footer-grid {
-        grid-template-columns:1fr;
-    }
-}
-
-@media (max-width:650px) {
-
-    .quick-grid,
-    .resource-grid,
-    .site-grid,
-    .gig-grid {
-        grid-template-columns:1fr;
-    }
-
-    .nav-brand-text {
-        display:none;
-    }
-
-    .hero img {
-        min-height:260px;
-        object-fit:cover;
-    }
-
-    .featured-box {
-        padding:28px;
-    }
-}
-
-
-      /* Consistent Loving Longmont hero — matches home page */
-      .hero { width: 100%; min-height: 0 !important; padding: 0 !important; display: block !important; background: var(--cream, #fffaf1) !important; position: relative; }
-      .hero img { width: 100% !important; height: auto !important; max-height: 700px !important; min-height: 0 !important; object-fit: cover !important; object-position: center !important; display: block !important; }
-    
-/* Canonical Loving Longmont footer */
-footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55px 25px 20px}
-.footer-grid{max-width:1150px;margin:auto;display:grid;grid-template-columns:1.5fr .8fr 1.2fr;gap:60px}
-.footer-logo-area{display:flex;align-items:center;gap:15px}
-.footer-logo-area h2{margin:0;font-size:25px}
-.footer-logo-area small{font-size:9px;letter-spacing:2px}
-.footer-about{max-width:380px;color:#d5e1e8;font-size:14px;margin-top:18px}
-.footer-heading{font-weight:bold;font-size:16px;margin-bottom:13px}
-.footer-links a{display:block;text-decoration:none;color:#e1ebf0;font-size:14px;margin:7px 0}
-.footer-links a:hover{color:white;text-decoration:underline}
-.footer-contact{color:#e1ebf0;font-size:14px}
-.footer-email{display:inline-block;margin-top:8px;color:white;text-decoration:none;font-weight:bold}
-.footer-bottom{max-width:1150px;margin:40px auto 0;padding-top:20px;border-top:1px solid rgba(255,255,255,.2);text-align:center;color:#c5d5df;font-size:12px}
-.red-heart{color:var(--red,#c8101e)}
-@media(max-width:900px){.footer-grid{grid-template-columns:1fr}}
-</style>
-
-<meta name="robots" content="noindex,nofollow">
-<link rel="stylesheet" href="assets/scrapbook.css">
-<link rel="stylesheet" href="assets/streetscape.css">
-</head>
-
-
-<body class="sb-page-content"><svg width="0" height="0" aria-hidden="true" style="position:absolute"><defs><filter id="header-logo-color" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="0 0 0 0 1 -1 0 0 0 1 -1 0 0 0 1 0 0 0 1 0"/></filter></defs></svg>
-
-
+<meta content="Find jobs, temp agencies, resume help, job training, side gigs, remote work resources and career support in Longmont, Colorado." name="description"/>
+<meta content="noindex,nofollow" name="robots"/>
+<link href="assets/community.css" rel="stylesheet"/><link href="assets/watercolor.css" rel="stylesheet"/></head>
+<body class="sb-page-content watercolor-site"><a class="skip-link" href="#main-content">Skip to content</a><header class="sb-header"><div class="sb-wrap sb-mast"><a aria-label="Loving Longmont home" class="sb-brand" href="index.html"><img alt="Loving Longmont — A whole town to discover" height="131" src="assets/watercolor-logo.webp" width="329"/></a><div class="mast-tools"><nav aria-label="Useful links"><a href="about.html">About</a><a href="contact.html">Contact</a><a href="pricing.html">Add a Business</a><a aria-label="Loving Longmont on Facebook" class="facebook-link" href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" rel="noopener noreferrer" target="_blank">f</a></nav><form action="search.html" class="sb-search" method="get" role="search"><label class="visually-hidden" for="global-search">Search Loving Longmont</label><input id="global-search" name="q" placeholder="Search businesses, events, or things to do…" type="search"/><button aria-label="Search" type="submit">⌕</button></form></div><details class="sb-mobile"><summary aria-label="Open navigation">☰ <span>Menu</span></summary><nav aria-label="Mobile navigation" class="sb-mobile-links"><a href="index.html">Home</a><a href="businesses.html">All local businesses</a><a href="eat-drink.html">Eat &amp; Drink</a><a href="shop-local.html">Shop Local</a><a href="arts-culture.html">Arts &amp; Culture</a><a href="events.html">Events</a><a href="get-outside.html">Get Outside</a><a href="community.html">Community</a><a href="history.html">Our History</a><a href="businesses.html">All local businesses</a><a href="things-to-do.html">Things to do</a><a href="spotlight.html">Stories &amp; spotlights</a><a href="community-guide.html">Community guide</a><a href="animals.html">Animals &amp; pets</a><a aria-current="page" href="jobs.html">Jobs &amp; training</a><a href="about.html">About Loving Longmont</a><a href="pricing.html">Add a business</a><a href="contact.html">Contact</a><a href="sitemap.html">Site map</a><a href="search.html">Search</a><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" rel="noopener noreferrer" target="_blank">Facebook ↗</a></nav></details></div><div class="nav-band"><nav aria-label="Main navigation" class="sb-wrap sb-nav"><a href="eat-drink.html">Eat &amp; Drink</a><a href="shop-local.html">Shop Local</a><a href="arts-culture.html">Arts &amp; Culture</a><a href="events.html">Events</a><a href="get-outside.html">Get Outside</a><a href="community.html">Community</a><a href="history.html">Our History</a><details class="nav-dropdown"><summary>Discover</summary><div class="dropdown-links"><a href="businesses.html">All local businesses</a><a href="things-to-do.html">Things to do</a><a href="spotlight.html">Stories &amp; spotlights</a></div></details><details class="nav-dropdown"><summary>Community</summary><div class="dropdown-links"><a href="community-guide.html">Community guide</a><a href="animals.html">Animals &amp; pets</a><a aria-current="page" href="jobs.html">Jobs &amp; training</a></div></details><details class="nav-dropdown"><summary>Get involved</summary><div class="dropdown-links"><a href="about.html">About Loving Longmont</a><a href="pricing.html">Add a business</a><a href="contact.html">Contact</a><a href="sitemap.html">Site map</a></div></details></nav></div><form action="search.html" class="mobile-search" method="get" role="search"><label class="visually-hidden" for="mobile-search">Search Loving Longmont</label><input id="mobile-search" name="q" placeholder="Search businesses, events…" type="search"/><button aria-label="Search">⌕</button></form></header><main class="site-main" id="main-content">
 <!-- =========================================================
      HEADER
 ========================================================= -->
-
-
-<header class="sb-header"><div class="sb-wrap sb-mast">
-<a class="sb-brand" href="index.html" aria-label="Loving Longmont home"><img src="assets/loving-longmont-lettering.webp" alt="Loving Longmont, Colorado" width="1573" height="1000"></a>
-<nav class="sb-nav" aria-label="Main navigation"><a href="things-to-do.html">Explore</a><a href="businesses.html">Businesses</a><a href="events.html">Events</a><a href="community.html">Community</a><a href="history.html">History</a><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook ↗</a></nav>
-<form class="sb-search" action="search.html" method="get" role="search"><input type="search" name="q" placeholder="Search our town" aria-label="Search Loving Longmont"><button type="submit" aria-label="Search">⌕</button></form>
-<details class="sb-mobile"><summary>Menu</summary><nav class="sb-mobile-links" aria-label="Mobile navigation"><a href="things-to-do.html">Explore</a><a href="businesses.html">Businesses</a><a href="events.html">Events</a><a href="community.html">Community</a><a href="history.html">History</a><a href="sitemap.html">Site map</a><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook ↗</a></nav></details>
-</div></header>
-
-
-
 <!-- =========================================================
      HERO
 ========================================================= -->
-
-<section class="hero">
-      <img src="https://raw.githubusercontent.com/LovingLongmont/loving-longmont-website/main/Images/Website-Images/2.png" alt="Loving Longmont Colorado" />
-    </section>
-
-
-
 <!-- =========================================================
      INTRO
 ========================================================= -->
-
 <section class="intro">
-
 <div class="container">
-
 <div class="eyebrow">
 Jobs • Careers • Extra Income
 </div>
-
-<h2 class="section-title">
+<h1 class="section-title">
 Looking for Work? Start Here.
-</h2>
-
+</h1>
 <p class="section-description">
 Whether you're searching for a full-time career,
 need work quickly, want help improving your résumé,
@@ -925,1573 +34,986 @@ are considering a career change or just need a flexible
 way to earn some extra money, these Longmont and Colorado
 resources can help you get started.
 </p>
-
 </div>
-
 </section>
-
-
-
 <!-- =========================================================
      QUICK START
 ========================================================= -->
-
 <section class="quick-start">
-
 <div class="quick-grid">
-
-
-<a href="#job-search"
-   class="quick-card">
-
+<a class="quick-card" href="#job-search">
 <div class="quick-icon">
 🔎
 </div>
-
 <h3>
 I Need a Job
 </h3>
-
 <p>
 Search local and national job boards.
 </p>
-
 </a>
-
-
-
-<a href="#temp-work"
-   class="quick-card">
-
+<a class="quick-card" href="#temp-work">
 <div class="quick-icon">
 ⚡
 </div>
-
 <h3>
 I Need Work Quickly
 </h3>
-
 <p>
 Connect with Longmont staffing and temp agencies.
 </p>
-
 </a>
-
-
-
-<a href="#resume-help"
-   class="quick-card">
-
+<a class="quick-card" href="#resume-help">
 <div class="quick-icon">
 📝
 </div>
-
 <h3>
 I Need Résumé Help
 </h3>
-
 <p>
 Find free résumé, interview and career assistance.
 </p>
-
 </a>
-
-
-
-<a href="#side-gigs"
-   class="quick-card">
-
+<a class="quick-card" href="#side-gigs">
 <div class="quick-icon">
 💵
 </div>
-
 <h3>
 I Want a Side Gig
 </h3>
-
 <p>
 Explore flexible ways to earn extra income.
 </p>
-
 </a>
-
-
-
-<a href="#training"
-   class="quick-card">
-
+<a class="quick-card" href="#training">
 <div class="quick-icon">
 🎓
 </div>
-
 <h3>
 I Want Better Skills
 </h3>
-
 <p>
 Find training, workshops and career-development resources.
 </p>
-
 </a>
-
-
-
-<a href="#remote"
-   class="quick-card">
-
+<a class="quick-card" href="#remote">
 <div class="quick-icon">
 🏠
 </div>
-
 <h3>
 I Want Remote Work
 </h3>
-
 <p>
 Search job sites that include work-from-home opportunities.
 </p>
-
 </a>
-
-
 </div>
-
 </section>
-
-
-
 <!-- =========================================================
      WORKFORCE BOULDER COUNTY
 ========================================================= -->
-
-<section class="featured"
-         id="resume-help">
-
+<section class="featured" id="resume-help">
 <div class="featured-box">
-
 <div>
-
 <div class="feature-icon">
 🤝
 </div>
-
 <div class="eyebrow">
 Start Here — Free Local Help
 </div>
-
 <h2>
 Workforce Boulder County
 </h2>
-
 <p>
 Workforce Boulder County is one of the most useful
 employment resources available to Longmont residents.
 Their Longmont office welcomes walk-ins and can help
 with much more than simply finding job postings.
 </p>
-
 <ul class="feature-list">
-
 <li>
 Career coaching and job-search assistance
 </li>
-
 <li>
 Résumé and interview guidance
 </li>
-
 <li>
 Career workshops
 </li>
-
 <li>
 Computers and resource-room access for job searches
 </li>
-
 <li>
 Self-guided computer-skills training
 </li>
-
 <li>
 Education and training resources
 </li>
-
 <li>
 Veterans services
 </li>
-
 <li>
 Young adult employment programs
 </li>
-
 <li>
 Connecting Colorado assistance
 </li>
-
 </ul>
-
-
 <div class="button-row">
-
-<a class="button button-primary"
-href="https://bouldercounty.gov/departments/community-services/workforce-boulder-county/" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://bouldercounty.gov/departments/community-services/workforce-boulder-county/" rel="noopener noreferrer" target="_blank">
 Visit Workforce Boulder County
 </a>
-
-<a class="button button-light"
-href="https://bouldercounty.gov/departments/community-services/workforce-boulder-county/career-resources/" target="_blank" rel="noopener noreferrer">
+<a class="button button-light" href="https://bouldercounty.gov/departments/community-services/workforce-boulder-county/career-resources/" rel="noopener noreferrer" target="_blank">
 Career Resources
 </a>
-
 </div>
-
 </div>
-
-
-
 <div class="contact-panel">
-
 <h3>
 Longmont Workforce Office
 </h3>
-
 <div class="contact-line">
-<strong>📍 Location:</strong><br>
-St. Vrain Community Hub<br>
-515 Coffman Street<br>
+<strong>📍 Location:</strong><br/>
+St. Vrain Community Hub<br/>
+515 Coffman Street<br/>
 Longmont, CO 80501
 </div>
-
 <div class="contact-line">
-<strong>☎ Phone:</strong><br>
-
+<strong>☎ Phone:</strong><br/>
 <a href="tel:7207760822">
 720-776-0822
 </a>
-
 </div>
-
 <div class="contact-line">
-<strong>🕐 Walk-In Hours:</strong><br>
-Monday–Thursday<br>
+<strong>🕐 Walk-In Hours:</strong><br/>
+Monday–Thursday<br/>
 8:00 a.m.–4:00 p.m.
 </div>
-
 <div class="contact-line">
-<strong>💻 Fridays:</strong><br>
+<strong>💻 Fridays:</strong><br/>
 Virtual services
 </div>
-
 <div class="button-row">
-
-
-
 </div>
-
 </div>
-
 </div>
-
 </section>
-
-
-
 <!-- =========================================================
      LOCAL JOB SEARCH
 ========================================================= -->
-
-<section class="resources alt"
-         id="job-search">
-
+<section class="resources alt" id="job-search">
 <div class="section-heading">
-
 <div class="eyebrow">
 Search Local First
 </div>
-
 <h2 class="section-title">
 Longmont Job Resources
 </h2>
-
 <p class="section-description">
 These organizations focus on Longmont, Boulder County
 or Colorado employment and are excellent places to begin
 a local job search.
 </p>
-
 </div>
-
-
 <div class="resource-grid">
-
-
-
 <article class="resource-card">
-
 <div class="resource-icon">
 🏔️
 </div>
-
 <div class="resource-label">
 Colorado Official Job System
 </div>
-
 <h3>
 Connecting Colorado
 </h3>
-
 <p>
 Colorado's official public workforce job system.
 Create or upload a résumé, search jobs, explore career
 paths, discover training and receive job-match information.
 </p>
-
 <div class="resource-details">
-
 <div class="resource-detail">
 <strong>Cost:</strong>
 Free
 </div>
-
 <div class="resource-detail">
 <strong>Best For:</strong>
 Colorado jobs, unemployment work-search registration,
 training and career planning
 </div>
-
 </div>
-
 <div class="button-row">
-
-<a class="button button-primary"
-href="https://jobs.connectingcolorado.gov/" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://jobs.connectingcolorado.gov/" rel="noopener noreferrer" target="_blank">
 Search Jobs
 </a>
-
 </div>
-
 </article>
-
-
-
 <article class="resource-card">
-
 <div class="resource-icon">
 🏢
 </div>
-
 <div class="resource-label">
 Local Business Community
 </div>
-
 <h3>
 Longmont Area Chamber of Commerce
 </h3>
-
 <p>
 The Chamber's online member system includes a job-postings
 section where Longmont-area businesses can advertise
 open positions.
 </p>
-
 <div class="resource-details">
-
 <div class="resource-detail">
 <strong>📍 Chamber:</strong>
 528 Main Street,
 Longmont, CO 80501
 </div>
-
 <div class="resource-detail">
 <strong>☎ Phone:</strong>
 303-776-5295
 </div>
-
 </div>
-
 <div class="button-row">
-
-<a class="button button-primary"
-href="https://my.longmontchamber.org/job-postings" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://my.longmontchamber.org/job-postings" rel="noopener noreferrer" target="_blank">
 View Chamber Jobs
 </a>
-
-<a class="button button-light"
-href="https://www.longmontchamber.org/" target="_blank" rel="noopener noreferrer">
+<a class="button button-light" href="https://www.longmontchamber.org/" rel="noopener noreferrer" target="_blank">
 Chamber Website
 </a>
-
 </div>
-
 </article>
-
-
-
 <article class="resource-card">
-
 <div class="resource-icon">
 📈
 </div>
-
 <div class="resource-label">
 Longmont Careers
 </div>
-
 <h3>
 Longmont Economic Development Partnership
 </h3>
-
 <p>
 Longmont EDP promotes employment and economic opportunities
 within Longmont and provides resources for people interested
 in working for local companies.
 </p>
-
 <div class="resource-details">
-
 <div class="resource-detail">
 <strong>☎ Phone:</strong>
 303-651-0128
 </div>
-
 <div class="resource-detail">
 <strong>Best For:</strong>
 Longmont employers, career opportunities and learning
 about industries growing in the community
 </div>
-
 </div>
-
 <div class="button-row">
-
-<a class="button button-primary"
-href="https://longmont.org/" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://longmont.org/" rel="noopener noreferrer" target="_blank">
 Explore Longmont Jobs
 </a>
-
 </div>
-
 </article>
-
-
-
 <article class="resource-card">
-
 <div class="resource-icon">
 🏛️
 </div>
-
 <div class="resource-label">
 Government Employment
 </div>
-
 <h3>
 City of Longmont Careers
 </h3>
-
 <p>
 Search employment opportunities directly with the City
 of Longmont, including jobs in utilities, parks,
 recreation, public safety, library services, administration
 and many other departments.
 </p>
-
 <div class="resource-details">
-
 <div class="resource-detail">
 <strong>Employer:</strong>
 City of Longmont
 </div>
-
 <div class="resource-detail">
 <strong>Best For:</strong>
 Local government careers and city benefits
 </div>
-
 </div>
-
 <div class="button-row">
-
-<a class="button button-primary"
-href="https://longmontcolorado.gov/careers/" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://longmontcolorado.gov/careers/" rel="noopener noreferrer" target="_blank">
 City Careers
 </a>
-
 </div>
-
 </article>
-
-
-
 <article class="resource-card">
-
 <div class="resource-icon">
 🏔️
 </div>
-
 <div class="resource-label">
 County Employment
 </div>
-
 <h3>
 Boulder County Jobs
 </h3>
-
 <p>
 Boulder County employs people across human services,
 administration, public works, parks, justice,
 community services and many other fields.
 </p>
-
 <div class="resource-details">
-
 <div class="resource-detail">
 <strong>Area:</strong>
 Boulder County
 </div>
-
 <div class="resource-detail">
 <strong>Good For:</strong>
 Public-sector careers and county employment
 </div>
-
 </div>
-
 <div class="button-row">
-
-<a class="button button-primary"
-href="https://bouldercounty.gov/jobs/" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://bouldercounty.gov/jobs/" rel="noopener noreferrer" target="_blank">
 Boulder County Careers
 </a>
-
 </div>
-
 </article>
-
-
-
 <article class="resource-card">
-
 <div class="resource-icon">
 📚
 </div>
-
 <div class="resource-label">
 Free Career Assistance
 </div>
-
 <h3>
 Longmont Public Library
 </h3>
-
 <p>
 A Longmont Library card provides free access to Tutor.com,
 which includes résumé assistance, writing help, job-search
 support, test preparation and one-on-one professional help.
 </p>
-
 <div class="resource-details">
-
 <div class="resource-detail">
 <strong>Cost:</strong>
 Free with a Longmont Library card
 </div>
-
 <div class="resource-detail">
 <strong>Live Help:</strong>
 Available online every day during scheduled tutoring hours
 </div>
-
 </div>
-
 <div class="button-row">
-
-<a class="button button-primary"
-href="https://longmontcolorado.gov/library/library-services/tutor-com/" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://longmontcolorado.gov/library/library-services/tutor-com/" rel="noopener noreferrer" target="_blank">
 Free Career Help
 </a>
-
-<a class="button button-light"
-href="https://longmontcolorado.gov/library/" target="_blank" rel="noopener noreferrer">
+<a class="button button-light" href="https://longmontcolorado.gov/library/" rel="noopener noreferrer" target="_blank">
 Library Website
 </a>
-
 </div>
-
 </article>
-
-
 </div>
-
 </section>
-
-
-
 <!-- =========================================================
      TEMP / STAFFING
 ========================================================= -->
-
-<section class="resources"
-         id="temp-work">
-
+<section class="resources" id="temp-work">
 <div class="section-heading">
-
 <div class="eyebrow">
 Need Work Quickly?
 </div>
-
 <h2 class="section-title">
-Longmont Staffing & Temp Agencies
+Longmont Staffing &amp; Temp Agencies
 </h2>
-
 <p class="section-description">
 Staffing agencies can be especially helpful when you need
 income quickly, want temporary work, are trying a new field
 or hope a temporary position turns into permanent employment.
 There is normally no fee to the job seeker.
 </p>
-
 </div>
-
-
 <div class="resource-grid">
-
-
-
 <article class="resource-card">
-
 <div class="resource-icon">
 ⚡
 </div>
-
 <div class="resource-label">
 Staffing • Longmont
 </div>
-
 <h3>
 Express Employment Professionals
 </h3>
-
 <p>
 Works with local companies to fill office services,
 industrial, skilled-trade and other positions throughout
 Longmont and Boulder County.
 </p>
-
 <div class="resource-details">
-
 <div class="resource-detail">
-<strong>📍 Address:</strong><br>
-1240 Ken Pratt Boulevard, Suite 6A<br>
+<strong>📍 Address:</strong><br/>
+1240 Ken Pratt Boulevard, Suite 6A<br/>
 Longmont, CO 80501
 </div>
-
 <div class="resource-detail">
 <strong>☎ Phone:</strong>
 303-678-1608
 </div>
-
 <div class="resource-detail">
 <strong>✉ Email:</strong>
 Jobs.LongmontCO@ExpressPros.com
 </div>
-
 </div>
-
 <div class="button-row">
-
-<a class="button button-primary"
-href="https://www.expresspros.com/us-colorado-longmont/job-seeker/search-jobs" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://www.expresspros.com/us-colorado-longmont/job-seeker/search-jobs" rel="noopener noreferrer" target="_blank">
 View Jobs
 </a>
-
 </div>
-
 </article>
-
-
-
 <article class="resource-card">
-
 <div class="resource-icon">
 👷
 </div>
-
 <div class="resource-label">
 Staffing • Longmont
 </div>
-
 <h3>
 Elwood Staffing
 </h3>
-
 <p>
 Elwood Staffing connects job seekers with temporary,
 temp-to-hire and permanent opportunities in a variety
 of industries.
 </p>
-
 <div class="resource-details">
-
 <div class="resource-detail">
-<strong>📍 Address:</strong><br>
-1020 Ken Pratt Boulevard<br>
+<strong>📍 Address:</strong><br/>
+1020 Ken Pratt Boulevard<br/>
 Longmont, CO 80501
 </div>
-
 <div class="resource-detail">
 <strong>☎ Call/Text:</strong>
 303-772-7422
 </div>
-
 <div class="resource-detail">
 <strong>✉ Email:</strong>
 longmont.co@elwoodstaffing.com
 </div>
-
 </div>
-
 <div class="button-row">
-
-<a class="button button-primary"
-href="https://www.elwoodstaffing.com/" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://www.elwoodstaffing.com/" rel="noopener noreferrer" target="_blank">
 Elwood Staffing
 </a>
-
 </div>
-
 </article>
-
-
-
 <article class="resource-card">
-
 <div class="resource-icon">
 ⚙️
 </div>
-
 <div class="resource-label">
 Manufacturing Staffing
 </div>
-
 <h3>
 ResourceMFG
 </h3>
-
 <p>
 A staffing company focused heavily on manufacturing,
 production and industrial jobs. Search current openings
 and nearby staffing locations directly through ResourceMFG.
 </p>
-
 <div class="resource-details">
-
 <div class="resource-detail">
 <strong>Best For:</strong>
 Manufacturing, production, warehouse and skilled work
 </div>
-
 </div>
-
 <div class="button-row">
-
-<a class="button button-primary"
-href="https://www.resourcemfg.com/locations/" target="_blank" rel="noopener noreferrer">
-Find Office & Jobs
+<a class="button button-primary" href="https://www.resourcemfg.com/locations/" rel="noopener noreferrer" target="_blank">
+Find Office &amp; Jobs
 </a>
-
 </div>
-
 </article>
-
-
-
 <article class="resource-card">
-
 <div class="resource-icon">
 🦺
 </div>
-
 <div class="resource-label">
 Day Labor • Staffing
 </div>
-
 <h3>
 LaborMAX Staffing
 </h3>
-
 <p>
 A staffing option for people seeking temporary,
 general labor, construction, warehouse and similar work.
 </p>
-
 <div class="resource-details">
-
 <div class="resource-detail">
-<strong>📍 Address:</strong><br>
-1660 Main Street<br>
+<strong>📍 Address:</strong><br/>
+1660 Main Street<br/>
 Longmont, CO 80501
 </div>
-
 <div class="resource-detail">
 <strong>☎ Phone:</strong>
 720-340-4680
 </div>
-
 </div>
-
 <div class="button-row">
-
-<a class="button button-primary"
-href="https://www.labormax.net/" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://www.labormax.net/" rel="noopener noreferrer" target="_blank">
 Visit LaborMAX
 </a>
-
 </div>
-
 </article>
-
-
-
 <article class="resource-card">
-
 <div class="resource-icon">
 🔨
 </div>
-
 <div class="resource-label">
 Temporary Employment
 </div>
-
 <h3>
 Labor Systems
 </h3>
-
 <p>
 Another Longmont staffing option for people looking for
 temporary or labor-oriented opportunities.
 </p>
-
 <div class="resource-details">
-
 <div class="resource-detail">
-<strong>📍 Address:</strong><br>
-838 Coffman Street<br>
+<strong>📍 Address:</strong><br/>
+838 Coffman Street<br/>
 Longmont, CO 80501
 </div>
-
 <div class="resource-detail">
 <strong>☎ Phone:</strong>
 303-774-9787
 </div>
-
 </div>
-
 <div class="button-row">
-
-
-
 </div>
-
 </article>
-
-
-
 <article class="resource-card">
-
 <div class="resource-icon">
 🏔️
 </div>
-
 <div class="resource-label">
 Regional Staffing • Longmont
 </div>
-
 <h3>
 5280 Staffing Solutions
 </h3>
-
 <p>
 A regional staffing agency connecting job seekers with
 light-industrial, skilled-trade, construction, hospitality
 and other employment opportunities.
 </p>
-
 <div class="resource-details">
-
 <div class="resource-detail">
-<strong>📍 Address:</strong><br>
-807 Main Street<br>
+<strong>📍 Address:</strong><br/>
+807 Main Street<br/>
 Longmont, CO 80501
 </div>
-
 <div class="resource-detail">
 <strong>☎ Phone:</strong>
 888-486-5280
 </div>
-
 <div class="resource-detail">
 <strong>✉ Email:</strong>
 olga@5280staffing.com
 </div>
-
 </div>
-
 <div class="button-row">
-
-<a class="button button-primary"
-href="https://www.5280staffing.com/" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://www.5280staffing.com/" rel="noopener noreferrer" target="_blank">
 Visit 5280 Staffing
 </a>
-
 </div>
-
 </article>
-
-
-
 <article class="resource-card">
-
 <div class="resource-icon">
 🎯
 </div>
-
 <div class="resource-label">
 Colorado Staffing • Longmont
 </div>
-
 <h3>
 ROLINC Staffing &amp; Search
 </h3>
-
 <p>
 A Colorado-founded staffing and recruiting firm focused on
 manufacturing, construction, skilled trades, engineering,
 industrial services and professional positions.
 </p>
-
 <div class="resource-details">
-
 <div class="resource-detail">
-<strong>📍 Address:</strong><br>
-1079 S. Hover Street, Suite 200<br>
+<strong>📍 Address:</strong><br/>
+1079 S. Hover Street, Suite 200<br/>
 Longmont, CO 80501
 </div>
-
 <div class="resource-detail">
 <strong>☎ Phone:</strong>
 303-364-5300
 </div>
-
 </div>
-
 <div class="button-row">
-
-<a class="button button-primary"
-href="https://www.rolinc.com/job-seekers/" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://www.rolinc.com/job-seekers/" rel="noopener noreferrer" target="_blank">
 Search ROLINC Jobs
 </a>
-
 </div>
-
 </article>
-
-
 </div>
-
 </section>
-
-
-
 <!-- =========================================================
      NATIONAL JOB SEARCH SITES
 ========================================================= -->
-
-<section class="job-sites"
-         id="remote">
-
+<section class="job-sites" id="remote">
 <div class="section-heading">
-
 <div class="eyebrow">
 Search More Opportunities
 </div>
-
 <h2 class="section-title">
 Job Search Websites
 </h2>
-
 <p class="section-description">
 Use several job sites rather than relying on just one.
 Different employers advertise in different places.
 </p>
-
 </div>
-
-
 <div class="site-grid">
-
-
-<a class="site-card"
-href="https://www.indeed.com/jobs?q=&l=Longmont%2C+CO" target="_blank" rel="noopener noreferrer">
-
+<a class="site-card" href="https://www.indeed.com/jobs?q=&amp;l=Longmont%2C+CO" rel="noopener noreferrer" target="_blank">
 <div class="site-icon">🔵</div>
-
 <strong>Indeed</strong>
-
 <span>
 Local, remote and national jobs
 </span>
-
 </a>
-
-
-
-<a class="site-card"
-href="https://www.linkedin.com/jobs/" target="_blank" rel="noopener noreferrer">
-
+<a class="site-card" href="https://www.linkedin.com/jobs/" rel="noopener noreferrer" target="_blank">
 <div class="site-icon">💼</div>
-
 <strong>LinkedIn Jobs</strong>
-
 <span>
 Professional jobs and networking
 </span>
-
 </a>
-
-
-
-<a class="site-card"
-href="https://www.ziprecruiter.com/" target="_blank" rel="noopener noreferrer">
-
+<a class="site-card" href="https://www.ziprecruiter.com/" rel="noopener noreferrer" target="_blank">
 <div class="site-icon">📨</div>
-
 <strong>ZipRecruiter</strong>
-
 <span>
 Job matching and employer alerts
 </span>
-
 </a>
-
-
-
-<a class="site-card"
-href="https://www.glassdoor.com/Job/index.htm" target="_blank" rel="noopener noreferrer">
-
+<a class="site-card" href="https://www.glassdoor.com/Job/index.htm" rel="noopener noreferrer" target="_blank">
 <div class="site-icon">🚪</div>
-
 <strong>Glassdoor</strong>
-
 <span>
 Jobs, salaries and company reviews
 </span>
-
 </a>
-
-
-
-
-
-
-
-<a class="site-card"
-href="https://www.flexjobs.com/" target="_blank" rel="noopener noreferrer">
-
+<a class="site-card" href="https://www.flexjobs.com/" rel="noopener noreferrer" target="_blank">
 <div class="site-icon">🏠</div>
-
 <strong>FlexJobs</strong>
-
 <span>
 Remote and flexible jobs — paid service
 </span>
-
 </a>
-
-
-
-<a class="site-card"
-href="https://www.usajobs.gov/" target="_blank" rel="noopener noreferrer">
-
+<a class="site-card" href="https://www.usajobs.gov/" rel="noopener noreferrer" target="_blank">
 <div class="site-icon">🇺🇸</div>
-
 <strong>USAJOBS</strong>
-
 <span>
 Federal government employment
 </span>
-
 </a>
-
-
-
-<a class="site-card"
-href="https://www.apprenticeship.gov/" target="_blank" rel="noopener noreferrer">
-
+<a class="site-card" href="https://www.apprenticeship.gov/" rel="noopener noreferrer" target="_blank">
 <div class="site-icon">🛠️</div>
-
 <strong>Apprenticeship.gov</strong>
-
 <span>
 Paid learn-while-you-work careers
 </span>
-
 </a>
-
-
 </div>
-
 </section>
-
-
-
 <!-- =========================================================
      SIDE GIGS
 ========================================================= -->
-
-<section class="gigs"
-         id="side-gigs">
-
+<section class="gigs" id="side-gigs">
 <div class="section-heading">
-
 <div class="eyebrow">
 Extra Income
 </div>
-
 <h2 class="section-title">
-Side Gigs & Flexible Work
+Side Gigs &amp; Flexible Work
 </h2>
-
 <p class="section-description">
 These platforms may provide flexible earning opportunities
 around Longmont. Availability, requirements and pay vary.
 Most are independent-contractor opportunities rather
 than traditional employment.
 </p>
-
 </div>
-
-
 <div class="gig-grid">
-
-
 <div class="gig-card">
-
 <div class="gig-icon">
 🐕
 </div>
-
 <h3>
 Rover
 </h3>
-
 <p>
 Pet sitting, dog walking and boarding.
 </p>
-
-<a href="https://www.rover.com/" target="_blank" rel="noopener noreferrer">
+<a href="https://www.rover.com/" rel="noopener noreferrer" target="_blank">
 Visit Rover →
 </a>
-
 </div>
-
-
-
 <div class="gig-card">
-
 <div class="gig-icon">
 🍔
 </div>
-
 <h3>
 DoorDash
 </h3>
-
 <p>
 Flexible restaurant and retail delivery.
 </p>
-
-<a href="https://dasher.doordash.com/" target="_blank" rel="noopener noreferrer">
+<a href="https://dasher.doordash.com/" rel="noopener noreferrer" target="_blank">
 Become a Dasher →
 </a>
-
 </div>
-
-
-
 <div class="gig-card">
-
 <div class="gig-icon">
 🛒
 </div>
-
 <h3>
 Instacart
 </h3>
-
 <p>
 Shop for and deliver grocery orders.
 </p>
-
-<a href="https://shoppers.instacart.com/" target="_blank" rel="noopener noreferrer">
+<a href="https://shoppers.instacart.com/" rel="noopener noreferrer" target="_blank">
 Shop with Instacart →
 </a>
-
 </div>
-
-
-
 <div class="gig-card">
-
 <div class="gig-icon">
 🚗
 </div>
-
 <h3>
 Uber
 </h3>
-
 <p>
 Passenger rides and delivery opportunities.
 </p>
-
-<a href="https://www.uber.com/us/en/drive/" target="_blank" rel="noopener noreferrer">
+<a href="https://www.uber.com/us/en/drive/" rel="noopener noreferrer" target="_blank">
 Drive with Uber →
 </a>
-
 </div>
-
-
-
 <div class="gig-card">
-
 <div class="gig-icon">
 🚙
 </div>
-
 <h3>
 Lyft
 </h3>
-
 <p>
 Flexible rideshare driving where available.
 </p>
-
-<a href="https://www.lyft.com/driver" target="_blank" rel="noopener noreferrer">
+<a href="https://www.lyft.com/driver" rel="noopener noreferrer" target="_blank">
 Drive with Lyft →
 </a>
-
 </div>
-
-
-
 <div class="gig-card">
-
 <div class="gig-icon">
 🧰
 </div>
-
 <h3>
 Taskrabbit
 </h3>
-
 <p>
 Earn money completing local household and handyman tasks.
 </p>
-
-<a href="https://www.taskrabbit.com/become-a-tasker" target="_blank" rel="noopener noreferrer">
+<a href="https://www.taskrabbit.com/become-a-tasker" rel="noopener noreferrer" target="_blank">
 Become a Tasker →
 </a>
-
 </div>
-
-
-
 <div class="gig-card">
-
 <div class="gig-icon">
 💻
 </div>
-
 <h3>
 Upwork
 </h3>
-
 <p>
 Freelance online projects including admin, writing,
 design, marketing and technical work.
 </p>
-
-<a href="https://www.upwork.com/" target="_blank" rel="noopener noreferrer">
+<a href="https://www.upwork.com/" rel="noopener noreferrer" target="_blank">
 Visit Upwork →
 </a>
-
 </div>
-
-
-
 <div class="gig-card">
-
 <div class="gig-icon">
 📦
 </div>
-
 <h3>
 Amazon Flex
 </h3>
-
 <p>
 Deliver Amazon packages using your own vehicle
 where local openings are available.
 </p>
-
-<a href="https://flex.amazon.com/" target="_blank" rel="noopener noreferrer">
+<a href="https://flex.amazon.com/" rel="noopener noreferrer" target="_blank">
 Check Availability →
 </a>
-
 </div>
-
-
 </div>
-
 </section>
-
-
-
 <!-- =========================================================
      TRAINING
 ========================================================= -->
-
-<section class="resources alt"
-         id="training">
-
+<section class="resources alt" id="training">
 <div class="section-heading">
-
 <div class="eyebrow">
 Build Your Next Career
 </div>
-
 <h2 class="section-title">
-Training & Career Development
+Training &amp; Career Development
 </h2>
-
 <p class="section-description">
 Sometimes the fastest path to better pay is gaining one
 new skill or certification. These resources can help you
 explore that path.
 </p>
-
 </div>
-
-
 <div class="resource-grid">
-
-
 <article class="resource-card">
-
 <div class="resource-icon">
 💻
 </div>
-
 <div class="resource-label">
 Free Computer Training
 </div>
-
 <h3>
 Workforce Boulder County Computer Training
 </h3>
-
 <p>
 Workforce Boulder County provides self-guided computer
 training that can build workplace skills and add
 certificates of completion to your résumé.
 </p>
-
 <div class="button-row">
-
-<a class="button button-primary"
-href="https://bouldercounty.gov/departments/community-services/workforce-boulder-county/computer-training-center/" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://bouldercounty.gov/departments/community-services/workforce-boulder-county/computer-training-center/" rel="noopener noreferrer" target="_blank">
 Computer Training
 </a>
-
 </div>
-
 </article>
-
-
-
 <article class="resource-card">
-
 <div class="resource-icon">
 🛠️
 </div>
-
 <div class="resource-label">
 Earn While You Learn
 </div>
-
 <h3>
 Registered Apprenticeships
 </h3>
-
 <p>
 Apprenticeships combine paid on-the-job experience
 with structured training. Options exist in trades,
 technology, healthcare and other industries.
 </p>
-
 <div class="button-row">
-
-<a class="button button-primary"
-href="https://www.apprenticeship.gov/career-seekers" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://www.apprenticeship.gov/career-seekers" rel="noopener noreferrer" target="_blank">
 Search Apprenticeships
 </a>
-
 </div>
-
 </article>
-
-
-
 <article class="resource-card">
-
 <div class="resource-icon">
 📚
 </div>
-
 <div class="resource-label">
 Free Library Learning
 </div>
-
 <h3>
 Longmont Library Learning Resources
 </h3>
-
 <p>
 Use your library card for learning, test preparation,
 career resources, résumé assistance and other educational
 tools that can help you move into a new role.
 </p>
-
 <div class="button-row">
-
-<a class="button button-primary"
-href="https://longmontcolorado.gov/library/library-services/literacy-and-language/" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://longmontcolorado.gov/library/library-services/literacy-and-language/" rel="noopener noreferrer" target="_blank">
 Explore Library Learning
 </a>
-
 </div>
-
 </article>
-
-
 </div>
-
 </section>
-
-
-
 <!-- =========================================================
      SAFETY
 ========================================================= -->
-
 <section class="tips">
-
 <div class="tip-box">
-
 <h2>
 Job Search Safety
 </h2>
-
 <p>
 Unfortunately, job seekers are common targets for scams.
 A few precautions can help protect you.
 </p>
-
 <ul>
-
 <li>
 Be cautious if a company offers you a job without a real
 interview or meaningful conversation.
 </li>
-
 <li>
 Never pay an employer for the privilege of getting a job.
 </li>
-
 <li>
 Do not purchase gift cards, cryptocurrency or equipment
 for a supposed employer and expect reimbursement later.
 </li>
-
 <li>
 Verify that the employer's email address matches its
 official company website whenever possible.
 </li>
-
 <li>
 Be suspicious of unusually high pay for very simple
 work, especially unsolicited remote-job offers.
 </li>
-
 <li>
 Never give banking, Social Security or identity information
 until you have verified the employer and reached the
 legitimate hiring/onboarding stage.
 </li>
-
 <li>
 When in doubt, find the company's official website yourself
 instead of clicking the link in a suspicious message.
 </li>
-
 </ul>
-
 </div>
-
 </section>
-
-
-
 <!-- =========================================================
      CTA
 ========================================================= -->
-
 <section class="cta">
-
 <div class="eyebrow">
 Know a Helpful Resource?
 </div>
-
 <h2>
 Help Us Make This Guide Better
 </h2>
-
 <p>
 If you know of a legitimate Longmont employment resource,
 staffing agency, training program or organization that
 helps local residents find work, let Loving Longmont know.
 </p>
-
-<a
-href="mailto:hello.lovinglongmont@gmail.com?subject=Longmont%20Job%20Resource%20Suggestion&body=Hi%20Loving%20Longmont%2C%0A%0AI%27d%20like%20to%20suggest%20a%20job%20or%20career%20resource.%0A%0AOrganization%3A%0AWebsite%3A%0AHow%20it%20helps%20job%20seekers%3A%0A"
-class="button button-red">
+<a class="button button-red" href="mailto:hello.lovinglongmont@gmail.com?subject=Longmont%20Job%20Resource%20Suggestion&amp;body=Hi%20Loving%20Longmont%2C%0A%0AI%27d%20like%20to%20suggest%20a%20job%20or%20career%20resource.%0A%0AOrganization%3A%0AWebsite%3A%0AHow%20it%20helps%20job%20seekers%3A%0A">
 
 Suggest a Resource →
 
 </a>
-
 </section>
-
-
-
 <!-- ========================================
      FOOTER
 ======================================== -->
-
-<footer class="sb-footer"><div class="sb-wrap"><div class="sb-foot-top"><a class="sb-footer-logo" href="index.html" aria-label="Loving Longmont home"><img src="assets/loving-longmont-lettering.webp" alt="Loving Longmont" width="1573" height="1000" loading="lazy"></a><a class="sb-mkt" href="https://mktvisibility.com" aria-label="Visit MKT Visibility" target="_blank" rel="noopener noreferrer"><img src="assets/mkt-visibility-logo-dark.webp" alt="MKT Visibility" width="600" height="300" loading="lazy"></a></div><nav class="sb-foot-nav" aria-label="Footer navigation"><a href="things-to-do.html">Explore</a><a href="businesses.html">Businesses</a><a href="events.html">Events</a><a href="community.html">Community</a><a href="history.html">History</a><a href="search.html">Search</a><a href="animals.html">Animals & pets</a><a href="jobs.html">Jobs</a><a href="spotlight.html">Spotlights</a><a href="pricing.html">Get listed</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="sitemap.html">Site map</a><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook ↗</a></nav></div><div class="sb-copyright">© 2026 Loving Longmont · A community resource by MKT Visibility</div></footer>
-
-
-<script src="assets/site-links.js" defer></script>
-</body>
+</main><footer class="sb-footer"><div class="sb-wrap"><div class="footer-heading"><a class="sb-brand" href="index.html">Loving Longmont</a><p>A whole town to discover.<br/>Explore local. Connect with your community.</p></div><nav aria-label="Footer navigation" class="sb-foot-nav"><a href="businesses.html">Local businesses</a><a href="things-to-do.html">Things to do</a><a href="events.html">Events</a><a href="community.html">Community</a><a href="history.html">History</a><a href="eat-drink.html">Eat &amp; Drink</a><a href="shop-local.html">Shop Local</a><a href="arts-culture.html">Arts &amp; Culture</a><a href="get-outside.html">Get Outside</a><a href="animals.html">Animals &amp; pets</a><a href="jobs.html">Jobs &amp; training</a><a href="spotlight.html">Business stories</a><a href="pricing.html">Get listed</a><a href="about.html">About us</a><a href="contact.html">Contact</a><a href="sitemap.html">Site map</a><a href="search.html">Search</a><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" rel="noopener noreferrer" target="_blank">Facebook ↗</a></nav><div class="sb-copyright">© 2026 Loving Longmont · A community resource by <a href="https://mktvisibility.com">MKT Visibility</a></div></div></footer><script defer="" src="assets/site-links.js"></script><script src="assets/business-posts.js" type="module"></script><script defer="" src="assets/community.js"></script></body>
 </html>

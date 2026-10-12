@@ -6,7 +6,9 @@
     "description": "Meet local firefighters and explore the station during this community open house.",
     "url": "https://longmontcolorado.gov/events/",
     "free": false,
-    "family": true
+    "family": true,
+    "time": "10 AM–noon",
+    "location": "Fire Station 2, 2212 17th Avenue, Longmont"
   },
   {
     "title": "Murder Mystery Dinner at Callahan House",
@@ -15,7 +17,9 @@
     "description": "A 1930s Hollywood-themed interactive murder mystery evening. Registration and tickets required.",
     "url": "https://longmontcolorado.gov/recreation-services/locations/callahan-house-garden/callahan-house-special-events/",
     "free": false,
-    "family": false
+    "family": false,
+    "time": "6:30–10 PM",
+    "location": "Callahan House, 312 Terry Street, Longmont"
   },
   {
     "title": "Longmont Day of the Dead Family Fiesta",
@@ -24,7 +28,9 @@
     "description": "Free community celebration featuring music, dance, sugar skull decorating, food, crafts, and the Gigantes procession around 2 PM.",
     "url": "https://www.downtownlongmont.com/events/longmont-day-of-the-dead",
     "free": true,
-    "family": true
+    "family": true,
+    "time": "11 AM–3 PM",
+    "location": "4th Avenue & Kimbark Street, Downtown Longmont, Longmont"
   },
   {
     "title": "Noche de Museo: Celebrating Day of the Dead",
@@ -33,7 +39,9 @@
     "description": "An evening performance celebrating Día de Muertos traditions and music. Check ticket availability with the museum.",
     "url": "https://longmontcolorado.gov/museum/events-performances/day-of-the-dead/",
     "free": false,
-    "family": false
+    "family": false,
+    "time": "7–9 PM",
+    "location": "Longmont Museum, 400 Quail Road, Longmont"
   },
   {
     "title": "Halloween Costume Parade & Trick-or-Treat Street",
@@ -42,7 +50,9 @@
     "description": "Costume parade lines up at 9:30 AM and starts at 10 AM, followed by downtown trick-or-treating at participating businesses. Free and family-friendly.",
     "url": "https://www.downtownlongmont.com/do/halloween-parade-and-trick-or-treat-street",
     "free": true,
-    "family": true
+    "family": true,
+    "time": "9:30–11:30 AM",
+    "location": "Roosevelt Park, 700 Longs Peak Avenue; Downtown Main Street, Longmont"
   },
   {
     "title": "Itty Bitty City Preschool Playtime",
@@ -51,7 +61,9 @@
     "description": "Indoor playtime for preschool-age children and their caregivers.",
     "url": "https://longmontcolorado.gov/events/category/recreation-services/",
     "free": false,
-    "family": true
+    "family": true,
+    "time": "9–11 AM",
+    "location": "Memorial Building, 700 Longs Peak Avenue, Longmont"
   },
   {
     "title": "Free Saturday Fitness at Lanyon Park",
@@ -60,7 +72,9 @@
     "description": "A free outdoor community fitness session. Check the City calendar for weather and participation details.",
     "url": "https://longmontcolorado.gov/events/category/recreation-services/",
     "free": true,
-    "family": false
+    "family": false,
+    "time": "Noon–1 PM",
+    "location": "Lanyon Park, 1900 Collyer Street, Longmont"
   },
   {
     "title": "Longmont Turkey Trot",
@@ -69,7 +83,9 @@
     "description": "Annual community running and walking event featuring a 10K and 2-mile route. Check registration details with the City.",
     "url": "https://longmontcolorado.gov/recreation-services/community-events/",
     "free": false,
-    "family": false
+    "family": false,
+    "time": "9 AM–noon",
+    "location": "Altona Middle School, 4600 Clover Basin Drive, Longmont"
   },
   {
     "title": "Longmont Ice Pavilion Opening Day",
@@ -78,7 +94,9 @@
     "description": "Seasonal outdoor ice skating returns to Roosevelt Park. Check admission and session details before visiting.",
     "url": "https://longmontcolorado.gov/events/category/recreation-services/",
     "free": false,
-    "family": false
+    "family": false,
+    "time": "1–6 PM",
+    "location": "Longmont Ice Pavilion, 725 8th Avenue, Longmont"
   },
   {
     "title": "Free Saturday Fitness at Lanyon Park",
@@ -87,7 +105,9 @@
     "description": "A second free community fitness session at Lanyon Park.",
     "url": "https://longmontcolorado.gov/events/category/recreation-services/",
     "free": true,
-    "family": false
+    "family": false,
+    "time": "Noon–1 PM",
+    "location": "Lanyon Park, 1900 Collyer Street, Longmont"
   },
   {
     "title": "Holiday Open House at Callahan House",
@@ -96,7 +116,9 @@
     "description": "Explore the historic Victorian house decorated for the holidays. Free self-guided visits; no registration required.",
     "url": "https://longmontcolorado.gov/event/holiday-open-house-at-callahan-house/",
     "free": true,
-    "family": false
+    "family": false,
+    "time": "4:30–7:30 PM",
+    "location": "Callahan House, 312 Terry Street, Longmont"
   },
   {
     "title": "Santa Visit at Callahan House",
@@ -105,7 +127,9 @@
     "description": "A seasonal Santa visit in the historic house. Advance registration is required and space is limited.",
     "url": "https://longmontcolorado.gov/recreation-services/locations/callahan-house-garden/callahan-house-special-events/",
     "free": false,
-    "family": true
+    "family": true,
+    "time": "3:30–7:30 PM",
+    "location": "Callahan House, 312 Terry Street, Longmont"
   },
   {
     "title": "Longmont Lights Holiday Festival",
@@ -114,7 +138,9 @@
     "description": "Celebrate the holiday season at the City’s Longmont Lights festival in Roosevelt Park.",
     "url": "https://longmontcolorado.gov/recreation-services/community-events/",
     "free": false,
-    "family": false
+    "family": false,
+    "time": "5–8 PM",
+    "location": "Roosevelt Park, 700 Longs Peak Avenue, Longmont"
   },
   {
     "title": "Longmont Lights Holiday Parade",
@@ -123,6 +149,8 @@
     "description": "Illuminated floats, bands and performers parade through downtown as part of Longmont Lights.",
     "url": "https://longmontcolorado.gov/event/longmont-lights-holiday-parade-2/",
     "free": false,
-    "family": false
+    "family": false,
+    "time": "5–7 PM",
+    "location": "Downtown Main Street; Roosevelt Park, 700 Longs Peak Avenue, Longmont"
   }
 ]

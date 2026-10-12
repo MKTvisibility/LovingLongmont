@@ -30,7 +30,7 @@ if (typeof document !== 'undefined') {
     document.getElementById('planned-page-alternative').href = link.dataset.alternative;
     dialog.showModal();
   }));
-  dialog.addEventListener('click', event => { if (event.target === dialog) { const r = dialog.getBoundingClientRect(); if (event.clientX < r.left || event.clientX > r.right || event.clientY < r.top || event.clientY > r.bottom) dialog.close(); } });
+  dialog?.addEventListener('click', event => { if (event.target === dialog) { const r = dialog.getBoundingClientRect(); if (event.clientX < r.left || event.clientX > r.right || event.clientY < r.top || event.clientY > r.bottom) dialog.close(); } });
   const results = document.getElementById('local-event-results');
   const buttons = [...document.querySelectorAll('[data-event-filter]')];
   let events = [];
@@ -52,11 +52,11 @@ if (typeof document !== 'undefined') {
       const copy = document.createElement('p'); copy.textContent = event.description;
       const link = document.createElement('a'); link.href = event.url || 'events.html'; link.textContent = 'Event details →';
       if (event.url) { link.target = '_blank'; link.rel = 'noopener noreferrer'; }
-      body.append(title, copy, link); card.append(date, body); results.append(card);
+      const details=document.createElement('p');details.className='event-mini-details';details.textContent=[event.time,event.location].filter(Boolean).join(' · ');body.append(title,details,copy,link); card.append(date, body); results.append(card);
     });
   }
   buttons.forEach(button => button.addEventListener('click', () => renderEvents(button.dataset.eventFilter)));
-  fetch('assets/events.json').then(response => { if (!response.ok) throw new Error('Event data unavailable'); return response.json(); }).then(data => { events = data; renderEvents('upcoming'); }).catch(() => {
+  if(results)fetch('assets/events.json').then(response => { if (!response.ok) throw new Error('Event data unavailable'); return response.json(); }).then(data => { events = data; renderEvents('upcoming'); }).catch(() => {
     results.replaceChildren(); const copy = document.createElement('p'); copy.className = 'st-event-empty'; copy.append('The event preview could not load. '); const link = document.createElement('a'); link.href = 'events.html'; link.textContent = 'Open the community calendar →'; copy.append(link); results.append(copy);
   });
 }

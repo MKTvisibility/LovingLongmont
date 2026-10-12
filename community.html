@@ -1,946 +1,32 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <!-- Google tag (gtag.js) -->
-
-
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Longmont Community Resources | Loving Longmont</title>
-
-<meta name="description"
-content="Explore Longmont farmers markets, local farms, food assistance, churches, meditation and yoga, nonprofits, senior resources, volunteer opportunities and community organizations.">
-
-<style>
-
-:root {
-    --navy:#062f52;
-    --dark-navy:#03233e;
-    --red:#c8101e;
-    --cream:#fffaf1;
-    --light-blue:#eef5f5;
-    --sage:#e8f0ec;
-    --text:#253642;
-    --gray:#667780;
-    --white:#ffffff;
-    --green:#347455;
-    --gold:#9b6808;
-}
-
-* {
-    box-sizing:border-box;
-}
-
-html {
-    scroll-behavior:smooth;
-}
-
-body {
-    margin:0;
-    font-family:Arial, Helvetica, sans-serif;
-    color:var(--text);
-    background:var(--white);
-    line-height:1.6;
-}
-
-img {
-    max-width:100%;
-    display:block;
-}
-
-a {
-    color:inherit;
-}
-
-
-/* ========================================
-   HEADER
-======================================== */
-
-.site-header {
-    background:rgba(255,255,255,.98);
-    border-bottom:1px solid #e6e6e6;
-    position:sticky;
-    top:0;
-    z-index:1000;
-}
-
-.navbar {
-    max-width:1450px;
-    margin:auto;
-    padding:9px 22px;
-
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    gap:20px;
-}
-
-.nav-logo {
-    display:flex;
-    align-items:center;
-    text-decoration:none;
-    min-width:250px;
-}
-
-.nav-logo img {
-    width:68px;
-    height:68px;
-    object-fit:cover;
-    border-radius:5px;
-}
-
-.nav-brand-text {
-    margin-left:13px;
-}
-
-.nav-brand-text strong {
-    display:block;
-    color:var(--navy);
-    font-size:23px;
-    line-height:1.1;
-}
-
-.nav-brand-text small {
-    display:block;
-    margin-top:6px;
-    font-size:9px;
-    letter-spacing:2px;
-    font-weight:bold;
-    color:var(--navy);
-}
-
-.red-heart {
-    color:var(--red);
-}
-
-.nav-links {
-    display:flex;
-    align-items:center;
-    gap:15px;
-}
-
-.nav-links a {
-    text-decoration:none;
-    color:var(--navy);
-    font-size:12px;
-    font-weight:bold;
-    padding:25px 0 22px;
-    border-bottom:3px solid transparent;
-    white-space:nowrap;
-}
-
-.nav-links a:hover,
-.nav-links a.active {
-    color:var(--red);
-    border-bottom-color:var(--red);
-}
-
-.nav-contact {
-    background:var(--navy);
-    color:white !important;
-    border-radius:7px;
-    padding:12px 18px !important;
-    border-bottom:none !important;
-}
-
-.nav-contact:hover {
-    background:var(--red);
-}
-
-
-/* ========================================
-   HERO
-======================================== */
-
-.hero {
-    position:relative;
-    background:var(--cream);
-}
-
-.hero img {
-    width:100%;
-    max-height:560px;
-    object-fit:cover;
-}
-
-.hero-overlay {
-    position:absolute;
-    inset:0;
-
-    display:flex;
-    align-items:flex-end;
-    justify-content:center;
-
-    padding:45px 25px;
-
-    background:
-        linear-gradient(
-            to top,
-            rgba(3,35,62,.80),
-            rgba(3,35,62,.05) 58%
-        );
-}
-
-.hero-text {
-    text-align:center;
-    color:white;
-}
-
-.hero-text h1 {
-    font-family:Georgia, "Times New Roman", serif;
-    font-size:clamp(42px,6vw,66px);
-    margin:0 0 8px;
-    line-height:1.05;
-}
-
-.hero-text p {
-    margin:0;
-    font-size:18px;
-}
-
-
-/* ========================================
-   SHARED
-======================================== */
-
-.container {
-    max-width:1200px;
-    margin:auto;
-}
-
-.eyebrow {
-    color:var(--red);
-    text-transform:uppercase;
-    letter-spacing:4px;
-    font-size:12px;
-    font-weight:bold;
-    margin-bottom:8px;
-}
-
-.section-title {
-    font-family:Georgia, "Times New Roman", serif;
-    color:var(--navy);
-    font-size:clamp(34px,5vw,50px);
-    line-height:1.12;
-    margin:0 0 15px;
-}
-
-.section-description {
-    max-width:850px;
-    margin:auto;
-    color:var(--gray);
-    font-size:17px;
-}
-
-.section-heading {
-    text-align:center;
-    margin-bottom:42px;
-}
-
-
-/* ========================================
-   INTRO
-======================================== */
-
-.intro {
-    background:var(--cream);
-    padding:60px 25px 35px;
-    text-align:center;
-}
-
-
-/* ========================================
-   QUICK NAVIGATION
-======================================== */
-
-.quick-section {
-    background:var(--cream);
-    padding:15px 25px 65px;
-}
-
-.quick-grid {
-    max-width:1150px;
-    margin:auto;
-
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:16px;
-}
-
-.quick-card {
-    background:white;
-    border:1px solid #e1e7e7;
-    border-radius:15px;
-    padding:25px 18px;
-
-    text-align:center;
-    text-decoration:none;
-
-    transition:.25s;
-}
-
-.quick-card:hover {
-    transform:translateY(-4px);
-    box-shadow:0 12px 28px rgba(0,0,0,.08);
-}
-
-.quick-icon {
-    font-size:36px;
-}
-
-.quick-card h3 {
-    font-family:Georgia,serif;
-    color:var(--navy);
-    font-size:19px;
-    margin:8px 0 4px;
-}
-
-.quick-card p {
-    color:var(--gray);
-    font-size:13px;
-    margin:0;
-}
-
-
-/* ========================================
-   RESOURCE SECTIONS
-======================================== */
-
-.resources {
-    padding:75px 25px;
-}
-
-.resources.alt {
-    background:var(--sage);
-}
-
-.resources.cream {
-    background:var(--cream);
-}
-
-.resources.blue {
-    background:var(--light-blue);
-}
-
-.resource-grid {
-    max-width:1200px;
-    margin:auto;
-
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:24px;
-}
-
-.resource-card {
-    background:white;
-
-    border:1px solid #e1e7e7;
-    border-radius:16px;
-
-    padding:27px;
-
-    display:flex;
-    flex-direction:column;
-
-    box-shadow:0 6px 20px rgba(0,0,0,.05);
-
-    transition:.25s;
-}
-
-.resource-card:hover {
-    transform:translateY(-4px);
-    box-shadow:0 12px 30px rgba(0,0,0,.09);
-}
-
-.resource-icon {
-    width:58px;
-    height:58px;
-
-    display:flex;
-    align-items:center;
-    justify-content:center;
-
-    background:var(--light-blue);
-
-    border-radius:13px;
-
-    font-size:30px;
-
-    margin-bottom:14px;
-}
-
-.resource-label {
-    color:var(--red);
-    font-size:10px;
-    text-transform:uppercase;
-    letter-spacing:2px;
-    font-weight:bold;
-}
-
-.resource-card h3 {
-    font-family:Georgia,serif;
-    color:var(--navy);
-
-    font-size:23px;
-    line-height:1.2;
-
-    margin:7px 0 10px;
-}
-
-.resource-card p {
-    color:var(--gray);
-    font-size:14px;
-    margin-top:0;
-}
-
-.details {
-    border-top:1px solid #eee;
-    padding-top:14px;
-    margin-top:auto;
-}
-
-.detail {
-    margin:7px 0;
-    font-size:13px;
-    color:#465760;
-}
-
-.detail strong {
-    color:var(--navy);
-}
-
-.detail a {
-    color:var(--navy);
-    text-decoration:none;
-}
-
-.detail a:hover {
-    text-decoration:underline;
-}
-
-
-/* ========================================
-   BUTTONS
-======================================== */
-
-.buttons {
-    display:flex;
-    gap:9px;
-    flex-wrap:wrap;
-    margin-top:18px;
-}
-
-.button {
-    display:inline-block;
-    text-decoration:none;
-
-    border-radius:7px;
-    padding:10px 15px;
-
-    font-size:12px;
-    font-weight:bold;
-}
-
-.button-primary {
-    background:var(--navy);
-    color:white;
-}
-
-.button-primary:hover {
-    background:var(--red);
-}
-
-.button-secondary {
-    background:#edf2f2;
-    color:var(--navy);
-}
-
-.button-red {
-    background:var(--red);
-    color:white;
-}
-
-.button-red:hover {
-    background:#aa0d16;
-}
-
-.button-light {
-    background:white;
-    color:var(--navy);
-}
-
-
-/* ========================================
-   LOCAL FOOD FEATURE
-======================================== */
-
-.market-feature {
-    background:white;
-    padding:75px 25px;
-}
-
-.market-box {
-    max-width:1100px;
-    margin:auto;
-
-    display:grid;
-    grid-template-columns:.85fr 1.15fr;
-    gap:45px;
-
-    align-items:center;
-
-    background:
-        linear-gradient(
-            135deg,
-            #eef6f2,
-            #fffaf1
-        );
-
-    border-radius:20px;
-    padding:45px;
-}
-
-.market-visual {
-    min-height:370px;
-
-    border-radius:17px;
-
-    background:
-        linear-gradient(
-            135deg,
-            #dbeadf,
-            #f5e8c8
-        );
-
-    display:flex;
-    align-items:center;
-    justify-content:center;
-
-    text-align:center;
-    padding:35px;
-}
-
-.market-visual span {
-    display:block;
-    font-size:70px;
-}
-
-.market-visual strong {
-    display:block;
-    color:var(--navy);
-    font-family:Georgia,serif;
-    font-size:27px;
-}
-
-.market-content h2 {
-    color:var(--navy);
-    font-family:Georgia,serif;
-    font-size:39px;
-    line-height:1.15;
-    margin:5px 0 16px;
-}
-
-.market-content p {
-    color:var(--gray);
-}
-
-
-/* ========================================
-   FOOD HELP NOTICE
-======================================== */
-
-.help-notice {
-    background:#fff8f8;
-    padding:55px 25px;
-}
-
-.help-box {
-    max-width:1000px;
-    margin:auto;
-
-    border-left:7px solid var(--red);
-    background:white;
-
-    border-radius:14px;
-
-    padding:30px;
-
-    box-shadow:0 5px 20px rgba(0,0,0,.05);
-}
-
-.help-box h2 {
-    color:var(--navy);
-    font-family:Georgia,serif;
-    margin:0 0 10px;
-}
-
-.help-box p {
-    color:var(--gray);
-    margin-bottom:0;
-}
-
-
-/* ========================================
-   COMMUNITY LIFE
-======================================== */
-
-.community-life {
-    background:white;
-    padding:75px 25px;
-}
-
-.community-life-grid {
-    max-width:1100px;
-    margin:40px auto 0;
-
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:22px;
-}
-
-.life-card {
-    background:var(--cream);
-    border:1px solid #eee5d9;
-    border-radius:15px;
-    padding:28px 24px;
-    text-align:center;
-}
-
-.life-card span {
-    font-size:38px;
-}
-
-.life-card h3 {
-    color:var(--navy);
-    font-family:Georgia,serif;
-    margin:8px 0;
-}
-
-.life-card p {
-    color:var(--gray);
-    font-size:14px;
-}
-
-
-/* ========================================
-   ASK / SHARE
-======================================== */
-
-.share-section {
-    background:var(--sage);
-    padding:75px 25px;
-}
-
-.share-grid {
-    max-width:1050px;
-    margin:40px auto 0;
-
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:22px;
-}
-
-.share-card {
-    background:white;
-    border-radius:15px;
-    padding:30px 24px;
-    text-align:center;
-}
-
-.share-card span {
-    font-size:40px;
-}
-
-.share-card h3 {
-    color:var(--navy);
-    font-family:Georgia,serif;
-    margin:9px 0;
-}
-
-.share-card p {
-    color:var(--gray);
-    font-size:14px;
-}
-
-
-/* ========================================
-   CTA
-======================================== */
-
-.cta {
-    background:
-        linear-gradient(
-            135deg,
-            var(--navy),
-            #0a4a77
-        );
-
-    color:white;
-    text-align:center;
-
-    padding:75px 25px;
-}
-
-.cta .eyebrow {
-    color:#ffc2c6;
-}
-
-.cta h2 {
-    font-family:Georgia,serif;
-    font-size:42px;
-    margin:5px 0 14px;
-}
-
-.cta p {
-    max-width:760px;
-    margin:0 auto 25px;
-    color:#dce9ef;
-}
-
-
-/* ========================================
-   FOOTER
-======================================== */
-
-footer {
-    background:
-        linear-gradient(
-            135deg,
-            #03233e,
-            #063b62
-        );
-
-    color:white;
-    padding:55px 25px 20px;
-}
-
-.footer-grid {
-    max-width:1150px;
-    margin:auto;
-
-    display:grid;
-    grid-template-columns:1.5fr .8fr 1.2fr;
-    gap:60px;
-}
-
-.footer-logo-area {
-    display:flex;
-    align-items:center;
-    gap:15px;
-}
-
-.footer-logo-area img {
-    width:90px;
-    height:90px;
-    object-fit:cover;
-    border-radius:5px;
-}
-
-.footer-logo-area h2 {
-    margin:0;
-    font-size:25px;
-}
-
-.footer-logo-area small {
-    font-size:9px;
-    letter-spacing:2px;
-}
-
-.footer-about {
-    max-width:380px;
-    color:#d5e1e8;
-    font-size:14px;
-    margin-top:18px;
-}
-
-.footer-heading {
-    font-weight:bold;
-    font-size:16px;
-    margin-bottom:13px;
-}
-
-.footer-links a {
-    display:block;
-    text-decoration:none;
-    color:#e1ebf0;
-    font-size:14px;
-    margin:7px 0;
-}
-
-.footer-links a:hover {
-    color:white;
-    text-decoration:underline;
-}
-
-.footer-contact {
-    color:#e1ebf0;
-    font-size:14px;
-}
-
-.footer-email {
-    display:inline-block;
-    margin-top:8px;
-    color:white;
-    text-decoration:none;
-    font-weight:bold;
-}
-
-.footer-bottom {
-    max-width:1150px;
-    margin:40px auto 0;
-    padding-top:20px;
-
-    border-top:1px solid rgba(255,255,255,.2);
-
-    text-align:center;
-    color:#c5d5df;
-    font-size:12px;
-}
-
-
-/* ========================================
-   RESPONSIVE
-======================================== */
-
-@media(max-width:1180px) {
-
-    .navbar {
-        flex-direction:column;
-        padding-bottom:15px;
-    }
-
-    .nav-logo {
-        min-width:auto;
-    }
-
-    .nav-links {
-        flex-wrap:wrap;
-        justify-content:center;
-    }
-
-    .nav-links a {
-        padding:5px 0;
-    }
-}
-
-@media(max-width:1050px) {
-
-    .quick-grid,
-    .resource-grid,
-    .community-life-grid,
-    .share-grid {
-        grid-template-columns:repeat(2,1fr);
-    }
-}
-
-@media(max-width:900px) {
-
-    .market-box {
-        grid-template-columns:1fr;
-    }
-
-    .footer-grid {
-        grid-template-columns:1fr;
-    }
-}
-
-@media(max-width:650px) {
-
-    .quick-grid,
-    .resource-grid,
-    .community-life-grid,
-    .share-grid {
-        grid-template-columns:1fr;
-    }
-
-    .nav-brand-text {
-        display:none;
-    }
-
-    .hero img {
-        min-height:260px;
-        object-fit:cover;
-    }
-
-    .market-box {
-        padding:28px 22px;
-    }
-}
-
-
-      /* Consistent Loving Longmont hero — matches home page */
-      .hero { width: 100%; min-height: 0 !important; padding: 0 !important; display: block !important; background: var(--cream, #fffaf1) !important; position: relative; }
-      .hero img { width: 100% !important; height: auto !important; max-height: 700px !important; min-height: 0 !important; object-fit: cover !important; object-position: center !important; display: block !important; }
-    
-/* Canonical Loving Longmont footer */
-footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55px 25px 20px}
-.footer-grid{max-width:1150px;margin:auto;display:grid;grid-template-columns:1.5fr .8fr 1.2fr;gap:60px}
-.footer-logo-area{display:flex;align-items:center;gap:15px}
-.footer-logo-area h2{margin:0;font-size:25px}
-.footer-logo-area small{font-size:9px;letter-spacing:2px}
-.footer-about{max-width:380px;color:#d5e1e8;font-size:14px;margin-top:18px}
-.footer-heading{font-weight:bold;font-size:16px;margin-bottom:13px}
-.footer-links a{display:block;text-decoration:none;color:#e1ebf0;font-size:14px;margin:7px 0}
-.footer-links a:hover{color:white;text-decoration:underline}
-.footer-contact{color:#e1ebf0;font-size:14px}
-.footer-email{display:inline-block;margin-top:8px;color:white;text-decoration:none;font-weight:bold}
-.footer-bottom{max-width:1150px;margin:40px auto 0;padding-top:20px;border-top:1px solid rgba(255,255,255,.2);text-align:center;color:#c5d5df;font-size:12px}
-.red-heart{color:var(--red,#c8101e)}
-@media(max-width:900px){.footer-grid{grid-template-columns:1fr}}
-</style>
-
-<meta name="robots" content="noindex,nofollow">
-<link rel="stylesheet" href="assets/scrapbook.css">
-<link rel="stylesheet" href="assets/streetscape.css">
-</head>
-
-
-<body class="sb-page-content"><svg width="0" height="0" aria-hidden="true" style="position:absolute"><defs><filter id="header-logo-color" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="0 0 0 0 1 -1 0 0 0 1 -1 0 0 0 1 0 0 0 1 0"/></filter></defs></svg>
-
-
+<meta content="Explore Longmont farmers markets, local farms, food assistance, churches, meditation and yoga, nonprofits, senior resources, volunteer opportunities and community organizations." name="description"/>
+<meta content="noindex,nofollow" name="robots"/>
+<link href="assets/community.css" rel="stylesheet"/><link href="assets/watercolor.css" rel="stylesheet"/></head>
+<body class="sb-page-content watercolor-site"><a class="skip-link" href="#main-content">Skip to content</a><header class="sb-header"><div class="sb-wrap sb-mast"><a aria-label="Loving Longmont home" class="sb-brand" href="index.html"><img alt="Loving Longmont — A whole town to discover" height="131" src="assets/watercolor-logo.webp" width="329"/></a><div class="mast-tools"><nav aria-label="Useful links"><a href="about.html">About</a><a href="contact.html">Contact</a><a href="pricing.html">Add a Business</a><a aria-label="Loving Longmont on Facebook" class="facebook-link" href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" rel="noopener noreferrer" target="_blank">f</a></nav><form action="search.html" class="sb-search" method="get" role="search"><label class="visually-hidden" for="global-search">Search Loving Longmont</label><input id="global-search" name="q" placeholder="Search businesses, events, or things to do…" type="search"/><button aria-label="Search" type="submit">⌕</button></form></div><details class="sb-mobile"><summary aria-label="Open navigation">☰ <span>Menu</span></summary><nav aria-label="Mobile navigation" class="sb-mobile-links"><a href="index.html">Home</a><a href="businesses.html">All local businesses</a><a href="eat-drink.html">Eat &amp; Drink</a><a href="shop-local.html">Shop Local</a><a href="arts-culture.html">Arts &amp; Culture</a><a href="events.html">Events</a><a href="get-outside.html">Get Outside</a><a aria-current="page" href="community.html">Community</a><a href="history.html">Our History</a><a href="businesses.html">All local businesses</a><a href="things-to-do.html">Things to do</a><a href="spotlight.html">Stories &amp; spotlights</a><a href="community-guide.html">Community guide</a><a href="animals.html">Animals &amp; pets</a><a href="jobs.html">Jobs &amp; training</a><a href="about.html">About Loving Longmont</a><a href="pricing.html">Add a business</a><a href="contact.html">Contact</a><a href="sitemap.html">Site map</a><a href="search.html">Search</a><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" rel="noopener noreferrer" target="_blank">Facebook ↗</a></nav></details></div><div class="nav-band"><nav aria-label="Main navigation" class="sb-wrap sb-nav"><a href="eat-drink.html">Eat &amp; Drink</a><a href="shop-local.html">Shop Local</a><a href="arts-culture.html">Arts &amp; Culture</a><a href="events.html">Events</a><a href="get-outside.html">Get Outside</a><a aria-current="page" href="community.html">Community</a><a href="history.html">Our History</a><details class="nav-dropdown"><summary>Discover</summary><div class="dropdown-links"><a href="businesses.html">All local businesses</a><a href="things-to-do.html">Things to do</a><a href="spotlight.html">Stories &amp; spotlights</a></div></details><details class="nav-dropdown"><summary>Community</summary><div class="dropdown-links"><a href="community-guide.html">Community guide</a><a href="animals.html">Animals &amp; pets</a><a href="jobs.html">Jobs &amp; training</a></div></details><details class="nav-dropdown"><summary>Get involved</summary><div class="dropdown-links"><a href="about.html">About Loving Longmont</a><a href="pricing.html">Add a business</a><a href="contact.html">Contact</a><a href="sitemap.html">Site map</a></div></details></nav></div><form action="search.html" class="mobile-search" method="get" role="search"><label class="visually-hidden" for="mobile-search">Search Loving Longmont</label><input id="mobile-search" name="q" placeholder="Search businesses, events…" type="search"/><button aria-label="Search">⌕</button></form></header><main class="site-main" id="main-content">
 <!-- ========================================
      HEADER
 ======================================== -->
-
-
-<header class="sb-header"><div class="sb-wrap sb-mast">
-<a class="sb-brand" href="index.html" aria-label="Loving Longmont home"><img src="assets/loving-longmont-lettering.webp" alt="Loving Longmont, Colorado" width="1573" height="1000"></a>
-<nav class="sb-nav" aria-label="Main navigation"><a href="things-to-do.html">Explore</a><a href="businesses.html">Businesses</a><a href="events.html">Events</a><a href="community.html">Community</a><a href="history.html">History</a><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook ↗</a></nav>
-<form class="sb-search" action="search.html" method="get" role="search"><input type="search" name="q" placeholder="Search our town" aria-label="Search Loving Longmont"><button type="submit" aria-label="Search">⌕</button></form>
-<details class="sb-mobile"><summary>Menu</summary><nav class="sb-mobile-links" aria-label="Mobile navigation"><a href="things-to-do.html">Explore</a><a href="businesses.html">Businesses</a><a href="events.html">Events</a><a href="community.html">Community</a><a href="history.html">History</a><a href="sitemap.html">Site map</a><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook ↗</a></nav></details>
-</div></header>
-
-
-
 <!-- ========================================
      HERO
 ======================================== -->
-
-<section class="hero">
-      <img src="https://raw.githubusercontent.com/LovingLongmont/loving-longmont-website/main/Images/Website-Images/2.png" alt="Loving Longmont Colorado" />
-    </section>
-
-
-
 <!-- ========================================
      INTRO
 ======================================== -->
-
 <section class="intro">
-
 <div class="container">
-
 <div class="eyebrow">
 Neighbors • Local Food • Connection • Help
 </div>
-
-<h2 class="section-title">
+<h1 class="section-title">
 Community Starts Close to Home
-</h2>
-
+</h1>
 <p class="section-description">
 
 Longmont is full of places where people can
@@ -955,159 +41,91 @@ who share this city with them.
 This guide brings many of those local resources together.
 
 </p>
-
 </div>
-
 </section>
-
-
-
 <!-- ========================================
      QUICK NAV
 ======================================== -->
-
 <section class="quick-section">
-
 <div class="quick-grid">
-
-
-<a href="#markets"
-class="quick-card">
-
+<a class="quick-card" href="#markets">
 <div class="quick-icon">
 🥕
 </div>
-
 <h3>
-Markets & Local Food
+Markets &amp; Local Food
 </h3>
-
 <p>
 Farmers markets, farm stands and locally grown food.
 </p>
-
 </a>
-
-
-
-<a href="#farms"
-class="quick-card">
-
+<a class="quick-card" href="#farms">
 <div class="quick-icon">
 🌻
 </div>
-
 <h3>
-Farms & Orchards
+Farms &amp; Orchards
 </h3>
-
 <p>
 Local farms you can visit, shop or experience.
 </p>
-
 </a>
-
-
-
-<a href="#food-help"
-class="quick-card">
-
+<a class="quick-card" href="#food-help">
 <div class="quick-icon">
 🥫
 </div>
-
 <h3>
-Food & Basic Needs
+Food &amp; Basic Needs
 </h3>
-
 <p>
 Food banks, free groceries and community assistance.
 </p>
-
 </a>
-
-
-
-<a href="#faith"
-class="quick-card">
-
+<a class="quick-card" href="#faith">
 <div class="quick-icon">
 🕊️
 </div>
-
 <h3>
-Faith & Spirituality
+Faith &amp; Spirituality
 </h3>
-
 <p>
 Local congregations and spiritual communities.
 </p>
-
 </a>
-
-
-
-<a href="#mindfulness"
-class="quick-card">
-
+<a class="quick-card" href="#mindfulness">
 <div class="quick-icon">
 🧘
 </div>
-
 <h3>
-Meditation & Wellness
+Meditation &amp; Wellness
 </h3>
-
 <p>
 Local meditation, mindfulness and yoga communities.
 </p>
-
 </a>
-
-
-
-<a href="#community-help"
-class="quick-card">
-
+<a class="quick-card" href="#community-help">
 <div class="quick-icon">
 🤝
 </div>
-
 <h3>
-Community & Volunteering
+Community &amp; Volunteering
 </h3>
-
 <p>
 Give your time, meet neighbors or find local support.
 </p>
-
 </a>
-
-
 </div>
-
 </section>
-
-
-
 <!-- ========================================
      FARMERS MARKET FEATURE
 ======================================== -->
-
-<section class="market-feature"
-id="markets">
-
+<section class="market-feature" id="markets">
 <div class="market-box">
-
-
 <div class="market-visual">
-
 <div>
-
 <span>
 🥕
 </span>
-
 <strong>
 Longmont Farmers Market
 </strong>
@@ -1115,21 +133,14 @@ Longmont Farmers Market
 Local farmers • ranchers • food makers • artisans
 
 </div>
-
 </div>
-
-
-
 <div class="market-content">
-
 <div class="eyebrow">
 A Longmont Saturday Tradition
 </div>
-
 <h2>
 Longmont Farmers Market
 </h2>
-
 <p>
 
 The Longmont Farmers Market
@@ -1139,7 +150,6 @@ food producers and local vendors
 at the Boulder County Fairgrounds.
 
 </p>
-
 <p>
 
 It is a growers-only market,
@@ -1152,95 +162,61 @@ and community gathering
 are also part of the market experience.
 
 </p>
-
 <div class="details">
-
 <div class="detail">
-
-<strong>📍 Location:</strong><br>
-Boulder County Fairgrounds<br>
+<strong>📍 Location:</strong><br/>
+Boulder County Fairgrounds<br/>
 9595 Nelson Road, Longmont
 
 </div>
-
 <div class="detail">
-
-<strong>📅 2026 Season:</strong><br>
+<strong>📅 2026 Season:</strong><br/>
 Saturdays, April 4 – November 21
 
 </div>
-
 <div class="detail">
-
 <strong>🕐 Hours:</strong>
 8 a.m.–1 p.m.
 
 </div>
-
 <div class="detail">
-
 <strong>🎨 Artisan Market:</strong>
 Fourth Saturday of the month,
 April through October.
 
 </div>
-
 <div class="detail">
-
 <strong>🥬 Food Access:</strong>
 SNAP/EBT and eligible food-access programs are supported.
 
 </div>
-
 </div>
-
-
 <div class="buttons">
-
-<a
-href="https://bcfm.org/markets/"
-class="button button-primary" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://bcfm.org/markets/" rel="noopener noreferrer" target="_blank">
 
 Market Information
 
 </a>
-
-<a
-href="https://bcfm.org/artisan-markets/"
-class="button button-secondary" target="_blank" rel="noopener noreferrer">
+<a class="button button-secondary" href="https://bcfm.org/artisan-markets/" rel="noopener noreferrer" target="_blank">
 
 Artisan Markets
 
 </a>
-
 </div>
-
 </div>
-
-
 </div>
-
 </section>
-
-
-
 <!-- ========================================
      LOCAL FARMS
 ======================================== -->
-
-<section class="resources alt"
-id="farms">
-
+<section class="resources alt" id="farms">
 <div class="section-heading">
-
 <div class="eyebrow">
 Grown Close to Home
 </div>
-
 <h2 class="section-title">
-Visit Longmont Farms & Farm Stands
+Visit Longmont Farms &amp; Farm Stands
 </h2>
-
 <p class="section-description">
 
 These small, family-run farms give you a chance
@@ -1249,30 +225,19 @@ meet growers
 and experience Longmont's agricultural roots.
 
 </p>
-
 </div>
-
-
 <div class="resource-grid">
-
-
-
 <!-- OLLIN FARMS -->
-
 <article class="resource-card">
-
 <div class="resource-icon">
 🌱
 </div>
-
 <div class="resource-label">
 Family Farm • Farm Stand
 </div>
-
 <h3>
 Ollin Farms
 </h3>
-
 <p>
 
 A family-run regenerative farm
@@ -1284,70 +249,45 @@ CSA shares, youth education,
 farm tours and farm-to-table dinners.
 
 </p>
-
 <div class="details">
-
 <div class="detail">
-
-<strong>📍 Address:</strong><br>
-8627 N 95th Street<br>
+<strong>📍 Address:</strong><br/>
+8627 N 95th Street<br/>
 Longmont, CO 80504
 
 </div>
-
 <div class="detail">
-
-<strong>🥕 Farm Stand:</strong><br>
-Weekdays 10 a.m.–6 p.m.<br>
+<strong>🥕 Farm Stand:</strong><br/>
+Weekdays 10 a.m.–6 p.m.<br/>
 Saturdays 10 a.m.–2 p.m.
 
 </div>
-
 <div class="detail">
-
 <strong>🍽 Experiences:</strong>
 Farm dinners, education and scheduled farm tours.
 
 </div>
-
 </div>
-
 <div class="buttons">
-
-<a
-href="https://ollinfarms.com/"
-class="button button-primary" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://ollinfarms.com/" rel="noopener noreferrer" target="_blank">
 Visit Farm Website
 </a>
-
-<a
-href="https://ollinfarms.com/farmstand"
-class="button button-secondary" target="_blank" rel="noopener noreferrer">
+<a class="button button-secondary" href="https://ollinfarms.com/farmstand" rel="noopener noreferrer" target="_blank">
 Farm Stand
 </a>
-
 </div>
-
 </article>
-
-
-
 <!-- ASPEN MOON -->
-
 <article class="resource-card">
-
 <div class="resource-icon">
 🥬
 </div>
-
 <div class="resource-label">
 Organic Farm • Roadside Stand
 </div>
-
 <h3>
 Aspen Moon Farm
 </h3>
-
 <p>
 
 A USDA Certified Organic Longmont farm
@@ -1358,63 +298,41 @@ The seasonal roadside stand makes it easy
 to shop directly from the farm.
 
 </p>
-
 <div class="details">
-
 <div class="detail">
-
-<strong>📍 Farm Stand:</strong><br>
-7940 Hygiene Road<br>
+<strong>📍 Farm Stand:</strong><br/>
+7940 Hygiene Road<br/>
 Longmont, CO 80503
 
 </div>
-
 <div class="detail">
-
 <strong>🌱 Also Offers:</strong>
 CSA memberships and seasonal plants.
 
 </div>
-
 <div class="detail">
-
 <strong>🥕 Market:</strong>
 Also sells at the Longmont Farmers Market.
 
 </div>
-
 </div>
-
 <div class="buttons">
-
-<a
-href="https://www.aspenmoonfarm.com/"
-class="button button-primary" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://www.aspenmoonfarm.com/" rel="noopener noreferrer" target="_blank">
 Visit Farm Website
 </a>
-
 </div>
-
 </article>
-
-
-
 <!-- YA YA -->
-
 <article class="resource-card">
-
 <div class="resource-icon">
 🍎
 </div>
-
 <div class="resource-label">
 Orchard • Farm Stand
 </div>
-
 <h3>
-YA YA Farm & Orchard
+YA YA Farm &amp; Orchard
 </h3>
-
 <p>
 
 A small historic orchard specializing
@@ -1427,71 +345,47 @@ bring a picnic
 and enjoy seasonal events.
 
 </p>
-
 <div class="details">
-
 <div class="detail">
-
-<strong>📍 Address:</strong><br>
-6914 Ute Highway<br>
+<strong>📍 Address:</strong><br/>
+6914 Ute Highway<br/>
 Longmont, CO 80503
 
 </div>
-
 <div class="detail">
-
 <strong>🍎 Farm Stand:</strong>
 Seasonal, generally August through fall.
 
 </div>
-
 <div class="detail">
-
 <strong>🌸 U-Pick:</strong>
 Reservations are required for apple and pear picking.
 2026 U-Pick reservations are currently sold out.
 
 </div>
-
 <div class="detail">
-
 <strong>💵 General Admission:</strong>
 No admission fee for regular farm-stand visits.
 
 </div>
-
 </div>
-
 <div class="buttons">
-
-<a
-href="https://yayafarmandorchard.com/"
-class="button button-primary" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://yayafarmandorchard.com/" rel="noopener noreferrer" target="_blank">
 Visit Orchard Website
 </a>
-
 </div>
-
 </article>
-
-
-
 <!-- BEE HUGGER -->
-
 <article class="resource-card">
-
 <div class="resource-icon">
 🐝
 </div>
-
 <div class="resource-label">
 Small Family Farm
 </div>
-
 <h3>
 The Bee Hugger Farm
 </h3>
-
 <p>
 
 A small family-run farm where visitors
@@ -1502,65 +396,43 @@ explore tractors
 and enjoy seasonal flowers and pumpkins.
 
 </p>
-
 <div class="details">
-
 <div class="detail">
-
-<strong>📍 Address:</strong><br>
-12590 Ute Highway<br>
+<strong>📍 Address:</strong><br/>
+12590 Ute Highway<br/>
 Longmont, CO 80504
 
 </div>
-
 <div class="detail">
-
 <strong>💵 General Visit:</strong>
 The farm offers free general entry during posted farm hours,
 with optional paid experiences.
 
 </div>
-
 <div class="detail">
-
 <strong>🐐 Good to Know:</strong>
 Animal feed is available onsite.
 Please leave pets at home.
 
 </div>
-
 </div>
-
 <div class="buttons">
-
-<a
-href="https://www.thebeehuggerfarm.com/"
-class="button button-primary" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://www.thebeehuggerfarm.com/" rel="noopener noreferrer" target="_blank">
 Visit Farm Website
 </a>
-
 </div>
-
 </article>
-
-
-
 <!-- ROCKY MOUNTAIN PUMPKIN RANCH -->
-
 <article class="resource-card">
-
 <div class="resource-icon">
 🎃
 </div>
-
 <div class="resource-label">
 Organic Farm • Seasonal
 </div>
-
 <h3>
 Rocky Mountain Pumpkin Ranch
 </h3>
-
 <p>
 
 A family-run organic farm
@@ -1574,62 +446,38 @@ but also operates a farm market
 during the growing season.
 
 </p>
-
 <div class="details">
-
 <div class="detail">
-
-<strong>📍 Address:</strong><br>
-9059 Ute Highway<br>
+<strong>📍 Address:</strong><br/>
+9059 Ute Highway<br/>
 Longmont, CO 80503
 
 </div>
-
 <div class="detail">
-
 <strong>🌱 Farm Stand:</strong>
 Seasonal produce, plants and flowers.
 
 </div>
-
 </div>
-
 <div class="buttons">
-
-<a
-href="https://rockymtnpumpkinranch.com/"
-class="button button-primary" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://rockymtnpumpkinranch.com/" rel="noopener noreferrer" target="_blank">
 Visit Website
 </a>
-
 </div>
-
 </article>
-
-
 </div>
-
 </section>
-
-
-
 <!-- ========================================
      FOOD HELP
 ======================================== -->
-
-<section class="resources"
-id="food-help">
-
+<section class="resources" id="food-help">
 <div class="section-heading">
-
 <div class="eyebrow">
 Neighbors Helping Neighbors
 </div>
-
 <h2 class="section-title">
-Food & Basic Needs
+Food &amp; Basic Needs
 </h2>
-
 <p class="section-description">
 
 If you need food,
@@ -1638,30 +486,19 @@ or want to donate or volunteer,
 Longmont has several community-based organizations ready to help.
 
 </p>
-
 </div>
-
-
 <div class="resource-grid">
-
-
-
 <!-- OUR CENTER -->
-
 <article class="resource-card">
-
 <div class="resource-icon">
 ❤️
 </div>
-
 <div class="resource-label">
 Food • Meals • Family Support
 </div>
-
 <h3>
 OUR Center
 </h3>
-
 <p>
 
 A Longmont nonprofit resource center
@@ -1671,72 +508,47 @@ and families working toward stability
 and self-sufficiency.
 
 </p>
-
 <div class="details">
-
 <div class="detail">
-
-<strong>📍 Address:</strong><br>
-220 Collyer Street<br>
+<strong>📍 Address:</strong><br/>
+220 Collyer Street<br/>
 Longmont, CO 80501
 
 </div>
-
 <div class="detail">
-
 <strong>☎ Phone:</strong>
 <a href="tel:3037725529">
 303-772-5529
 </a>
-
 </div>
-
 <div class="detail">
-
 <strong>🥫 Pantry:</strong>
 Weekday food assistance is available.
 
 </div>
-
 <div class="detail">
-
 <strong>🍽 Meals:</strong>
 Hot meal programs are also offered.
 
 </div>
-
 </div>
-
 <div class="buttons">
-
-<a
-href="https://www.ourcenter.org/"
-class="button button-primary" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://www.ourcenter.org/" rel="noopener noreferrer" target="_blank">
 OUR Center
 </a>
-
 </div>
-
 </article>
-
-
-
 <!-- LONGMONT FOOD RESCUE -->
-
 <article class="resource-card">
-
 <div class="resource-icon">
 🥕
 </div>
-
 <div class="resource-label">
 Free Food • Food Rescue
 </div>
-
 <h3>
 Longmont Food Rescue
 </h3>
-
 <p>
 
 A local nonprofit reducing food waste
@@ -1749,63 +561,40 @@ community fridges
 and Fresh Food Connect.
 
 </p>
-
 <div class="details">
-
 <div class="detail">
-
 <strong>🥬 Produce Distributions:</strong>
 Free food distributions are held regularly
 with no questions asked.
 
 </div>
-
 <div class="detail">
-
 <strong>🧊 Community Fridges:</strong>
 Free community refrigerators
 allow neighbors to give or take food.
 
 </div>
-
 </div>
-
 <div class="buttons">
-
-<a
-href="https://www.longmontfoodrescue.org/"
-class="button button-primary" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://www.longmontfoodrescue.org/" rel="noopener noreferrer" target="_blank">
 Longmont Food Rescue
 </a>
-
-<a
-href="https://www.longmontfoodrescue.org/events"
-class="button button-secondary" target="_blank" rel="noopener noreferrer">
+<a class="button button-secondary" href="https://www.longmontfoodrescue.org/events" rel="noopener noreferrer" target="_blank">
 Distribution Schedule
 </a>
-
 </div>
-
 </article>
-
-
-
 <!-- ST JOHN FOOD BANK -->
-
 <article class="resource-card">
-
 <div class="resource-icon">
 🥫
 </div>
-
 <div class="resource-label">
 Community Food Bank
 </div>
-
 <h3>
 St. John the Baptist Food Bank
 </h3>
-
 <p>
 
 A volunteer-supported Longmont food bank
@@ -1813,67 +602,44 @@ providing food boxes to local individuals
 and families experiencing difficult times.
 
 </p>
-
 <div class="details">
-
 <div class="detail">
-
-<strong>📍 Address:</strong><br>
-804 S Lincoln Street<br>
+<strong>📍 Address:</strong><br/>
+804 S Lincoln Street<br/>
 Longmont, CO 80501
 
 </div>
-
 <div class="detail">
-
 <strong>☎ Phone:</strong>
 <a href="tel:3036781469">
 303-678-1469
 </a>
-
 </div>
-
 <div class="detail">
-
-<strong>🕐 Current Schedule:</strong><br>
-Tuesday 10:30 a.m.–6 p.m.<br>
-Wednesday 10:30 a.m.–5 p.m.<br>
+<strong>🕐 Current Schedule:</strong><br/>
+Tuesday 10:30 a.m.–6 p.m.<br/>
+Wednesday 10:30 a.m.–5 p.m.<br/>
 Thursday 10:30 a.m.–1 p.m.
 
 </div>
-
 </div>
-
 <div class="buttons">
-
-<a
-href="https://www.johnthebaptist.org/"
-class="button button-primary" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://www.johnthebaptist.org/" rel="noopener noreferrer" target="_blank">
 Food Bank Information
 </a>
-
 </div>
-
 </article>
-
-
-
 <!-- ROUND PANTRY -->
-
 <article class="resource-card">
-
 <div class="resource-icon">
 🛒
 </div>
-
 <div class="resource-label">
 No-Cost Groceries
 </div>
-
 <h3>
 The ROUND PANTRY
 </h3>
-
 <p>
 
 A community food distribution
@@ -1886,70 +652,46 @@ and fresh items when available.
 No qualification or ID is required.
 
 </p>
-
 <div class="details">
-
 <div class="detail">
-
-<strong>📍 Address:</strong><br>
-1500 Hover Street<br>
+<strong>📍 Address:</strong><br/>
+1500 Hover Street<br/>
 Longmont, CO 80501
 
 </div>
-
 <div class="detail">
-
 <strong>📅 When:</strong>
 2nd and 4th Tuesdays
 
 </div>
-
 <div class="detail">
-
 <strong>🕐 Hours:</strong>
 2–6 p.m.
 
 </div>
-
 <div class="detail">
-
 <strong>🚶 Access:</strong>
 Drive-up and walk-up options.
 
 </div>
-
 </div>
-
 <div class="buttons">
-
-<a
-href="https://westviewpres.org/round-pantry-welcome"
-class="button button-primary" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://westviewpres.org/round-pantry-welcome" rel="noopener noreferrer" target="_blank">
 Round Pantry
 </a>
-
 </div>
-
 </article>
-
-
-
 <!-- TABLE OF HOPE -->
-
 <article class="resource-card">
-
 <div class="resource-icon">
 🍞
 </div>
-
 <div class="resource-label">
 Volunteer-Run Food Pantry
 </div>
-
 <h3>
 Table of Hope Food Pantry
 </h3>
-
 <p>
 
 A volunteer-run nonprofit food pantry
@@ -1960,66 +702,43 @@ and welcomes community volunteers
 to help with distribution and operations.
 
 </p>
-
 <div class="details">
-
 <div class="detail">
-
-<strong>📍 Address:</strong><br>
-2950 Colorful Avenue #100<br>
+<strong>📍 Address:</strong><br/>
+2950 Colorful Avenue #100<br/>
 Longmont, CO 80504
 
 </div>
-
 <div class="detail">
-
 <strong>☎ Phone:</strong>
 <a href="tel:7207817526">
 720-781-7526
 </a>
-
 </div>
-
 <div class="detail">
-
 <strong>🤝 Help:</strong>
 No ID or documentation is required
 for pantry assistance.
 
 </div>
-
 </div>
-
 <div class="buttons">
-
-<a
-href="https://whitefieldschurch.com/"
-class="button button-primary" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://whitefieldschurch.com/" rel="noopener noreferrer" target="_blank">
 Current Information
 </a>
-
 </div>
-
 </article>
-
-
-
 <!-- MEALS ON WHEELS -->
-
 <article class="resource-card">
-
 <div class="resource-icon">
 🍲
 </div>
-
 <div class="resource-label">
 Meals • Seniors • Disability Support
 </div>
-
 <h3>
 Longmont Meals on Wheels
 </h3>
-
 <p>
 
 A local nonprofit delivering
@@ -2029,71 +748,45 @@ and people with disabilities
 in Longmont and Niwot.
 
 </p>
-
 <div class="details">
-
 <div class="detail">
-
-<strong>📍 Address:</strong><br>
-910 Longs Peak Avenue<br>
+<strong>📍 Address:</strong><br/>
+910 Longs Peak Avenue<br/>
 Longmont, CO 80501
 
 </div>
-
 <div class="detail">
-
 <strong>☎ Phone:</strong>
 <a href="tel:3037720540">
 303-772-0540
 </a>
-
 </div>
-
 <div class="detail">
-
 <strong>🤝 Volunteers:</strong>
 Meal delivery, kitchen help
 and special projects.
 
 </div>
-
 </div>
-
 <div class="buttons">
-
-<a
-href="https://www.longmontmeals.org/"
-class="button button-primary" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://www.longmontmeals.org/" rel="noopener noreferrer" target="_blank">
 Meals on Wheels
 </a>
-
 </div>
-
 </article>
-
-
 </div>
-
 </section>
-
-
-
 <!-- ========================================
      FOOD HELP NOTE
 ======================================== -->
-
 <section class="help-notice">
-
 <div class="help-box">
-
 <div class="eyebrow">
 Need Help Today?
 </div>
-
 <h2>
 Longmont Has More Food Assistance Than What's Listed Here
 </h2>
-
 <p>
 
 The City of Longmont maintains a current community-resource directory
@@ -2101,42 +794,26 @@ with additional food pantries, transportation assistance,
 mental-health resources and other local services.
 
 </p>
-
 <div class="buttons">
-
-<a
-href="https://longmontcolorado.gov/human-services/community-resources/"
-class="button button-red" target="_blank" rel="noopener noreferrer">
+<a class="button button-red" href="https://longmontcolorado.gov/human-services/community-resources/" rel="noopener noreferrer" target="_blank">
 
 Longmont Community Resources →
 
 </a>
-
 </div>
-
 </div>
-
 </section>
-
-
-
 <!-- ========================================
      FAITH
 ======================================== -->
-
-<section class="resources cream"
-id="faith">
-
+<section class="resources cream" id="faith">
 <div class="section-heading">
-
 <div class="eyebrow">
 Faith • Fellowship • Community
 </div>
-
 <h2 class="section-title">
-Local Faith & Spiritual Communities
+Local Faith &amp; Spiritual Communities
 </h2>
-
 <p class="section-description">
 
 Longmont has many congregations and spiritual communities.
@@ -2146,30 +823,19 @@ with community connection,
 service and outreach.
 
 </p>
-
 </div>
-
-
 <div class="resource-grid">
-
-
-
 <!-- BUDDHIST TEMPLE -->
-
 <article class="resource-card">
-
 <div class="resource-icon">
 🪷
 </div>
-
 <div class="resource-label">
 Buddhist Community
 </div>
-
 <h3>
 Longmont Buddhist Temple
 </h3>
-
 <p>
 
 A small Jodo Shinshu Buddhist community
@@ -2178,71 +844,47 @@ longtime practitioners
 and anyone interested in learning more about Buddhism.
 
 </p>
-
 <div class="details">
-
 <div class="detail">
-
-<strong>📍 Address:</strong><br>
-606 Pike Road<br>
+<strong>📍 Address:</strong><br/>
+606 Pike Road<br/>
 Longmont, CO 80501
 
 </div>
-
 <div class="detail">
-
 <strong>🧘 Meditation:</strong>
 Guided meditation class
 on the first Sunday of each month.
 
 </div>
-
 <div class="detail">
-
 <strong>📖 Buddhism Class:</strong>
 Third Sunday of each month.
 
 </div>
-
 <div class="detail">
-
 <strong>🕊 Services:</strong>
 Second and fourth Sundays.
 
 </div>
-
 </div>
-
 <div class="buttons">
-
-<a
-href="https://longmontbuddhism.org/"
-class="button button-primary" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://longmontbuddhism.org/" rel="noopener noreferrer" target="_blank">
 Temple Website
 </a>
-
 </div>
-
 </article>
-
-
-
 <!-- HEART OF LONGMONT -->
-
 <article class="resource-card">
-
 <div class="resource-icon">
 ❤️
 </div>
-
 <div class="resource-label">
 United Methodist
 </div>
-
 <h3>
 Heart of Longmont
 </h3>
-
 <p>
 
 A longstanding United Methodist congregation
@@ -2252,65 +894,42 @@ service projects
 and meditation programming.
 
 </p>
-
 <div class="details">
-
 <div class="detail">
-
-<strong>📍 Address:</strong><br>
-350 11th Avenue<br>
+<strong>📍 Address:</strong><br/>
+350 11th Avenue<br/>
 Longmont, CO 80501
 
 </div>
-
 <div class="detail">
-
 <strong>🕐 Worship:</strong>
 Sunday at 10 a.m.
 
 </div>
-
 <div class="detail">
-
 <strong>☎ Phone:</strong>
 <a href="tel:3037763523">
 303-776-3523
 </a>
-
 </div>
-
 </div>
-
 <div class="buttons">
-
-<a
-href="https://www.heartoflongmont.org/"
-class="button button-primary" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://www.heartoflongmont.org/" rel="noopener noreferrer" target="_blank">
 Church Website
 </a>
-
 </div>
-
 </article>
-
-
-
 <!-- WESTVIEW -->
-
 <article class="resource-card">
-
 <div class="resource-icon">
 ⛪
 </div>
-
 <div class="resource-label">
 Presbyterian • Community Outreach
 </div>
-
 <h3>
 Westview Presbyterian Church
 </h3>
-
 <p>
 
 A Longmont Presbyterian congregation
@@ -2320,65 +939,42 @@ and extensive community service
 through The ROUND PANTRY.
 
 </p>
-
 <div class="details">
-
 <div class="detail">
-
-<strong>📍 Address:</strong><br>
-1500 Hover Street<br>
+<strong>📍 Address:</strong><br/>
+1500 Hover Street<br/>
 Longmont, CO 80501
 
 </div>
-
 <div class="detail">
-
 <strong>🕐 Worship:</strong>
 Sunday at 9:30 a.m.
 
 </div>
-
 <div class="detail">
-
 <strong>☎ Phone:</strong>
 <a href="tel:3037763242">
 303-776-3242
 </a>
-
 </div>
-
 </div>
-
 <div class="buttons">
-
-<a
-href="https://westviewpres.org/"
-class="button button-primary" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://westviewpres.org/" rel="noopener noreferrer" target="_blank">
 Church Website
 </a>
-
 </div>
-
 </article>
-
-
-
 <!-- ST JOHN -->
-
 <article class="resource-card">
-
 <div class="resource-icon">
 ⛪
 </div>
-
 <div class="resource-label">
 Catholic Community
 </div>
-
 <h3>
 St. John the Baptist Catholic Church
 </h3>
-
 <p>
 
 A longstanding Longmont Catholic parish
@@ -2388,65 +984,42 @@ community ministries
 and its own community food bank.
 
 </p>
-
 <div class="details">
-
 <div class="detail">
-
-<strong>📍 Address:</strong><br>
-323 Collyer Street<br>
+<strong>📍 Address:</strong><br/>
+323 Collyer Street<br/>
 Longmont, CO 80501
 
 </div>
-
 <div class="detail">
-
 <strong>☎ Phone:</strong>
 <a href="tel:3037760737">
 303-776-0737
 </a>
-
 </div>
-
 <div class="detail">
-
 <strong>🌎 Languages:</strong>
 English and Spanish services are offered.
 
 </div>
-
 </div>
-
 <div class="buttons">
-
-<a
-href="https://www.johnthebaptist.org/"
-class="button button-primary" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://www.johnthebaptist.org/" rel="noopener noreferrer" target="_blank">
 Parish Website
 </a>
-
 </div>
-
 </article>
-
-
-
 <!-- LIFEBRIDGE -->
-
 <article class="resource-card">
-
 <div class="resource-icon">
 🤝
 </div>
-
 <div class="resource-label">
 Christian Community
 </div>
-
 <h3>
 LifeBridge Christian Church
 </h3>
-
 <p>
 
 A local Christian congregation
@@ -2457,62 +1030,38 @@ and opportunities to connect
 through community groups and service.
 
 </p>
-
 <div class="details">
-
 <div class="detail">
-
-<strong>📍 Address:</strong><br>
-10345 Ute Highway<br>
+<strong>📍 Address:</strong><br/>
+10345 Ute Highway<br/>
 Longmont, CO 80504
 
 </div>
-
 <div class="detail">
-
 <strong>🕐 Sunday Services:</strong>
 8 a.m., 9:30 a.m. and 11 a.m.
 
 </div>
-
 </div>
-
 <div class="buttons">
-
-<a
-href="https://lbcc.org/"
-class="button button-primary" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://lbcc.org/" rel="noopener noreferrer" target="_blank">
 Church Website
 </a>
-
 </div>
-
 </article>
-
-
 </div>
-
 </section>
-
-
-
 <!-- ========================================
      MEDITATION / WELLNESS
 ======================================== -->
-
-<section class="resources blue"
-id="mindfulness">
-
+<section class="resources blue" id="mindfulness">
 <div class="section-heading">
-
 <div class="eyebrow">
 Pause • Breathe • Connect
 </div>
-
 <h2 class="section-title">
-Meditation, Mindfulness & Yoga
+Meditation, Mindfulness &amp; Yoga
 </h2>
-
 <p class="section-description">
 
 For people looking for community
@@ -2522,30 +1071,19 @@ for meditation, yoga, breathwork
 and mindful movement.
 
 </p>
-
 </div>
-
-
 <div class="resource-grid">
-
-
-
 <!-- FULL CIRCLE -->
-
 <article class="resource-card">
-
 <div class="resource-icon">
 🧘
 </div>
-
 <div class="resource-label">
 Yoga • Meditation • Community
 </div>
-
 <h3>
 Full Circle Yoga
 </h3>
-
 <p>
 
 A community-focused downtown yoga studio
@@ -2555,51 +1093,31 @@ restorative classes
 and specialty programming.
 
 </p>
-
 <div class="details">
-
 <div class="detail">
-
 <strong>📍 Downtown Longmont</strong>
-
 </div>
-
 <div class="detail">
-
 <strong>🧘 Offerings:</strong>
 Yoga, meditation, restorative practice,
 prenatal yoga and community programming.
 
 </div>
-
 </div>
-
 <div class="buttons">
-
-
-
 </div>
-
 </article>
-
-
-
 <!-- E8 -->
-
 <article class="resource-card">
-
 <div class="resource-icon">
 🌿
 </div>
-
 <div class="resource-label">
-Local Yoga & Mindfulness
+Local Yoga &amp; Mindfulness
 </div>
-
 <h3>
 E8YOGA
 </h3>
-
 <p>
 
 A locally owned Longmont studio
@@ -2610,54 +1128,34 @@ sound experiences
 and community events.
 
 </p>
-
 <div class="details">
-
 <div class="detail">
-
-<strong>📍 Address:</strong><br>
-1127 Francis Street<br>
+<strong>📍 Address:</strong><br/>
+1127 Francis Street<br/>
 Longmont, CO 80501
 
 </div>
-
 <div class="detail">
-
 <strong>☎ Phone:</strong>
 <a href="tel:3038189786">
 303-818-9786
 </a>
-
 </div>
-
 </div>
-
 <div class="buttons">
-
-
-
 </div>
-
 </article>
-
-
-
 <!-- SOUL 19 -->
-
 <article class="resource-card">
-
 <div class="resource-icon">
 ✨
 </div>
-
 <div class="resource-label">
 Mindful Movement
 </div>
-
 <h3>
 SOUL 19
 </h3>
-
 <p>
 
 A Longmont mindful-movement studio
@@ -2671,64 +1169,39 @@ The studio emphasizes connection,
 growth and shared experience.
 
 </p>
-
 <div class="details">
-
 <div class="detail">
-
-<strong>📍 Address:</strong><br>
-1350 Ken Pratt Boulevard<br>
+<strong>📍 Address:</strong><br/>
+1350 Ken Pratt Boulevard<br/>
 Longmont, CO
 
 </div>
-
 <div class="detail">
-
 <strong>☎ Phone:</strong>
 <a href="tel:7206004868">
 720-600-4868
 </a>
-
 </div>
-
 </div>
-
 <div class="buttons">
-
-<a
-href="https://www.soul19.com/"
-class="button button-primary" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://www.soul19.com/" rel="noopener noreferrer" target="_blank">
 Studio Website
 </a>
-
 </div>
-
 </article>
-
-
 </div>
-
 </section>
-
-
-
 <!-- ========================================
      COMMUNITY HELP / VOLUNTEERING
 ======================================== -->
-
-<section class="resources"
-id="community-help">
-
+<section class="resources" id="community-help">
 <div class="section-heading">
-
 <div class="eyebrow">
 Give Help • Find Help • Meet People
 </div>
-
 <h2 class="section-title">
-Community Resources & Volunteering
+Community Resources &amp; Volunteering
 </h2>
-
 <p class="section-description">
 
 One of the easiest ways to feel connected to a community
@@ -2741,30 +1214,19 @@ meet people
 or receive support.
 
 </p>
-
 </div>
-
-
 <div class="resource-grid">
-
-
-
 <!-- RECOVERY CAFE -->
-
 <article class="resource-card">
-
 <div class="resource-icon">
 ☕
 </div>
-
 <div class="resource-label">
 Recovery • Belonging • Volunteer
 </div>
-
 <h3>
 Recovery Café Longmont
 </h3>
-
 <p>
 
 A community-centered recovery organization
@@ -2777,71 +1239,45 @@ teaching classes
 and helping with support activities.
 
 </p>
-
 <div class="details">
-
 <div class="detail">
-
-<strong>📍 Address:</strong><br>
-402 Kimbark Street<br>
+<strong>📍 Address:</strong><br/>
+402 Kimbark Street<br/>
 Longmont, CO 80501
 
 </div>
-
 <div class="detail">
-
 <strong>☎ Phone:</strong>
 <a href="tel:7208152885">
 720-815-2885
 </a>
-
 </div>
-
 <div class="detail">
-
 <strong>🕐 Regular Hours:</strong>
 Tuesday–Friday, 11 a.m.–7 p.m.
 
 </div>
-
 </div>
-
 <div class="buttons">
-
-<a
-href="https://recoverycafelongmont.org/"
-class="button button-primary" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://recoverycafelongmont.org/" rel="noopener noreferrer" target="_blank">
 Recovery Café
 </a>
-
-<a
-href="https://recoverycafelongmont.org/volunteer/"
-class="button button-secondary" target="_blank" rel="noopener noreferrer">
+<a class="button button-secondary" href="https://recoverycafelongmont.org/volunteer/" rel="noopener noreferrer" target="_blank">
 Volunteer
 </a>
-
 </div>
-
 </article>
-
-
-
 <!-- SENIOR CENTER -->
-
 <article class="resource-card">
-
 <div class="resource-icon">
 🧓
 </div>
-
 <div class="resource-label">
 55+ Community
 </div>
-
 <h3>
 Longmont Senior Center
 </h3>
-
 <p>
 
 A local gathering place for adults 55+
@@ -2854,58 +1290,37 @@ support services
 and volunteer opportunities.
 
 </p>
-
 <div class="details">
-
 <div class="detail">
-
-<strong>📍 Address:</strong><br>
-910 Longs Peak Avenue<br>
+<strong>📍 Address:</strong><br/>
+910 Longs Peak Avenue<br/>
 Longmont, CO 80501
 
 </div>
-
 <div class="detail">
-
 <strong>☎ Phone:</strong>
 <a href="tel:3036518411">
 303-651-8411
 </a>
-
 </div>
-
 </div>
-
 <div class="buttons">
-
-<a
-href="https://longmontcolorado.gov/senior-services/"
-class="button button-primary" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://longmontcolorado.gov/senior-services/" rel="noopener noreferrer" target="_blank">
 Senior Services
 </a>
-
 </div>
-
 </article>
-
-
-
 <!-- LIBRARY -->
-
 <article class="resource-card">
-
 <div class="resource-icon">
 📚
 </div>
-
 <div class="resource-label">
 Free Community Resource
 </div>
-
 <h3>
 Longmont Public Library
 </h3>
-
 <p>
 
 More than books.
@@ -2919,64 +1334,40 @@ volunteer opportunities
 and spaces to learn and connect.
 
 </p>
-
 <div class="details">
-
 <div class="detail">
-
-<strong>📍 Address:</strong><br>
-355 Emery Street<br>
+<strong>📍 Address:</strong><br/>
+355 Emery Street<br/>
 Longmont, CO 80501
 
 </div>
-
 <div class="detail">
-
 <strong>☎ Phone:</strong>
 <a href="tel:3036518470">
 303-651-8470
 </a>
-
 </div>
-
 </div>
-
 <div class="buttons">
-
-<a
-href="https://longmontcolorado.gov/Library/"
-class="button button-primary" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://longmontcolorado.gov/Library/" rel="noopener noreferrer" target="_blank">
 Library
 </a>
-
-<a
-href="https://longmontcolorado.gov/library/about-the-library/volunteer-at-the-library/"
-class="button button-secondary" target="_blank" rel="noopener noreferrer">
+<a class="button button-secondary" href="https://longmontcolorado.gov/library/about-the-library/volunteer-at-the-library/" rel="noopener noreferrer" target="_blank">
 Volunteer
 </a>
-
 </div>
-
 </article>
-
-
-
 <!-- CITY VOLUNTEERING -->
-
 <article class="resource-card">
-
 <div class="resource-icon">
 🙋
 </div>
-
 <div class="resource-label">
 Volunteer Longmont
 </div>
-
 <h3>
 Find a Local Volunteer Opportunity
 </h3>
-
 <p>
 
 Longmont residents can volunteer
@@ -2991,11 +1382,8 @@ public safety
 and sustainability programs.
 
 </p>
-
 <div class="details">
-
 <div class="detail">
-
 <strong>🌳 Opportunities Include:</strong>
 Parks and open space,
 library programs,
@@ -3005,39 +1393,24 @@ senior services
 and community boards.
 
 </div>
-
 </div>
-
 <div class="buttons">
-
-<a
-href="https://longmontcolorado.gov/careers/volunteer-opportunities/"
-class="button button-primary" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://longmontcolorado.gov/careers/volunteer-opportunities/" rel="noopener noreferrer" target="_blank">
 Volunteer Opportunities
 </a>
-
 </div>
-
 </article>
-
-
-
 <!-- CULTIVATE -->
-
 <article class="resource-card">
-
 <div class="resource-icon">
 🏡
 </div>
-
 <div class="resource-label">
 Older Adult Support
 </div>
-
 <h3>
 Cultivate
 </h3>
-
 <p>
 
 A nonprofit helping older adults
@@ -3050,64 +1423,39 @@ snow shoveling
 and medical rides.
 
 </p>
-
 <div class="details">
-
 <div class="detail">
-
 <strong>☎ Phone:</strong>
 <a href="tel:3034431933">
 303-443-1933
 </a>
-
 </div>
-
 <div class="detail">
-
 <strong>🤝 Participate:</strong>
 Receive services or become a volunteer.
 
 </div>
-
 </div>
-
 <div class="buttons">
-
-<a
-href="https://cultivate.ngo/"
-class="button button-primary" target="_blank" rel="noopener noreferrer">
+<a class="button button-primary" href="https://cultivate.ngo/" rel="noopener noreferrer" target="_blank">
 Cultivate
 </a>
-
 </div>
-
 </article>
-
-
 </div>
-
 </section>
-
-
-
 <!-- ========================================
      COMMUNITY LIFE
 ======================================== -->
-
 <section class="community-life">
-
 <div class="container">
-
 <div style="text-align:center;">
-
 <div class="eyebrow">
 More Ways to Belong
 </div>
-
 <h2 class="section-title">
 Community Doesn't Have to Be Complicated
 </h2>
-
 <p class="section-description">
 
 Sometimes connection starts with something simple:
@@ -3117,23 +1465,15 @@ joining a class
 or introducing yourself to someone new.
 
 </p>
-
 </div>
-
-
 <div class="community-life-grid">
-
-
 <div class="life-card">
-
 <span>
 🥕
 </span>
-
 <h3>
 Buy Local Food
 </h3>
-
 <p>
 
 Shopping from local farms
@@ -3144,21 +1484,14 @@ between residents and the people
 who grow their food.
 
 </p>
-
 </div>
-
-
-
 <div class="life-card">
-
 <span>
 🤝
 </span>
-
 <h3>
 Volunteer
 </h3>
-
 <p>
 
 Food pantries,
@@ -3170,21 +1503,14 @@ all depend on people
 willing to give a little time.
 
 </p>
-
 </div>
-
-
-
 <div class="life-card">
-
 <span>
 👋
 </span>
-
 <h3>
 Show Up
 </h3>
-
 <p>
 
 Markets,
@@ -3196,59 +1522,37 @@ are easier places to meet people
 than waiting for community to find you.
 
 </p>
-
 </div>
-
-
 </div>
-
 </div>
-
 </section>
-
-
-
 <!-- ========================================
      ASK / SHARE
 ======================================== -->
-
 <section class="share-section">
-
 <div class="container">
-
 <div style="text-align:center;">
-
 <div class="eyebrow">
 Your Longmont
 </div>
-
 <h2 class="section-title">
 Help Us Find More of the Community
 </h2>
-
 <p class="section-description">
 
 Some of the best local resources
 are the ones neighbors tell each other about.
 
 </p>
-
 </div>
-
-
 <div class="share-grid">
-
-
 <div class="share-card">
-
 <span>
 💬
 </span>
-
 <h3>
 Ask Loving Longmont
 </h3>
-
 <p>
 
 Looking for a local resource,
@@ -3259,34 +1563,21 @@ or recommendation?
 Ask us.
 
 </p>
-
-<div class="buttons"
-style="justify-content:center;">
-
-<a
-href="mailto:hello.lovinglongmont@gmail.com?subject=Ask%20Loving%20Longmont&body=Hi%20Loving%20Longmont%2C%0A%0AMy%20question%20is%3A%0A%0A"
-class="button button-primary">
+<div class="buttons" style="justify-content:center;">
+<a class="button button-primary" href="mailto:hello.lovinglongmont@gmail.com?subject=Ask%20Loving%20Longmont&amp;body=Hi%20Loving%20Longmont%2C%0A%0AMy%20question%20is%3A%0A%0A">
 
 Ask a Question
 
 </a>
-
 </div>
-
 </div>
-
-
-
 <div class="share-card">
-
 <span>
 💡
 </span>
-
 <h3>
 Recommend a Resource
 </h3>
-
 <p>
 
 Know a farm,
@@ -3298,34 +1589,21 @@ or community resource
 that belongs here?
 
 </p>
-
-<div class="buttons"
-style="justify-content:center;">
-
-<a
-href="mailto:hello.lovinglongmont@gmail.com?subject=Longmont%20Community%20Resource%20Suggestion&body=Hi%20Loving%20Longmont%2C%0A%0AI%27d%20like%20to%20suggest%20a%20community%20resource.%0A%0AName%3A%0AWebsite%3A%0ALocation%3A%0AWhat%20they%20offer%3A%0A"
-class="button button-primary">
+<div class="buttons" style="justify-content:center;">
+<a class="button button-primary" href="mailto:hello.lovinglongmont@gmail.com?subject=Longmont%20Community%20Resource%20Suggestion&amp;body=Hi%20Loving%20Longmont%2C%0A%0AI%27d%20like%20to%20suggest%20a%20community%20resource.%0A%0AName%3A%0AWebsite%3A%0ALocation%3A%0AWhat%20they%20offer%3A%0A">
 
 Suggest a Resource
 
 </a>
-
 </div>
-
 </div>
-
-
-
 <div class="share-card">
-
 <span>
 📷
 </span>
-
 <h3>
 Share Longmont
 </h3>
-
 <p>
 
 Send an original local photograph,
@@ -3334,47 +1612,28 @@ or something positive
 you think Longmont should see.
 
 </p>
-
-<div class="buttons"
-style="justify-content:center;">
-
-<a
-href="mailto:hello.lovinglongmont@gmail.com?subject=Longmont%20Community%20Submission&body=Hi%20Loving%20Longmont%2C%0A%0AI%27d%20like%20to%20share%3A%0A%0A"
-class="button button-primary">
+<div class="buttons" style="justify-content:center;">
+<a class="button button-primary" href="mailto:hello.lovinglongmont@gmail.com?subject=Longmont%20Community%20Submission&amp;body=Hi%20Loving%20Longmont%2C%0A%0AI%27d%20like%20to%20share%3A%0A%0A">
 
 Share With Us
 
 </a>
-
 </div>
-
 </div>
-
-
 </div>
-
 </div>
-
 </section>
-
-
-
 <!-- ========================================
      CTA
 ======================================== -->
-
 <section class="cta">
-
 <div class="container">
-
 <div class="eyebrow">
 People • Places • Possibilities
 </div>
-
 <h2>
 Know Something Longmont Should Know?
 </h2>
-
 <p>
 
 Loving Longmont will keep growing
@@ -3389,28 +1648,15 @@ If something helps people connect with Longmont,
 we want to know about it.
 
 </p>
-
-<a
-href="mailto:hello.lovinglongmont@gmail.com?subject=Loving%20Longmont%20Community&body=Hi%20Loving%20Longmont%2C%0A%0AI%27d%20like%20to%20share%3A%0A%0A"
-class="button button-light">
+<a class="button button-light" href="mailto:hello.lovinglongmont@gmail.com?subject=Loving%20Longmont%20Community&amp;body=Hi%20Loving%20Longmont%2C%0A%0AI%27d%20like%20to%20share%3A%0A%0A">
 
 Contact Loving Longmont →
 
 </a>
-
 </div>
-
 </section>
-
-
-
 <!-- ========================================
      FOOTER
 ======================================== -->
-
-<footer class="sb-footer"><div class="sb-wrap"><div class="sb-foot-top"><a class="sb-footer-logo" href="index.html" aria-label="Loving Longmont home"><img src="assets/loving-longmont-lettering.webp" alt="Loving Longmont" width="1573" height="1000" loading="lazy"></a><a class="sb-mkt" href="https://mktvisibility.com" aria-label="Visit MKT Visibility" target="_blank" rel="noopener noreferrer"><img src="assets/mkt-visibility-logo-dark.webp" alt="MKT Visibility" width="600" height="300" loading="lazy"></a></div><nav class="sb-foot-nav" aria-label="Footer navigation"><a href="things-to-do.html">Explore</a><a href="businesses.html">Businesses</a><a href="events.html">Events</a><a href="community.html">Community</a><a href="history.html">History</a><a href="search.html">Search</a><a href="animals.html">Animals & pets</a><a href="jobs.html">Jobs</a><a href="spotlight.html">Spotlights</a><a href="pricing.html">Get listed</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="sitemap.html">Site map</a><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook ↗</a></nav></div><div class="sb-copyright">© 2026 Loving Longmont · A community resource by MKT Visibility</div></footer>
-
-
-<script src="assets/site-links.js" defer></script>
-</body>
+</main><footer class="sb-footer"><div class="sb-wrap"><div class="footer-heading"><a class="sb-brand" href="index.html">Loving Longmont</a><p>A whole town to discover.<br/>Explore local. Connect with your community.</p></div><nav aria-label="Footer navigation" class="sb-foot-nav"><a href="businesses.html">Local businesses</a><a href="things-to-do.html">Things to do</a><a href="events.html">Events</a><a href="community.html">Community</a><a href="history.html">History</a><a href="eat-drink.html">Eat &amp; Drink</a><a href="shop-local.html">Shop Local</a><a href="arts-culture.html">Arts &amp; Culture</a><a href="get-outside.html">Get Outside</a><a href="animals.html">Animals &amp; pets</a><a href="jobs.html">Jobs &amp; training</a><a href="spotlight.html">Business stories</a><a href="pricing.html">Get listed</a><a href="about.html">About us</a><a href="contact.html">Contact</a><a href="sitemap.html">Site map</a><a href="search.html">Search</a><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" rel="noopener noreferrer" target="_blank">Facebook ↗</a></nav><div class="sb-copyright">© 2026 Loving Longmont · A community resource by <a href="https://mktvisibility.com">MKT Visibility</a></div></div></footer><script defer="" src="assets/site-links.js"></script><script src="assets/business-posts.js" type="module"></script><script defer="" src="assets/community.js"></script></body>
 </html>
