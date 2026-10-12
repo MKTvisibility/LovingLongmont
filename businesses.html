@@ -1,0 +1,1412 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- Google tag (gtag.js) -->
+
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Local Businesses | Loving Longmont</title>
+    <meta
+      name="description"
+      content="Discover independent Longmont, Colorado gift shops, boutiques, bookstores, artisan shops, specialty food stores, creative businesses and hidden local gems."
+    />
+    <style>
+      :root {
+        --navy: #062f52;
+        --dark-navy: #03233e;
+        --red: #c8101e;
+        --cream: #fffaf1;
+        --light-blue: #eef5f5;
+        --sage: #e8f0ec;
+        --text: #253642;
+        --gray: #667780;
+        --white: #ffffff;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--text);
+        background: white;
+        line-height: 1.6;
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
+      a {
+        color: inherit;
+      }
+      .site-header {
+        background: rgba(255, 255, 255, 0.98);
+        border-bottom: 1px solid #e6e6e6;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+      .navbar {
+        max-width: 1450px;
+        margin: auto;
+        padding: 9px 22px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+      }
+      .nav-logo {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        min-width: 250px;
+      }
+      .nav-logo img {
+        width: 68px;
+        height: 68px;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+      .nav-brand-text {
+        margin-left: 13px;
+      }
+      .nav-brand-text strong {
+        display: block;
+        color: var(--navy);
+        font-size: 23px;
+        line-height: 1.1;
+      }
+      .nav-brand-text small {
+        display: block;
+        margin-top: 6px;
+        font-size: 9px;
+        letter-spacing: 2px;
+        font-weight: bold;
+        color: var(--navy);
+      }
+      .red-heart {
+        color: var(--red);
+      }
+      .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+      .nav-links a {
+        text-decoration: none;
+        color: var(--navy);
+        font-size: 12px;
+        font-weight: bold;
+        padding: 25px 0 22px;
+        border-bottom: 3px solid transparent;
+        white-space: nowrap;
+      }
+      .nav-links a:hover,
+      .nav-links a.active {
+        color: var(--red);
+        border-bottom-color: var(--red);
+      }
+      .nav-contact {
+        background: var(--navy);
+        color: white !important;
+        border-radius: 7px;
+        padding: 12px 18px !important;
+        border-bottom: none !important;
+      }
+      .nav-contact:hover {
+        background: var(--red);
+      }
+      .hero {
+        width: 100%;
+        position: relative;
+        background: var(--cream);
+      }
+      .hero img {
+        width: 100%;
+        height: auto;
+        max-height: 560px;
+        object-fit: cover;
+        object-position: center;
+      }
+      .hero-overlay {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        background: linear-gradient(
+          to top,
+          rgba(3, 35, 62, 0.76),
+          rgba(3, 35, 62, 0.05) 55%
+        );
+        padding: 40px 25px;
+      }
+      .hero-title {
+        text-align: center;
+        color: white;
+      }
+      .hero-title h1 {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(42px, 6vw, 64px);
+        margin: 0 0 7px;
+        line-height: 1.05;
+      }
+      .hero-title p {
+        margin: 0;
+        font-size: 18px;
+      }
+      .container {
+        max-width: 1200px;
+        margin: auto;
+      }
+      .eyebrow {
+        color: var(--red);
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        font-size: 12px;
+        font-weight: bold;
+        margin-bottom: 8px;
+      }
+      .section-title {
+        font-family: Georgia, "Times New Roman", serif;
+        color: var(--navy);
+        font-size: clamp(34px, 5vw, 50px);
+        line-height: 1.15;
+        margin: 0 0 15px;
+      }
+      .section-description {
+        max-width: 850px;
+        margin: auto;
+        color: var(--gray);
+        font-size: 17px;
+      }
+      .page-intro {
+        background: var(--cream);
+        padding: 60px 25px 35px;
+        text-align: center;
+      }
+      .notice-section {
+        background: var(--cream);
+        padding: 5px 25px 60px;
+      }
+      .notice-box {
+        max-width: 1000px;
+        margin: auto;
+        background: white;
+        border-left: 5px solid var(--red);
+        border-radius: 12px;
+        padding: 23px 27px;
+        box-shadow: 0 5px 18px rgba(0, 0, 0, 0.05);
+      }
+      .notice-box strong {
+        display: block;
+        color: var(--navy);
+        margin-bottom: 5px;
+      }
+      .notice-box p {
+        margin: 0;
+        color: var(--gray);
+        font-size: 14px;
+      }
+      .category-section {
+        background: white;
+        padding: 45px 25px;
+      }
+      .category-grid {
+        max-width: 1050px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 14px;
+      }
+      .category-card {
+        background: var(--light-blue);
+        border: 1px solid #dfe8e8;
+        border-radius: 13px;
+        text-align: center;
+        text-decoration: none;
+        padding: 22px 12px;
+        transition: 0.2s ease;
+      }
+      .category-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 7px 17px rgba(0, 0, 0, 0.07);
+      }
+      .category-card span {
+        display: block;
+        font-size: 29px;
+        margin-bottom: 6px;
+      }
+      .category-card strong {
+        font-family: Georgia, serif;
+        color: var(--navy);
+        font-size: 14px;
+      }
+      .featured-section {
+        background: var(--sage);
+        padding: 75px 25px;
+      }
+      .featured-grid {
+        max-width: 1100px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 45px;
+        align-items: center;
+      }
+      .featured-image {
+        border-radius: 18px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      }
+      .featured-image img {
+        width: 100%;
+        height: 440px;
+        object-fit: cover;
+      }
+      .featured-content h2 {
+        font-family: Georgia, serif;
+        color: var(--navy);
+        font-size: 39px;
+        line-height: 1.15;
+        margin: 6px 0 15px;
+      }
+      .featured-content p {
+        color: var(--gray);
+      }
+      .featured-info {
+        margin: 20px 0;
+      }
+      .featured-info div {
+        margin: 8px 0;
+        font-size: 14px;
+      }
+      .directory-section {
+        background: white;
+        padding: 75px 25px;
+      }
+      .business-grid {
+        max-width: 1180px;
+        margin: 45px auto 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 28px;
+      }
+      .business-card {
+        background: var(--cream);
+        border: 1px solid #e8e3d9;
+        border-radius: 17px;
+        overflow: hidden;
+        box-shadow: 0 7px 22px rgba(0, 0, 0, 0.055);
+        display: flex;
+        flex-direction: column;
+      }
+      .business-image {
+        height: 290px;
+        overflow: hidden;
+        background: var(--light-blue);
+      }
+      .business-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.35s ease;
+      }
+      .business-card:hover .business-image img {
+        transform: scale(1.025);
+      }
+      .business-placeholder {
+        height: 100%;
+        background: linear-gradient(135deg, #dce9e7, #eef5f5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 30px;
+        color: var(--navy);
+      }
+      .business-placeholder span {
+        display: block;
+        font-size: 48px;
+        margin-bottom: 8px;
+      }
+      .business-placeholder strong {
+        display: block;
+        font-family: Georgia, serif;
+        font-size: 22px;
+      }
+      .business-body {
+        padding: 27px;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+      }
+      .business-category {
+        color: var(--red);
+        font-size: 10px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      .business-body h3 {
+        font-family: Georgia, serif;
+        color: var(--navy);
+        font-size: 27px;
+        margin: 6px 0 12px;
+      }
+      .business-description {
+        color: var(--gray);
+        font-size: 14px;
+        flex-grow: 1;
+        margin-bottom: 17px;
+      }
+      .business-details {
+        padding: 14px 0;
+        border-top: 1px solid #e5e0d7;
+        border-bottom: 1px solid #e5e0d7;
+        margin-bottom: 18px;
+      }
+      .business-detail {
+        display: grid;
+        grid-template-columns: 24px 1fr;
+        gap: 7px;
+        margin: 7px 0;
+        font-size: 13px;
+      }
+      .business-detail strong {
+        color: var(--navy);
+      }
+      .business-links {
+        display: flex;
+        gap: 9px;
+        flex-wrap: wrap;
+      }
+      .business-button {
+        display: inline-block;
+        background: var(--navy);
+        color: white;
+        text-decoration: none;
+        border-radius: 7px;
+        padding: 10px 16px;
+        font-size: 12px;
+        font-weight: bold;
+        transition: 0.2s ease;
+      }
+      .business-button:hover {
+        background: var(--red);
+      }
+      .business-button.secondary {
+        background: white;
+        color: var(--navy);
+        border: 1px solid #cfd7d8;
+      }
+      .business-button.secondary:hover {
+        color: white;
+        background: var(--red);
+        border-color: var(--red);
+      }
+      .creative-section {
+        background: var(--light-blue);
+        padding: 75px 25px;
+      }
+      .creative-card {
+        max-width: 1050px;
+        margin: 40px auto 0;
+        display: grid;
+        grid-template-columns: 0.9fr 1.1fr;
+        background: white;
+        border-radius: 18px;
+        overflow: hidden;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+      }
+      .creative-photo {
+        min-height: 470px;
+        overflow: hidden;
+        background: var(--dark-navy);
+      }
+      .creative-photo img {
+        width: 100%;
+        height: 100%;
+        min-height: 470px;
+        object-fit: cover;
+        object-position: center 18%;
+      }
+      .creative-content {
+        padding: 42px;
+      }
+      .creative-content h3 {
+        color: var(--navy);
+        font-family: Georgia, serif;
+        font-size: 32px;
+        margin: 5px 0 13px;
+      }
+      .creative-content p {
+        color: var(--gray);
+      }
+      .support-local {
+        background: var(--cream);
+        padding: 75px 25px;
+      }
+      .support-grid {
+        max-width: 1050px;
+        margin: 40px auto 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+      .support-card {
+        background: white;
+        border-radius: 14px;
+        padding: 28px 23px;
+        text-align: center;
+      }
+      .support-card span {
+        font-size: 38px;
+      }
+      .support-card h3 {
+        color: var(--navy);
+        font-family: Georgia, serif;
+        margin: 8px 0;
+      }
+      .support-card p {
+        color: var(--gray);
+        font-size: 14px;
+      }
+      .cta-section {
+        background: linear-gradient(135deg, var(--navy), #0a4a77);
+        color: white;
+        text-align: center;
+        padding: 75px 25px;
+      }
+      .cta-section .eyebrow {
+        color: #ffb9be;
+      }
+      .cta-section h2 {
+        font-family: Georgia, serif;
+        font-size: 42px;
+        margin: 5px 0 15px;
+      }
+      .cta-section p {
+        max-width: 740px;
+        margin: 0 auto 25px;
+        color: #dce9f0;
+      }
+      .button-light {
+        display: inline-block;
+        background: white;
+        color: var(--navy);
+        text-decoration: none;
+        border-radius: 7px;
+        padding: 13px 25px;
+        font-weight: bold;
+      }
+      footer {
+        background: linear-gradient(135deg, #03233e, #063b62);
+        color: white;
+        padding: 55px 25px 20px;
+      }
+      .footer-grid {
+        max-width: 1150px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1.5fr 0.8fr 1.2fr;
+        gap: 60px;
+      }
+      .footer-logo-area {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+      .footer-logo-area img {
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+      .footer-logo-area h2 {
+        margin: 0;
+        font-size: 25px;
+      }
+      .footer-logo-area small {
+        font-size: 9px;
+        letter-spacing: 2px;
+      }
+      .footer-about {
+        max-width: 380px;
+        color: #d5e1e8;
+        font-size: 14px;
+        margin-top: 18px;
+      }
+      .footer-heading {
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 13px;
+      }
+      .footer-links a {
+        display: block;
+        text-decoration: none;
+        color: #e1ebf0;
+        font-size: 14px;
+        margin: 7px 0;
+      }
+      .footer-links a:hover {
+        color: white;
+        text-decoration: underline;
+      }
+      .footer-contact {
+        color: #e1ebf0;
+        font-size: 14px;
+      }
+      .footer-email {
+        display: inline-block;
+        margin-top: 8px;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .footer-bottom {
+        max-width: 1150px;
+        margin: 40px auto 0;
+        padding-top: 20px;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        text-align: center;
+        color: #c5d5df;
+        font-size: 12px;
+      }
+      @media (max-width: 1180px) {
+        .navbar {
+          flex-direction: column;
+          padding-bottom: 15px;
+        }
+        .nav-logo {
+          min-width: auto;
+        }
+        .nav-links {
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+        .nav-links a {
+          padding: 5px 0;
+        }
+      }
+      @media (max-width: 1050px) {
+        .category-grid {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+      @media (max-width: 900px) {
+        .featured-grid,
+        .business-grid,
+        .creative-card {
+          grid-template-columns: 1fr;
+        }
+        .support-grid {
+          grid-template-columns: 1fr;
+        }
+        .footer-grid {
+          grid-template-columns: 1fr;
+        }
+        .creative-photo img {
+          max-height: 650px;
+        }
+      }
+      @media (max-width: 650px) {
+        .nav-brand-text {
+          display: none;
+        }
+        .category-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .hero img {
+          min-height: 260px;
+          object-fit: cover;
+        }
+        .business-image {
+          height: 235px;
+        }
+        .featured-image img {
+          height: 300px;
+        }
+        .creative-content {
+          padding: 28px 22px;
+        }
+        .creative-photo {
+          min-height: 420px;
+        }
+        .creative-photo img {
+          min-height: 420px;
+        }
+      }
+    
+      /* Consistent Loving Longmont hero — matches home page */
+      .hero { width: 100%; min-height: 0 !important; padding: 0 !important; display: block !important; background: var(--cream, #fffaf1) !important; position: relative; }
+      .hero img { width: 100% !important; height: auto !important; max-height: 700px !important; min-height: 0 !important; object-fit: cover !important; object-position: center !important; display: block !important; }
+    
+/* Canonical Loving Longmont footer */
+footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55px 25px 20px}
+.footer-grid{max-width:1150px;margin:auto;display:grid;grid-template-columns:1.5fr .8fr 1.2fr;gap:60px}
+.footer-logo-area{display:flex;align-items:center;gap:15px}
+.footer-logo-area h2{margin:0;font-size:25px}
+.footer-logo-area small{font-size:9px;letter-spacing:2px}
+.footer-about{max-width:380px;color:#d5e1e8;font-size:14px;margin-top:18px}
+.footer-heading{font-weight:bold;font-size:16px;margin-bottom:13px}
+.footer-links a{display:block;text-decoration:none;color:#e1ebf0;font-size:14px;margin:7px 0}
+.footer-links a:hover{color:white;text-decoration:underline}
+.footer-contact{color:#e1ebf0;font-size:14px}
+.footer-email{display:inline-block;margin-top:8px;color:white;text-decoration:none;font-weight:bold}
+.footer-bottom{max-width:1150px;margin:40px auto 0;padding-top:20px;border-top:1px solid rgba(255,255,255,.2);text-align:center;color:#c5d5df;font-size:12px}
+.red-heart{color:var(--red,#c8101e)}
+@media(max-width:900px){.footer-grid{grid-template-columns:1fr}}
+</style>
+  <meta name="robots" content="noindex,nofollow">
+<link rel="stylesheet" href="assets/scrapbook.css">
+</head>
+  <body class="sb-page-content"><svg width="0" height="0" aria-hidden="true" style="position:absolute"><defs><filter id="header-logo-color" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="0 0 0 0 1 -1 0 0 0 1 -1 0 0 0 1 0 0 0 1 0"/></filter></defs></svg>
+    <div class="sb-ribbon">Longmont, Colorado · Founded in 1871</div>
+<header class="sb-header"><div class="sb-wrap sb-mast">
+<a class="sb-brand" href="index.html">Loving Longmont<span class="sb-brand-heart" aria-hidden="true">♡</span></a>
+<nav class="sb-nav" aria-label="Main navigation"><a href="things-to-do.html">Explore</a><a href="businesses.html">Businesses</a><a href="events.html">Events</a><a href="community.html">Community</a><a href="history.html">History</a><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook ↗</a></nav>
+<form class="sb-search" action="search.html" method="get" role="search"><input type="search" name="q" placeholder="Search our town" aria-label="Search Loving Longmont"><button type="submit" aria-label="Search">⌕</button></form>
+<details class="sb-mobile"><summary>Menu</summary><nav class="sb-mobile-links" aria-label="Mobile navigation"><a href="things-to-do.html">Explore</a><a href="businesses.html">Businesses</a><a href="events.html">Events</a><a href="community.html">Community</a><a href="history.html">History</a><a href="sitemap.html">Site map</a><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook ↗</a></nav></details>
+</div></header>
+    <section class="hero">
+      <img src="https://raw.githubusercontent.com/LovingLongmont/loving-longmont-website/main/Images/Website-Images/2.png" alt="Loving Longmont Colorado" />
+    </section>
+    <section class="page-intro">
+      <div class="container">
+        <div class="eyebrow">Shop Small • Discover Local</div>
+        <h2 class="section-title">Find Something You Won't Find Everywhere</h2>
+        <p class="section-description">
+          This isn't a list of every business in town. Loving Longmont
+          highlights independent shops, makers, bookstores, boutiques, specialty
+          markets and creative places that give Longmont its personality.
+        </p>
+      </div>
+    </section>
+    <section class="notice-section">
+      <div class="notice-box">
+        <strong>📌 Planning a visit?</strong>
+        <p>
+          Small-business hours, inventory and contact information can change.
+          Please visit the business's official website or social media before
+          making a special trip.
+        </p>
+      </div>
+    </section>
+    <section class="category-section">
+      <div class="category-grid">
+        <a href="#arts-crafts-classes" class="category-card"><span>🎨</span><strong>Arts, Crafts &amp; Classes</strong></a>
+        <a href="#books-records-media" class="category-card"><span>📚</span><strong>Books, Records &amp; Media</strong></a>
+        <a href="#food-drink-restaurants" class="category-card"><span>🍽️</span><strong>Food, Drink &amp; Restaurants</strong></a>
+        <a href="#home-gifts-shopping" class="category-card"><span>🎁</span><strong>Home, Gifts &amp; Shopping</strong></a>
+        <a href="#outdoor-sports-recreation" class="category-card"><span>🚲</span><strong>Outdoor, Sports &amp; Recreation</strong></a>
+        <a href="#marketing-business-services" class="category-card"><span>📈</span><strong>Marketing &amp; Business Services</strong></a>
+        <a href="#photography" class="category-card"><span>📷</span><strong>Photography</strong></a>
+        <a href="#services-other-local-businesses" class="category-card"><span>🏪</span><strong>Services &amp; Other Local Businesses</strong></a>
+      </div>
+    </section>
+    <span id="home-gifts-shopping"></span><section class="featured-section" id="gifts">
+      <div class="featured-grid">
+        <div class="featured-image">
+          <img
+            src="https://wolfandwren.com/cdn/shop/files/Wolf_and_Wren_Longmont_3.jpg?v=1720791309"
+            alt="Inside Wolf and Wren in downtown Longmont"
+            loading="lazy"
+          />
+        </div>
+        <div class="featured-content">
+          <div class="eyebrow">Local Find • Stationery & Gifts</div>
+          <h2>Wolf & Wren</h2>
+          <p>
+            One of downtown Longmont's most colorful little shops. Wolf & Wren
+            specializes in clever letterpress greeting cards, stationery,
+            notebooks, writing tools and thoughtfully curated gifts.
+          </p>
+          <p>
+            Their award-winning cards are designed and printed using vintage
+            letterpress equipment, making this a particularly fun stop when
+            you're searching for something different.
+          </p>
+          <div class="featured-info">
+            <div>📍 <strong>331 Main St., Longmont, CO 80501</strong></div>
+            <div>☎ <strong>(925) 457-6050</strong></div>
+          </div>
+          <div class="business-links">
+            <a
+              href="https://wolfandwren.com/"
+              class="business-button"
+               target="_blank" rel="noopener noreferrer">Visit Website →</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="directory-section" id="makers">
+      <div class="container">
+        <div style="text-align: center">
+          <div class="eyebrow">Discover Local</div>
+          <h2 class="section-title">Longmont Shops Worth Exploring</h2>
+          <p class="section-description">
+            A growing collection of independent stores and specialty businesses
+            you may not discover unless someone tells you they're there.
+          </p>
+        </div>
+        <div class="business-grid">
+          <span id="photography"></span><article class="business-card" id="boulder-county-photography">
+            <div class="business-image"><img src="https://scontent-den2-1.xx.fbcdn.net/v/t39.30808-6/482276987_1260897215574136_5882880857954684927_n.jpg?stp=dst-jpg_tt6&amp;cstp=mx1050x600&amp;ctp=s1050x600&amp;_nc_cat=108&amp;ccb=1-7&amp;_nc_sid=86c6b0&amp;_nc_ohc=88xAVQ-94roQ7kNvwGfjm0V&amp;_nc_oc=AdoewdopXOiliufvjg1FJ-7UnXbme8R90EhEWRnGfsrHxuBi4X2Fc0pdBHzkeOFAYSwWvd6J-vsrRuPAC--OBbQH&amp;_nc_zt=23&amp;_nc_ht=scontent-den2-1.xx&amp;_nc_gid=MpwGSLvMDAM3qw0p3ffzeQ&amp;_nc_ss=7b2a8&amp;oh=00_AQOTXdyQW1epdk7YcOIXDSVk96R8JbMQyr8U5I5fCUsAhg&amp;oe=6AD12253" alt="Boulder County Photography logo" loading="lazy" style="object-fit:contain;object-position:center" /></div>
+            <div class="business-body">
+              <div class="business-category">Photography</div>
+              <h3>Boulder County Photography</h3>
+              <p class="business-description">Portrait and lifestyle photography serving Longmont and the surrounding Boulder County area. Photographer Michelle Skolyak offers relaxed sessions for families, seniors, engagements, new babies and life's meaningful moments.</p>
+              <div class="business-details">
+                <div class="business-detail"><span>📍</span><div><strong>Longmont, Colorado</strong></div></div>
+                <div class="business-detail"><span>☎</span><div><a href="tel:3039176522">303-917-6522</a></div></div>
+                <div class="business-detail"><span>✉</span><div><a href="mailto:mskolyak@live.com">mskolyak@live.com</a></div></div>
+              </div>
+              <div class="business-links">
+                <a href="https://BoulderCountyPhotography.com" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a>
+                
+              </div>
+            </div>
+          </article>
+          <article class="business-card">
+            <div class="business-image">
+              <img
+                src="https://media.rainpos.com/12828/carousel_module-7977345-image-26be0b86907d05469e766e9218a7bfbf.jpg"
+                alt="Tumbleweed Art Collective in Longmont"
+                loading="lazy"
+              />
+            </div>
+            <div class="business-body">
+              <div class="business-category">Local Art • Handmade Goods</div>
+              <h3>Tumbleweed Art Collective</h3>
+              <p class="business-description">
+                Part boutique, part gallery and part creative community.
+                Tumbleweed features handmade art and goods created by local
+                artists and makers, including work for the home and garden. It's
+                the kind of place where the inventory changes depending on what
+                local artists are creating.
+              </p>
+              <div class="business-details">
+                <div class="business-detail">
+                  <span>📍</span>
+                  <div>
+                    <strong>1333 Coffman St., Suite A</strong><br />Longmont, CO
+                    80501
+                  </div>
+                </div>
+                <div class="business-detail">
+                  <span>☎</span>
+                  <div><strong>303-960-9382</strong></div>
+                </div>
+              </div>
+              <div class="business-links">
+                <a
+                  href="https://www.thetumbleweedartcollective.com/"
+                  class="business-button"
+                   target="_blank" rel="noopener noreferrer">Visit Website →</a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="business-card">
+            <div class="business-image">
+              <img
+                src="https://img.ctykit.com/cdn/co-longmont/images/tr:w-1800/adornadornablesstorefront.jpg"
+                alt="Adorn Home and Gift Gallery in Longmont"
+                loading="lazy"
+              />
+            </div>
+            <div class="business-body">
+              <div class="business-category">Gifts • Home • Jewelry</div>
+              <h3>Adorn Home & Gift Gallery</h3>
+              <p class="business-description">
+                A longtime downtown gift shop filled with home décor, jewelry,
+                accessories and unusual gifts. Adorn is a good place to browse
+                when you know you need a gift but don't yet know exactly what
+                you're looking for.
+              </p>
+              <div class="business-details">
+                <div class="business-detail">
+                  <span>📍</span>
+                  <div>
+                    <strong>661 4th Ave.</strong><br />Longmont, CO 80501
+                  </div>
+                </div>
+                <div class="business-detail">
+                  <span>☎</span>
+                  <div><strong>303-651-6933</strong></div>
+                </div>
+              </div>
+              <div class="business-links">
+                <a
+                  href="https://www.adornadornables.com/"
+                  class="business-button"
+                   target="_blank" rel="noopener noreferrer">Visit Website →</a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="business-card">
+            <div class="business-image">
+              <img
+                src="https://magicfairycandles.com/cdn/shop/files/IMG_9666.heic?v=1732235418&width=1500"
+                alt="Magic Fairy Candles shop in Longmont"
+                loading="lazy"
+              />
+            </div>
+            <div class="business-body">
+              <div class="business-category">
+                Candles • Apothecary • Curious Finds
+              </div>
+              <h3>Magic Fairy Candles</h3>
+              <p class="business-description">
+                Much more than a candle shop. Magic Fairy Candles carries
+                handmade candles, aromatherapy, crystals, incense, natural
+                perfumes, ritual items, apothecary goods and plenty of
+                unexpected finds.
+              </p>
+              <div class="business-details">
+                <div class="business-detail">
+                  <span>📍</span>
+                  <div>
+                    <strong>634 Main St.</strong><br />Longmont, CO 80501
+                  </div>
+                </div>
+                <div class="business-detail">
+                  <span>☎</span>
+                  <div><strong>720-771-0359</strong></div>
+                </div>
+              </div>
+              <div class="business-links">
+                <a
+                  href="https://magicfairycandles.com/"
+                  class="business-button"
+                   target="_blank" rel="noopener noreferrer">Visit Website →</a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="business-card">
+            <div class="business-image">
+              <div class="business-placeholder">
+                <div>
+                  <span>🧵</span><strong>Maker General</strong>Textiles • Fiber
+                  • Creative Goods
+                </div>
+              </div>
+            </div>
+            <div class="business-body">
+              <div class="business-category">Craft • Textiles • Maker Shop</div>
+              <h3>Maker General</h3>
+              <p class="business-description">
+                A general store built specifically for makers. Maker General
+                specializes in thoughtfully selected textile and fiber supplies,
+                handmade goods and creative materials. They also host sewing,
+                mending and maker workshops.
+              </p>
+              <div class="business-details">
+                <div class="business-detail">
+                  <span>📍</span>
+                  <div>
+                    <strong>381 Main St.</strong><br />Longmont, CO 80501
+                  </div>
+                </div>
+                <div class="business-detail">
+                  <span>☎</span>
+                  <div><strong>720-310-5328</strong></div>
+                </div>
+              </div>
+              <div class="business-links">
+                <a
+                  href="https://makergeneral.com/"
+                  class="business-button"
+                   target="_blank" rel="noopener noreferrer">Visit Website →</a
+                >
+              </div>
+            </div>
+          </article>
+          <span id="books-records-media"></span><article class="business-card" id="books">
+            <div class="business-image">
+              <img
+                src="https://images.squarespace-cdn.com/content/v1/5bb956867eb88c3e3d6ae99f/1549334638380-AHSL1VD09DKGZDEDSM50/bwb%2Bsdjjd.jpg"
+                alt="Barbed Wire Books"
+                loading="lazy"
+              />
+            </div>
+            <div class="business-body">
+              <div class="business-category">Independent Bookstore</div>
+              <h3>Barbed Wire Books</h3>
+              <p class="business-description">
+                An independently owned downtown bookstore selling new and used
+                books. Browse Colorado and local-interest titles, hard-to-find
+                books, maps and guides, plus work from local authors and
+                craftspeople.
+              </p>
+              <div class="business-details">
+                <div class="business-detail">
+                  <span>📍</span>
+                  <div>
+                    <strong>504 Main St.</strong><br />Longmont, CO 80501
+                  </div>
+                </div>
+                <div class="business-detail">
+                  <span>☎</span>
+                  <div><strong>303-827-3620</strong></div>
+                </div>
+              </div>
+              <div class="business-links">
+                <a
+                  href="https://www.barbedwirebooks.org/"
+                  class="business-button"
+                   target="_blank" rel="noopener noreferrer">Visit Website →</a
+                >
+              </div>
+            </div>
+          </article>
+          <span id="food-drink-restaurants"></span><article class="business-card" id="specialty">
+            <div class="business-image" style="background: #f6f0e7">
+              <img
+                src="https://i0.wp.com/cheeseimporters.com/wp-content/uploads/2025/12/Cheese-Importer-Logo-cropped.png?fit=800%2C251&ssl=1"
+                alt="Cheese Importers Longmont"
+                loading="lazy"
+                style="object-fit: contain; padding: 35px"
+              />
+            </div>
+            <div class="business-body">
+              <div class="business-category">
+                Specialty Food • Imported Goods
+              </div>
+              <h3>Cheese Importers</h3>
+              <p class="business-description">
+                One of Longmont's true destination specialty stores. Wander
+                through a huge selection of international and local cheeses,
+                charcuterie, olive oils, spices and specialty foods, then
+                explore imported textiles, kitchen goods, soaps, gifts and
+                European market finds.
+              </p>
+              <div class="business-details">
+                <div class="business-detail">
+                  <span>📍</span>
+                  <div>
+                    <strong>103 Main St.</strong><br />Longmont, CO 80501
+                  </div>
+                </div>
+                <div class="business-detail">
+                  <span>☎</span>
+                  <div><strong>303-772-9599</strong></div>
+                </div>
+              </div>
+              <div class="business-links">
+                <a
+                  href="https://cheeseimporters.com/"
+                  class="business-button"
+                   target="_blank" rel="noopener noreferrer">Visit Website →</a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="business-card">
+            <div class="business-image">
+              <div class="business-placeholder">
+                <div>
+                  <span>🛍️</span><strong>Juniper Goods</strong>Small • Slow •
+                  Considered
+                </div>
+              </div>
+            </div>
+            <div class="business-body">
+              <div class="business-category">Boutique • Colorado Makers</div>
+              <h3>Juniper Goods</h3>
+              <p class="business-description">
+                A women-owned lifestyle boutique built around small, independent
+                and maker-led brands. Browse apparel, home goods, jewelry,
+                ceramics and pantry items, including products from Colorado
+                makers. There's also coffee, brunch and a zero-proof bar.
+              </p>
+              <div class="business-details">
+                <div class="business-detail">
+                  <span>📍</span>
+                  <div>
+                    <strong>659 4th Ave.</strong><br />Longmont, CO 80501
+                  </div>
+                </div>
+                <div class="business-detail">
+                  <span>☎</span>
+                  <div><strong>720-727-0695</strong></div>
+                </div>
+              </div>
+              <div class="business-links">
+                <a
+                  href="https://junipergoods.co/"
+                  class="business-button"
+                   target="_blank" rel="noopener noreferrer">Visit Website →</a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="business-card">
+            <div class="business-image">
+              <div class="business-placeholder">
+                <div>
+                  <span>🪬</span><strong>Moroccan Rugs & Gifts</strong>Textiles
+                  • Artisan Imports
+                </div>
+              </div>
+            </div>
+            <div class="business-body">
+              <div class="business-category">Rugs • Imports • Home</div>
+              <h3>Moroccan Rugs & Gifts</h3>
+              <p class="business-description">
+                A specialty shop filled with authentic Moroccan textiles and
+                artisan goods. The store is particularly known for Berber and
+                tribal rugs, along with leather goods, pillows, ceramics and
+                distinctive décor. Definitely one of Longmont's more unexpected
+                places to browse.
+              </p>
+              <div class="business-details">
+                <div class="business-detail">
+                  <span>📍</span>
+                  <div>
+                    <strong>603 3rd Ave.</strong><br />Longmont, CO 80501
+                  </div>
+                </div>
+                <div class="business-detail">
+                  <span>☎</span>
+                  <div><strong>303-532-6762</strong></div>
+                </div>
+              </div>
+              
+            </div>
+          </article>
+          <article class="business-card" id="bee-hugger-farm">
+            <div class="business-image">
+              <img
+                src="https://static.wixstatic.com/media/646d3b_9df553f39bb54fd6a14a96b92d28bedd~mv2.jpg"
+                alt="Animals and farm experiences at The Bee Hugger Farm in Longmont"
+                loading="lazy"
+              />
+            </div>
+            <div class="business-body">
+              <div class="business-category">
+                Local Farm • Honey • Seasonal Experiences
+              </div>
+              <h3>The Bee Hugger Farm</h3>
+              <p class="business-description">
+                A welcoming six-acre Longmont farm where visitors can meet and
+                feed animals, explore vintage farm features, shop for local
+                honey and enjoy seasonal experiences such as U-pick sunflowers,
+                a pumpkin patch, pony rides, hayrides, Christmas trees and
+                special events. Check the farm’s website or social pages for
+                current hours, seasonal activities and group requirements before
+                visiting.
+              </p>
+              <div class="business-details">
+                <div class="business-detail">
+                  <span>📍</span>
+                  <div>
+                    <strong>12590 Ute Hwy.</strong><br />Longmont, CO 80504
+                  </div>
+                </div>
+                <div class="business-detail">
+                  <span>☎</span>
+                  <div>
+                    <strong>303-330-8277</strong> — Events &amp; experiences<br /><strong
+                      >720-296-0270</strong
+                    >
+                    — Honey, sales &amp; farming needs
+                  </div>
+                </div>
+                <div class="business-detail">
+                  <span>✉</span>
+                  <div><strong>comeandbee@gmail.com</strong></div>
+                </div>
+              </div>
+              <div class="business-links">
+                <a
+                  href="https://www.thebeehuggerfarm.com/"
+                  class="business-button"
+                   target="_blank" rel="noopener noreferrer">Visit Website →</a
+                >
+              </div>
+            </div>
+          </article>
+          <span id="marketing-business-services"></span><article class="business-card" id="mkt-visibility">
+            <div class="business-image">
+              <img
+                src="https://raw.githubusercontent.com/LovingLongmont/loving-longmont-website/main/Images/Website-Images/c.mkt.2.png"
+                alt="MKT Visibility digital marketing for small businesses"
+                loading="lazy"
+              />
+            </div>
+            <div class="business-body">
+              <div class="business-category">
+                Digital Marketing • Social Media • Websites
+              </div>
+              <h3>MKT Visibility</h3>
+              <p class="business-description">
+                Helping Colorado small businesses stay visible without having to
+                do all of the marketing themselves. MKT Visibility provides
+                social media management, content creation, photography and
+                video, website support, Google Business Profile support, and
+                digital marketing services tailored to small businesses.
+              </p>
+              <div class="business-details">
+                <div class="business-detail">
+                  <span>📍</span>
+                  <div>
+                    <strong>Serving Colorado small businesses</strong
+                    ><br />Remote services available
+                  </div>
+                </div>
+                <div class="business-detail">
+                  <span>✉</span>
+                  <div><strong>MKTvisibility@gmail.com</strong></div>
+                </div>
+              </div>
+              <div class="business-links">
+                <a
+                  href="https://mktvisibility.com"
+                  class="business-button"
+                   target="_blank" rel="noopener noreferrer">Visit Website →</a
+                ><a
+                  href="mailto:MKTvisibility@gmail.com"
+                  class="business-button secondary"
+                  >Email →</a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="business-card" id="flower-bin">
+            <div class="business-image">
+              <img
+                src="https://theflowerbin.net/assets/images/671b077c28523133f6281e91e3ec1630.jpg"
+                alt="The Flower Bin garden center in Longmont"
+                loading="lazy"
+                referrerpolicy="no-referrer"
+              />
+            </div>
+            <div class="business-body">
+              <div class="business-category">
+                Garden Center • Plants • Gifts
+              </div>
+              <h3>The Flower Bin</h3>
+              <p class="business-description">
+                A family-owned Longmont garden center operating since 1971, with
+                five acres of plants, indoor growing space, gardening supplies,
+                gifts and home décor.
+              </p>
+              <div class="business-details">
+                <div class="business-detail">
+                  <span>📍</span>
+                  <div>
+                    <strong>1805 Nelson Road</strong><br />Longmont, CO 80501
+                  </div>
+                </div>
+                <div class="business-detail">
+                  <span>☎</span>
+                  <div>
+                    <strong><a href="tel:3037723454">303-772-3454</a></strong>
+                  </div>
+                </div>
+              </div>
+              <div class="business-links">
+                <a
+                  href="https://www.theflowerbin.net/"
+                  class="business-button"
+                   target="_blank" rel="noopener noreferrer">Visit Website →</a
+                >
+                
+              </div>
+            </div>
+          </article>
+          <article class="business-card" id="creative-treasures"><div class="business-image"><div class="business-placeholder"><div><span>🏪</span><strong>Creative Treasures</strong></div></div></div><div class="business-body"><div class="business-category">Arts & Crafts • Local Makers</div><h3>Creative Treasures</h3><p class="business-description">A local arts-and-crafts shop combining handmade consignment from Colorado creators with affordable secondhand craft supplies and a classroom for creative gatherings and classes.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>1811 Hover St., Unit C</strong><br>Longmont, CO 80501</div></div><div class="business-detail"><span>☎</span><div><strong>720-340-9951</strong></div></div></div><div class="business-links"><a href="https://www.creativetreasuresloco.com/" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article>
+          <article class="business-card" id="bowen-bakery"><div class="business-image"><div class="business-placeholder"><div><span>🏪</span><strong>Bowen Bakery</strong></div></div></div><div class="business-body"><div class="business-category">Micro-Bakery • Cottage Foods</div><h3>Bowen Bakery</h3><p class="business-description">A Longmont home micro-bakery offering porch pickups, bake stands and custom batches of cookies, cupcakes, muffins, scones, cinnamon rolls, sourdough, cakes and other baked goods.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>Longmont pickup</strong><br>Home bakery — address provided with orders</div></div></div><div class="business-links"><a href="https://www.bowenbakery.com/" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article>
+          <article class="business-card" id="popcakes"><div class="business-image"><img src="https://cakepopscolorado.com/wp-content/uploads/2025/09/Carly-Photo-Pop-Cakes-Owner.jpg" alt="Carly, owner of PopCakes" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:50% 24%;" /></div><div class="business-body"><div class="business-category">Cakesicles • Specialty Desserts</div><h3>PopCakes</h3><p class="business-description">A family- and woman-owned Longmont bakery creating handmade cakesicles and cake pops in small batches for customers across Northern Colorado.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>Longmont, Colorado</strong><br>Serves Northern Colorado</div></div></div><div class="business-links"><a href="https://cakepopscolorado.com/" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article>
+          <article class="business-card" id="golden-loaves"><div class="business-image"><div class="business-placeholder"><div><span>🏪</span><strong>Golden Loaves</strong></div></div></div><div class="business-body"><div class="business-category">Home Bakery • Artisan Bread</div><h3>Golden Loaves</h3><p class="business-description">A Longmont home bakery specializing in small-batch artisan breads, from classic boules and focaccia to flavored loaves, babka and banana bread.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>Longmont, Colorado</strong><br>Pickup or local delivery</div></div><div class="business-detail"><span>☎</span><div><strong>605-695-3088</strong></div></div></div><div class="business-links"><a href="https://www.goldenloaves.llc/" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article>
+          <article class="business-card" id="salt-and-bread"><div class="business-image"><div class="business-placeholder"><div><span>🏪</span><strong>Salt and Bread</strong></div></div></div><div class="business-body"><div class="business-category">Micro-Bakery • Sourdough</div><h3>Salt and Bread</h3><p class="business-description">An Old Town Longmont micro-bakery centered on artisan sourdough, baked goods and hands-on sourdough workshops, with preorder-based local pickup.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>Old Town Longmont</strong><br>Pickup details provided with orders</div></div></div><div class="business-links"><a href="https://www.saltandbreadco.com/" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article>
+
+          <article class="business-card" id="composition-shop"><div class="business-image"><div class="business-placeholder"><div><span>📚</span><strong>Composition Shop</strong>Books • Chocolate • Paper Goods</div></div></div><div class="business-body"><div class="business-category">Independent Bookstore • Stationery</div><h3>Composition Shop</h3><p class="business-description">A community-based independent bookstore in downtown Longmont pairing books with stationery, paper goods and chocolate, plus a busy calendar of book clubs and author events.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>356 Main St.</strong><br>Longmont, CO 80501</div></div><div class="business-detail"><span>☎</span><div><strong>720-552-8003</strong></div></div></div><div class="business-links"><a href="https://compositionshop.com/" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article>
+          <article class="business-card" id="quill-and-candle"><div class="business-image"><div class="business-placeholder"><div><span>📖</span><strong>The Quill &amp; Candle Bookshop</strong>Books • Gifts • Events</div></div></div><div class="business-body"><div class="business-category">Independent Bookstore • Prospect</div><h3>The Quill &amp; Candle Bookshop</h3><p class="business-description">A cozy independent bookshop in Prospect New Town with curated fiction and children's books, book-themed gifts and community events including author visits and book clubs.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>2007 100 Year Party Ct.</strong><br>Longmont, CO 80504</div></div><div class="business-detail"><span>☎</span><div><strong>970-660-7820</strong></div></div></div></div></article>
+          <article class="business-card" id="loco-skateshop"><div class="business-image"><div class="business-placeholder"><div><span>🛹</span><strong>LoCo Skateshop</strong>Skateboards • Gear • Community</div></div></div><div class="business-body"><div class="business-category">Skate Shop • Locally Owned</div><h3>LoCo Skateshop</h3><p class="business-description">Founded in Longmont by local skaters, LoCo carries skateboard and longboard gear, clothing and accessories while serving as a community hub for skaters throughout Boulder County.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>622 Main St., #101</strong><br>Longmont, CO 80501</div></div><div class="business-detail"><span>☎</span><div><strong>303-772-2972</strong></div></div></div><div class="business-links"><a href="https://locoskateshop.com/" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article>
+          <article class="business-card" id="absolute-vinyl"><div class="business-image"><div class="business-placeholder"><div><span>🎵</span><strong>Absolute Vinyl Records &amp; Stereo</strong>Records • Vintage Audio</div></div></div><div class="business-body"><div class="business-category">Record Store • Stereo Equipment</div><h3>Absolute Vinyl Records &amp; Stereo</h3><p class="business-description">A downtown specialty shop for new and vintage vinyl, 45s and stereo equipment, serving collectors and newer vinyl listeners from its Main Street storefront.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>319 Main St.</strong><br>Longmont, CO 80501</div></div><div class="business-detail"><span>☎</span><div><strong>303-955-1519</strong></div></div></div></div></article>
+          <article class="business-card" id="longmont-bicycle-company"><div class="business-image"><div class="business-placeholder"><div><span>🚲</span><strong>Longmont Bicycle Company</strong>Bikes • E-Bikes • Service</div></div></div><div class="business-body"><div class="business-category">Family-Owned Bike Shop</div><h3>Longmont Bicycle Company</h3><p class="business-description">A locally owned, family-run full-service bicycle shop founded in 2017, with bikes and e-bikes for many riding styles plus cycling gear, repairs and maintenance.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>110 Emery St., Unit D</strong><br>Longmont, CO 80501</div></div><div class="business-detail"><span>☎</span><div><strong>303-834-9994</strong></div></div></div><div class="business-links"><a href="https://www.longmontbikes.com/" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article>
+          <article class="business-card" id="snow-apparel"><div class="business-image"><div class="business-placeholder"><div><span>👗</span><strong>SNOW Apparel</strong>Women's Clothing • Slow Fashion</div></div></div><div class="business-body"><div class="business-category">Boutique • Sustainable Fashion</div><h3>SNOW Apparel</h3><p class="business-description">An independent downtown women's boutique focused on slow fashion, with clothing and accessories selected around quality, ethical production and sustainable materials.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>520 Main St., Suite B-1</strong><br>Longmont, CO 80501</div></div><div class="business-detail"><span>☎</span><div><strong>303-434-8566</strong></div></div></div><div class="business-links"><a href="https://snowapparel.us/" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article>
+          <article class="business-card" id="ambrosia-glass-art"><div class="business-image"><div class="business-placeholder"><div><span>🔥</span><strong>Ambrosia Glass Art</strong>Glassblowing • Classes • Art</div></div></div><div class="business-body"><div class="business-category">Glass Art • Hands-On Experience</div><h3>Ambrosia Glass Art</h3><p class="business-description">A Longmont glassblowing studio creating fine glass art and custom work while offering private lessons, two-person workshops and group glassblowing experiences for a range of skill levels.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>34 Boston Ct., #D</strong><br>Longmont, CO 80501</div></div><div class="business-detail"><span>☎</span><div><strong>303-678-1641</strong></div></div></div><div class="business-links"><a href="https://ambrosiaglass.art/" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article>
+          <article class="business-card" id="simply-bulk-market"><div class="business-image"><div class="business-placeholder"><div><span>🌿</span><strong>Simply Bulk Market</strong>Bulk Foods • Refill Shopping</div></div></div><div class="business-body"><div class="business-category">Zero-Waste Market • Specialty Grocery</div><h3>Simply Bulk Market</h3><p class="business-description">A downtown bulk market where shoppers can refill their own containers with foods, spices, teas, personal-care products, cleaning supplies and other goods while reducing packaging waste.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>418 Main St.</strong><br>Longmont, CO 80501</div></div><div class="business-detail"><span>☎</span><div><strong>303-678-7069</strong></div></div></div><div class="business-links"><a href="http://simplybulkmarket.com/" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article>
+
+          <article class="business-card" id="crackpots"><div class="business-image"><div class="business-placeholder"><div><span>🎨</span><strong>Crackpots Pottery Studio</strong>Pottery • Art • Creative Experiences</div></div></div><div class="business-body"><div class="business-category">Paint-Your-Own Pottery • Art Studio</div><h3>Crackpots Pottery Studio</h3><p class="business-description">A longtime downtown Longmont creative studio where visitors can paint pottery and make art in a relaxed, all-ages setting. Crackpots also hosts parties, group gatherings and creative events.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>505 Main St.</strong><br>Longmont, CO 80501</div></div><div class="business-detail"><span>☎</span><div><strong>303-776-2211</strong></div></div></div><div class="business-links"><a href="https://crackpots.com/" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article>
+          <article class="business-card" id="canvas-local-art-bar"><div class="business-image" style="background:#fff;"><img src="https://raw.githubusercontent.com/LovingLongmont/loving-longmont-website/main/IMG_4932.jpeg" alt="The Canvas Local Art Bar logo" loading="lazy" style="object-fit:contain; object-position:center; padding:18px; box-sizing:border-box;"></div><div class="business-body"><div class="business-category">Art Studio • Paint &amp; Sip • Events</div><h3>The Canvas Local Art Bar</h3><p class="business-description">A locally owned downtown art studio combining guided painting experiences with an on-site bar featuring Colorado-made drinks and snacks. The Canvas offers classes, open painting and private events.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>333 1st Ave., #1</strong><br>Longmont, CO 80501</div></div><div class="business-detail"><span>☎</span><div><strong>720-340-1941</strong></div></div></div><div class="business-links"><a href="https://thecanvasartbar.com/" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article>
+          <article class="business-card" id="wheelhouse-pottery"><div class="business-image"><div class="business-placeholder"><div><span>🏺</span><strong>Wheelhouse</strong>Pottery • Classes • Studio</div></div></div><div class="business-body"><div class="business-category">Pottery Studio • Classes • Membership</div><h3>Wheelhouse</h3><p class="business-description">A community pottery studio in Prospect New Town focused on adult ceramics education and independent studio practice, with multi-week classes, private events and memberships for experienced potters.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>645 Tenacity Dr., Unit E</strong><br>Longmont, CO 80504</div></div><div class="business-detail"><span>☎</span><div><strong>720-239-2488</strong></div></div></div><div class="business-links"><a href="https://www.wheelhouseclay.com/" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article>
+          <article class="business-card" id="shoes-and-brews"><div class="business-image"><div class="business-placeholder"><div><span>👟</span><strong>Shoes &amp; Brews</strong>Running • Community • Taproom</div></div></div><div class="business-body"><div class="business-category">Running Store • Taproom • Community</div><h3>Shoes &amp; Brews</h3><p class="business-description">A distinctly Longmont combination of specialty running store and taproom, pairing running shoes and gear with community runs, local beer and a social gathering place for runners and walkers.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>63 S. Pratt Pkwy., Unit B</strong><br>Longmont, CO 80501</div></div><div class="business-detail"><span>☎</span><div><strong>720-340-4290</strong></div></div></div><div class="business-links"><a href="https://shoesbrews.com/" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article>
+        </div>
+      </div>
+    </section>
+    <span id="outdoor-sports-recreation"></span><section class="directory-section" id="local-experiences"><div class="section-inner"><div class="section-heading"><h2>More Local Experiences &amp; Specialty Finds</h2><p>Independent places to explore around Longmont.</p></div><div class="business-grid"><article class="business-card" id="rocky-mountain-pumpkin-ranch"><div class="business-image"><div class="business-placeholder"><div><span>🎃</span><strong>Rocky Mountain Pumpkin Ranch</strong>Seasonal Farm</div></div></div><div class="business-body"><div class="business-category">Farm • Seasonal Experiences</div><h3>Rocky Mountain Pumpkin Ranch</h3><p class="business-description">A local seasonal farm destination known for its fall pumpkin activities and family outings.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>9059 Ute Hwy.</strong><br>Longmont, CO</div></div></div></div></article></div></div></section>
+    <span id="services-other-local-businesses"></span><section class="directory-section" id="more-local-finds"><div class="container"><div class="eyebrow">Discover Local</div><h2 class="section-title">More Longmont Hidden Gems</h2><p class="section-description">Independent shops, studios and unusual local experiences.</p><div class="business-grid"><article class="business-card" id="wrens-nest-art-studio"><div class="business-image"><div class="business-placeholder"><div><strong>Wren’s Nest Art Studio</strong></div></div></div><div class="business-body"><div class="business-category">Art Studio • Classes • Camps</div><h3>Wren’s Nest Art Studio</h3><p class="business-description">Art classes, camps, open studio sessions and creative gatherings for children and adults.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>2030 Ionosphere St., Unit A</strong><br>Longmont, CO</div></div><div class="business-detail"><span>☎</span><div><strong>720-340-5837</strong></div></div></div><div class="business-links"><a href="https://wrensneststudio.com/" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article>
+<article class="business-card" id="quarters-bar-arcade"><div class="business-image"><div class="business-placeholder"><div><strong>Quarter’s Bar + Arcade</strong></div></div></div><div class="business-body"><div class="business-category">Arcade • Local Entertainment</div><h3>Quarter’s Bar + Arcade</h3><p class="business-description">A locally founded downtown arcade with classic games, pinball, self-serve drinks and private party options.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>475 Main St.</strong><br>Longmont, CO</div></div><div class="business-detail"><span>☎</span><div><strong>303-719-2550</strong></div></div></div><div class="business-links"><a href="https://quartersbarandarcade.com/" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article>
+<article class="business-card" id="butterscotch-studios"><div class="business-image"><div class="business-placeholder"><div><strong>Butterscotch Studios</strong></div></div></div><div class="business-body"><div class="business-category">Music Lessons • Arts</div><h3>Butterscotch Studios</h3><p class="business-description">A locally owned creative space offering music lessons, arts programming and community collaboration.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>620 Kimbark St.</strong><br>Longmont, CO</div></div><div class="business-detail"><span>☎</span><div><strong>303-483-3257</strong></div></div></div><div class="business-links"><a href="https://www.butterscotchstudios.com/" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article>
+<article class="business-card" id="longmont-yarn-shoppe"><div class="business-image"><div class="business-placeholder"><div><strong>Longmont Yarn Shoppe</strong></div></div></div><div class="business-body"><div class="business-category">Yarn • Fiber Arts • Classes</div><h3>Longmont Yarn Shoppe</h3><p class="business-description">An independent, woman-owned yarn shop with knitting and crochet supplies, fiber-arts tools and hands-on classes.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>454 Main St.</strong><br>Longmont, CO</div></div><div class="business-detail"><span>☎</span><div><strong>303-678-8242</strong></div></div></div><div class="business-links"><a href="https://www.longmontyarn.com/" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article>
+<article class="business-card" id="bricks-on-main"><div class="business-image"><div class="business-placeholder"><div><strong>Bricks on Main</strong></div></div></div><div class="business-body"><div class="business-category">Colorado Makers • Shopping • Music</div><h3>Bricks on Main</h3><p class="business-description">A downtown destination bringing together locally made products, food, drinks and live entertainment.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>471 Main St.</strong><br>Longmont, CO</div></div><div class="business-detail"><span>☎</span><div><strong>720-600-2350</strong></div></div></div><div class="business-links"><a href="https://www.bricksonmain.com/" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article>
+<article class="business-card" id="retail-therapy-vendor-market"><div class="business-image"><div class="business-placeholder"><div><strong>Retail Therapy Vendor Market</strong></div></div></div><div class="business-body"><div class="business-category">Vendor Market • Vintage • Makers</div><h3>Retail Therapy Vendor Market</h3><p class="business-description">An indoor multi-vendor market featuring independent sellers, vintage finds and handmade goods.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>611 2nd Ave.</strong><br>Longmont, CO</div></div><div class="business-detail"><span>☎</span><div><strong>720-552-1082</strong></div></div></div></div></article>
+<article class="business-card" id="dirtlabs-suspension"><div class="business-image"><div class="business-placeholder"><div><strong>DirtLabs Suspension</strong></div></div></div><div class="business-body"><div class="business-category">Bicycle Suspension • Specialist Repair</div><h3>DirtLabs Suspension</h3><p class="business-description">An independent specialist in mountain-bike suspension service, repair and tuning, with local and mail-in service.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>721 Main St.</strong><br>Longmont, CO</div></div><div class="business-detail"><span>☎</span><div><strong>720-213-4742</strong></div></div></div></div></article>
+<article class="business-card" id="newcastle-comics-games"><div class="business-image"><div class="business-placeholder"><div><strong>NewCastle Comics &amp; Games</strong></div></div></div><div class="business-body"><div class="business-category">Comics • Tabletop Games</div><h3>NewCastle Comics &amp; Games</h3><p class="business-description">A local specialty shop for comic books, tabletop games, trading cards and collectibles.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>508 5th Ave.</strong><br>Longmont, CO</div></div><div class="business-detail"><span>☎</span><div><strong>720-731-2658</strong></div></div></div></div></article><article class="business-card" id="drifters-thrift-bar"><div class="business-image"><div class="business-placeholder"><div><strong>Drifters</strong></div></div></div><div class="business-body"><div class="business-category">Vintage Shopping • Bar • Events</div><h3>Drifters</h3><p class="business-description">A downtown vintage clothing shop and cocktail bar offering curated secondhand finds, fresh-juice cocktails, live entertainment and private events.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>624 Main St., Suite A</strong><br>Longmont, CO 80501</div></div><div class="business-detail"><span>☎</span><div><strong>712-210-6936</strong></div></div></div><div class="business-links"><a href="https://www.driftersthriftbar.com/" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article><article class="business-card" id="scoops-on-the-corner"><div class="business-image"><div class="business-placeholder"><div><strong>Scoops on the Corner</strong></div></div></div><div class="business-body"><div class="business-category">Ice Cream • Desserts</div><h3>Scoops on the Corner</h3><p class="business-description">A locally owned neighborhood ice cream shop serving handcrafted ice cream made with Colorado dairy, plus milkshakes, sundaes and other sweet treats.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>1844 Hover St., Unit A</strong><br>Longmont, CO 80501</div></div><div class="business-detail"><span>☎</span><div><strong>720-899-8215</strong></div></div></div><div class="business-links"><a href="https://scoopsonthecorner.com/" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article><article class="business-card" id="longmont-indian-kitchen"><div class="business-image"><div class="business-placeholder"><div><strong>Longmont Indian Kitchen</strong></div></div></div><div class="business-body"><div class="business-category">Indian Restaurant</div><h3>Longmont Indian Kitchen</h3><p class="business-description">Chef Sheel Joshi brings modern Indian cuisine inspired by traditional flavors and refined culinary techniques to an intimate downtown dining room.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>838 Coffman St.</strong><br>Longmont, CO 80501</div></div><div class="business-detail"><span>☎</span><div><strong>303-774-7788</strong></div></div></div><div class="business-links"><a href="https://www.longmontindiankitchen.com/" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article><article class="business-card" id="the-longmonter"><div class="business-image"><div class="business-placeholder"><div><strong>The Longmonter Restaurant</strong></div></div></div><div class="business-body"><div class="business-category">Restaurant • Comfort Food</div><h3>The Longmonter Restaurant</h3><p class="business-description">A downtown restaurant specializing in gourmet comfort food, including creative seven-cheese macaroni dishes, hearty plates and desserts.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>218 Coffman St.</strong><br>Longmont, CO 80501</div></div><div class="business-detail"><span>☎</span><div><strong>720-684-7727</strong></div></div></div><div class="business-links"><a href="https://order.toasttab.com/online/thelongmonter" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article><article class="business-card" id="lobos-cocina-bar"><div class="business-image"><div class="business-placeholder"><div><strong>Lobos Cocina &amp; Bar</strong></div></div></div><div class="business-body"><div class="business-category">Mexican Restaurant</div><h3>Lobos Cocina &amp; Bar</h3><p class="business-description">A locally operated Mexican restaurant with traditional dishes, steaks, seafood, cocktails and a family-friendly sports-viewing atmosphere.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>1950 Main St.</strong><br>Longmont, CO 80501</div></div><div class="business-detail"><span>☎</span><div><strong>303-848-2992</strong></div></div></div><div class="business-links"><a href="https://loboscocinabar.com/" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article><article class="business-card" id="kawaii-konbini"><div class="business-image"><div class="business-placeholder"><div><strong>Kawaii Konbini</strong></div></div></div><div class="business-body"><div class="business-category">Japanese Snacks • Specialty Shop</div><h3>Kawaii Konbini</h3><p class="business-description">A Japanese-inspired neighborhood convenience shop featuring freshly made onigiri, Japanese snacks, drinks, sweets and gifts.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>195 S Main St., Suite 9</strong><br>Longmont, CO 80501</div></div></div></div></article><article class="business-card" id="the-blackbird-house"><div class="business-body"><div class="business-category">Gifts • Crystals • Metaphysical</div><h3>The Blackbird House</h3><p class="business-description">A downtown shop for unusual gifts, crystals and metaphysical finds.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>439 Main St., Longmont, CO 80501</strong></div></div><div class="business-detail"><span>☎</span><div><a href="tel:7206338779">720-633-8779</a></div></div></div></div></article>
+<article class="business-card" id="wax-crescent"><div class="business-body"><div class="business-category">Handmade Candles • Gifts • Workshops</div><h3>Wax Crescent</h3><p class="business-description">Shop small-batch candles and curated artisan goods, or join a candle-making class focused on blending your own fragrance.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>525 3rd Ave., Suite 101, Longmont, CO 80501</strong></div></div><div class="business-detail"><span>✉</span><div><a href="mailto:shinebright@waxcrescent.com">shinebright@waxcrescent.com</a></div></div></div><div class="business-links"><a href="https://waxcrescent.com/pages/wax-crescent-storefront" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article>
+<article class="business-card" id="robin-chocolates"><div class="business-body"><div class="business-category">Artisan Chocolate • Gifts</div><h3>Robin Chocolates</h3><p class="business-description">A Longmont chocolate kitchen making bonbons, truffles, bars and seasonal confections with artistic designs and distinctive flavors.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>600 S Airport Rd., Building B, Suite D, Longmont, CO 80503</strong></div></div><div class="business-detail"><span>☎</span><div><a href="tel:7202048003">720-204-8003</a></div></div><div class="business-detail"><span>✉</span><div><a href="mailto:orders@robinchocolates.com">orders@robinchocolates.com</a></div></div></div><div class="business-links"><a href="https://robinchocolates.com/" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article>
+<article class="business-card" id="open-window-studio"><div class="business-body"><div class="business-category">Art • Clay • Classes &amp; Camps</div><h3>Open Window Studio</h3><p class="business-description">Explore art and clay through classes, workshops and camps for children, teens and adults in a creative studio on a Longmont family farm.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>7873 St. Vrain Rd., Longmont, CO</strong></div></div><div class="business-detail"><span>☎</span><div><a href="tel:7204001319">720-400-1319</a></div></div><div class="business-detail"><span>✉</span><div><a href="mailto:page@openwindowstudio.org">page@openwindowstudio.org</a></div></div></div><div class="business-links"><a href="https://www.openwindowstudio.org/" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article>
+<article class="business-card" id="obra-arts"><div class="business-body"><div class="business-category">Watercolor • Gallery • Bilingual Classes</div><h3>Obra Arts</h3><p class="business-description">Artist Joyanna Rose Gittings welcomes visitors to a working studio and gallery offering handmade art and creative learning in English and Spanish.</p><div class="business-details"><div class="business-detail"><span>📍</span><div><strong>332 Main St., upstairs on the left, Longmont, CO</strong></div></div><div class="business-detail"><span>☎</span><div><a href="tel:9705686058">970-568-6058</a></div></div><div class="business-detail"><span>✉</span><div><a href="mailto:joyannarose@gmail.com">joyannarose@gmail.com</a></div></div></div><div class="business-links"><a href="https://www.joyannarose.com/" class="business-button" target="_blank" rel="noopener noreferrer">Visit Website →</a></div></div></article>
+</div></div></section>
+    <span id="arts-crafts-classes"></span><section class="creative-section" id="creative">
+      <div class="container">
+        <div style="text-align: center">
+          <div class="eyebrow">Local Creative Business</div>
+          <h2 class="section-title">
+            Photographing the People and Moments That Matter
+          </h2>
+        </div>
+        <div class="creative-card" id="boulder-county-photography-spotlight">
+          <div class="creative-photo">
+            <img
+              src="https://mktvisibility.github.io/BoulderCountyPhotography/2022-04-16_23-52-32_550.jpeg"
+              alt="Portrait photography by Boulder County Photography"
+              loading="lazy"
+            />
+          </div>
+          <div class="creative-content">
+            <div class="eyebrow">Portrait & Lifestyle Photography</div>
+            <h3>Boulder County Photography</h3>
+            <p>
+              I believe some of the best photographs happen when people are
+              comfortable enough to simply be themselves.
+            </p>
+            <p>
+              Whether we are capturing a senior milestone, celebrating an
+              engagement, photographing your family, welcoming a new baby or
+              simply documenting this chapter of your life, my goal is to create
+              photographs that feel genuine and worth keeping.
+            </p>
+            <p>
+              Boulder County Photography serves Longmont and the surrounding
+              Boulder County area with relaxed portrait sessions designed around
+              real people, real relationships and meaningful moments.
+            </p>
+            <div class="business-links">
+              <a
+                href="https://BoulderCountyPhotography.com"
+                class="business-button"
+                 target="_blank" rel="noopener noreferrer">Visit Website →</a
+              ><a
+                href="mailto:hello@BoulderCountyPhotography.com"
+                class="business-button secondary"
+                >Email →</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="support-local">
+      <div class="container">
+        <div style="text-align: center">
+          <div class="eyebrow">Why Local Matters</div>
+          <h2 class="section-title">Shop Longmont First</h2>
+        </div>
+        <div class="support-grid">
+          <div class="support-card">
+            <span>❤️</span>
+            <h3>Discover Something Different</h3>
+            <p>
+              Independent shops often carry products, artwork and gifts you
+              won't find at national chains.
+            </p>
+          </div>
+          <div class="support-card">
+            <span>👋</span>
+            <h3>Know Your Neighbors</h3>
+            <p>
+              Local businesses are run by real people who live, work and invest
+              in our community.
+            </p>
+          </div>
+          <div class="support-card">
+            <span>📍</span>
+            <h3>Keep Longmont Unique</h3>
+            <p>
+              The places we choose to support help shape what downtown and the
+              rest of Longmont will look like tomorrow.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cta-section">
+      <div class="container">
+        <div class="eyebrow">Found a Hidden Gem?</div>
+        <h2>Tell Loving Longmont About It</h2>
+        <p>
+          Know an independent Longmont shop, maker, specialty store or small
+          business that deserves to be discovered? Send it our way.
+        </p>
+        <a
+          href="mailto:hello.lovinglongmont@gmail.com?subject=Longmont%20Business%20Submission&body=Hi%20Loving%20Longmont%2C%0A%0AI%27d%20like%20to%20suggest%20a%20Longmont%20business.%0A%0ABusiness%20Name%3A%0AWebsite%3A%0AAddress%3A%0AWhat%20makes%20it%20special%3A%0A"
+          class="button-light"
+          >Recommend a Local Business →</a
+        >
+      </div>
+    </section>
+    <footer class="sb-footer"><div class="sb-wrap"><div class="sb-foot-top"><a class="sb-footer-logo" href="index.html" aria-label="Loving Longmont home"><img src="assets/loving-longmont-lettering.webp" alt="Loving Longmont" width="1573" height="1000" loading="lazy"></a><a class="sb-mkt" href="https://mktvisibility.com" aria-label="Visit MKT Visibility" target="_blank" rel="noopener noreferrer"><img src="assets/mkt-visibility-logo-dark.webp" alt="MKT Visibility" width="600" height="300" loading="lazy"></a></div><nav class="sb-foot-nav" aria-label="Footer navigation"><a href="things-to-do.html">Explore</a><a href="businesses.html">Businesses</a><a href="events.html">Events</a><a href="community.html">Community</a><a href="history.html">History</a><a href="search.html">Search</a><a href="animals.html">Animals & pets</a><a href="jobs.html">Jobs</a><a href="spotlight.html">Spotlights</a><a href="pricing.html">Get listed</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="sitemap.html">Site map</a><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook ↗</a></nav></div><div class="sb-copyright">© 2026 Loving Longmont · A community resource by MKT Visibility</div></footer>
+  <script>
+/* Directory presentation only: preserve every business card's existing markup, images and links. */
+document.addEventListener("DOMContentLoaded", function () {
+  const sections = Array.from(document.querySelectorAll("section.directory-section"));
+  const grids = sections.map(section => section.querySelector(".business-grid")).filter(Boolean);
+  if (!grids.length) return;
+  const cards = grids.flatMap(grid => Array.from(grid.querySelectorAll(":scope > article.business-card")));
+  const groups = [
+    ["Arts, Crafts & Classes", /art|craft|pottery|paint|studio|music lesson|yarn|glass|maker|creative/i],
+    ["Books, Records & Media", /book|record|vinyl|comic|stationery/i],
+    ["Food, Drink & Restaurants", /bakery|bread|cake|dessert|ice cream|restaurant|cocina|kitchen|food|grocery|market|taproom|bar|coffee|snack/i],
+    ["Home, Gifts & Shopping", /gift|boutique|shopping|vintage|apparel|candle|jewelry|home|rug|thrift|vendor|specialty shop/i],
+    ["Outdoor, Sports & Recreation", /bike|bicycle|skate|running|suspension|farm|garden|seasonal/i],
+    ["Marketing & Business Services", /digital marketing|social media|websites|marketing agency/i],
+    ["Photography", /photography|photographer/i],
+    ["Services & Other Local Businesses", /./]
+  ];
+  function typeOf(card) {
+    const category = card.querySelector(".business-category")?.textContent.trim() || "";
+    const name = card.querySelector("h3")?.textContent.trim() || "";
+    if (/^MKT Visibility$/i.test(name)) return "Marketing & Business Services";
+    if (/^(Drifters|Quarter.s Bar)/i.test(name)) return "Food, Drink & Restaurants";
+    if (/^(The Bee Hugger Farm|Rocky Mountain Pumpkin Ranch|The Flower Bin)/i.test(name)) return "Outdoor, Sports & Recreation";
+    if (/^(Longmont Yarn Shoppe|Maker General|Creative Treasures|Tumbleweed Art Collective)/i.test(name)) return "Arts, Crafts & Classes";
+    if (/^(Kawaii Konbini|Simply Bulk Market|Cheese Importers)/i.test(name)) return "Food, Drink & Restaurants";
+    const match = groups.find(([, pattern]) => pattern.test(category));
+    return match ? match[0] : groups[groups.length - 1][0];
+  }
+  const primary = grids[0];
+  const ordered = cards.map((card, index) => ({card, index, type: typeOf(card), name: card.querySelector("h3")?.textContent.trim() || ""}))
+    .sort((a, b) => groups.findIndex(g => g[0] === a.type) - groups.findIndex(g => g[0] === b.type) ||
+      a.name.localeCompare(b.name, "en", {sensitivity:"base"}) || a.index - b.index);
+  let previous = "";
+  for (const item of ordered) {
+    if (item.type !== previous) {
+      const heading = document.createElement("h3");
+      heading.className = "directory-type-heading";
+      heading.id = item.type.toLowerCase().replace(/&/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+      heading.textContent = item.type;
+      heading.style.cssText = "grid-column:1/-1;margin:30px 0 0;color:var(--navy);font-family:Georgia,serif;font-size:25px;border-bottom:2px solid #dce7e5;padding-bottom:9px";
+      primary.appendChild(heading);
+      previous = item.type;
+    }
+    primary.appendChild(item.card);
+  }
+  sections.slice(1).forEach(section => { section.style.display = "none"; });
+});
+</script>
+<script src="assets/site-links.js" defer></script>
+</body>
+</html>

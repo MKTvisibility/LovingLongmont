@@ -1,0 +1,1183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- Google tag (gtag.js) -->
+
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Loving Longmont | People • Places • Possibilities</title>
+
+    <meta
+      name="description"
+      content="Discover Longmont, Colorado. Explore local businesses, events, things to do, jobs, animals and pets, community resources and the people and places that make Longmont special."
+    />
+
+    <style>
+      /* ========================================
+   COLOR PALETTE
+======================================== */
+
+      :root {
+        --navy: #062f52;
+        --dark-navy: #03233e;
+        --red: #c8101e;
+
+        --cream: #fffaf1;
+        --light-blue: #eef5f5;
+        --sage: #e8f0ec;
+
+        --text: #253642;
+        --gray: #667780;
+
+        --white: #ffffff;
+      }
+
+      /* ========================================
+   GLOBAL
+======================================== */
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--text);
+        background: var(--white);
+        line-height: 1.6;
+      }
+
+      img {
+        max-width: 100%;
+        display: block;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      /* ========================================
+   HEADER
+======================================== */
+
+      .site-header {
+        background: rgba(255, 255, 255, 0.98);
+        border-bottom: 1px solid #e6e6e6;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+
+      .navbar {
+        max-width: 1450px;
+        margin: auto;
+        padding: 9px 22px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+      }
+
+      /* ========================================
+   LOGO
+======================================== */
+
+      .nav-logo {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        min-width: 250px;
+      }
+
+      .nav-logo img {
+        width: 68px;
+        height: 68px;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+
+      .nav-brand-text {
+        margin-left: 13px;
+      }
+
+      .nav-brand-text strong {
+        display: block;
+        color: var(--navy);
+        font-size: 23px;
+        line-height: 1.1;
+      }
+
+      .nav-brand-text small {
+        display: block;
+        margin-top: 6px;
+        font-size: 9px;
+        letter-spacing: 2px;
+        font-weight: bold;
+        color: var(--navy);
+      }
+
+      .red-heart {
+        color: var(--red);
+      }
+
+      /* ========================================
+   NAVIGATION LINKS
+======================================== */
+
+      .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+
+      .nav-links a {
+        text-decoration: none;
+        color: var(--navy);
+        font-size: 12px;
+        font-weight: bold;
+        padding: 25px 0 22px;
+        border-bottom: 3px solid transparent;
+        white-space: nowrap;
+      }
+
+      .nav-links a:hover,
+      .nav-links a.active {
+        color: var(--red);
+        border-bottom-color: var(--red);
+      }
+
+      .nav-contact {
+        background: var(--navy);
+        color: white !important;
+        border-radius: 7px;
+        padding: 12px 18px !important;
+        border-bottom: none !important;
+      }
+
+      .nav-contact:hover {
+        background: var(--red);
+      }
+
+      /* ========================================
+   HERO
+======================================== */
+
+      .hero {
+        width: 100%;
+        background: var(--cream);
+      }
+
+      .hero img {
+        width: 100%;
+        height: auto;
+        max-height: 700px;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      /* ========================================
+   CONTAINERS
+======================================== */
+
+      .container {
+        max-width: 1200px;
+        margin: auto;
+      }
+
+      .eyebrow {
+        color: var(--red);
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        font-size: 12px;
+        font-weight: bold;
+        margin-bottom: 8px;
+      }
+
+      .section-title {
+        font-family: Georgia, "Times New Roman", serif;
+        color: var(--navy);
+        font-size: clamp(34px, 5vw, 50px);
+        line-height: 1.15;
+        margin: 0 0 15px;
+      }
+
+      .section-description {
+        max-width: 850px;
+        margin: auto;
+        color: var(--gray);
+        font-size: 17px;
+      }
+
+      /* ========================================
+   INTRO
+======================================== */
+
+      .intro {
+        background: var(--cream);
+        text-align: center;
+        padding: 55px 25px 35px;
+      }
+
+      /* ========================================
+   MAIN PAGE CARDS
+======================================== */
+
+      .explore-section {
+        background: var(--cream);
+        padding: 20px 25px 70px;
+      }
+
+      .explore-grid {
+        max-width: 1350px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 16px;
+      }
+
+      .explore-card {
+        background: linear-gradient(145deg, #f3f8f6, #e8f1f0);
+        border: 1px solid #dce7e5;
+        border-radius: 15px;
+        padding: 30px 18px 25px;
+        min-height: 295px;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: 0.25s ease;
+      }
+
+      .explore-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 28px rgba(0, 0, 0, 0.09);
+      }
+
+      .card-icon {
+        font-size: 39px;
+        margin-bottom: 13px;
+      }
+
+      .explore-card h3 {
+        font-family: Georgia, serif;
+        color: var(--navy);
+        font-size: 21px;
+        margin: 0 0 10px;
+      }
+
+      .explore-card p {
+        color: var(--gray);
+        font-size: 14px;
+        margin: 0 0 17px;
+        flex-grow: 1;
+      }
+
+      .card-link {
+        color: #0060a8;
+        font-size: 13px;
+        font-weight: bold;
+      }
+
+      /* ========================================
+   COMMUNITY SECTION
+======================================== */
+
+      .community {
+        background: linear-gradient(135deg, #eef6f3, #e3eeee);
+        text-align: center;
+        padding: 65px 25px;
+      }
+
+      .community p {
+        max-width: 800px;
+        margin: 0 auto 25px;
+        color: var(--gray);
+        font-size: 16px;
+      }
+
+      /* ========================================
+   BUTTONS
+======================================== */
+
+      .button {
+        display: inline-block;
+        text-decoration: none;
+        padding: 13px 25px;
+        border-radius: 7px;
+        font-weight: bold;
+        transition: 0.2s ease;
+      }
+
+      .button-red {
+        background: var(--red);
+        color: white;
+      }
+
+      .button-red:hover {
+        background: #aa0d16;
+        transform: translateY(-2px);
+      }
+
+      /* ========================================
+   LONGMONT THROUGH OUR LENS
+======================================== */
+
+      .real-photos {
+        background: white;
+        padding: 75px 25px;
+      }
+
+      .real-photo-heading {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      .photo-grid {
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 22px;
+      }
+
+      .photo-placeholder {
+        min-height: 300px;
+        border-radius: 15px;
+        border: 2px dashed #c6d4d8;
+        background: #f3f7f7;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 30px;
+        color: var(--gray);
+      }
+
+      .photo-placeholder span {
+        font-size: 44px;
+        margin-bottom: 10px;
+      }
+
+      .photo-placeholder strong {
+        font-family: Georgia, serif;
+        color: var(--navy);
+        font-size: 20px;
+        margin-bottom: 5px;
+      }
+
+      .real-photo-card {
+        height: 300px;
+        border-radius: 15px;
+        overflow: hidden;
+        position: relative;
+        background: #f3f7f7;
+      }
+
+      .real-photo-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .real-photo-caption {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 45px 18px 16px;
+        background: linear-gradient(
+          transparent,
+          rgba(3, 35, 62, 0.92)
+        );
+        text-align: center;
+      }
+
+      .real-photo-caption strong {
+        color: white;
+        font-family: Georgia, serif;
+        font-size: 20px;
+      }
+
+      /* ========================================
+   LOCAL BUSINESS SECTION
+======================================== */
+
+      .business-section {
+        background: var(--cream);
+        padding: 80px 25px;
+      }
+
+      .business-grid {
+        max-width: 1100px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        align-items: center;
+      }
+
+      .business-photo {
+        min-height: 420px;
+        background: white;
+        border: 1px solid #e0e8e7;
+        border-radius: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 35px;
+        overflow: hidden;
+        box-shadow: 0 12px 30px rgba(3, 35, 62, 0.08);
+      }
+
+      .business-photo a {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .business-photo img {
+        width: 100%;
+        height: 420px;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .business-content h2 {
+        font-family: Georgia, serif;
+        color: var(--navy);
+        font-size: 40px;
+        line-height: 1.15;
+        margin: 8px 0 18px;
+      }
+
+      .business-content p {
+        color: var(--gray);
+        margin-bottom: 25px;
+      }
+
+      /* ========================================
+   WHAT'S HAPPENING
+======================================== */
+
+      .get-involved {
+        background: white;
+        padding: 75px 25px;
+        text-align: center;
+      }
+
+      .involved-grid {
+        max-width: 1050px;
+        margin: 40px auto 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 22px;
+      }
+
+      .involved-card {
+        background: var(--cream);
+        border: 1px solid #eee5d9;
+        border-radius: 15px;
+        padding: 31px 25px;
+      }
+
+      .involved-card span {
+        font-size: 38px;
+      }
+
+      .involved-card h3 {
+        font-family: Georgia, serif;
+        color: var(--navy);
+        margin: 10px 0 8px;
+      }
+
+      .involved-card p {
+        color: var(--gray);
+        font-size: 14px;
+      }
+
+      .involved-card a {
+        color: var(--navy);
+        font-weight: bold;
+        font-size: 13px;
+      }
+
+      /* ========================================
+   NEWSLETTER
+======================================== */
+
+      .newsletter {
+        background: #f0f6f9;
+        border-top: 1px solid #dfe8ec;
+        padding: 28px 25px;
+      }
+
+      .newsletter-inner {
+        max-width: 1150px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1.3fr;
+        align-items: center;
+        gap: 35px;
+      }
+
+      .newsletter-title {
+        display: flex;
+        align-items: center;
+        gap: 17px;
+      }
+
+      .newsletter-icon {
+        font-size: 36px;
+      }
+
+      .newsletter-title h3 {
+        color: var(--navy);
+        font-size: 21px;
+        margin: 0;
+      }
+
+      .newsletter-title p {
+        color: var(--gray);
+        margin: 2px 0 0;
+        font-size: 13px;
+      }
+
+      .email-form {
+        display: flex;
+      }
+
+      .email-form input {
+        flex-grow: 1;
+        padding: 14px;
+        border: 1px solid #cad8de;
+        border-radius: 7px 0 0 7px;
+        font-size: 14px;
+      }
+
+      .email-form button {
+        border: none;
+        background: var(--navy);
+        color: white;
+        padding: 0 25px;
+        border-radius: 0 7px 7px 0;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      .email-form button:hover {
+        background: var(--red);
+      }
+
+      /* ========================================
+   FOOTER
+======================================== */
+
+      footer {
+        background: linear-gradient(135deg, #03233e, #063b62);
+        color: white;
+        padding: 55px 25px 20px;
+      }
+
+      .footer-grid {
+        max-width: 1150px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1.5fr 0.8fr 1.2fr;
+        gap: 60px;
+      }
+
+      .footer-logo-area {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+
+      .footer-logo-area img {
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+
+      .footer-logo-area h2 {
+        margin: 0;
+        font-size: 25px;
+      }
+
+      .footer-logo-area small {
+        font-size: 9px;
+        letter-spacing: 2px;
+      }
+
+      .footer-about {
+        max-width: 380px;
+        color: #d5e1e8;
+        font-size: 14px;
+        margin-top: 18px;
+      }
+
+      .footer-heading {
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 13px;
+      }
+
+      .footer-links a {
+        display: block;
+        text-decoration: none;
+        color: #e1ebf0;
+        font-size: 14px;
+        margin: 7px 0;
+      }
+
+      .footer-links a:hover {
+        text-decoration: underline;
+        color: white;
+      }
+
+      .footer-contact {
+        color: #e1ebf0;
+        font-size: 14px;
+      }
+
+      .footer-email {
+        display: inline-block;
+        margin-top: 8px;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .footer-bottom {
+        max-width: 1150px;
+        margin: 40px auto 0;
+        padding-top: 20px;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        text-align: center;
+        color: #c5d5df;
+        font-size: 12px;
+      }
+
+      /* ========================================
+   RESPONSIVE
+======================================== */
+
+      @media (max-width: 1180px) {
+        .navbar {
+          flex-direction: column;
+          padding-bottom: 15px;
+        }
+
+        .nav-logo {
+          min-width: auto;
+        }
+
+        .nav-links {
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+
+        .nav-links a {
+          padding: 5px 0;
+        }
+      }
+
+      @media (max-width: 1100px) {
+        .explore-grid {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+
+      @media (max-width: 900px) {
+        .photo-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .business-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .business-photo {
+          min-height: 0;
+          padding: 0;
+          aspect-ratio: 1 / 1;
+        }
+
+        .business-photo img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+          object-position: center;
+        }
+
+        .involved-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .newsletter-inner {
+          grid-template-columns: 1fr;
+        }
+
+        .footer-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 650px) {
+        .nav-brand-text {
+          display: none;
+        }
+
+        .explore-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .hero img {
+          min-height: 250px;
+          object-fit: cover;
+        }
+
+        .section-title {
+          font-size: 34px;
+        }
+      }
+    
+/* Canonical Loving Longmont footer */
+footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55px 25px 20px}
+.footer-grid{max-width:1150px;margin:auto;display:grid;grid-template-columns:1.5fr .8fr 1.2fr;gap:60px}
+.footer-logo-area{display:flex;align-items:center;gap:15px}
+.footer-logo-area h2{margin:0;font-size:25px}
+.footer-logo-area small{font-size:9px;letter-spacing:2px}
+.footer-about{max-width:380px;color:#d5e1e8;font-size:14px;margin-top:18px}
+.footer-heading{font-weight:bold;font-size:16px;margin-bottom:13px}
+.footer-links a{display:block;text-decoration:none;color:#e1ebf0;font-size:14px;margin:7px 0}
+.footer-links a:hover{color:white;text-decoration:underline}
+.footer-contact{color:#e1ebf0;font-size:14px}
+.footer-email{display:inline-block;margin-top:8px;color:white;text-decoration:none;font-weight:bold}
+.footer-bottom{max-width:1150px;margin:40px auto 0;padding-top:20px;border-top:1px solid rgba(255,255,255,.2);text-align:center;color:#c5d5df;font-size:12px}
+.red-heart{color:var(--red,#c8101e)}
+@media(max-width:900px){.footer-grid{grid-template-columns:1fr}}
+</style>
+  <meta name="robots" content="noindex,nofollow">
+<link rel="stylesheet" href="assets/scrapbook.css">
+</head>
+
+  <body class="sb-page-content"><svg width="0" height="0" aria-hidden="true" style="position:absolute"><defs><filter id="header-logo-color" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="0 0 0 0 1 -1 0 0 0 1 -1 0 0 0 1 0 0 0 1 0"/></filter></defs></svg>
+    <!-- ========================================
+     HEADER
+======================================== -->
+
+    <div class="sb-ribbon">Longmont, Colorado · Founded in 1871</div>
+<header class="sb-header"><div class="sb-wrap sb-mast">
+<a class="sb-brand" href="index.html">Loving Longmont<span class="sb-brand-heart" aria-hidden="true">♡</span></a>
+<nav class="sb-nav" aria-label="Main navigation"><a href="things-to-do.html">Explore</a><a href="businesses.html">Businesses</a><a href="events.html">Events</a><a href="community.html">Community</a><a href="history.html">History</a><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook ↗</a></nav>
+<form class="sb-search" action="search.html" method="get" role="search"><input type="search" name="q" placeholder="Search our town" aria-label="Search Loving Longmont"><button type="submit" aria-label="Search">⌕</button></form>
+<details class="sb-mobile"><summary>Menu</summary><nav class="sb-mobile-links" aria-label="Mobile navigation"><a href="things-to-do.html">Explore</a><a href="businesses.html">Businesses</a><a href="events.html">Events</a><a href="community.html">Community</a><a href="history.html">History</a><a href="sitemap.html">Site map</a><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook ↗</a></nav></details>
+</div></header>
+
+    <!-- ========================================
+     HEADER IMAGE
+======================================== -->
+
+    <section class="hero">
+      <img
+        src="https://raw.githubusercontent.com/LovingLongmont/loving-longmont-website/main/Images/Website-Images/2.png"
+        alt="Loving Longmont Colorado"
+      />
+    </section>
+
+    <!-- ========================================
+     WELCOME
+======================================== -->
+
+    <section class="intro">
+      <div class="container">
+        <div class="eyebrow">Welcome to Loving Longmont</div>
+
+        <h1 class="section-title">Discover. Connect. Support Local.</h1>
+
+        <p class="section-description">
+          Loving Longmont is a community resource for the people, businesses,
+          events and places that make Longmont, Colorado such a special place
+          to live, work and visit.
+        </p>
+      </div>
+    </section>
+
+    <!-- ========================================
+     MAIN CATEGORIES
+======================================== -->
+
+    <section class="explore-section">
+      <div class="explore-grid">
+
+        <a href="events.html" class="explore-card">
+          <div class="card-icon">📅</div>
+          <h3>Events</h3>
+          <p>
+            Find local events, festivals, markets, live music and community
+            happenings.
+          </p>
+          <div class="card-link">View Events →</div>
+        </a>
+
+        <a href="businesses.html" class="explore-card">
+          <div class="card-icon">🏪</div>
+          <h3>Local Businesses</h3>
+          <p>
+            Discover and support the local businesses that make Longmont unique.
+          </p>
+          <div class="card-link">Find Businesses →</div>
+        </a>
+
+        <a href="things-to-do.html" class="explore-card">
+          <div class="card-icon">🏔️</div>
+          <h3>Things to Do</h3>
+          <p>
+            Explore parks, trails, attractions, recreation and activities for
+            all ages.
+          </p>
+          <div class="card-link">Explore More →</div>
+        </a>
+
+        <a href="history.html" class="explore-card">
+          <div class="card-icon">🏛️</div>
+          <h3>History</h3>
+          <p>
+            Discover historic homes, pioneer buildings and places that preserve
+            Longmont’s story.
+          </p>
+          <div class="card-link">Explore History →</div>
+        </a>
+
+        <a href="spotlight.html" class="explore-card">
+          <div class="card-icon">🌟</div>
+          <h3>In The Spotlight</h3>
+          <p>
+            Read Loving Longmont features about local businesses, people,
+            places and stories.
+          </p>
+          <div class="card-link">Read Spotlights →</div>
+        </a>
+
+        <a href="animals.html" class="explore-card">
+          <div class="card-icon">🐾</div>
+          <h3>Animals & Pets</h3>
+          <p>
+            Find shelters, rescues, farms, veterinarians, pet supplies and
+            animal resources.
+          </p>
+          <div class="card-link">Explore Animals & Pets →</div>
+        </a>
+
+        <a href="jobs.html" class="explore-card">
+          <div class="card-icon">💼</div>
+          <h3>Jobs</h3>
+          <p>
+            Find local job resources, career help, staffing agencies, side gigs
+            and ways to find work.
+          </p>
+          <div class="card-link">Find Jobs →</div>
+        </a>
+
+        <a href="community.html" class="explore-card">
+          <div class="card-icon">👥</div>
+          <h3>Community</h3>
+          <p>
+            Ask questions, share recommendations and connect with Longmont
+            neighbors.
+          </p>
+          <div class="card-link">Join the Community →</div>
+        </a>
+
+        <a href="sitemap.html" class="explore-card">
+          <div class="card-icon">🗺️</div>
+          <h3>Site Map</h3>
+          <p>
+            Browse the complete Loving Longmont directory and find every guide,
+            resource and page.
+          </p>
+          <div class="card-link">View Site Map →</div>
+        </a>
+
+        <a href="search.html" class="explore-card">
+          <div class="card-icon">🔍</div>
+          <h3>Search</h3>
+          <p>
+            Search Loving Longmont for businesses, activities, events,
+            resources, spotlights and more.
+          </p>
+          <div class="card-link">Search the Site →</div>
+        </a>
+
+        <a href="contact.html" class="explore-card">
+          <div class="card-icon">✉️</div>
+          <h3>Contact</h3>
+          <p>
+            Send Loving Longmont a business, event, photo, story, correction or
+            community suggestion.
+          </p>
+          <div class="card-link">Contact Us →</div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- ========================================
+     COMMUNITY
+======================================== -->
+
+    <section class="community">
+      <div class="container">
+        <div class="eyebrow">A Stronger Longmont</div>
+
+        <h2 class="section-title">Community Helping Community</h2>
+
+        <p>
+          Together we can keep Longmont informed, support local businesses and
+          celebrate the people and places that make our city home. Have
+          something to share? We'd love to hear from you.
+        </p>
+
+        <a href="contact.html" class="button button-red">Get Involved →</a>
+      </div>
+    </section>
+
+    <!-- ========================================
+     LONGMONT THROUGH OUR LENS
+======================================== -->
+
+    <section class="real-photos">
+      <div class="container">
+
+        <div class="real-photo-heading">
+          <div class="eyebrow">Explore Our City</div>
+
+          <h2 class="section-title">Longmont Through Our Lens</h2>
+
+          <p class="section-description">
+            Original photographs taken around Longmont.
+          </p>
+        </div>
+
+        <div class="photo-grid">
+
+          <!-- DOWNTOWN LONGMONT PHOTO -->
+          <div class="real-photo-card">
+            <img
+              src="https://raw.githubusercontent.com/LovingLongmont/loving-longmont-website/main/downtownlongmont.png"
+              alt="Downtown Longmont, Colorado"
+            />
+
+            <div class="real-photo-caption">
+              <strong>Downtown Longmont</strong>
+            </div>
+          </div>
+
+          <!-- PARKS & TRAILS PHOTO -->
+          <div class="real-photo-card">
+            <img
+              src="https://raw.githubusercontent.com/LovingLongmont/loving-longmont-website/main/trails.png"
+              alt="Longmont, Colorado open space and mountain landscape at sunset"
+            />
+
+            <div class="real-photo-caption">
+              <strong>Parks & Trails</strong>
+            </div>
+          </div>
+
+          <!-- LANDMARKS PLACEHOLDER -->
+             <div class="real-photo-card">
+            <img
+              src="https://raw.githubusercontent.com/LovingLongmont/loving-longmont-website/main/statue.jpg"
+              alt="Longmont, Colorado Golden Ponds Nature Area"
+            />
+
+            <div class="real-photo-caption">
+              <strong>Longmont Landmarks & Art</strong>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+     LOCAL BUSINESS FEATURE
+======================================== -->
+
+    <section class="business-section">
+      <div class="business-grid">
+
+        <div class="business-photo">
+          <a
+            href="https://mktvisibility.com"
+            aria-label="Visit the MKT Visibility website"
+           target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://raw.githubusercontent.com/LovingLongmont/loving-longmont-website/main/IMG_4547.jpeg"
+              alt="MKT Visibility — We Keep Your Business Visible"
+            />
+          </a>
+        </div>
+
+        <div class="business-content">
+          <div class="eyebrow">Support Local</div>
+
+          <h2>Discover Longmont Businesses</h2>
+
+          <p>
+            From longtime local favorites to new businesses just getting
+            started, Loving Longmont is a place to discover the people and
+            businesses serving our community.
+          </p>
+
+          <a href="businesses.html" class="button button-red">
+            Explore Local Businesses →
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================
+     WHAT'S HAPPENING
+======================================== -->
+
+    <section class="get-involved">
+      <div class="container">
+        <div class="eyebrow">Be Part of Loving Longmont</div>
+
+        <h2 class="section-title">What's Happening in Longmont?</h2>
+
+        <p class="section-description">
+          Loving Longmont grows through the people who live here. Help us
+          discover what's happening throughout our community.
+        </p>
+
+        <div class="involved-grid">
+
+          <div class="involved-card">
+            <span>📅</span>
+
+            <h3>Submit an Event</h3>
+
+            <p>
+              Have an upcoming festival, fundraiser, market, class or community
+              event?
+            </p>
+
+            <a href="contact.html">Send It to Us →</a>
+          </div>
+
+          <div class="involved-card">
+            <span>🏪</span>
+
+            <h3>Recommend a Business</h3>
+
+            <p>
+              Own a Longmont business or know a local business we should
+              discover?
+            </p>
+
+            <a href="contact.html">Tell Us About It →</a>
+          </div>
+
+          <div class="involved-card">
+            <span>📷</span>
+
+            <h3>Photos & Stories</h3>
+
+            <p>
+              Share a local photograph, story, community accomplishment or idea.
+            </p>
+
+            <a href="contact.html">Share With Us →</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+     EMAIL
+======================================== -->
+
+    <section class="newsletter">
+      <div class="newsletter-inner">
+
+        <div class="newsletter-title">
+          <div class="newsletter-icon">✉️</div>
+
+          <div>
+            <h3>Stay in the Loop</h3>
+
+            <p>Get the latest events, spotlights and community updates.</p>
+          </div>
+        </div>
+
+        <form
+          class="email-form"
+          action="https://formsubmit.co/hello.lovinglongmont@gmail.com"
+          method="POST"
+        >
+          <input
+            type="hidden"
+            name="_subject"
+            value="New Loving Longmont Email Subscriber"
+          />
+          <input type="hidden" name="_template" value="table" />
+          <input
+            type="hidden"
+            name="_autoresponse"
+            value="Thanks for joining the Loving Longmont email list! You signed up to receive In The Spotlight stories, local business and event highlights, and occasional community updates from Loving Longmont. No action is required. You are now on our subscriber list. Made with love for Longmont, Colorado — Loving Longmont."
+          />
+          <input
+            type="hidden"
+            name="_next"
+            value="https://lovinglongmont.github.io/loving-longmont-website/index.html?subscribed=1"
+          />
+          <input
+            type="text"
+            name="_honey"
+            tabindex="-1"
+            autocomplete="off"
+            aria-hidden="true"
+            style="display:none"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your email address"
+            autocomplete="email"
+            aria-label="Your email address"
+            required
+          />
+
+          <button type="submit">Subscribe</button>
+        </form>
+
+      </div>
+    </section>
+
+    <!-- ========================================
+     FOOTER
+======================================== -->
+
+    <footer class="sb-footer"><div class="sb-wrap"><div class="sb-foot-top"><a class="sb-footer-logo" href="index.html" aria-label="Loving Longmont home"><img src="assets/loving-longmont-lettering.webp" alt="Loving Longmont" width="1573" height="1000" loading="lazy"></a><a class="sb-mkt" href="https://mktvisibility.com" aria-label="Visit MKT Visibility" target="_blank" rel="noopener noreferrer"><img src="assets/mkt-visibility-logo-dark.webp" alt="MKT Visibility" width="600" height="300" loading="lazy"></a></div><nav class="sb-foot-nav" aria-label="Footer navigation"><a href="things-to-do.html">Explore</a><a href="businesses.html">Businesses</a><a href="events.html">Events</a><a href="community.html">Community</a><a href="history.html">History</a><a href="search.html">Search</a><a href="animals.html">Animals & pets</a><a href="jobs.html">Jobs</a><a href="spotlight.html">Spotlights</a><a href="pricing.html">Get listed</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="sitemap.html">Site map</a><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook ↗</a></nav></div><div class="sb-copyright">© 2026 Loving Longmont · A community resource by MKT Visibility</div></footer>
+  <script src="assets/site-links.js" defer></script>
+</body>
+</html>

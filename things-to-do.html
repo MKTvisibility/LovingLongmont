@@ -1,0 +1,1696 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- Google tag (gtag.js) -->
+
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Things to Do in Longmont | Loving Longmont</title>
+    <meta
+      name="description"
+      content="Discover things to do in Longmont, Colorado — free parks, lakes, trails, museums, farms, family attractions, indoor activities and local adventures."
+    />
+    <style>
+      :root {
+        --navy: #062f52;
+        --navy-dark: #03233e;
+        --red: #c8101e;
+        --cream: #fffaf1;
+        --sage: #e8f0ec;
+        --light: #f4f7f7;
+        --text: #293b45;
+        --gray: #687983;
+        --white: #fff;
+        --green: #347455;
+        --gold: #9b6808;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.6;
+        color: var(--text);
+        background: #fff;
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
+      a {
+        color: inherit;
+      }
+      .site-header {
+        background: rgba(255, 255, 255, 0.98);
+        border-bottom: 1px solid #e5e5e5;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+      .navbar {
+        max-width: 1450px;
+        margin: auto;
+        padding: 9px 22px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+      }
+      .nav-logo {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        min-width: 250px;
+      }
+      .nav-logo img {
+        width: 68px;
+        height: 68px;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+      .nav-brand-text {
+        margin-left: 13px;
+      }
+      .nav-brand-text strong {
+        color: var(--navy);
+        display: block;
+        font-size: 23px;
+        line-height: 1.1;
+      }
+      .nav-brand-text small {
+        display: block;
+        margin-top: 6px;
+        font-size: 9px;
+        letter-spacing: 2px;
+        color: var(--navy);
+        font-weight: bold;
+      }
+      .heart,
+      .red-heart {
+        color: var(--red);
+      }
+      .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+      .nav-links a {
+        text-decoration: none;
+        color: var(--navy);
+        font-size: 12px;
+        font-weight: bold;
+        padding: 25px 0 22px;
+        border-bottom: 3px solid transparent;
+        white-space: nowrap;
+      }
+      .nav-links a:hover,
+      .nav-links a.active {
+        color: var(--red);
+        border-bottom-color: var(--red);
+      }
+      .nav-contact {
+        color: white !important;
+        background: var(--navy);
+        border-radius: 7px;
+        padding: 12px 18px !important;
+        border-bottom: none !important;
+      }
+      .nav-contact:hover {
+        background: var(--red);
+      }
+      .hero {
+        position: relative;
+        background: var(--cream);
+      }
+      .hero img {
+        width: 100%;
+        max-height: 555px;
+        object-fit: cover;
+      }
+      .hero-overlay {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        padding: 45px 25px;
+        background: linear-gradient(
+          to top,
+          rgba(3, 35, 62, 0.78),
+          rgba(3, 35, 62, 0.02) 60%
+        );
+      }
+      .hero-text {
+        text-align: center;
+        color: #fff;
+      }
+      .hero-text h1 {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(42px, 6vw, 68px);
+        line-height: 1.05;
+        margin: 0 0 8px;
+      }
+      .hero-text p {
+        margin: 0;
+        font-size: 18px;
+      }
+      .container {
+        max-width: 1200px;
+        margin: auto;
+      }
+      .eyebrow {
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        color: var(--red);
+        font-size: 12px;
+        font-weight: bold;
+        margin-bottom: 8px;
+      }
+      .section-title {
+        font-family: Georgia, "Times New Roman", serif;
+        color: var(--navy);
+        font-size: clamp(34px, 5vw, 50px);
+        line-height: 1.1;
+        margin: 0 0 16px;
+      }
+      .section-description {
+        color: var(--gray);
+        max-width: 850px;
+        margin: auto;
+        font-size: 17px;
+      }
+      .intro {
+        text-align: center;
+        padding: 60px 25px 34px;
+        background: var(--cream);
+      }
+      .categories {
+        background: var(--cream);
+        padding: 15px 25px 60px;
+      }
+      .category-grid {
+        max-width: 1150px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+      }
+      .category-card {
+        text-decoration: none;
+        text-align: center;
+        border-radius: 14px;
+        padding: 21px 12px;
+        background: linear-gradient(145deg, #f4f9f7, #e8f1f0);
+        border: 1px solid #dae6e3;
+        transition: 0.25s;
+      }
+      .category-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 27px rgba(0, 0, 0, 0.08);
+      }
+      .category-icon {
+        font-size: 31px;
+      }
+      .category-card h3 {
+        margin: 5px 0 0;
+        color: var(--navy);
+        font-family: Georgia, serif;
+        font-size: 17px;
+      }
+      .cost-guide {
+        padding: 35px 25px;
+        border-bottom: 1px solid #eee;
+      }
+      .cost-row {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+      .cost-chip {
+        font-size: 13px;
+        font-weight: bold;
+        border-radius: 40px;
+        padding: 9px 18px;
+      }
+      .free {
+        background: #e3f4e9;
+        color: #24613e;
+      }
+      .low {
+        background: #fff1cc;
+        color: #805800;
+      }
+      .paid {
+        background: #fbe4e6;
+        color: #941622;
+      }
+      .attractions {
+        padding: 75px 25px;
+      }
+      .attractions-heading {
+        text-align: center;
+        margin-bottom: 43px;
+      }
+      .grid {
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 28px;
+      }
+      .card {
+        background: #fff;
+        border: 1px solid #e3e7e8;
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 7px 24px rgba(0, 0, 0, 0.065);
+        display: flex;
+        flex-direction: column;
+        transition: 0.25s;
+      }
+      .card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 13px 32px rgba(0, 0, 0, 0.1);
+      }
+      .card-image {
+        height: 235px;
+        position: relative;
+        overflow: hidden;
+        background: #e9f0f0;
+      }
+      .card-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: 0.35s;
+      }
+      .card:hover .card-image img {
+        transform: scale(1.025);
+      }
+      .image-pending {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 30px;
+        color: #60737e;
+        background: linear-gradient(135deg, #edf4f3, #dde8e8);
+      }
+      .image-pending-inner {
+        max-width: 210px;
+      }
+      .image-pending-icon {
+        font-size: 38px;
+        margin-bottom: 8px;
+      }
+      .image-pending strong {
+        display: block;
+        color: var(--navy);
+        font-family: Georgia, serif;
+        font-size: 20px;
+        margin-bottom: 5px;
+      }
+      .image-pending span {
+        font-size: 12px;
+      }
+      .badge {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        background: #fff;
+        border-radius: 20px;
+        padding: 7px 13px;
+        text-transform: uppercase;
+        font-size: 11px;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        box-shadow: 0 3px 9px rgba(0, 0, 0, 0.13);
+      }
+      .badge-free {
+        color: #21603c;
+      }
+      .badge-low {
+        color: #835b05;
+      }
+      .badge-paid {
+        color: var(--red);
+      }
+      .card-body {
+        padding: 24px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+      .card-type {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: var(--red);
+        font-size: 10px;
+        font-weight: bold;
+      }
+      .card-body h3 {
+        font-family: Georgia, serif;
+        color: var(--navy);
+        margin: 7px 0 10px;
+        font-size: 24px;
+        line-height: 1.15;
+      }
+      .card-description {
+        margin: 0 0 16px;
+        color: var(--gray);
+        font-size: 14px;
+      }
+      .details {
+        margin-top: auto;
+        padding-top: 15px;
+        border-top: 1px solid #ececec;
+      }
+      .detail {
+        font-size: 13px;
+        margin: 7px 0;
+        color: #40515b;
+      }
+      .detail strong {
+        color: var(--navy);
+      }
+      .detail a {
+        text-decoration: none;
+        color: var(--navy);
+      }
+      .detail a:hover {
+        text-decoration: underline;
+      }
+      .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 18px;
+      }
+      .card-button {
+        padding: 10px 14px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: bold;
+      }
+      .website {
+        background: var(--navy);
+        color: #fff;
+      }
+      .website:hover {
+        background: #0a4a78;
+      }
+      .directions {
+        background: #edf3f4;
+        color: var(--navy);
+      }
+      .local-ideas {
+        padding: 75px 25px;
+        background: var(--sage);
+      }
+      .local-heading {
+        text-align: center;
+      }
+      .idea-grid {
+        max-width: 1100px;
+        margin: 40px auto 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+      .idea {
+        background: #fff;
+        border-radius: 14px;
+        padding: 27px;
+      }
+      .idea-icon {
+        font-size: 34px;
+      }
+      .idea h3 {
+        font-family: Georgia, serif;
+        color: var(--navy);
+        margin: 9px 0;
+      }
+      .idea p {
+        font-size: 14px;
+        color: var(--gray);
+        margin: 0;
+      }
+      .note-section {
+        padding: 65px 25px;
+        background: var(--cream);
+      }
+      .note {
+        max-width: 950px;
+        margin: auto;
+        padding: 32px;
+        border-radius: 14px;
+        border-left: 6px solid var(--red);
+        background: #fff;
+        box-shadow: 0 5px 18px rgba(0, 0, 0, 0.05);
+      }
+      .note h2 {
+        font-family: Georgia, serif;
+        color: var(--navy);
+        margin-top: 0;
+      }
+      .note li {
+        margin: 8px 0;
+        color: var(--gray);
+      }
+      .submit {
+        padding: 75px 25px;
+        text-align: center;
+        color: #fff;
+        background: linear-gradient(135deg, var(--navy), #0a4a77);
+      }
+      .submit .eyebrow {
+        color: #ffbdc1;
+      }
+      .submit h2 {
+        font-family: Georgia, serif;
+        font-size: 42px;
+        margin: 5px 0 13px;
+      }
+      .submit p {
+        max-width: 750px;
+        margin: 0 auto 24px;
+        color: #d9e7ee;
+      }
+      .submit-button {
+        display: inline-block;
+        background: var(--red);
+        color: #fff;
+        text-decoration: none;
+        padding: 13px 24px;
+        border-radius: 7px;
+        font-weight: bold;
+      }
+      footer {
+        background: linear-gradient(135deg, #03233e, #063b62);
+        color: #fff;
+        padding: 55px 25px 20px;
+      }
+      .footer-grid {
+        max-width: 1150px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1.5fr 0.8fr 1.2fr;
+        gap: 60px;
+      }
+      .footer-logo-area {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+      .footer-logo-area h2 {
+        margin: 0;
+      }
+      .footer-logo-area small {
+        font-size: 9px;
+        letter-spacing: 2px;
+      }
+      .footer-about,
+      .footer-contact {
+        color: #d6e2e9;
+        font-size: 14px;
+      }
+      .footer-about {
+        max-width: 380px;
+        margin-top: 18px;
+      }
+      .footer-heading {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 12px;
+      }
+      .footer-links a {
+        display: block;
+        color: #e3edf1;
+        text-decoration: none;
+        margin: 7px 0;
+        font-size: 14px;
+      }
+      .footer-links a:hover {
+        text-decoration: underline;
+      }
+      .footer-email {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .footer-bottom {
+        max-width: 1150px;
+        margin: 40px auto 0;
+        padding-top: 20px;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        text-align: center;
+        color: #c5d6df;
+        font-size: 12px;
+      }
+      @media (max-width: 1180px) {
+        .navbar {
+          flex-direction: column;
+          padding-bottom: 15px;
+        }
+        .nav-logo {
+          min-width: auto;
+        }
+        .nav-links {
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+        .nav-links a {
+          padding: 5px 0;
+        }
+      }
+      @media (max-width: 1050px) {
+        .category-grid,
+        .grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .idea-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      @media (max-width: 900px) {
+        .footer-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      @media (max-width: 700px) {
+        .grid {
+          grid-template-columns: 1fr;
+        }
+        .nav-brand-text {
+          display: none;
+        }
+        .hero img {
+          min-height: 260px;
+          object-fit: cover;
+        }
+      }
+      @media (max-width: 560px) {
+        .category-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    
+      /* Consistent Loving Longmont hero — matches home page */
+      .hero { width: 100%; min-height: 0 !important; padding: 0 !important; display: block !important; background: var(--cream, #fffaf1) !important; position: relative; }
+      .hero img { width: 100% !important; height: auto !important; max-height: 700px !important; min-height: 0 !important; object-fit: cover !important; object-position: center !important; display: block !important; }
+    
+/* Canonical Loving Longmont footer */
+footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55px 25px 20px}
+.footer-grid{max-width:1150px;margin:auto;display:grid;grid-template-columns:1.5fr .8fr 1.2fr;gap:60px}
+.footer-logo-area{display:flex;align-items:center;gap:15px}
+.footer-logo-area h2{margin:0;font-size:25px}
+.footer-logo-area small{font-size:9px;letter-spacing:2px}
+.footer-about{max-width:380px;color:#d5e1e8;font-size:14px;margin-top:18px}
+.footer-heading{font-weight:bold;font-size:16px;margin-bottom:13px}
+.footer-links a{display:block;text-decoration:none;color:#e1ebf0;font-size:14px;margin:7px 0}
+.footer-links a:hover{color:white;text-decoration:underline}
+.footer-contact{color:#e1ebf0;font-size:14px}
+.footer-email{display:inline-block;margin-top:8px;color:white;text-decoration:none;font-weight:bold}
+.footer-bottom{max-width:1150px;margin:40px auto 0;padding-top:20px;border-top:1px solid rgba(255,255,255,.2);text-align:center;color:#c5d5df;font-size:12px}
+.red-heart{color:var(--red,#c8101e)}
+@media(max-width:900px){.footer-grid{grid-template-columns:1fr}}
+</style>
+  <meta name="robots" content="noindex,nofollow">
+<link rel="stylesheet" href="assets/scrapbook.css">
+</head>
+  <body class="sb-page-content"><svg width="0" height="0" aria-hidden="true" style="position:absolute"><defs><filter id="header-logo-color" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="0 0 0 0 1 -1 0 0 0 1 -1 0 0 0 1 0 0 0 1 0"/></filter></defs></svg>
+    <div class="sb-ribbon">Longmont, Colorado · Founded in 1871</div>
+<header class="sb-header"><div class="sb-wrap sb-mast">
+<a class="sb-brand" href="index.html">Loving Longmont<span class="sb-brand-heart" aria-hidden="true">♡</span></a>
+<nav class="sb-nav" aria-label="Main navigation"><a href="things-to-do.html">Explore</a><a href="businesses.html">Businesses</a><a href="events.html">Events</a><a href="community.html">Community</a><a href="history.html">History</a><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook ↗</a></nav>
+<form class="sb-search" action="search.html" method="get" role="search"><input type="search" name="q" placeholder="Search our town" aria-label="Search Loving Longmont"><button type="submit" aria-label="Search">⌕</button></form>
+<details class="sb-mobile"><summary>Menu</summary><nav class="sb-mobile-links" aria-label="Mobile navigation"><a href="things-to-do.html">Explore</a><a href="businesses.html">Businesses</a><a href="events.html">Events</a><a href="community.html">Community</a><a href="history.html">History</a><a href="sitemap.html">Site map</a><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook ↗</a></nav></details>
+</div></header>
+    <section class="hero">
+      <img src="https://raw.githubusercontent.com/LovingLongmont/loving-longmont-website/main/Images/Website-Images/2.png" alt="Loving Longmont Colorado" />
+    </section>
+    <section class="intro">
+      <div class="container">
+        <div class="eyebrow">Explore Our Community</div>
+        <h2 class="section-title">What Should We Do Today?</h2>
+        <p class="section-description">
+          Longmont offers everything from peaceful lakes and mountain-view
+          trails to historic farms, family adventures, arts, recreation and
+          experiences for people looking for something completely different.
+          Start exploring below.
+        </p>
+      </div>
+    </section>
+    <section class="categories">
+      <div class="category-grid">
+        <a href="#free" class="category-card"
+          ><div class="category-icon">💚</div>
+          <h3>Free Things to Do</h3></a
+        ><a href="#outdoors" class="category-card"
+          ><div class="category-icon">🏔️</div>
+          <h3>Get Outdoors</h3></a
+        ><a href="#family" class="category-card"
+          ><div class="category-icon">👨‍👩‍👧</div>
+          <h3>Family Fun</h3></a
+        ><a href="#indoor" class="category-card"
+          ><div class="category-icon">🌧️</div>
+          <h3>Indoor Fun</h3></a
+        ><a href="history.html" class="category-card"
+          ><div class="category-icon">🏛️</div>
+          <h3>Longmont History</h3></a
+        ><a href="#batting" class="category-card"
+          ><div class="category-icon">⚾</div>
+          <h3>Batting Cages</h3></a
+        ><a href="#makers" class="category-card"
+          ><div class="category-icon">🎨</div>
+          <h3>Arts & Makers</h3></a
+        ><a href="#water" class="category-card"
+          ><div class="category-icon">🌊</div>
+          <h3>Water Adventures</h3></a
+        ><a href="#adventure" class="category-card"
+          ><div class="category-icon">🪂</div>
+          <h3>Adventure</h3></a
+        ><a href="#seasonal" class="category-card"
+          ><div class="category-icon">❄️</div>
+          <h3>Seasonal Fun</h3></a
+        >
+      </div>
+    </section>
+    <section class="cost-guide">
+      <div class="cost-row">
+        <span class="cost-chip free">💚 FREE</span
+        ><span class="cost-chip low">$ LOW COST / FEES MAY APPLY</span
+        ><span class="cost-chip paid">$$ PAID ACTIVITY</span>
+      </div>
+    </section>
+    <section class="attractions">
+      <div class="attractions-heading">
+        <div class="eyebrow">The Loving Longmont Guide</div>
+        <h2 class="section-title">Explore Longmont</h2>
+        <p class="section-description">
+          From free outdoor adventures to memorable experiences, there is a lot
+          more to do around Longmont than you may realize.
+        </p>
+      </div>
+      <div class="grid">
+        <article class="card" id="free">
+          <div class="card-image">
+            <img
+              src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_639,q_80,w_1000/v1/clients/longmontco-redesign/Things_to_Do_Outdoors_Lakes_and_Rivers_Golden_Ponds_da15ee49-8111-4bf7-8128-f3d7f4fd503e.png"
+              alt="Golden Ponds Nature Area in Longmont Colorado"
+              loading="lazy"
+            /><span class="badge badge-free">FREE</span>
+          </div>
+          <div class="card-body">
+            <div class="card-type">Nature • Fishing • Walking</div>
+            <h3>Golden Ponds Nature Area</h3>
+            <p class="card-description">
+              Four ponds, mountain views, wildlife and 2.6 miles of trails make
+              Golden Ponds one of Longmont's easiest places to spend a peaceful
+              Colorado afternoon.
+            </p>
+            <div class="details">
+              <div class="detail">
+                <strong>📍 Address:</strong> 2651 3rd Avenue, Longmont, CO 80503
+              </div>
+              <div class="detail">
+                <strong>☎ City Help Line:</strong>
+                <a href="tel:3037766050">303-776-6050</a>
+              </div>
+              <div class="detail"><strong>💵 Cost:</strong> Free</div>
+              <div class="detail">
+                <strong>🐕 Dogs:</strong> Welcome on leash
+              </div>
+            </div>
+            <div class="buttons">
+              <a
+                class="card-button website"
+                href="https://longmontcolorado.gov/facilities/golden-ponds-nature-area/"
+                 target="_blank" rel="noopener noreferrer">Official Website</a
+              >
+            </div>
+          </div>
+        </article>
+        <article class="card" id="outdoors">
+          <div class="card-image">
+            <div class="image-pending">
+              <div class="image-pending-inner">
+                <div class="image-pending-icon">📷</div>
+                <strong>McIntosh Lake</strong
+                ><span>Official attraction photo coming soon</span>
+              </div>
+            </div>
+            <span class="badge badge-free">FREE</span>
+          </div>
+          <div class="card-body">
+            <div class="card-type">Lake • Trails • Paddleboarding</div>
+            <h3>McIntosh Lake Nature Area</h3>
+            <p class="card-description">
+              Enjoy Longs Peak views while walking around the lake, fishing,
+              kayaking, canoeing or paddleboarding. It's one of Longmont's
+              favorite sunset spots.
+            </p>
+            <div class="details">
+              <div class="detail">
+                <strong>📍 Address:</strong> 1929 Harvard Street, Longmont, CO
+                80503
+              </div>
+              <div class="detail">
+                <strong>☎ City Help Line:</strong>
+                <a href="tel:3037766050">303-776-6050</a>
+              </div>
+              <div class="detail"><strong>💵 Cost:</strong> Free</div>
+              <div class="detail">
+                <strong>🛶 Watercraft:</strong> Carry-on nonmotorized boats
+                allowed.
+              </div>
+              <div class="detail">
+                <strong>⚠ Swimming:</strong> Not permitted.
+              </div>
+            </div>
+            <div class="buttons">
+              <a
+                class="card-button website"
+                href="https://longmontcolorado.gov/facilities/mcintosh-lake-nature-area/"
+                 target="_blank" rel="noopener noreferrer">Official Website</a
+              >
+            </div>
+          </div>
+        </article>
+        <article class="card" id="water">
+          <div class="card-image">
+            <div class="image-pending">
+              <div class="image-pending-inner">
+                <div class="image-pending-icon">📷</div>
+                <strong>Dickens Farm</strong
+                ><span>Official attraction photo coming soon</span>
+              </div>
+            </div>
+            <span class="badge badge-free">FREE</span>
+          </div>
+          <div class="card-body">
+            <div class="card-type">Creek • Playground • Bikes</div>
+            <h3>Dickens Farm Nature Area</h3>
+            <p class="card-description">
+              St. Vrain Creek runs directly through this 52-acre nature area.
+              Explore the nature playground, beginner bike-skills trail,
+              slower-moving water areas and St. Vrain Greenway.
+            </p>
+            <div class="details">
+              <div class="detail">
+                <strong>📍 Address:</strong> Boston Avenue between Main and
+                Martin Streets, Longmont, CO 80501
+              </div>
+              <div class="detail">
+                <strong>☎ City Help Line:</strong>
+                <a href="tel:3037766050">303-776-6050</a>
+              </div>
+              <div class="detail"><strong>💵 Cost:</strong> Free</div>
+              <div class="detail">
+                <strong>🚲 Highlights:</strong> Nature play, bike skills,
+                trails, creek access and picnic areas.
+              </div>
+            </div>
+            <div class="buttons">
+              <a
+                class="card-button website"
+                href="https://longmontcolorado.gov/facilities/dickens-farm-nature-area/"
+                 target="_blank" rel="noopener noreferrer">Official Website</a
+              >
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-image">
+            <div class="image-pending">
+              <div class="image-pending-inner">
+                <div class="image-pending-icon">🌊</div>
+                <strong>Union Reservoir</strong
+                ><span>Official attraction photo coming soon</span>
+              </div>
+            </div>
+            <span class="badge badge-low">ENTRY FEE</span>
+          </div>
+          <div class="card-body">
+            <div class="card-type">Reservoir • Beach • Kayaking</div>
+            <h3>Union Reservoir Nature Area</h3>
+            <p class="card-description">
+              This 736-acre body of water offers boating, fishing, kayaking,
+              paddleboarding, picnicking and a dedicated dog beach.
+            </p>
+            <div class="details">
+              <div class="detail">
+                <strong>📍 Address:</strong> 461 County Road 26, Longmont, CO
+                80504
+              </div>
+              <div class="detail">
+                <strong>☎ Phone:</strong>
+                <a href="tel:3037721265">303-772-1265</a>
+              </div>
+              <div class="detail">
+                <strong>💵 Cost:</strong> Day-use fees apply.
+              </div>
+              <div class="detail">
+                <strong>🐕 Dogs:</strong> Dog beach available.
+              </div>
+            </div>
+            <div class="buttons">
+              <a
+                class="card-button website"
+                href="https://longmontcolorado.gov/union-reservoir-nature-area/"
+                 target="_blank" rel="noopener noreferrer">Official Website</a
+              >
+            </div>
+          </div>
+        </article>
+        <article class="card" id="history">
+          <div class="card-image">
+            <img
+              src="https://content.govdelivery.com/attachments/fancy_images/COBOULDER/2022/03/5721251/4035121/img-2826_crop.jpg"
+              alt="Agricultural Heritage Center near Longmont Colorado"
+              loading="lazy"
+            /><span class="badge badge-free">FREE</span>
+          </div>
+          <div class="card-body">
+            <div class="card-type">Farm • History • Animals</div>
+            <h3>Agricultural Heritage Center</h3>
+            <p class="card-description">
+              Discover Boulder County's agricultural history while exploring the
+              historic farm, red barn, equipment, rural landscape and seasonal
+              farm animals.
+            </p>
+            <div class="details">
+              <div class="detail">
+                <strong>📍 Address:</strong> 8348 Ute Highway, Longmont, CO
+                80503
+              </div>
+              <div class="detail">
+                <strong>☎ Boulder County:</strong>
+                <a href="tel:3036786200">303-678-6200</a>
+              </div>
+              <div class="detail"><strong>💵 Admission:</strong> Free</div>
+              <div class="detail">
+                <strong>🐑 Great For:</strong> Families, history lovers and
+                animal lovers.
+              </div>
+            </div>
+            <div class="buttons">
+              <a
+                class="card-button website"
+                href="https://bouldercounty.gov/open-space/education/museums/agricultural-heritage-center/"
+                 target="_blank" rel="noopener noreferrer">Official Website</a
+              >
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-image">
+            <img
+              src="https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,q_85,w_1200/v1/crm/longmontco/37055267433_27facbf459_o0-13c8168a5056b36_13c819d5-5056-b365-ab0503c5ce51a7c1.jpg"
+              alt="Sandstone Ranch in Longmont Colorado"
+              loading="lazy"
+            /><span class="badge badge-free">FREE</span>
+          </div>
+          <div class="card-body">
+            <div class="card-type">History • Nature • Wildlife</div>
+            <h3>Sandstone Ranch Visitors & Learning Center</h3>
+            <p class="card-description">
+              Explore a historic homestead first settled in 1860. Inside you'll
+              find hands-on history and environmental exhibits, while outside
+              trails pass historic buildings, sandstone bluffs and wildlife
+              habitat.
+            </p>
+            <div class="details">
+              <div class="detail">
+                <strong>📍 Address:</strong> 3001 Sandstone Drive, Longmont, CO
+                80504
+              </div>
+              <div class="detail">
+                <strong>☎ Phone:</strong>
+                <a href="tel:3037744692">303-774-4692</a>
+              </div>
+              <div class="detail">
+                <strong>💵 General Admission:</strong> Free
+              </div>
+              <div class="detail">
+                <strong>🕐 Hours:</strong> Seasonal. Check before visiting.
+              </div>
+            </div>
+            <div class="buttons">
+              <a
+                class="card-button website"
+                href="https://longmontcolorado.gov/sandstone-ranch/visitors-learning-center-at-sandstone-ranch/"
+                 target="_blank" rel="noopener noreferrer">Official Website</a
+              >
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-image">
+            <img
+              src="https://longmontcolorado.gov/wp-content/uploads/2025/01/Museum-exterior-s1ke73.tmp_.jpg"
+              alt="Longmont Museum"
+              loading="lazy"
+            /><span class="badge badge-low">$ / SPECIAL FREE DAYS</span>
+          </div>
+          <div class="card-body">
+            <div class="card-type">Art • Culture • History</div>
+            <h3>Longmont Museum</h3>
+            <p class="card-description">
+              Explore exhibitions about Longmont's history, art and culture and
+              enjoy performances, films, talks, classes and special community
+              events.
+            </p>
+            <div class="details">
+              <div class="detail">
+                <strong>📍 Address:</strong> 400 Quail Road, Longmont, CO 80501
+              </div>
+              <div class="detail">
+                <strong>☎ Phone:</strong>
+                <a href="tel:3036518374">303-651-8374</a>
+              </div>
+              <div class="detail">
+                <strong>⚠ September 2026:</strong> Museum galleries are
+                temporarily closed during the expansion project.
+              </div>
+              <div class="detail">
+                <strong>🎉 Reopening:</strong> October 17, 2026
+              </div>
+            </div>
+            <div class="buttons">
+              <a
+                class="card-button website"
+                href="https://longmontcolorado.gov/museum/"
+                 target="_blank" rel="noopener noreferrer">Official Website</a
+              >
+            </div>
+          </div>
+        </article>
+        <article class="card" id="garden-acres">
+          <div class="card-image">
+            <img
+              src="https://raw.githubusercontent.com/LovingLongmont/loving-longmont-website/main/sunflowerfarm.png"
+              alt="Children visiting Sunflower Farm in Longmont Colorado"
+              loading="lazy"
+            /><span class="badge badge-paid">PAID</span>
+          </div>
+          <div class="card-body">
+            <div class="card-type">Farm • Animals • Family</div>
+            <h3>Sunflower Farm</h3>
+            <p class="card-description">
+              FARMFEST public hours are open each weekend, where you will be
+              able to have direct contact with all of your favorite farm animals
+              and can visit our pumpkin patch, pick your own sunflower fields
+              and visit our Halloween Forest in October. During Farmfest you
+              will discover an old airplane, sandboxes, bicycles, tree houses,
+              playhouses, dueling zip-lines, swings and John Deere Tractors.
+            </p>
+            <div class="details">
+              <div class="detail">
+                <strong>📍 Address:</strong> 11150 Prospect Road, Longmont, CO
+                80504
+              </div>
+              <div class="detail">
+                <strong>☎ Phone:</strong>
+                <a href="tel:3037748001">303-774-8001</a>
+              </div>
+              <div class="detail">
+                <strong>🎟 Farmfest:</strong> Advance reservations required.
+              </div>
+              <div class="detail">
+                <strong>🐐 Animals:</strong> Goats, sheep, cows, horses,
+                chickens, peacocks, llamas and more.
+              </div>
+            </div>
+            <div class="buttons">
+              <a
+                class="card-button website"
+                href="https://www.sunflowerfarminfo.com/"
+                 target="_blank" rel="noopener noreferrer">Official Website</a
+              >
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-image">
+            <img
+              src="https://static.wixstatic.com/media/646d3b_9df553f39bb54fd6a14a96b92d28bedd~mv2.jpg"
+              alt="The Bee Hugger Farm in Longmont Colorado"
+              loading="lazy"
+            /><span class="badge badge-free">FREE ENTRY</span>
+          </div>
+          <div class="card-body">
+            <div class="card-type">Farm • Animals • Family Fun</div>
+            <h3>The Bee Hugger Farm</h3>
+            <p class="card-description">
+              A quirky six-acre family farm with bees, horses, goats, pigs,
+              chickens, peacocks, U-Pick sunflowers, pumpkins, local honey and
+              more. Visitors can feed animals, climb tractors and explore the
+              property. Check the website and social media for pony rides,
+              storytimes and other special events.
+            </p>
+            <div class="details">
+              <div class="detail">
+                <strong>📍 Address:</strong> 12590 Ute Highway, Longmont, CO
+                80504
+              </div>
+              <div class="detail">
+                <strong>☎ Phone Number:</strong>
+                <a href="tel:3033308277">303-330-8277</a>
+              </div>
+              <div class="detail">
+                <strong>💵 General Farm Entry:</strong> Free, with optional paid
+                experiences.
+              </div>
+              <div class="detail">
+                <strong>🐐 Animal Feed:</strong> Available for purchase.
+              </div>
+            </div>
+            <div class="buttons">
+              <a
+                class="card-button website"
+                href="https://www.thebeehuggerfarm.com/"
+                 target="_blank" rel="noopener noreferrer">Official Website</a
+              >
+            </div>
+          </div>
+        </article>
+        <article class="card" id="indoor">
+          <div class="card-image">
+            <div class="image-pending">
+              <div class="image-pending-inner">
+                <div class="image-pending-icon">🧗</div>
+                <strong>Climbing Collective</strong
+                ><span>Official facility photo/logo coming soon</span>
+              </div>
+            </div>
+            <span class="badge badge-paid">PAID</span>
+          </div>
+          <div class="card-body">
+            <div class="card-type">Climbing • Fitness • Indoor</div>
+            <h3>Longmont Climbing Collective</h3>
+            <p class="card-description">
+              Try indoor climbing, bouldering, fitness or yoga. Programs are
+              available for adults and children, making it a great year-round
+              activity.
+            </p>
+            <div class="details">
+              <div class="detail">
+                <strong>📍 Address:</strong> 155 Pinnacle Street, Longmont, CO
+                80504
+              </div>
+              <div class="detail">
+                <strong>☎ Phone:</strong>
+                <a href="tel:7203403640">720-340-3640</a>
+              </div>
+              <div class="detail">
+                <strong>💵 Cost:</strong> Day passes, memberships and programs
+                available.
+              </div>
+              <div class="detail">
+                <strong>🧗 Equipment:</strong> Rental options available.
+              </div>
+            </div>
+            <div class="buttons">
+              <a
+                class="card-button website"
+                href="https://climbingcollective.co/"
+                 target="_blank" rel="noopener noreferrer">Official Website</a
+              >
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-image">
+            <div class="image-pending">
+              <div class="image-pending-inner">
+                <div class="image-pending-icon">🏊</div>
+                <strong>Longmont Recreation Center</strong
+                ><span>Official facility photo coming soon</span>
+              </div>
+            </div>
+            <span class="badge badge-low">DAY PASS</span>
+          </div>
+          <div class="card-body">
+            <div class="card-type">Swimming • Recreation • Indoor</div>
+            <h3>Longmont Recreation Center</h3>
+            <p class="card-description">
+              Swim, climb, play basketball or work out under one roof. The
+              center includes lap and leisure pools, waterslides, a lazy river,
+              climbing wall, gymnasium and fitness areas.
+            </p>
+            <div class="details">
+              <div class="detail">
+                <strong>📍 Address:</strong> 310 Quail Road, Longmont, CO 80501
+              </div>
+              <div class="detail">
+                <strong>☎ Phone:</strong>
+                <a href="tel:3037744800">303-774-4800</a>
+              </div>
+              <div class="detail">
+                <strong>💵 Cost:</strong> Daily admission and passes available.
+              </div>
+              <div class="detail">
+                <strong>🌧 Great For:</strong> Rainy days and winter activities.
+              </div>
+            </div>
+            <div class="buttons">
+              <a
+                class="card-button website"
+                href="https://longmontcolorado.gov/recreation-services/locations/longmont-recreation-center/"
+                 target="_blank" rel="noopener noreferrer">Official Website</a
+              >
+            </div>
+          </div>
+        </article>
+        <article class="card" id="adventure">
+          <div class="card-image">
+            <img
+              src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_639,q_80,w_1000/v1/clients/longmontco-redesign/Skydiving_e8e31b0d-59c8-4d03-b1c5-264236627256.jpg"
+              alt="Skydiving in Longmont Colorado"
+              loading="lazy"
+            /><span class="badge badge-paid">$$$</span>
+          </div>
+          <div class="card-body">
+            <div class="card-type">Adventure • Bucket List</div>
+            <h3>Mile-Hi Skydiving Center</h3>
+            <p class="card-description">
+              For a completely different view of Longmont, take to the sky.
+              Mile-Hi offers tandem skydives for first-timers as well as
+              training for experienced jumpers.
+            </p>
+            <div class="details">
+              <div class="detail">
+                <strong>📍 Address:</strong> 229 Airport Road, Hangar 34G,
+                Longmont, CO 80503
+              </div>
+              <div class="detail">
+                <strong>☎ Phone:</strong>
+                <a href="tel:3037029911">303-702-9911</a>
+              </div>
+              <div class="detail">
+                <strong>💵 Cost:</strong> Varies by jump and package.
+              </div>
+              <div class="detail">
+                <strong>🪂 Best For:</strong> Bucket lists and serious
+                adventure.
+              </div>
+            </div>
+            <div class="buttons">
+              <a
+                class="card-button website"
+                href="https://milehiskydiving.com/"
+                 target="_blank" rel="noopener noreferrer">Official Website</a
+              >
+            </div>
+          </div>
+        </article>
+        <article class="card" id="seasonal">
+          <div class="card-image">
+            <img
+              src="https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,f_jpg,h_650,q_80,w_1000/https%3A%2F%2Fassets.simpleviewinc.com%2Fsimpleview%2Fimage%2Fupload%2Fcrm%2Flongmontco%2FIce-Skating--Sherri-O-Hara-15--77456a7d5056b36_77456f49-5056-b365-ab975084db923379.jpg"
+              alt="Ice skating in Longmont Colorado"
+              loading="lazy"
+            /><span class="badge badge-low">SEASONAL</span>
+          </div>
+          <div class="card-body">
+            <div class="card-type">Ice Skating • Winter</div>
+            <h3>Longmont Ice Pavilion</h3>
+            <p class="card-description">
+              The open-air covered rink at Roosevelt Park offers public skating,
+              hockey and lessons during the winter season.
+            </p>
+            <div class="details">
+              <div class="detail">
+                <strong>📍 Address:</strong> 725 Eighth Avenue, Longmont, CO
+                80501
+              </div>
+              <div class="detail">
+                <strong>☎ Phone:</strong>
+                <a href="tel:3037744777">303-774-4777</a>
+              </div>
+              <div class="detail">
+                <strong>❄ Season:</strong> Generally late November through
+                early March, weather permitting.
+              </div>
+              <div class="detail">
+                <strong>⚠ Current Status:</strong> Closed for the season as of
+                September 2026.
+              </div>
+            </div>
+            <div class="buttons">
+              <a
+                class="card-button website"
+                href="https://longmontcolorado.gov/recreation-services/activities/ice-skating/"
+                 target="_blank" rel="noopener noreferrer">Official Website</a
+              >
+            </div>
+          </div>
+        </article>
+        <article class="card" id="batting">
+          <div class="card-image">
+            <img
+              src="https://www.wellsathleticsco.com/wp-content/uploads/2025/10/wells-athletics-baseball-3-768x1024.jpg"
+              alt="Indoor baseball training at Wells Athletics"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            />
+            <span class="badge badge-paid">$$ PAID</span>
+          </div>
+          <div class="card-body">
+            <div class="card-type">Baseball • Indoor • Training</div>
+            <h3>Wells Athletics Batting Cages</h3>
+            <p class="card-description">
+              A locally owned, year-round indoor baseball facility with batting
+              cages, pitching machines and space for individual or team
+              practice.
+            </p>
+            <div class="details">
+              <div class="detail">
+                <strong>📍 Address:</strong> 455 Weaver Park Road, Suite 100,
+                Longmont, CO 80501
+              </div>
+              <div class="detail">
+                <strong>☎ Phone:</strong>
+                <a href="tel:7207274910">720-727-4910</a>
+              </div>
+              <div class="detail">
+                <strong>⚾ Good to Know:</strong> Reserve cage time through the
+                official website.
+              </div>
+            </div>
+            <div class="buttons">
+              <a
+                class="card-button website"
+                href="https://www.wellsathleticsco.com/longmont-batting-cages/"
+                 target="_blank" rel="noopener noreferrer">Official Website</a
+              >
+              
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-image">
+            <img
+              src="https://crossbar.s3.amazonaws.com/organizations/1837/uploads/513b9392-973c-4fce-a48f-233ae9cca7dc.png"
+              alt="Longmont Baseball League logo"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+              style="object-fit: contain; padding: 24px; background: #fff"
+            />
+            <span class="badge badge-paid">$ RENTAL</span>
+          </div>
+          <div class="card-body">
+            <div class="card-type">Baseball • Youth • Facility Rental</div>
+            <h3>Longmont Baseball League Cages</h3>
+            <p class="card-description">
+              The nonprofit Longmont Baseball League rents two indoor cages with
+              an Iron Mike pitching machine, hitting nets, tees and practice
+              balls.
+            </p>
+            <div class="details">
+              <div class="detail">
+                <strong>📍 Address:</strong> 100 10th Avenue, Longmont, CO 80501
+              </div>
+              <div class="detail">
+                <strong>☎ Phone:</strong>
+                <a href="tel:7206986119">720-698-6119</a>
+              </div>
+              <div class="detail">
+                <strong>✉ Email:</strong>
+                <a href="mailto:director@longmontbaseball.org"
+                  >director@longmontbaseball.org</a
+                >
+              </div>
+            </div>
+            <div class="buttons">
+              <a
+                class="card-button website"
+                href="https://www.longmontbaseball.org/program/facility-rental/16796"
+                 target="_blank" rel="noopener noreferrer">Official Website</a
+              >
+              
+            </div>
+          </div>
+        </article>
+        <article class="card" id="family">
+          <div class="card-image">
+            <img
+              src="https://longmontcolorado.gov/wp-content/uploads/2024/07/Garden-Acres.jpg"
+              alt="Garden Acres Community Park in Longmont"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            />
+            <span class="badge badge-free">FREE</span>
+          </div>
+          <div class="card-body">
+            <div class="card-type">Park • Batting Cage • Sports</div>
+            <h3>Garden Acres Community Park</h3>
+            <p class="card-description">
+              A neighborhood sports hub with a batting cage, lighted softball
+              fields, soccer space, cricket pitch, playgrounds, paths and public
+              art.
+            </p>
+            <div class="details">
+              <div class="detail">
+                <strong>📍 Address:</strong> 2058 Spencer Street, Longmont, CO
+                80501
+              </div>
+              <div class="detail">
+                <strong>☎ City Help Line:</strong>
+                <a href="tel:3037766050">303-776-6050</a>
+              </div>
+              <div class="detail">
+                <strong>🕐 Park Hours:</strong> 5 a.m.–11 p.m.; confirm facility
+                availability before visiting.
+              </div>
+            </div>
+            <div class="buttons">
+              <a
+                class="card-button website"
+                href="https://longmontcolorado.gov/facility/garden-acres-community-park/"
+                 target="_blank" rel="noopener noreferrer">Official Website</a
+              >
+              
+            </div>
+          </div>
+        </article>
+        <article class="card" id="makers">
+          <div class="card-image">
+            <img
+              src="https://static.wixstatic.com/media/3bd341_8e86ab56c08347afa09da84258b33aa1~mv2.jpg/v1/fit/w_2500,h_1330,al_c/3bd341_8e86ab56c08347afa09da84258b33aa1~mv2.jpg"
+              alt="Crackpots pottery studio"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            />
+            <span class="badge badge-paid">$$ PAID</span>
+          </div>
+          <div class="card-body">
+            <div class="card-type">Pottery • Glass • Creative Fun</div>
+            <h3>Crackpots</h3>
+            <p class="card-description">
+              A downtown paint-your-own-pottery studio offering glass fusing,
+              mosaics, classes, parties and walk-in creative time for all ages.
+            </p>
+            <div class="details">
+              <div class="detail">
+                <strong>📍 Address:</strong> 505 Main Street, Longmont, CO 80501
+              </div>
+              <div class="detail">
+                <strong>☎ Phone:</strong>
+                <a href="tel:3037762211">303-776-2211</a>
+              </div>
+              <div class="detail">
+                <strong>🎨 Good to Know:</strong> Walk-ins are welcome; check
+                the calendar for classes and events.
+              </div>
+            </div>
+            <div class="buttons">
+              <a
+                class="card-button website"
+                href="https://www.ecrackpots.com/"
+                 target="_blank" rel="noopener noreferrer">Official Website</a
+              >
+              
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-image">
+            <img
+              src="https://static.wixstatic.com/media/0eda35_6e343698029d885d8ef4ffd380ea8009.jpg/v1/fit/w_2500,h_1330,al_c/0eda35_6e343698029d885d8ef4ffd380ea8009.jpg"
+              alt="Atomic Goblin Games in Longmont"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            />
+            <span class="badge badge-low">$ VARIES</span>
+          </div>
+          <div class="card-body">
+            <div class="card-type">Board Games • Cards • Miniatures</div>
+            <h3>Atomic Goblin Games</h3>
+            <p class="card-description">
+              An independent game shop and gathering place for board games,
+              trading cards, tabletop miniatures and scheduled community play.
+            </p>
+            <div class="details">
+              <div class="detail">
+                <strong>📍 Address:</strong> 1515 Main Street, Unit 4, Longmont,
+                CO 80501
+              </div>
+              <div class="detail">
+                <strong>☎ Phone:</strong>
+                <a href="tel:7206846074">720-684-6074</a>
+              </div>
+              <div class="detail">
+                <strong>🎲 Good to Know:</strong> Check the official calendar
+                for organized play and special events.
+              </div>
+            </div>
+            <div class="buttons">
+              <a
+                class="card-button website"
+                href="https://www.atomicgoblingames.com/"
+                 target="_blank" rel="noopener noreferrer">Official Website</a
+              >
+              
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-image">
+            <img
+              src="https://tinkermill.org/wp-content/uploads/2021/09/cropped-TinkerMill-Logo-Green-1.png"
+              alt="TinkerMill makerspace logo"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+              style="object-fit: contain; padding: 28px; background: #fff"
+            />
+            <span class="badge badge-low">TOURS &amp; CLASSES</span>
+          </div>
+          <div class="card-body">
+            <div class="card-type">Makerspace • Workshops • Community</div>
+            <h3>TinkerMill</h3>
+            <p class="card-description">
+              A volunteer-powered nonprofit makerspace with woodworking,
+              welding, pottery, textiles, robotics, laser cutting, blacksmithing
+              and more.
+            </p>
+            <div class="details">
+              <div class="detail">
+                <strong>📍 Address:</strong> 1840 Delaware Place, Unit A,
+                Longmont, CO 80501
+              </div>
+              <div class="detail">
+                <strong>☎ Phone:</strong>
+                <a href="tel:7202043090">720-204-3090</a>
+              </div>
+              <div class="detail">
+                <strong>👋 Public Tours:</strong> Sundays, 2–4 p.m.; confirm
+                before visiting.
+              </div>
+            </div>
+            <div class="buttons">
+              <a
+                class="card-button website"
+                href="https://tinkermill.org/"
+                 target="_blank" rel="noopener noreferrer">Official Website</a
+              >
+              
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-image">
+            <img
+              src="https://yayafarmandorchard.com/wp-content/uploads/2024/06/Truck-and-Barn-v4-original-ratio-2560w-jpg.webp"
+              alt="YA YA Farm and Orchard"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            />
+            <span class="badge badge-low">SEASONAL</span>
+          </div>
+          <div class="card-body">
+            <div class="card-type">Orchard • Farm Stand • U-Pick</div>
+            <h3>YA YA Farm &amp; Orchard</h3>
+            <p class="card-description">
+              A historic family orchard with fruit trees, farm animals, a
+              seasonal farm stand and reservation-based U-pick experiences.
+            </p>
+            <div class="details">
+              <div class="detail">
+                <strong>📍 Address:</strong> 6914 Ute Highway, Longmont, CO
+                80503
+              </div>
+              <div class="detail">
+                <strong>☎ Phone:</strong>
+                <a href="tel:3034855585">303-485-5585</a>
+              </div>
+              <div class="detail">
+                <strong>🍎 Good to Know:</strong> U-pick requires a reservation;
+                farm-stand access and harvest availability change seasonally.
+              </div>
+            </div>
+            <div class="buttons">
+              <a
+                class="card-button website"
+                href="https://yayafarmandorchard.com/"
+                 target="_blank" rel="noopener noreferrer">Official Website</a
+              >
+              
+            </div>
+          </div>
+        </article>
+        <article class="card" id="firehouse-art-center">
+          <div class="card-image">
+            <img
+              src="https://firehouseart.org/wp-content/uploads/2026/08/Screenshot-2026-08-22-175848.png"
+              alt="Firehouse Art Center exhibition"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+            />
+            <span class="badge badge-free">FREE GALLERY</span>
+          </div>
+          <div class="card-body">
+            <div class="card-type">Contemporary Art • Classes • Events</div>
+            <h3>Firehouse Art Center</h3>
+            <p class="card-description">
+              Longmont’s nonprofit contemporary art center presents rotating
+              exhibitions, education programs and community events in the
+              Creative District.
+            </p>
+            <div class="details">
+              <div class="detail">
+                <strong>📍 Address:</strong> 667 4th Avenue, Longmont, CO 80501
+              </div>
+              <div class="detail">
+                <strong>☎ Phone:</strong>
+                <a href="tel:3036512787">303-651-2787</a>
+              </div>
+              <div class="detail">
+                <strong>🕐 Gallery:</strong> Wednesday–Sunday, noon–5 p.m.;
+                check current details before visiting.
+              </div>
+            </div>
+            <div class="buttons">
+              <a
+                class="card-button website"
+                href="https://firehouseart.org/"
+                 target="_blank" rel="noopener noreferrer">Official Website</a
+              >
+              
+            </div>
+          </div>
+        </article>
+      <article class="card" id="frcc-observatory"><div class="card-body"><div class="card-type">Astronomy • Public Stargazing</div><h3>FRCC Boulder County Observatory</h3><p class="card-description">Look through a telescope at the Moon, planets and other night-sky objects during public Observatory Nights at Front Range Community College’s Boulder County Campus in Longmont.</p><div class="details"><div class="detail"><strong>📍 Location:</strong> Campus courtyard, 2190 Miller Drive, Longmont, CO 80501</div><div class="detail"><strong>☎ Observatory questions:</strong> <a href="tel:3036783867">303-678-3867</a></div><div class="detail"><strong>✉ Contact:</strong> <a href="mailto:Anthony.Riley@frontrange.edu">Anthony.Riley@frontrange.edu</a></div><div class="detail"><strong>Good to know:</strong> Public viewing is offered on scheduled nights and depends on weather. Confirm the current schedule and courtyard entrance before visiting.</div></div><div class="buttons"><a class="card-button website" href="https://www.frontrange.edu/calendar/index.html" target="_blank" rel="noopener noreferrer">College Events Calendar</a><a class="card-button directions" href="https://www.frontrange.edu/campuses-online/bcc/index.html" target="_blank" rel="noopener noreferrer">Campus Information</a></div></div></article>
+</div>
+    </section>
+    <section class="local-ideas">
+      <div class="local-heading">
+        <div class="eyebrow">Choose Your Adventure</div>
+        <h2 class="section-title">What Kind of Day Are You Looking For?</h2>
+      </div>
+      <div class="idea-grid">
+        <div class="idea">
+          <div class="idea-icon">💚</div>
+          <h3>A Completely Free Day</h3>
+          <p>
+            Walk around McIntosh Lake, explore Golden Ponds, visit the
+            Agricultural Heritage Center or discover Longmont history at
+            Sandstone Ranch.
+          </p>
+        </div>
+        <div class="idea">
+          <div class="idea-icon">👨‍👩‍👧</div>
+          <h3>A Family Day</h3>
+          <p>
+            Explore Dickens Farm, meet the animals at Sunflower Farm or spend
+            the afternoon swimming at the Longmont Recreation Center.
+          </p>
+        </div>
+        <div class="idea">
+          <div class="idea-icon">❤️</div>
+          <h3>A Date Day</h3>
+          <p>
+            Take a sunset walk at Golden Ponds or McIntosh Lake, try climbing
+            together or ice skate during the winter.
+          </p>
+        </div>
+        <div class="idea">
+          <div class="idea-icon">🌊</div>
+          <h3>A Water Day</h3>
+          <p>
+            Kayak or paddleboard at McIntosh Lake or spend a full summer day at
+            Union Reservoir.
+          </p>
+        </div>
+        <div class="idea">
+          <div class="idea-icon">🌧️</div>
+          <h3>A Rainy Day</h3>
+          <p>
+            Try the Longmont Climbing Collective, Recreation Center or check the
+            Longmont Museum's program schedule.
+          </p>
+        </div>
+        <div class="idea">
+          <div class="idea-icon">🪂</div>
+          <h3>A Bucket-List Day</h3>
+          <p>
+            Go skydiving over the Front Range or try something new like
+            climbing, kayaking or paddleboarding.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="note-section">
+      <div class="note">
+        <h2>Before You Go</h2>
+        <ul>
+          <li>
+            Hours, prices, programs and seasonal availability can change. Use
+            the official website button on each listing before making a special
+            trip.
+          </li>
+          <li>
+            Most Longmont nature areas are open approximately one hour before
+            sunrise until one hour after sunset.
+          </li>
+          <li>
+            A Colorado Parks & Wildlife fishing license is required at Longmont
+            fishing locations when applicable.
+          </li>
+          <li>
+            Water levels and creek conditions vary throughout the year. Always
+            follow posted safety information.
+          </li>
+          <li>
+            Many outdoor Longmont attractions are completely free, making it
+            possible to explore the community without spending anything.
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="submit">
+      <div class="eyebrow">Help Build the Guide</div>
+      <h2>Know Something We Should Add?</h2>
+      <p>
+        Have a favorite Longmont park, attraction, activity, hidden gem or
+        experience that belongs on this page? Tell us about it.
+      </p>
+      <a
+        href="mailto:hello.lovinglongmont@gmail.com?subject=Longmont%20Things%20to%20Do%20Submission&body=Hi%20Loving%20Longmont%2C%0A%0AI%27d%20like%20to%20suggest%20something%20for%20the%20Things%20to%20Do%20page.%0A%0AName%3A%0AWebsite%3A%0ALocation%3A%0AWhy%20I%20recommend%20it%3A%0A"
+        class="submit-button"
+        >Suggest Something →</a
+      >
+    </section>
+    <footer class="sb-footer"><div class="sb-wrap"><div class="sb-foot-top"><a class="sb-footer-logo" href="index.html" aria-label="Loving Longmont home"><img src="assets/loving-longmont-lettering.webp" alt="Loving Longmont" width="1573" height="1000" loading="lazy"></a><a class="sb-mkt" href="https://mktvisibility.com" aria-label="Visit MKT Visibility" target="_blank" rel="noopener noreferrer"><img src="assets/mkt-visibility-logo-dark.webp" alt="MKT Visibility" width="600" height="300" loading="lazy"></a></div><nav class="sb-foot-nav" aria-label="Footer navigation"><a href="things-to-do.html">Explore</a><a href="businesses.html">Businesses</a><a href="events.html">Events</a><a href="community.html">Community</a><a href="history.html">History</a><a href="search.html">Search</a><a href="animals.html">Animals & pets</a><a href="jobs.html">Jobs</a><a href="spotlight.html">Spotlights</a><a href="pricing.html">Get listed</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="sitemap.html">Site map</a><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook ↗</a></nav></div><div class="sb-copyright">© 2026 Loving Longmont · A community resource by MKT Visibility</div></footer>
+  <script src="assets/site-links.js" defer></script>
+</body>
+</html>
