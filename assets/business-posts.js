@@ -36,7 +36,9 @@ if(page==='businesses.html'||page==='search.html'||page==='spotlight.html'){
 if(page==='index.html'){
  const selected=spotlightRecords(records,page);
  
- const display=selected;
+ const fallback=records.filter(b=>b.directory!==false&&url(b.image_url)).sort((a,b)=>a.name.localeCompare(b.name));
+ const display=selected.length?selected:fallback.slice(0,3);
+ if(!selected.length){const heading=document.querySelector("#home-spotlights h2");if(heading)heading.textContent="Discover local businesses";}
  const grid=document.getElementById('home-business-grid');grid?.append(...display.map(card));
  if(!display.length)document.getElementById('home-spotlights')?.remove();
 }
