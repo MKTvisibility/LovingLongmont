@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Eat & Drink",
+    "route": "eat-drink.html",
+    "status": "pending",
+    "alternative": "businesses.html#specialty"
+  },
+  {
+    "title": "Shop Local",
+    "route": "shop-local.html",
+    "status": "pending",
+    "alternative": "businesses.html"
+  },
+  {
+    "title": "Arts & Culture",
+    "route": "arts-culture.html",
+    "status": "pending",
+    "alternative": "businesses.html#creative"
+  },
+  {
+    "title": "Events",
+    "route": "events.html",
+    "status": "ready"
+  },
+  {
+    "title": "Get Outside",
+    "route": "get-outside.html",
+    "status": "pending",
+    "alternative": "things-to-do.html"
+  },
+  {
+    "title": "Our History",
+    "route": "history.html",
+    "status": "ready"
+  }
+]
