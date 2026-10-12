@@ -31,6 +31,10 @@ body{background:#fff;color:#111}.preview{background:#111;color:#fff}.header{bord
 /* Footer mirrors the black navigation and cobalt history ribbon. */
 .site-footer{margin-top:0}.footer-navigation{background:#000;color:#fff;padding:28px 0}.footer-navigation-inner{display:flex;justify-content:space-between;align-items:center;gap:28px}.footer-navigation .brand-mark{width:140px;height:63px}.footer-navigation .brand-mark img{width:140px;filter:url(#header-logo-color)}.footer-links{display:flex;flex-wrap:wrap;align-items:center;gap:25px}.footer-links a{color:#fff;font-size:12px;text-decoration:none}.footer-links a:hover{color:#ffe034}.footer-copyright{background:#0050b8;color:#fff;padding:14px 0;text-align:center}.footer-copyright p{font-size:11px;letter-spacing:.3px;margin:0;color:#fff}
 @media(max-width:650px){.footer-navigation{padding:25px 0}.footer-navigation-inner{flex-direction:column;align-items:flex-start;gap:22px}.footer-navigation .brand-mark{width:110px;height:50px}.footer-navigation .brand-mark img{width:110px}.footer-links{gap:16px 24px}.footer-links a{font-size:12px}.footer-copyright{padding:14px 0}.footer-copyright p{font-size:10px;line-height:1.7}}
+
+/* Partner logo beside the Loving Longmont footer mark. */
+.footer-navigation-inner{flex-direction:column;align-items:stretch;gap:24px}.footer-brands{display:flex;justify-content:space-between;align-items:center;gap:30px;width:100%}.mkt-footer-logo{display:block;width:160px;flex-shrink:0;border-radius:2px;overflow:hidden;background:#fff}.mkt-footer-logo img{display:block;width:100%;height:auto;object-fit:contain}.footer-links{justify-content:center}
+@media(max-width:650px){.mkt-footer-logo{width:135px}.footer-brands{gap:20px}.footer-links{justify-content:flex-start}}
 </style>
 </head>
 <body>
@@ -46,8 +50,9 @@ body{background:#fff;color:#111}.preview{background:#111;color:#fff}.header{bord
 <section class="about" id="community"><div><div class="eyebrow">A place to feel connected</div><h2>Made for the people<br>who love this place.</h2><p>Loving Longmont brings local businesses, places, and community discoveries together. Whether you’ve lived here for years or you’re just getting acquainted, start with something close to home.</p></div><div class="details"><details open><summary>What can I find here?</summary><p>This new homepage is the starting point for a simpler community guide. Business profiles, things to do, and a clear sitemap will follow after the design is approved.</p></details><details><summary>How can my business be included?</summary><p>Use “Ask about a listing” above to contact MKT Visibility about adding your business or updating an existing listing.</p></details><details><summary>Can existing business details be updated?</summary><p>Yes. Contact us with a corrected description, contact information, or a new business photo so neighbors can find the right information.</p></details></div></section>
 </main></div>
 <footer class="site-footer">
-<div class="footer-navigation"><div class="wrap footer-navigation-inner">
+<div class="footer-navigation"><div class="wrap footer-navigation-inner"><div class="footer-brands">
 <a class="brand brand-mark footer-mark" href="index.html" aria-label="Loving Longmont home"><img src="assets/loving-longmont-lettering.webp" alt="Loving Longmont, Colorado" width="1573" height="1000" loading="lazy"></a>
+<a class="mkt-footer-logo" href="https://mktvisibility.com" aria-label="Visit MKT Visibility"><img src="assets/mkt-visibility-logo.webp" alt="MKT Visibility" width="600" height="300" loading="lazy"></a></div>
 <nav class="footer-links" aria-label="Footer navigation"><a href="#explore">Explore Longmont</a><a href="#local">Local businesses</a><a href="#community">Our community</a><a href="#get-listed">Get listed</a><a href="#">Back to top ↑</a></nav>
 </div></div>
 <div class="footer-copyright"><div class="wrap"><p>© 2026 Loving Longmont · A community resource by MKT Visibility</p></div></div>
