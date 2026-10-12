@@ -23,3 +23,7 @@ October 12: homepage scenery replaced with a watercolor adaptation of Michelleâ€
 ## White and green, uncropped imagery
 
 Removed ornamental florals from shared header/interior/footer accents and homepage hero art. White replaces cream backgrounds; forest-green navigation/buttons/footer retained. Hero is now a responsive image element showing its entire width, with headline below it on mobile. All displayed images use natural aspect ratios, contain sizing and no fixed-height cropping; directory/category/gallery/story image containers adapt to their contents. No browser rendering verification is available in this session.
+
+## Approved full-width panorama
+
+Michelle approved the revised panorama with the duplicated son removed at the X-marked position and the left circled instance retained. Used the exact approved generated artwork, optimized to WebP at original proportions with a responsive small variant. Homepage image fills available viewport width; headline/subtitle/button sit below so neither imagery nor text obscure parade participants. Interior headers remain compact and white with the transparent logo.

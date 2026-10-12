@@ -36,3 +36,12 @@ body.watercolor-site{background:#fff;background-image:none}
  .watercolor-site .category-art{position:static;width:100%;height:auto}
  .watercolor-site .story-card img{height:auto;align-self:start}
 }
+
+/* Approved full-width parade panorama; copy sits below the complete artwork. */
+.watercolor-site.is-home .site-main{width:100%;max-width:none}
+.watercolor-site .home-hero{display:flex;flex-direction:column;width:100%;margin:0;padding:0}
+.watercolor-site .home-hero>.hero-art{order:0;width:100%;height:auto;max-width:100%;margin:0;object-fit:contain}
+.watercolor-site .home-hero>.hero-copy{order:1;align-self:center;width:100%;margin:0;padding:30px 24px 36px;background:#fff;text-align:center}
+.watercolor-site .hero-copy h1{max-width:none}
+.watercolor-site .hero-copy .hero-deck{margin-left:auto;margin-right:auto}
+@media(min-width:1300px){.watercolor-site.is-home .home-section,.watercolor-site.is-home .community-paths,.watercolor-site.is-home .submit{max-width:1240px;margin-left:auto!important;margin-right:auto!important}.watercolor-site.is-home .explore-section{max-width:1280px;margin-left:auto!important;margin-right:auto!important}}
