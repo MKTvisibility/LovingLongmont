@@ -19,3 +19,7 @@ Limitations: Browser control skill unavailable in this managed environment; no d
 ## Parade header revision
 
 October 12: homepage scenery replaced with a watercolor adaptation of Michelle’s three supplied parade photographs, using the Coffman Street intersection, actual brick/blue-gray building, trees, balloon arch and parade participants. Expressions softened to natural smiles. Fantasy mountain backdrop removed. Generated using the built-in image tool; this is an illustrated adaptation of the photographs, not an unaltered documentary photo. Solid cream masthead and transparent logo preserved. New reusable assets: watercolor-parade-hero.webp and watercolor-parade-hero-small.webp. Previous hero assets retained for rollback.
+
+## White and green, uncropped imagery
+
+Removed ornamental florals from shared header/interior/footer accents and homepage hero art. White replaces cream backgrounds; forest-green navigation/buttons/footer retained. Hero is now a responsive image element showing its entire width, with headline below it on mobile. All displayed images use natural aspect ratios, contain sizing and no fixed-height cropping; directory/category/gallery/story image containers adapt to their contents. No browser rendering verification is available in this session.
