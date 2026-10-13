@@ -27,3 +27,8 @@
 
 /* Keep the supplied Butterscotch logo whole against its matching background. */
 #business-profile[data-ll-profile="05e3d0d9-619e-5386-a120-171771e867b0"] .bp-logo{background:#c79a51;border-radius:12px;overflow:hidden}
+
+/* Full-width brand artwork: preserve every word without letterboxing or cropping. */
+:is([data-ll-live-business="8a3d2ea6-98d0-5b73-8724-25f88ce2a509"],[data-ll-live-business="fd5a893d-2fbf-4f5d-a82c-06d73752f5a1"])[data-ll-visual-card] .ll-visual-image{aspect-ratio:auto;background:white;line-height:0}
+:is([data-ll-live-business="8a3d2ea6-98d0-5b73-8724-25f88ce2a509"],[data-ll-live-business="fd5a893d-2fbf-4f5d-a82c-06d73752f5a1"])[data-ll-visual-card] .ll-visual-image a{height:auto}
+:is([data-ll-live-business="8a3d2ea6-98d0-5b73-8724-25f88ce2a509"],[data-ll-live-business="fd5a893d-2fbf-4f5d-a82c-06d73752f5a1"])[data-ll-visual-card] .ll-visual-image img{width:100%!important;height:auto!important;object-fit:contain!important;padding:0!important}
