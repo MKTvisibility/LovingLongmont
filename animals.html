@@ -749,8 +749,34 @@ footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55
 <link href="assets/live-header.css" rel="stylesheet"/>
 <script defer="" src="assets/live-header.js"></script>
 <link href="assets/live/business-profile.css?v=20261013-profile-layout" rel="stylesheet"/>
-<link href="assets/visual-cards.css?v=20261013-bee-hugger-fill" rel="stylesheet"/></head>
-<body>
+<link href="assets/visual-cards.css?v=20261013-bee-hugger-fill" rel="stylesheet"/><style id="animals-compact-layout">
+/* Compact spacing for the animal guide, including connected listings. */
+.animals-compact .intro{padding:30px 24px 20px}
+.animals-compact .section-title{font-size:clamp(28px,3.5vw,38px);margin-bottom:10px}
+.animals-compact .section-description{max-width:1000px;font-size:16px}
+.animals-compact .quick-section{padding:8px 24px 24px}
+.animals-compact .resources,.animals-compact .tips,.animals-compact .emergency-section{padding:32px 24px}
+.animals-compact .section-heading{margin-bottom:22px}
+.animals-compact .eyebrow{margin-bottom:6px;letter-spacing:2px}
+.animals-compact [data-ll-visual-grid]{row-gap:18px!important;column-gap:22px!important}
+.animals-compact [data-ll-visual-card]{padding-bottom:6px!important}
+.animals-compact [data-ll-visual-card] .ll-visual-image{margin-bottom:9px;aspect-ratio:2/1}
+.animals-compact [data-ll-visual-card] h3{font-size:18px!important;margin-bottom:7px!important}
+.animals-compact [data-ll-visual-card] p{margin-bottom:8px!important;line-height:1.45!important}
+.animals-compact [data-ll-visual-card] .business-links{margin-top:7px!important}
+.animals-compact .quick-section .quick-grid{gap:16px!important}
+.animals-compact .emergency-box{max-width:1280px;padding:22px}
+.animals-compact .emergency-box>h2{font-size:30px;margin-bottom:10px}
+.animals-compact .emergency-box>p{margin:0 0 12px}
+.animals-compact .emergency-grid{margin-top:18px}
+.animals-compact .cta{padding:32px 24px}
+.animals-compact .cta h2{font-size:32px;margin-bottom:12px}
+.animals-compact .cta p{margin-bottom:16px}
+.animals-compact .ll-connected-spotlights,.animals-compact .ll-connected-directory{margin:22px auto;padding:18px}
+.animals-compact .resources,.animals-compact .emergency-section{scroll-margin-top:145px}
+@media(max-width:650px){.animals-compact .resources,.animals-compact .tips,.animals-compact .emergency-section{padding:24px 20px}.animals-compact .intro{padding:24px 20px 16px}.animals-compact .section-heading{margin-bottom:18px}.animals-compact .emergency-box{padding:18px}.animals-compact .quick-section{padding:8px 20px 22px}}
+</style></head>
+<body class="animals-compact">
 <!-- =========================================================
      HEADER
 ========================================================= -->
