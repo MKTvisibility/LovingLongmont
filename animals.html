@@ -775,6 +775,19 @@ footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55
 .animals-compact .ll-connected-spotlights,.animals-compact .ll-connected-directory{margin:22px auto;padding:18px}
 .animals-compact .resources,.animals-compact .emergency-section{scroll-margin-top:145px}
 @media(max-width:650px){.animals-compact .resources,.animals-compact .tips,.animals-compact .emergency-section{padding:24px 20px}.animals-compact .intro{padding:24px 20px 16px}.animals-compact .section-heading{margin-bottom:18px}.animals-compact .emergency-box{padding:18px}.animals-compact .quick-section{padding:8px 20px 22px}}
+</style><style id="rescue-aligned-layout">
+#help-animals .resource-grid{align-items:stretch!important}
+#help-animals .resource-grid>article.card{display:flex!important;flex-direction:column}
+#help-animals article.card .ll-visual-image{flex:none;aspect-ratio:16/9!important;background:#fff}
+#help-animals article.card .business-body{display:flex;flex-direction:column;flex:1}
+#help-animals article.card h3{min-height:3.66em}
+#help-animals article.card .business-description{min-height:4.5em}
+#help-animals article.card .business-links{margin-top:auto!important;padding-top:8px!important}
+#help-animals .rescue-help-note{max-width:1280px;margin:20px auto 0;padding:16px 20px;border-left:4px solid #347455;border-radius:8px;background:#fffaf1}
+#help-animals .rescue-help-note h3{font:700 19px/1.25 Georgia,serif;color:#123f34;margin:0 0 8px}
+#help-animals .rescue-help-note p{font-size:14px;margin:0 0 12px}
+#help-animals .rescue-help-links{display:flex;flex-wrap:wrap;gap:10px 22px;font-size:13px;color:#123f34}
+#help-animals img[src$="rescue-horse.webp"]{object-position:70% center!important}
 </style></head>
 <body class="animals-compact">
 <!-- =========================================================
@@ -864,11 +877,11 @@ for an animal in need.
 </div>
 <div class="resource-grid" data-ll-visual-grid="">
 <!-- LONGMONT HUMANE -->
-<article class="card" data-business-category="Animal Shelter" data-ll-visual-card=""><div class="ll-visual-image" data-image-kind="art" data-image-tone="light"><a aria-label="Longmont Humane Society" class="button button-primary" href="longmont-humane-society.html"><img alt="Illustration for Longmont Humane Society" src="assets/art/pets.webp"/></a></div><div class="business-body"><h3><a href="longmont-humane-society.html">Longmont Humane Society</a></h3><p class="business-description">Longmont's primary nonprofit animal shelter provides adoption,
+<article class="card" data-business-category="Animal Shelter" data-ll-visual-card=""><div class="ll-visual-image" data-image-kind="logo" data-image-tone="light" data-image-source="https://longmonthumane.org/"><a aria-label="Longmont Humane Society" class="button button-primary" href="longmont-humane-society.html"><img alt="Official Longmont Humane Society logo" src="assets/official/rescue-humane.webp"/></a></div><div class="business-body"><h3><a href="longmont-humane-society.html">Longmont Humane Society</a></h3><p class="business-description">Longmont's primary nonprofit animal shelter provides adoption,
 lost-and-found services, pet rehoming resources, dog training,
 veterinary care, fostering, volunteering and humane education.</p><div class="business-links"><a class="business-button" href="longmont-humane-society.html">View Business Page →</a></div></div></article>
 <!-- COLORADO HORSE RESCUE -->
-<article class="card" data-business-category="Horse Rescue" data-ll-visual-card=""><div class="ll-visual-image" data-image-kind="art" data-image-tone="light"><a aria-label="Colorado Horse Rescue" class="button button-primary" href="colorado-horse-rescue.html"><img alt="Illustration for Colorado Horse Rescue" src="assets/art/farm.webp"/></a></div><div class="business-body"><h3><a href="colorado-horse-rescue.html">Colorado Horse Rescue</a></h3><p class="business-description">Colorado Horse Rescue has been helping at-risk horses since
+<article class="card" data-business-category="Horse Rescue" data-ll-visual-card=""><div class="ll-visual-image" data-image-kind="image" data-image-tone="light" data-image-source="https://chr.org/"><a aria-label="Colorado Horse Rescue" class="button button-primary" href="colorado-horse-rescue.html"><img alt="Horse at Colorado Horse Rescue, from its official website" src="assets/official/rescue-horse.webp"/></a></div><div class="business-body"><h3><a href="colorado-horse-rescue.html">Colorado Horse Rescue</a></h3><p class="business-description">Colorado Horse Rescue has been helping at-risk horses since
 1986. The organization provides rehabilitation, adoption,
 foster support and education while helping horses transition
 into safe homes.</p><div class="business-links"><a class="business-button" href="colorado-horse-rescue.html">View Business Page →</a></div></div></article>
@@ -882,27 +895,17 @@ residents.</p><div class="business-links"><a class="business-button" href="good-
 birds, mammals and waterfowl from across the Front Range.
 Call before attempting to rescue or transport wildlife.</p><div class="business-links"><a class="business-button" href="greenwood-wildlife-rehabilitation-center.html">View Business Page →</a></div></div></article>
 <!-- REPTILE HUMANE -->
-<article class="card" data-business-category="Reptile &amp; Amphibian Rescue" data-ll-visual-card=""><div class="business-body"><h3><a href="colorado-reptile-humane-society.html">Colorado Reptile Humane Society</a></h3><p class="business-description">This Longmont-area nonprofit specializes in reptiles and
+<article class="card" data-business-category="Reptile &amp; Amphibian Rescue" data-ll-visual-card=""><div class="ll-visual-image" data-image-kind="art" data-image-tone="light"><a aria-label="Colorado Reptile Humane Society" href="colorado-reptile-humane-society.html"><img alt="Illustration of a bearded dragon, turtle and frog representing reptile and amphibian rescue" src="assets/art/rescue-reptile.webp"/></a></div><div class="business-body"><h3><a href="colorado-reptile-humane-society.html">Colorado Reptile Humane Society</a></h3><p class="business-description">This Longmont-area nonprofit specializes in reptiles and
 amphibians, providing sheltering, adoption, education and
 care guidance for animals with highly specialized needs.
 CoRHS also rehabilitates Colorado-native reptiles and amphibians,
 helping wildlife in need of specialized care.</p><div class="business-links"><a class="business-button" href="colorado-reptile-humane-society.html">View Business Page →</a></div></div></article>
-<!-- REPTILE & AMPHIBIAN WILDLIFE NOTE -->
-<div data-ll-visual-card="" style="grid-column:1 / -1;background:#fffaf1;border-left:6px solid var(--green);border-radius:14px;padding:24px 27px;box-shadow:0 6px 20px rgba(0,0,0,.05);">
-<h3 style="font-family:Georgia,serif;color:var(--navy);font-size:23px;margin:0 0 10px;">Found an Injured Reptile or Amphibian?</h3>
-<p style="margin:0 0 12px;color:var(--gray);font-size:14px;">
-Greenwood Wildlife Rehabilitation Center does not rehabilitate reptiles or amphibians. For injured or orphaned reptiles and amphibians, contact Colorado Reptile Humane Society (CoRHS) or Rocky Mountain Wildlife Alliance.
-</p>
-<div class="buttons">
-<a class="button button-green" href="https://corhs.org/" rel="noopener" target="_blank">Colorado Reptile Humane Society</a>
-<a class="button button-light" href="https://www.rmwalliance.org/" rel="noopener" target="_blank">Rocky Mountain Wildlife Alliance</a>
-</div>
-</div>
 <!-- ANIMAL CONTROL -->
 <article class="card" data-business-category="City Animal Services" data-ll-visual-card=""><div class="ll-visual-image" data-image-kind="logo" data-image-tone="light"><a aria-label="Longmont Animal Control" class="button button-primary" href="longmont-animal-control.html"><img alt="Longmont Animal Control" src="assets/official/ede3e81438c658.webp"/></a></div><div class="business-body"><h3><a href="longmont-animal-control.html">Longmont Animal Control</a></h3><p class="business-description">Longmont Animal Control handles domestic animal concerns,
 certain wildlife calls, pet licensing, animal bites,
 lost-animal issues and animal-related ordinance enforcement.</p><div class="business-links"><a class="business-button" href="longmont-animal-control.html">View Business Page →</a></div></div></article>
 </div>
+<aside class="rescue-help-note" aria-labelledby="reptile-help-heading"><h3 id="reptile-help-heading">Found an Injured Reptile or Amphibian?</h3><p>For injured or orphaned reptiles and amphibians, contact Colorado Reptile Humane Society (CoRHS) or Rocky Mountain Wildlife Alliance.</p><div class="rescue-help-links"><a href="https://corhs.org/" target="_blank" rel="noopener noreferrer">Colorado Reptile Humane Society →</a><a href="https://www.rmwalliance.org/" target="_blank" rel="noopener noreferrer">Rocky Mountain Wildlife Alliance →</a></div></aside>
 </section>
 <!-- =========================================================
      VISIT ANIMALS
