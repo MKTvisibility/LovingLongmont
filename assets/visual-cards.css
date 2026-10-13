@@ -24,3 +24,8 @@
 [data-ll-visual-grid]>.empty{grid-column:1/-1}
 
 .bp-logo[data-ll-image-tone="dark"]{background:#194c3e;border-radius:12px;padding:12px;box-sizing:border-box}
+
+/* Keep the supplied Butterscotch logo whole against its matching background. */
+[data-ll-live-business="05e3d0d9-619e-5386-a120-171771e867b0"] .ll-visual-image{background:#c79a51}
+[data-ll-live-business="05e3d0d9-619e-5386-a120-171771e867b0"] .ll-visual-image img{object-fit:contain!important;padding:0!important}
+#business-profile[data-ll-profile="05e3d0d9-619e-5386-a120-171771e867b0"] .bp-logo{background:#c79a51;border-radius:12px;overflow:hidden}
