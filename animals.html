@@ -736,6 +736,15 @@ footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55
 .footer-bottom{max-width:1150px;margin:40px auto 0;padding-top:20px;border-top:1px solid rgba(255,255,255,.2);text-align:center;color:#c5d5df;font-size:12px}
 .red-heart{color:var(--red,#c8101e)}
 @media(max-width:900px){.footer-grid{grid-template-columns:1fr}}
+
+/* Six distinct animal category cards in one desktop row. */
+.quick-section .quick-grid[data-ll-visual-grid]{grid-template-columns:repeat(6,minmax(0,1fr))!important;gap:18px!important;max-width:1280px}
+.quick-section .quick-card[data-ll-visual-card] h3{font-size:17px!important}
+.quick-section .quick-card[data-ll-visual-card] p{font-size:13px!important}
+.quick-section .quick-card .ll-visual-image{margin-bottom:10px;border-radius:10px}
+.quick-section{padding-bottom:32px}
+@media(max-width:1050px){.quick-section .quick-grid[data-ll-visual-grid]{grid-template-columns:repeat(3,minmax(0,1fr))!important}}
+@media(max-width:600px){.quick-section .quick-grid[data-ll-visual-grid]{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:16px!important}}
 </style>
 <link href="assets/live-header.css" rel="stylesheet"/>
 <script defer="" src="assets/live-header.js"></script>
@@ -785,25 +794,25 @@ Shelters, rescues, wildlife rehabilitation and volunteering.
 Farms, rescued animals, horses and family experiences.
 </p>
 </a>
-<a class="quick-card" data-ll-visual-card="" href="#veterinarians"><div class="ll-visual-image" data-image-kind="art" data-image-tone="light"><img alt="Illustration for Veterinarians" src="assets/art/pets.webp"/></div>
+<a class="quick-card" data-ll-visual-card="" href="#veterinarians"><div class="ll-visual-image" data-image-kind="art" data-image-tone="light"><img alt="Illustration for Veterinarians" src="assets/art/animals-veterinary.webp"/></div>
 <h3>Veterinarians</h3>
 <p>
 Independent and locally focused veterinary practices.
 </p>
 </a>
-<a class="quick-card" data-ll-visual-card="" href="#pet-supplies"><div class="ll-visual-image" data-image-kind="art" data-image-tone="light"><img alt="Illustration for Pet Supplies" src="assets/art/pets.webp"/></div>
+<a class="quick-card" data-ll-visual-card="" href="#pet-supplies"><div class="ll-visual-image" data-image-kind="art" data-image-tone="light"><img alt="Illustration for Pet Supplies" src="assets/art/animals-supplies.webp"/></div>
 <h3>Pet Supplies</h3>
 <p>
 Local alternatives to large national pet-store chains.
 </p>
 </a>
-<a class="quick-card" data-ll-visual-card="" href="#pet-care"><div class="ll-visual-image" data-image-kind="art" data-image-tone="light"><img alt="Illustration for Pet Sitting &amp; Boarding" src="assets/art/pets.webp"/></div>
+<a class="quick-card" data-ll-visual-card="" href="#pet-care"><div class="ll-visual-image" data-image-kind="art" data-image-tone="light"><img alt="Illustration for Pet Sitting &amp; Boarding" src="assets/art/animals-sitting.webp"/></div>
 <h3>Pet Sitting &amp; Boarding</h3>
 <p>
 Local sitters, dog walkers, kennels and home care.
 </p>
 </a>
-<a class="quick-card" data-ll-visual-card="" href="#emergency"><div class="ll-visual-image" data-image-kind="art" data-image-tone="light"><img alt="Illustration for Lost or Injured Animal" src="assets/art/wildlife.webp"/></div>
+<a class="quick-card" data-ll-visual-card="" href="#emergency"><div class="ll-visual-image" data-image-kind="art" data-image-tone="light"><img alt="Illustration for Lost or Injured Animal" src="assets/art/animals-lost-animal.webp"/></div>
 <h3>Lost or Injured Animal</h3>
 <p>
 Emergency, wildlife and lost-pet resources.
