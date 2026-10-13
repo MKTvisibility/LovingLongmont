@@ -35,3 +35,6 @@
 
 /* Bee Hugger Farm: crop the photograph to fill the entire preview frame. */
 [data-ll-live-business="ab70f6a2-9597-56ce-a256-162c17eb9fb2"][data-ll-visual-card] .ll-visual-image img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center!important;padding:0!important}
+
+/* The Flower Bin: fill the preview frame with the garden-center photo. */
+[data-ll-live-business="5b44dadc-9511-5688-ba72-23f589ba5524"][data-ll-visual-card] .ll-visual-image img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center!important;padding:0!important}
