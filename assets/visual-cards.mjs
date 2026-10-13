@@ -43,7 +43,7 @@ export function enhanceVisualCards(root,catalog){
   if(grid.hasAttribute('data-ll-preserve-layout') || (grid.classList.contains('business-grid') && grid.closest('.business-section')))continue;
   const cards=[...grid.children];if(cards.length<1)continue;
   grid.dataset.llVisualGrid='';
-  for(const card of cards){if(card.classList.contains('empty'))continue;if(card.dataset.llVisualCard!==undefined)continue;if(!cardTitle(card)||card.querySelector('[role="status"]'))continue;
+  for(const card of cards){if(card.matches('h1,h2,h3,h4,h5,h6')||card.classList.contains('directory-type-heading')||card.classList.contains('empty'))continue;if(card.dataset.llVisualCard!==undefined)continue;if(!cardTitle(card)||card.querySelector('[role="status"]'))continue;
    const chosen=selectImage(card,catalog);cleanIcons(card);card.dataset.llVisualCard='';
    if(chosen?.src&&safeImage(chosen.src)){
     const image=chosen.existing||document.createElement('img');const old=image.parentElement;
