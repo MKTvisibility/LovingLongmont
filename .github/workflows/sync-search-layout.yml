@@ -1,0 +1,16 @@
+name: Check Search Layout
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'search.html'
+      - '.github/workflows/sync-search-layout.yml'
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - name: Check current shared search header and footer
+        run: python -c "from pathlib import Path; s=Path('search.html').read_text(); assert 'll-live-header' in s, 'Shared header missing'; assert 'll-compact-footer' in s, 'Shared footer missing'; assert 'name=\"description\"' in s or 'name=description' in s, 'Description missing'; print('Search uses the current shared layout; no files rewritten.')"

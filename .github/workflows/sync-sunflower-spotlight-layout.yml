@@ -1,0 +1,53 @@
+name: Sync Sunflower Spotlight Layout
+
+on:
+  push:
+    paths:
+      - '.github/workflows/sync-sunflower-spotlight-layout.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Match Spotlight post to site layout
+        run: |
+          python3 - <<'PY'
+          import re
+          from pathlib import Path
+
+          target_path = Path('spotlight-sunflower-farm.html')
+          target = target_path.read_text()
+          index = Path('index.html').read_text()
+          about = Path('about.html').read_text()
+
+          header = re.search(r'<header class="site-header">.*?</header>', index, re.S).group(0)
+          header = header.replace('<a href="index.html" class="active">Home</a>', '<a href="index.html">Home</a>')
+          header = header.replace('<a href="spotlight.html">In The Spotlight</a>', '<a href="spotlight.html" class="active">In The Spotlight</a>')
+          footer = re.search(r'<footer>.*?</footer>', about, re.S).group(0)
+          hero = re.search(r'<section class="hero">.*?</section>', index, re.S).group(0)
+
+          target = re.sub(r'<header class="site-header">.*?</header>', header, target, count=1, flags=re.S)
+          # Add the standard Loving Longmont header image directly below the navigation if it is not already there.
+          after_header = target.split('</header>', 1)[1][:500]
+          if '<section class="hero">' not in after_header:
+              target = target.replace('</header>', '</header>\n' + hero, 1)
+          target = re.sub(r'<footer>.*?</footer>', footer, target, count=1, flags=re.S)
+
+          # Ensure Spotlight pages have the same hero styling as index.html.
+          if '.hero{' not in target and '.hero {' not in target:
+              target = target.replace('</style>', '.hero{width:100%;background:var(--cream)}.hero img{width:100%;height:auto;max-height:700px;object-fit:cover;object-position:center}\n</style>', 1)
+
+          target_path.write_text(target)
+          PY
+      - name: Commit update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add spotlight-sunflower-farm.html
+          git diff --cached --quiet || git commit -m "Match Sunflower Spotlight header navigation and footer"
+          git push

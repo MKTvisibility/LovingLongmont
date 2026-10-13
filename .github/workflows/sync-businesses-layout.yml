@@ -1,0 +1,48 @@
+name: Sync Businesses Layout
+
+on:
+  push:
+    paths:
+      - '.github/workflows/sync-businesses-layout.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  sync-layout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Match businesses navigation and footer
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          businesses_path = Path('businesses.html')
+          about_path = Path('about.html')
+          index_path = Path('index.html')
+
+          businesses = businesses_path.read_text(encoding='utf-8')
+          about = about_path.read_text(encoding='utf-8')
+          index = index_path.read_text(encoding='utf-8')
+
+          # Navigation: use the current index.html header, but keep Local Businesses active.
+          header = re.search(r'<header class="site-header">.*?</header>', index, re.S).group(0)
+          header = re.sub(r' class="active"', '', header)
+          header = header.replace('href="businesses.html"', 'href="businesses.html" class="active"', 1)
+          businesses = re.sub(r'<header class="site-header">.*?</header>', header, businesses, count=1, flags=re.S)
+
+          # Footer: copy the current footer from about.html exactly.
+          footer = re.search(r'<footer>.*?</footer>', about, re.S).group(0)
+          businesses = re.sub(r'<footer>.*?</footer>', footer, businesses, count=1, flags=re.S)
+
+          businesses_path.write_text(businesses, encoding='utf-8')
+          PY
+      - name: Commit update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add businesses.html
+          git diff --cached --quiet || git commit -m "Match businesses navigation and footer"
+          git push

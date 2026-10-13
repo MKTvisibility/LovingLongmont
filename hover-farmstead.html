@@ -1,0 +1,390 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Hover Farmstead | Loving Longmont</title><link rel="stylesheet" href="assets/live-header.css"><script defer="" src="assets/live-header.js"></script><style>
+      :root {
+        --navy: #062f52;
+        --red: #c8101e;
+        --cream: #fffaf1;
+        --sage: #e8f0ec;
+        --text: #293b45;
+        --gray: #687983;
+        --white: #fff;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.6;
+        color: var(--text);
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
+      a {
+        color: inherit;
+      }
+      .site-header {
+        background: rgba(255, 255, 255, 0.98);
+        border-bottom: 1px solid #e5e5e5;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+      .navbar {
+        max-width: 1450px;
+        margin: auto;
+        padding: 9px 22px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+      }
+      .nav-logo {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        min-width: 250px;
+      }
+      .nav-logo img {
+        width: 68px;
+        height: 68px;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+      .nav-brand-text {
+        margin-left: 13px;
+      }
+      .nav-brand-text strong {
+        color: var(--navy);
+        display: block;
+        font-size: 23px;
+        line-height: 1.1;
+      }
+      .nav-brand-text small {
+        display: block;
+        margin-top: 6px;
+        font-size: 9px;
+        letter-spacing: 2px;
+        color: var(--navy);
+        font-weight: bold;
+      }
+      .heart,
+      .red-heart {
+        color: var(--red);
+      }
+      .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+      .nav-links a {
+        text-decoration: none;
+        color: var(--navy);
+        font-size: 12px;
+        font-weight: bold;
+        padding: 25px 0 22px;
+        border-bottom: 3px solid transparent;
+        white-space: nowrap;
+      }
+      .nav-links a:hover,
+      .nav-links a.active {
+        color: var(--red);
+        border-bottom-color: var(--red);
+      }
+      .nav-contact {
+        color: white !important;
+        background: var(--navy);
+        border-radius: 7px;
+        padding: 12px 18px !important;
+        border-bottom: none !important;
+      }
+      .hero {
+        min-height: 430px;
+        display: grid;
+        place-items: center;
+        text-align: center;
+        padding: 70px 25px;
+        color: #fff;
+        background:
+          linear-gradient(
+            135deg,
+            rgba(3, 35, 62, 0.92),
+            rgba(10, 74, 119, 0.78)
+          ),
+          url("https://www.stvrainhistory.org/s/img/emotionheader.jpg")
+            center/cover;
+      }
+      .hero .eyebrow {
+        color: #ffbdc1;
+      }
+      .hero h1 {
+        font:
+          700 clamp(44px, 7vw, 72px) / 1.05 Georgia,
+          serif;
+        margin: 8px 0 14px;
+      }
+      .hero p {
+        max-width: 760px;
+        margin: auto;
+        font-size: 18px;
+        color: #e5eef3;
+      }
+      .eyebrow {
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        color: var(--red);
+        font-size: 12px;
+        font-weight: bold;
+      }
+      .intro {
+        text-align: center;
+        padding: 58px 25px;
+        background: var(--cream);
+      }
+      .intro h2,
+      .visit-note h2 {
+        font:
+          700 clamp(32px, 5vw, 48px) / 1.1 Georgia,
+          serif;
+        color: var(--navy);
+        margin: 8px 0 14px;
+      }
+      .intro p {
+        max-width: 850px;
+        margin: auto;
+        color: var(--gray);
+      }
+      .properties {
+        padding: 70px 25px;
+      }
+      .grid {
+        max-width: 1180px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 28px;
+      }
+      .card {
+        border: 1px solid #e3e7e8;
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 8px 26px rgba(0, 0, 0, 0.07);
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+      }
+      .card-image {
+        height: 310px;
+        background: #e8eeef;
+        overflow: hidden;
+      }
+      .card-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .card-body {
+        padding: 27px;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+      }
+      .card-type {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: var(--red);
+        font-size: 10px;
+        font-weight: bold;
+      }
+      .card h3 {
+        font:
+          700 28px/1.15 Georgia,
+          serif;
+        color: var(--navy);
+        margin: 7px 0 11px;
+      }
+      .card p {
+        color: var(--gray);
+        margin: 0 0 18px;
+      }
+      .details {
+        margin-top: auto;
+        border-top: 1px solid #ececec;
+        padding-top: 13px;
+        font-size: 14px;
+      }
+      .details div {
+        margin: 7px 0;
+      }
+      .details strong {
+        color: var(--navy);
+      }
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 9px;
+        margin-top: 20px;
+      }
+      .button {
+        padding: 10px 14px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: bold;
+        background: var(--navy);
+        color: #fff;
+      }
+      .button.secondary {
+        background: #edf3f4;
+        color: var(--navy);
+      }
+      .visit-note {
+        background: var(--sage);
+        padding: 65px 25px;
+        text-align: center;
+      }
+      .visit-note > div {
+        max-width: 880px;
+        margin: auto;
+        background: #fff;
+        border-left: 6px solid var(--red);
+        border-radius: 14px;
+        padding: 28px;
+      }
+      .visit-note p {
+        color: var(--gray);
+        margin: 0;
+      }
+      footer {
+        background: linear-gradient(135deg, #03233e, #063b62);
+        color: #fff;
+        padding: 50px 25px 22px;
+      }
+      .footer-grid {
+        max-width: 1150px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1.4fr 1fr 1.1fr;
+        gap: 55px;
+      }
+      .footer-logo {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+      }
+      .footer-logo img {
+        width: 65px;
+        height: 65px;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+      .footer-logo h2 {
+        margin: 0;
+      }
+      .footer-copy,
+      .footer-contact {
+        color: #d6e2e9;
+        font-size: 14px;
+      }
+      .footer-heading {
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .footer-links a {
+        display: block;
+        color: #e3edf1;
+        text-decoration: none;
+        margin: 6px 0;
+        font-size: 14px;
+      }
+      .footer-bottom {
+        max-width: 1150px;
+        margin: 34px auto 0;
+        padding-top: 18px;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        text-align: center;
+        color: #c5d6df;
+        font-size: 12px;
+      }
+      @media (max-width: 1180px) {
+        .navbar {
+          flex-direction: column;
+        }
+        .nav-logo {
+          min-width: auto;
+        }
+        .nav-links {
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+        .nav-links a {
+          padding: 5px 0;
+        }
+      }
+      @media (max-width: 800px) {
+        .grid,
+        .footer-grid {
+          grid-template-columns: 1fr;
+        }
+        .card-image {
+          height: 245px;
+        }
+      }
+      @media (max-width: 600px) {
+        .nav-brand-text {
+          display: none;
+        }
+      }
+    
+      /* Consistent Loving Longmont hero — matches home page */
+      .hero { width: 100%; min-height: 0 !important; padding: 0 !important; display: block !important; background: var(--cream, #fffaf1) !important; position: relative; }
+      .hero img { width: 100% !important; height: auto !important; max-height: 700px !important; min-height: 0 !important; object-fit: cover !important; object-position: center !important; display: block !important; }
+    
+/* Canonical Loving Longmont footer */
+footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55px 25px 20px}
+.footer-grid{max-width:1150px;margin:auto;display:grid;grid-template-columns:1.5fr .8fr 1.2fr;gap:60px}
+.footer-logo-area{display:flex;align-items:center;gap:15px}
+.footer-logo-area h2{margin:0;font-size:25px}
+.footer-logo-area small{font-size:9px;letter-spacing:2px}
+.footer-about{max-width:380px;color:#d5e1e8;font-size:14px;margin-top:18px}
+.footer-heading{font-weight:bold;font-size:16px;margin-bottom:13px}
+.footer-links a{display:block;text-decoration:none;color:#e1ebf0;font-size:14px;margin:7px 0}
+.footer-links a:hover{color:white;text-decoration:underline}
+.footer-contact{color:#e1ebf0;font-size:14px}
+.footer-email{display:inline-block;margin-top:8px;color:white;text-decoration:none;font-weight:bold}
+.footer-bottom{max-width:1150px;margin:40px auto 0;padding-top:20px;border-top:1px solid rgba(255,255,255,.2);text-align:center;color:#c5d5df;font-size:12px}
+.red-heart{color:var(--red,#c8101e)}
+@media(max-width:900px){.footer-grid{grid-template-columns:1fr}}
+
+.place-main{max-width:900px;margin:0 auto;padding:35px 24px 60px}.place-main .card{box-shadow:none}.place-main .card-image{height:auto}.place-main .card-image img{height:auto;object-fit:contain}.place-main .card h1{font:700 clamp(30px,5vw,44px)/1.15 Georgia,serif;color:#103f34;margin:15px 0}.place-main .card-body{padding:28px}.place-back{display:inline-block;margin-bottom:24px;color:#103f34}.place-main .details{margin-top:15px}</style><link rel="stylesheet" href="assets/visual-cards.css"></head><body><header class="ll-live-header"><div class="llh-mast"><a class="llh-brand" href="index.html" aria-label="Loving Longmont home"><img src="assets/loving-longmont-logo-transparent.webp" width="1000" height="398" alt="Loving Longmont — A whole town to discover"></a><div class="llh-tools"><nav aria-label="Useful links"><a href="about.html">About</a><a href="contact.html">Contact</a><a href="pricing.html">Add a Business</a><a class="llh-facebook" href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Loving Longmont on Facebook">f</a></nav><form class="llh-search" action="search.html" method="get" role="search"><label class="llh-sr" for="llh-search">Search Loving Longmont</label><input id="llh-search" type="search" name="q" placeholder="Search businesses, events, or things to do…"><button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" width="23" height="23" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg></button></form></div><details class="llh-mobile"><summary aria-label="Open navigation"><span aria-hidden="true">☰</span><small>Menu</small></summary><nav aria-label="Mobile navigation"><a href="index.html">Home</a><a href="businesses.html#food-drink-restaurants">Eat &amp; Drink</a><a href="businesses.html#home-gifts-shopping">Shop Local</a><a href="businesses.html#arts-crafts-classes">Arts &amp; Culture</a><a href="events.html">Events</a><a href="things-to-do.html">Get Outside</a><a href="community.html">Community</a><a href="history.html" aria-current="page">Our History</a><a href="businesses.html">All Local Businesses</a><a href="spotlight.html">In the Spotlight</a><a href="animals.html">Animals &amp; Pets</a><a href="jobs.html">Jobs &amp; Training</a><a href="about.html">About</a><a href="pricing.html">Add a Business</a><a href="contact.html">Contact</a><a href="sitemap.html">Site Map</a><a href="search.html">Search</a><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook ↗</a></nav></details></div><div class="llh-band"><nav class="llh-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="businesses.html#food-drink-restaurants">Eat &amp; Drink</a><a href="businesses.html#home-gifts-shopping">Shop Local</a><a href="businesses.html#arts-crafts-classes">Arts &amp; Culture</a><a href="events.html">Events</a><a href="things-to-do.html">Get Outside</a><a href="community.html">Community</a><a href="history.html" aria-current="page">Our History</a><details class="llh-dropdown"><summary>Discover</summary><div class="llh-dropdown-links"><a href="index.html">Home</a><a href="businesses.html">All Local Businesses</a><a href="things-to-do.html">Things to Do</a><a href="spotlight.html">In the Spotlight</a><a href="search.html">Search</a></div></details><details class="llh-dropdown"><summary>Community</summary><div class="llh-dropdown-links"><a href="community.html">Community Resources</a><a href="animals.html">Animals &amp; Pets</a><a href="jobs.html">Jobs &amp; Training</a><a href="history.html" aria-current="page">Longmont History</a></div></details><details class="llh-dropdown"><summary>Get Involved</summary><div class="llh-dropdown-links"><a href="about.html">About Loving Longmont</a><a href="pricing.html">Add a Business</a><a href="contact.html">Contact</a><a href="sitemap.html">Site Map</a></div></details></nav></div><form class="llh-mobile-search llh-search" action="search.html" method="get" role="search"><label class="llh-sr" for="llh-mobile-search">Search Loving Longmont</label><input id="llh-mobile-search" type="search" name="q" placeholder="Search businesses, events…"><button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" width="23" height="23" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg></button></form></header><main class="place-main"><a class="place-back" href="history.html">← All historic places</a><article class="card">
+            <div class="card-image">
+              <img src="https://www.stvrainhistory.org/s/cc_images/cache_8885175.jpg?t=1426626794" alt="Hover Farmstead historic property" loading="lazy" referrerpolicy="no-referrer">
+            </div>
+            <div class="card-body">
+              <div class="card-type">Farm History • Agricultural Heritage</div>
+              <h1>Hover Farmstead</h1>
+              <p>
+                The remaining farm buildings preserve the working side of the
+                Hover family property and help tell Longmont’s agricultural
+                story beyond the walls of Hoverhome.
+              </p>
+              <div class="details">
+                <div>
+                  <strong>📍 Address:</strong> 1303 Hover Road, Longmont, CO
+                  80501
+                </div>
+                <div>
+                  <strong>☎ Historical Society:</strong>
+                  <a href="tel:3037761870">303-776-1870</a>
+                </div>
+                <div>
+                  <strong>🎟 Access:</strong> Tours and property access are
+                  arranged through the St. Vrain Historical Society.
+                </div>
+              </div>
+              <div class="actions">
+                <a class="button" href="https://www.stvrainhistory.org/our-properties/hover-farmstead/" target="_blank" rel="noopener">Official Website</a>
+              </div>
+            </div>
+          </article></main><footer class="ll-compact-footer"><div class="ll-footer-top"><div class="ll-footer-brand"><div class="footer-logo-area"><img src="Images/Website-Images/1b.png" alt="Loving Longmont Logo"><div><h2>Loving Longmont</h2><small>PEOPLE <span class="red-heart">♥</span> PLACES <span class="red-heart">♥</span> POSSIBILITIES</small></div></div><p class="footer-about">Celebrating the people, businesses, events and places that make Longmont, Colorado a community worth loving.</p><div><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" target="_blank" rel="noopener">Facebook →</a></div></div><div><div><a href="https://mktvisibility.com" target="_blank" rel="noopener"><img src="Images/Website-Images/MKT Visibility Logo main profile pic.png" alt="MKT Visibility"></a><div><a href="https://mktvisibility.com" target="_blank" rel="noopener">MKT Visibility</a><div>WE KEEP YOUR BUSINESS VISIBLE.</div></div></div><p>Helping small businesses stay visible through social media, digital marketing, websites, photography, video and Google Business Profile support.</p><div><a href="https://mktvisibility.com" target="_blank" rel="noopener">Website →</a><span>•</span><a href="https://www.facebook.com/profile.php?id=61594428531114" target="_blank" rel="noopener">Facebook →</a></div></div><div><div class="footer-heading">Connect With Us</div><p class="footer-contact">Have a business, event, photo, story or community resource you'd like Loving Longmont to know about?</p><a href="contact.html" class="footer-email">✉ hello.lovinglongmont@gmail.com</a><div><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" target="_blank" rel="noopener">ⓕ Follow Loving Longmont on Facebook</a></div></div></div><div><nav class="footer-links" aria-label="Footer navigation"><a href="index.html">Home</a><a href="events.html">Events</a><a href="businesses.html">Local Businesses</a><a href="pricing.html">Listing Pricing</a><a href="things-to-do.html">Things to Do</a><a href="history.html">Longmont History</a><a href="spotlight.html">In The Spotlight</a><a href="animals.html">Animals &amp; Pets</a><a href="jobs.html">Jobs &amp; Work</a><a href="community.html">Community</a><a href="about.html">About Loving Longmont</a><a href="contact.html">Contact</a><a href="sitemap.html"><strong>Site Map →</strong></a></nav></div><div class="footer-bottom">© 2026 Loving Longmont. All rights reserved. &nbsp; | &nbsp; Made with <span class="red-heart">♥</span> for Longmont, Colorado.</div></footer><script type="module" src="assets/visual-cards.mjs"></script></body></html>

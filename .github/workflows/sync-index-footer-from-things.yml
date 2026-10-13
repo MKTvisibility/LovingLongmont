@@ -1,0 +1,40 @@
+name: Sync Index Footer from Things to Do
+on:
+  push:
+    paths:
+      - '.github/workflows/sync-index-footer-from-things.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Copy Things to Do footer to home page
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          source = Path('things-to-do.html').read_text(encoding='utf-8')
+          target_path = Path('index.html')
+          target = target_path.read_text(encoding='utf-8')
+          footer = re.search(r'<footer\b[^>]*>.*?</footer>', source, flags=re.S|re.I)
+          if not footer:
+              raise SystemExit('Footer not found in things-to-do.html')
+          updated, count = re.subn(r'<footer\b[^>]*>.*?</footer>', footer.group(0), target, count=1, flags=re.S|re.I)
+          if count != 1:
+              raise SystemExit(f'Expected one footer in index.html; replaced {count}')
+          target_path.write_text(updated, encoding='utf-8')
+          PY
+      - name: Commit update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          if git diff --cached --quiet; then
+            echo "No changes needed"
+          else
+            git commit -m "Match home footer to Things to Do template"
+            git push
+          fi

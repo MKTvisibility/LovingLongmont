@@ -1,0 +1,61 @@
+name: Sync Things to Do Layout
+
+on:
+  push:
+    paths:
+      - '.github/workflows/sync-things-to-do-layout.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-layout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Sync navigation and footer
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          target_path = Path('things-to-do.html')
+          index = Path('index.html').read_text(encoding='utf-8')
+          about = Path('about.html').read_text(encoding='utf-8')
+          target = target_path.read_text(encoding='utf-8')
+
+          def grab(text, pattern, label):
+              m = re.search(pattern, text, flags=re.S|re.I)
+              if not m:
+                  raise SystemExit(f'Could not find {label}')
+              return m.group(0)
+
+          # Use the current homepage header/navigation exactly, then mark Things to Do active instead of Home.
+          header = grab(index, r'<header class="site-header">.*?</header>', 'index header')
+          header = re.sub(r'(<a href="index\.html") class="active"', r'\1', header, count=1)
+          header = re.sub(r'<a href="things-to-do\.html">Things to Do</a>', '<a href="things-to-do.html" class="active">Things to Do</a>', header, count=1)
+
+          # Use the current About page footer exactly.
+          footer = grab(about, r'<footer>.*?</footer>', 'about footer')
+
+          if not re.search(r'<header class="site-header">.*?</header>', target, flags=re.S|re.I):
+              raise SystemExit('Target header not found')
+          if not re.search(r'<footer>.*?</footer>', target, flags=re.S|re.I):
+              raise SystemExit('Target footer not found')
+
+          target = re.sub(r'<header class="site-header">.*?</header>', lambda m: header, target, count=1, flags=re.S|re.I)
+          target = re.sub(r'<footer>.*?</footer>', lambda m: footer, target, count=1, flags=re.S|re.I)
+          target_path.write_text(target, encoding='utf-8')
+          PY
+      - name: Commit updated page
+        run: |
+          git config user.name "LovingLongmont"
+          git config user.email "hello.lovinglongmont@gmail.com"
+          git add things-to-do.html
+          if git diff --cached --quiet; then
+            echo "No changes needed"
+          else
+            git commit -m "Match Things to Do navigation and footer"
+            git push
+          fi
