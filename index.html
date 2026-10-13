@@ -775,14 +775,26 @@ footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55
 <script defer="" src="assets/live-header.js"></script>
 <link rel="stylesheet" href="assets/category-navigation.css">
 <link rel="stylesheet" href="assets/live/business-profile.css">
-<link rel="stylesheet" href="assets/visual-cards.css"></head>
+<link rel="stylesheet" href="assets/visual-cards.css"><style>
+/* Preserve the full business feature, including when the homepage URL ends in /. */
+.business-section .business-grid {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px;align-items:center;max-width:1100px;margin:auto}
+.business-section .business-photo {min-height:0;padding:20px;overflow:visible;aspect-ratio:auto}
+.business-section .business-photo img {display:block;width:100%;height:auto;max-height:none;object-fit:contain}
+.business-section .business-content {min-width:0}
+.business-section .business-content h2 {font-size:clamp(28px,3vw,40px)}
+.newsletter .newsletter-inner {align-items:start;gap:32px}
+.ll-subscribe-form {width:100%;max-width:640px;min-width:0}
+.ll-subscribe-form iframe {border:0;display:block;width:100%}
+.ll-subscribe-form p {font-size:13px;margin-top:8px}
+@media(max-width:900px){.business-section .business-grid {grid-template-columns:1fr;gap:28px}.business-section .business-photo {max-width:520px;width:100%;margin:auto}.newsletter .newsletter-inner {display:flex;flex-direction:column;align-items:stretch}}
+</style></head>
 
   <body>
     <!-- ========================================
      HEADER
 ======================================== -->
 
-    <header class="ll-live-header"><div class="llh-mast"><a class="llh-brand" href="index.html" aria-label="Loving Longmont home"><img src="assets/loving-longmont-logo-transparent.webp" width="1000" height="398" alt="Loving Longmont — A whole town to discover"></a><div class="llh-tools"><nav aria-label="Useful links"><a href="about.html">About</a><a href="contact.html">Contact</a><a href="pricing.html">Add a Business</a><a class="llh-facebook" href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Loving Longmont on Facebook">f</a></nav><form class="llh-search" action="search.html" method="get" role="search"><label class="llh-sr" for="llh-search">Search Loving Longmont</label><input id="llh-search" type="search" name="q" placeholder="Search businesses, events, or things to do…"><button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" width="23" height="23" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg></button></form></div><details class="llh-mobile"><summary aria-label="Open navigation"><span aria-hidden="true">☰</span><small>Menu</small></summary><nav aria-label="Mobile navigation"><a href="index.html" aria-current="page">Home</a><a href="businesses.html#food-drink-restaurants">Eat &amp; Drink</a><a href="businesses.html#home-gifts-shopping">Shop Local</a><a href="businesses.html#arts-crafts-classes">Arts &amp; Culture</a><a href="events.html">Events</a><a href="things-to-do.html">Get Outside</a><a href="community.html">Community</a><a href="history.html">Our History</a><a href="businesses.html">All Local Businesses</a><a href="spotlight.html">In the Spotlight</a><a href="animals.html">Animals &amp; Pets</a><a href="jobs.html">Jobs &amp; Training</a><a href="about.html">About</a><a href="pricing.html">Add a Business</a><a href="contact.html">Contact</a><a href="sitemap.html">Site Map</a><a href="search.html">Search</a><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook ↗</a></nav></details></div><div class="llh-band"><nav class="llh-nav" aria-label="Main navigation"><a href="index.html" aria-current="page">Home</a><a href="businesses.html#food-drink-restaurants">Eat &amp; Drink</a><a href="businesses.html#home-gifts-shopping">Shop Local</a><a href="businesses.html#arts-crafts-classes">Arts &amp; Culture</a><a href="events.html">Events</a><a href="things-to-do.html">Get Outside</a><a href="community.html">Community</a><a href="history.html">Our History</a><details class="llh-dropdown"><summary>Discover</summary><div class="llh-dropdown-links"><a href="index.html" aria-current="page">Home</a><a href="businesses.html">All Local Businesses</a><a href="things-to-do.html">Things to Do</a><a href="spotlight.html">In the Spotlight</a><a href="search.html">Search</a></div></details><details class="llh-dropdown"><summary>Community</summary><div class="llh-dropdown-links"><a href="community.html">Community Resources</a><a href="animals.html">Animals &amp; Pets</a><a href="jobs.html">Jobs &amp; Training</a><a href="history.html">Longmont History</a></div></details><details class="llh-dropdown"><summary>Get Involved</summary><div class="llh-dropdown-links"><a href="about.html">About Loving Longmont</a><a href="pricing.html">Add a Business</a><a href="contact.html">Contact</a><a href="sitemap.html">Site Map</a></div></details></nav></div><form class="llh-mobile-search llh-search" action="search.html" method="get" role="search"><label class="llh-sr" for="llh-mobile-search">Search Loving Longmont</label><input id="llh-mobile-search" type="search" name="q" placeholder="Search businesses, events…"><button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" width="23" height="23" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg></button></form></header>
+    <header class="ll-live-header"><div class="llh-mast"><a class="llh-brand" href="index.html" aria-label="Loving Longmont home"><img src="assets/loving-longmont-logo-transparent.webp" width="1000" height="398" alt="Loving Longmont — A whole town to discover"></a><div class="llh-tools"><nav aria-label="Useful links"><a href="about.html">About</a><a href="contact.html">Contact</a><a href="pricing.html">Add a Business</a><a class="llh-facebook" href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Loving Longmont on Facebook">f</a></nav><form class="llh-search" action="search.html" method="get" role="search"><label class="llh-sr" for="llh-search">Search Loving Longmont</label><input id="llh-search" type="search" name="q" placeholder="Search businesses, events, or things to do…"><button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" width="23" height="23" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg></button></form></div><details class="llh-mobile"><summary aria-label="Open navigation"><span aria-hidden="true">☰</span><small>Menu</small></summary><nav aria-label="Mobile navigation"><a href="index.html" aria-current="page">Home</a><a href="events.html">Events</a><a href="businesses.html">Local Businesses</a><a href="pricing.html">Listing Pricing</a><a href="things-to-do.html">Things to Do</a><a href="history.html">Longmont History</a><a href="spotlight.html">In The Spotlight</a><a href="animals.html">Animals &amp; Pets</a><a href="jobs.html">Jobs &amp; Work</a><a href="community.html">Community</a><a href="about.html">About Loving Longmont</a><a href="contact.html">Contact</a><a href="sitemap.html">Site Map</a></nav></details></div><div class="llh-band"><nav class="llh-nav" aria-label="Main navigation"><a href="index.html" aria-current="page">Home</a><a href="events.html">Events</a><a href="businesses.html">Local Businesses</a><a href="pricing.html">Listing Pricing</a><a href="things-to-do.html">Things to Do</a><a href="history.html">Longmont History</a><a href="spotlight.html">In The Spotlight</a><a href="animals.html">Animals &amp; Pets</a><a href="jobs.html">Jobs &amp; Work</a><a href="community.html">Community</a><a href="about.html">About Loving Longmont</a><a href="contact.html">Contact</a><a href="sitemap.html">Site Map</a></nav></div><form class="llh-mobile-search llh-search" action="search.html" method="get" role="search"><label class="llh-sr" for="llh-mobile-search">Search Loving Longmont</label><input id="llh-mobile-search" type="search" name="q" placeholder="Search businesses, events…"><button type="submit" aria-label="Search"><svg viewBox="0 0 24 24" width="23" height="23" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg></button></form></header>
 
     <!-- ========================================
      HEADER IMAGE
@@ -889,7 +901,7 @@ footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55
 ======================================== -->
 
     <section class="business-section">
-      <div class="business-grid">
+      <div class="business-grid" data-ll-preserve-layout>
 
         <div class="business-photo">
           <a href="https://mktvisibility.com" target="_blank" rel="noopener noreferrer" aria-label="Visit the MKT Visibility website">
@@ -971,7 +983,7 @@ footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55
             <a href="contact.html">Share With Us →</a>
           </div>
 
-        </div>
+        <div class="involved-card" data-ll-visual-card><div class="ll-visual-image" data-image-kind="art" data-image-tone="light"><a href="contact.html" aria-label="Share a Community Resource"><img src="assets/art/community.webp" alt="Illustration of neighbors helping their community" loading="lazy"></a></div><h3>Community Resources</h3><p>Know a local support service, volunteer opportunity or helpful resource? Help neighbors find it.</p><a href="contact.html">Help Our Community →</a></div></div>
       </div>
     </section>
 
@@ -992,16 +1004,7 @@ footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55
           </div>
         </div>
 
-        <form class="email-form" action="https://formsubmit.co/hello.lovinglongmont@gmail.com" method="POST">
-          <input type="hidden" name="_subject" value="New Loving Longmont Email Subscriber">
-          <input type="hidden" name="_template" value="table">
-          <input type="hidden" name="_autoresponse" value="Thanks for joining the Loving Longmont email list! You signed up to receive In The Spotlight stories, local business and event highlights, and occasional community updates from Loving Longmont. No action is required. You are now on our subscriber list. Made with love for Longmont, Colorado — Loving Longmont.">
-          <input type="hidden" name="_next" value="https://lovinglongmont.github.io/loving-longmont-website/index.html?subscribed=1">
-          <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="display:none">
-          <input type="email" name="email" placeholder="Your email address" autocomplete="email" aria-label="Your email address" required="">
-
-          <button type="submit">Subscribe</button>
-        </form>
+        <div class="ll-subscribe-form"><iframe data-tally-src="https://tally.so/embed/BzOlLe?alignLeft=1&amp;hideTitle=1&amp;transparentBackground=1&amp;dynamicHeight=1" src="https://tally.so/embed/BzOlLe?alignLeft=1&amp;hideTitle=1&amp;transparentBackground=1&amp;dynamicHeight=1" loading="lazy" width="100%" height="480" frameborder="0" marginheight="0" marginwidth="0" title="Subscribe to Loving Longmont"></iframe><p><a href="https://tally.so/r/BzOlLe" target="_blank" rel="noopener">Open the subscription form →</a></p></div>
 
       </div>
     </section>
@@ -1014,4 +1017,4 @@ footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55
   <script type="module" src="assets/live/live-page.mjs?v=20261013-publishing"></script>
 
 
-<script type="module" src="assets/visual-cards.mjs"></script></body></html>
+<script type="module" src="assets/visual-cards.mjs"></script><script async src="https://tally.so/widgets/embed.js"></script></body></html>

@@ -40,7 +40,7 @@ function cleanIcons(card){for(const element of card.querySelectorAll('div,span,i
 export function enhanceVisualCards(root,catalog){
  const document=root.ownerDocument||root;let count=0;
  for(const grid of root.querySelectorAll(gridClasses.map(c=>'.'+c).join(',')+',#results')){
-  if(grid.classList.contains('business-grid')&&document.location?.pathname.endsWith('/index.html'))continue;
+  if(grid.hasAttribute('data-ll-preserve-layout') || (grid.classList.contains('business-grid') && grid.closest('.business-section')))continue;
   const cards=[...grid.children];if(cards.length<1)continue;
   grid.dataset.llVisualGrid='';
   for(const card of cards){if(card.classList.contains('empty'))continue;if(card.dataset.llVisualCard!==undefined)continue;if(!cardTitle(card)||card.querySelector('[role="status"]'))continue;

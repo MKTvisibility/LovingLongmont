@@ -30,3 +30,8 @@ footer.ll-compact-footer{padding:24px 24px 14px}
 .ll-compact-footer .footer-bottom{max-width:1440px;margin:12px auto 0;padding:0;border:0;font-size:11px}
 @media(max-width:800px){.ll-compact-footer .ll-footer-top{grid-template-columns:1fr 1fr;gap:20px}.ll-compact-footer .ll-footer-top>div:last-child{grid-column:1/-1}}
 @media(max-width:520px){footer.ll-compact-footer{padding:20px 16px 14px}.ll-compact-footer .ll-footer-top{grid-template-columns:1fr}.ll-compact-footer .footer-links{gap:8px 14px}}
+
+/* Navigation mirrors the compact footer. */
+.llh-band{background:linear-gradient(135deg,#03233e,#063b62)}
+.llh-nav{flex-wrap:wrap;justify-content:center;gap:0 8px}
+.ll-live-header .llh-nav>a{padding:12px 8px;text-transform:none;font-size:12px;letter-spacing:0}
