@@ -688,7 +688,36 @@ footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55
 @media(max-width:999px){.business-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:599px){.business-grid{grid-template-columns:minmax(0,1fr);gap:18px}.business-image{height:190px}}
 </style>
-<link href="assets/directory-profile.css" rel="stylesheet"/><link href="assets/visual-cards.css" rel="stylesheet"/></head>
+<link href="assets/directory-profile.css" rel="stylesheet"/><link href="assets/visual-cards.css" rel="stylesheet"/><style id="business-page-spacing">
+/* Page-local spacing; preserve the directory design and responsive columns. */
+.page-intro{padding:28px 25px 18px}
+.notice-section{padding:0 25px 24px}
+.notice-box{padding:15px 20px}
+.category-section{padding:24px 25px}
+.featured-section,.directory-section,.creative-section,.support-local,.cta-section{padding:32px 25px}
+.section-title{margin-bottom:10px}
+.business-grid,.creative-card,.support-grid{margin-top:20px}
+.featured-grid{gap:26px}
+.featured-info{margin:12px 0}
+.creative-content{padding:24px}
+[data-ll-visual-grid]{gap:16px!important}
+[data-ll-visual-card]{padding-bottom:8px!important}
+[data-ll-visual-card] .ll-visual-image{margin-bottom:9px}
+[data-ll-visual-card] p{margin-bottom:8px!important}
+[data-ll-visual-card] .business-details{margin:6px 2px!important;padding:6px 0!important}
+[data-ll-visual-card] .business-links{margin-top:6px!important}
+.directory-type-heading{margin-top:16px!important;padding-bottom:6px!important}
+.creative-section .bp-feature-photo{margin-bottom:22px}
+.creative-section .bp-identity{gap:24px;padding-bottom:20px}
+.creative-section .bp-story section{margin-bottom:22px}
+.cta-section p{margin-bottom:16px}
+@media(max-width:650px){
+.page-intro{padding:22px 18px 14px}
+.notice-section{padding:0 18px 18px}
+.category-section,.featured-section,.directory-section,.creative-section,.support-local,.cta-section{padding:24px 18px}
+.creative-content{padding:20px}
+}
+</style></head>
 <body>
 <header class="ll-live-header"><div class="llh-mast"><a aria-label="Loving Longmont home" class="llh-brand" href="index.html"><img alt="Loving Longmont — A whole town to discover" height="398" src="assets/loving-longmont-logo-transparent.webp" width="1000"/></a><div class="llh-tools"><nav aria-label="Useful links"><a href="about.html">About</a><a href="contact.html">Contact</a><a href="pricing.html">Add a Business</a><a href="sitemap.html">Site Map</a><a aria-label="Loving Longmont on Facebook" class="llh-facebook" href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" rel="noopener noreferrer" target="_blank">f</a></nav><form action="search.html" class="llh-search" method="get" role="search"><label class="llh-sr" for="llh-search">Search Loving Longmont</label><input id="llh-search" name="q" placeholder="Search businesses, events, or things to do…" type="search"/><button aria-label="Search" type="submit"><svg aria-hidden="true" fill="none" height="23" stroke="currentColor" stroke-width="2.4" viewbox="0 0 24 24" width="23"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg></button></form></div><details class="llh-mobile"><summary aria-label="Open navigation"><span aria-hidden="true">☰</span><small>Menu</small></summary><nav aria-label="Mobile navigation"><a href="index.html">Home</a><a href="events.html">Events</a><a aria-current="page" href="businesses.html">Local Businesses</a><a href="pricing.html">Listing Pricing</a><a href="things-to-do.html">Things to Do</a><a href="history.html">Longmont History</a><a href="spotlight.html">In The Spotlight</a><a href="animals.html">Animals &amp; Pets</a><a href="jobs.html">Jobs &amp; Work</a><a href="community.html">Community</a><a href="about.html">About Loving Longmont</a><a href="contact.html">Contact</a><a href="sitemap.html">Site Map</a></nav></details></div><div class="llh-band"><nav aria-label="Main navigation" class="llh-nav"><a href="index.html">Home</a><a href="events.html">Events</a><a aria-current="page" href="businesses.html">Local Businesses</a><a href="pricing.html">Listing Pricing</a><a href="things-to-do.html">Things to Do</a><a href="history.html">Longmont History</a><a href="spotlight.html">In The Spotlight</a><a href="animals.html">Animals &amp; Pets</a><a href="jobs.html">Jobs &amp; Work</a><a href="community.html">Community</a><a href="about.html">About Loving Longmont</a><a href="contact.html">Contact</a></nav></div><form action="search.html" class="llh-mobile-search llh-search" method="get" role="search"><label class="llh-sr" for="llh-mobile-search">Search Loving Longmont</label><input id="llh-mobile-search" name="q" placeholder="Search businesses, events…" type="search"/><button aria-label="Search" type="submit"><svg aria-hidden="true" fill="none" height="23" stroke="currentColor" stroke-width="2.4" viewbox="0 0 24 24" width="23"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg></button></form></header>
 <section class="page-intro">
