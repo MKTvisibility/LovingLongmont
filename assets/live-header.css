@@ -35,3 +35,6 @@ footer.ll-compact-footer{padding:24px 24px 14px}
 .llh-band{background:linear-gradient(135deg,#03233e,#063b62)}
 .llh-nav{flex-wrap:wrap;justify-content:center;gap:0 8px}
 .ll-live-header .llh-nav>a{padding:12px 8px;text-transform:none;font-size:12px;letter-spacing:0}
+
+/* Keep utility links identical across every page. */
+.llh-tools>nav{gap:18px}
