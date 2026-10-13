@@ -940,7 +940,7 @@ function regroupDirectory() {
     if (/^MKT Visibility$/i.test(name)) return "Marketing & Business Services";
     if (/^(Drifters|Quarter.s Bar)/i.test(name)) return "Food, Drink & Restaurants";
     if (/^(The Bee Hugger Farm|Rocky Mountain Pumpkin Ranch|The Flower Bin)/i.test(name)) return "Outdoor, Sports & Recreation";
-    if (/^(Longmont Yarn Shoppe|Maker General|Creative Treasures|Tumbleweed Art Collective)/i.test(name)) return "Arts, Crafts & Classes";
+    if (/^(Longmont Yarn Shoppe|Maker General|Creative Treasures|Tumbleweed Art Collective|Obra Arts)/i.test(name)) return "Arts, Crafts & Classes";
     if (/^(Kawaii Konbini|Simply Bulk Market|Cheese Importers)/i.test(name)) return "Food, Drink & Restaurants";
     const match = groups.find(([, pattern]) => pattern.test(category));
     return match ? match[0] : groups[groups.length - 1][0];
