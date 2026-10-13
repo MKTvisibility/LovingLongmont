@@ -38,3 +38,19 @@
 
 /* The Flower Bin: fill the preview frame with the garden-center photo. */
 [data-ll-live-business="5b44dadc-9511-5688-ba72-23f589ba5524"][data-ll-visual-card] .ll-visual-image img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center!important;padding:0!important}
+
+/* Compact business previews match the six-across animal category cards. */
+body [data-ll-visual-grid]:has(> .business-card,> .ll-connected-card,> [data-ll-live-business],> [data-ll-visual-card] .business-body){grid-template-columns:repeat(6,minmax(0,1fr))!important;gap:18px!important;max-width:1280px}
+body :is(.business-card,.ll-connected-card,[data-ll-live-business],[data-ll-visual-card]:has(.business-body)){min-width:0;padding-bottom:6px!important}
+body :is(.business-card,.ll-connected-card,[data-ll-live-business],[data-ll-visual-card]:has(.business-body)) .ll-visual-image{aspect-ratio:16/9!important;border-radius:10px;margin-bottom:9px!important}
+body :is(.business-card,.ll-connected-card,[data-ll-live-business],[data-ll-visual-card]:has(.business-body)) :is(h2,h3,h4){font-size:17px!important;line-height:1.22!important;margin-bottom:7px!important}
+body :is(.business-card,.ll-connected-card,[data-ll-live-business],[data-ll-visual-card]:has(.business-body)) p{font-size:13px!important;line-height:1.5!important;margin-bottom:8px!important}
+body :is(.business-card,.ll-connected-card,[data-ll-live-business],[data-ll-visual-card]:has(.business-body)) .business-links{margin-top:7px!important}
+body :is(.business-card,.ll-connected-card,[data-ll-live-business],[data-ll-visual-card]:has(.business-body)) .ll-visual-image[data-image-kind="logo"] img{padding:8px!important}
+/* Keep wide brand artwork fully visible inside the same compact frame. */
+body :is([data-ll-live-business="8a3d2ea6-98d0-5b73-8724-25f88ce2a509"],[data-ll-live-business="fd5a893d-2fbf-4f5d-a82c-06d73752f5a1"]) .ll-visual-image a{height:100%!important}
+body :is([data-ll-live-business="8a3d2ea6-98d0-5b73-8724-25f88ce2a509"],[data-ll-live-business="fd5a893d-2fbf-4f5d-a82c-06d73752f5a1"]) .ll-visual-image img{height:100%!important;object-fit:contain!important}
+@media(max-width:1100px){body [data-ll-visual-grid]:has(> .business-card,> .ll-connected-card,> [data-ll-live-business],> [data-ll-visual-card] .business-body){grid-template-columns:repeat(4,minmax(0,1fr))!important}}
+@media(max-width:800px){body [data-ll-visual-grid]:has(> .business-card,> .ll-connected-card,> [data-ll-live-business],> [data-ll-visual-card] .business-body){grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:16px!important}}
+@media(max-width:600px){body [data-ll-visual-grid]:has(> .business-card,> .ll-connected-card,> [data-ll-live-business],> [data-ll-visual-card] .business-body){grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:360px){body [data-ll-visual-grid]:has(> .business-card,> .ll-connected-card,> [data-ll-live-business],> [data-ll-visual-card] .business-body){grid-template-columns:minmax(0,1fr)!important}}
