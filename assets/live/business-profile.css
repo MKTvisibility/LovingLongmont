@@ -9,3 +9,12 @@ body.bp-page{background:#fff;color:#183e35}.bp-main{box-sizing:border-box;max-wi
 
 @media(min-width:701px) and (max-width:1000px){.ll-connected-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .ll-connected-directory .business-card{border:1px solid #dce3df;border-radius:12px;overflow:hidden;background:white}.ll-connected-directory .business-body{padding:20px}
+
+/* Photos and illustrations at left; logo and business identity at right. */
+.bp-profile .bp-identity{grid-template-columns:minmax(250px,.8fr) minmax(0,1.5fr);align-items:start;gap:40px}
+.bp-profile .bp-primary-image{margin:0;min-width:0;border-radius:14px;overflow:hidden;background:#f2f6f3}
+.bp-profile .bp-primary-image img{width:100%;height:auto!important;object-fit:contain!important}
+.bp-profile .bp-primary-image figcaption{padding:5px 12px 10px;margin:0;font-size:11px}
+.bp-profile .bp-heading .bp-logo{width:100%;max-width:240px;margin:0 0 22px;background:transparent}
+.bp-profile .bp-heading .bp-logo img{width:auto;max-width:100%;max-height:150px!important;height:auto!important;object-fit:contain!important}
+@media(max-width:620px){.bp-profile .bp-identity{grid-template-columns:1fr;gap:24px}.bp-profile .bp-primary-image{max-width:380px;width:100%;margin:auto}.bp-profile .bp-heading .bp-logo{margin:0 auto 20px}.bp-profile .bp-heading .bp-logo img{margin:auto}}
