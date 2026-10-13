@@ -32,3 +32,6 @@
 :is([data-ll-live-business="8a3d2ea6-98d0-5b73-8724-25f88ce2a509"],[data-ll-live-business="fd5a893d-2fbf-4f5d-a82c-06d73752f5a1"])[data-ll-visual-card] .ll-visual-image{aspect-ratio:auto;background:white;line-height:0}
 :is([data-ll-live-business="8a3d2ea6-98d0-5b73-8724-25f88ce2a509"],[data-ll-live-business="fd5a893d-2fbf-4f5d-a82c-06d73752f5a1"])[data-ll-visual-card] .ll-visual-image a{height:auto}
 :is([data-ll-live-business="8a3d2ea6-98d0-5b73-8724-25f88ce2a509"],[data-ll-live-business="fd5a893d-2fbf-4f5d-a82c-06d73752f5a1"])[data-ll-visual-card] .ll-visual-image img{width:100%!important;height:auto!important;object-fit:contain!important;padding:0!important}
+
+/* Bee Hugger Farm: crop the photograph to fill the entire preview frame. */
+[data-ll-live-business="ab70f6a2-9597-56ce-a256-162c17eb9fb2"][data-ll-visual-card] .ll-visual-image img{width:100%!important;height:100%!important;object-fit:cover!important;object-position:center!important;padding:0!important}
