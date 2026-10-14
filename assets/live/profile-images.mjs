@@ -26,10 +26,12 @@ export function artFamily(title,text=''){
 export function profileVisuals(b,catalog={},id=''){
  const asset=src=>{try{return new URL(src,new URL('../../',import.meta.url)).href}catch{return ''}};
  const known=catalog.byId?.[id]||catalog.byName?.[normalizeName(b.name)];
- const image=b.image_url||'';
+ const image=(b.image_url||'').replace('https://lovinglongmont.github.io/loving-longmont-website/','https://mktvisibility.github.io/LovingLongmont/');
  const isLogo=Boolean(image&&(known?.kind==='logo'||/logo/i.test(image)));
  const logo=b.logo_url||(isLogo?image:'');
- const photos=(b.gallery||[]).filter(p=>p?.url);
+ const photos=(b.gallery||[]).filter(p=>p?.url&&p.enabled!==false);
+ // Published records use the explicitly labelled logo and photo controls.
+ if(b.id)return {logo:image?asset(image):'',image:photos[0]?.url?asset(photos[0].url):'',art:'',illustration:false,usedGallery:Boolean(photos.length)};
  const photo=photos[0]?.url||(!isLogo?image:'');
  const art=catalog.art?.[artFamily(b.name,(b.categories||[]).join(' ')+' '+(b.description||''))]||'assets/category-shop-local-art-small.webp';
  return {logo:logo?asset(logo):'',image:photo?asset(photo):asset(art),art:asset(art),illustration:!photo,usedGallery:photos[0]?.url===photo};

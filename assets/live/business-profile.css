@@ -18,3 +18,5 @@ body.bp-page{background:#fff;color:#183e35}.bp-main{box-sizing:border-box;max-wi
 .bp-profile .bp-heading .bp-logo{width:100%;max-width:240px;margin:0 0 22px;background:transparent}
 .bp-profile .bp-heading .bp-logo img{width:auto;max-width:100%;max-height:150px!important;height:auto!important;object-fit:contain!important}
 @media(max-width:620px){.bp-profile .bp-identity{grid-template-columns:1fr;gap:24px}.bp-profile .bp-primary-image{max-width:380px;width:100%;margin:auto}.bp-profile .bp-heading .bp-logo{margin:0 auto 20px}.bp-profile .bp-heading .bp-logo img{margin:auto}}
+
+.bp-profile .bp-identity.bp-no-feature{grid-template-columns:1fr;gap:0}
