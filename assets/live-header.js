@@ -1,5 +1,17 @@
 document.addEventListener('DOMContentLoaded',()=>{
  const root=document.querySelector('.ll-live-header');if(!root)return;
+ // Keep the existing Add a Business destination; membership has its own page.
+ const membershipPage=location.pathname.endsWith('/membership.html');
+ const addPricing=(nav)=>{
+  if(!nav||nav.querySelector('a[href="membership.html"]'))return;
+  const a=document.createElement('a');a.href='membership.html';a.textContent='Pricing';
+  if(membershipPage)a.setAttribute('aria-current','page');
+  const addBusiness=[...nav.querySelectorAll('a')].find(link=>link.textContent.trim()==='Add a Business');
+  if(addBusiness){addBusiness.after(a)}else{nav.append(a)}
+ };
+ addPricing(root.querySelector('.llh-tools nav'));
+ addPricing(root.querySelector('.llh-mobile nav'));
+ addPricing(document.querySelector('nav[aria-label="Footer navigation"]'));
  const dropdowns=[...root.querySelectorAll('details')];
  dropdowns.forEach(d=>d.addEventListener('toggle',()=>{if(d.open)dropdowns.filter(other=>other!==d).forEach(other=>other.open=false)}));
  document.addEventListener('click',e=>dropdowns.forEach(d=>{if(d.open&&!d.contains(e.target))d.open=false}));
