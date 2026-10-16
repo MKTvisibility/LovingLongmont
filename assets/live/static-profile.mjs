@@ -1,4 +1,4 @@
-import {renderProfile} from './profile-view.mjs?v=20261014-publication-sync';
+import {renderProfile} from './profile-view.mjs?v=20261016-photo-audit';
 const PUBLIC_BASE='https://gvmwkltwrlqwbqegieum.supabase.co';
 const PUBLIC_KEY='sb_publishable_SFIrQ_kqkLQJdBNMnaRr3g_w6XWKaBJ';
 const normalizeBusinessName=value=>String(value||'').toLowerCase().replace(/[^a-z0-9]/g,'');
@@ -34,8 +34,11 @@ if(staticRoot&&staticName){
 import {profileVisuals} from './profile-images.mjs?v=20261013-layout';
 const article=document.querySelector('main article'),title=article?.querySelector('h1');
 if(!connected&&article&&title){let catalog={};try{const r=await fetch(new URL('../visual-catalog.json',import.meta.url));if(r.ok)catalog=await r.json()}catch{}
-const name=title.textContent.trim(),oldImage=article.querySelector('img'),description=article.querySelector('p')?.textContent||'',visuals=profileVisuals({name,image_url:oldImage?.getAttribute('src'),description},catalog);
-const identity=document.createElement('div');identity.className='bp-identity';const media=document.createElement('figure');media.className='bp-primary-image';const img=document.createElement('img');img.src=visuals.image;img.alt=(visuals.illustration?'Illustration representing ':'Photo of ')+name;img.addEventListener('error',()=>{if(img.src!==visuals.art)img.src=visuals.art},{once:true});media.append(img);if(visuals.illustration){const caption=document.createElement('figcaption');caption.textContent='Illustration';media.append(caption)}
+const name=title.textContent.trim(),oldImage=article.querySelector('img'),description=article.querySelector('p')?.textContent||'',visuals=profileVisuals({name,image_url:oldImage?.dataset.llOriginalSrc||oldImage?.getAttribute('src'),description},catalog);
+const identity=document.createElement('div');identity.className='bp-identity';const media=document.createElement('figure');media.className='bp-primary-image';
+const placeholder=()=>{media.replaceChildren();const text=document.createElement('span');text.className='bp-name-placeholder';text.textContent=name;media.append(text);};
+const source=!visuals.illustration&&!/\/assets\/art\/|category-.*art/.test(visuals.image||'')?visuals.image:'';
+if(source){const img=document.createElement('img');img.src=source;img.alt='Photo of '+name;img.addEventListener('error',placeholder,{once:true});media.append(img);}else placeholder();
 const heading=document.createElement('div');heading.className='bp-heading';if(visuals.logo){const logo=document.createElement('div');logo.className='bp-logo';const image=document.createElement('img');image.src=visuals.logo;image.alt=name+' logo';logo.append(image);heading.append(logo)}
 oldImage?.closest('.ll-visual-image,.business-image,.card-image')?.remove();if(oldImage?.isConnected)oldImage.remove();article.querySelectorAll('.card-image,.business-placeholder,.resource-label,.card-label,.card-type').forEach(e=>e.remove());
 while(article.firstChild)heading.append(article.firstChild);identity.append(media,heading);article.append(identity);article.className='bp-profile';document.querySelector('main').classList.add('bp-main');}

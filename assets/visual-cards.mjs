@@ -29,7 +29,7 @@ function resolveAsset(src){return /^https?:/.test(src)||src.startsWith('../')?sr
 export function selectImage(card,catalog){
  const title=cardTitle(card),id=card.dataset.llLiveBusiness||card.dataset.llVisualBusiness;
  const known=catalog.byName?.[normalizeName(title)]||catalog.byId?.[id];
- const existing=card.querySelector('img');
+ const existing=card.querySelector('img');if(existing&&!existing.dataset.llOriginalSrc)existing.dataset.llOriginalSrc=existing.getAttribute('src')||'';
  if(existing)return {src:existing.getAttribute('src'),kind:known?.kind||(/logo/i.test(existing.alt+' '+existing.getAttribute('src'))?'logo':'existing'),tone:known?.tone||'light',existing};
  // Connected records deliberately omit unchecked image fields from public snapshots.
  if(card.dataset.llLiveBusiness)return null;
