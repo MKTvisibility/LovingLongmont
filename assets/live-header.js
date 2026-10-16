@@ -9,3 +9,5 @@ document.addEventListener('DOMContentLoaded',()=>{
  root.addEventListener('keydown',e=>{if(e.key==='Escape'){const open=groups.find(group=>group.open);if(open){open.open=false;open.querySelector('summary').focus()}else if(nav.classList.contains('lln-open')){nav.classList.remove('lln-open');toggle.setAttribute('aria-expanded','false');toggle.focus()}}});
  const page=location.pathname.split('/').pop()||'index.html';root.querySelectorAll('a').forEach(link=>{const url=new URL(link.href);if(url.origin===location.origin&&url.pathname.split('/').pop()===page&&!url.hash){link.setAttribute('aria-current','page');const group=link.closest('details');if(group)group.classList.add('lln-current')}});
 });
+// Apply the approved missing-image style on every page using the shared header.
+import('./placeholders.mjs?v=20261016').catch(()=>{});
