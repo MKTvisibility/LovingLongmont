@@ -11,7 +11,7 @@ export function renderProfile(root,b,catalog={}){const make=builder(root);root.r
  if(b.categories?.length)heading.append(make('p','bp-eyebrow',b.categories.join(' · ')));
  heading.append(make('h1','',b.name));if(b.tagline)heading.append(make('p','bp-tagline',b.tagline));if(b.description)heading.append(make('p','bp-intro',b.description));
  const actions=make('div','bp-actions');addLink(make,actions,safeWebUrl(b.website),'Visit Website ↗','bp-button');if(b.phone)addLink(make,actions,'tel:'+b.phone.replace(/[^+\d]/g,''),'Call '+b.phone,'bp-button bp-outline');if(b.email)addLink(make,actions,'mailto:'+encodeURIComponent(b.email),'Email '+(b.photographer?.split(' ')[0]||'Business'),'bp-button bp-outline');if(actions.childNodes.length)heading.append(actions);identity.append(heading);article.append(identity);
- const gallery=(b.gallery||[]).filter(p=>safeWebUrl(p.url));
+ const gallery=(b.gallery||[]).filter(p=>p.enabled!==false&&safeWebUrl(p.url));
  const remainingGallery=visuals.usedGallery?gallery.slice(1):gallery;
  const grid=make('div','bp-content-grid'),story=make('div','bp-story');
  if(b.story){const section=make('section');section.append(make('p','bp-eyebrow','THE STORY BEHIND THE BUSINESS'),make('h2','','About '+b.name));for(const p of b.story.split(/\n\s*\n/).filter(Boolean))section.append(make('p','',p));story.append(section)}
