@@ -1,0 +1,655 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Media & Sharing Kit | Loving Longmont</title><meta name="description" content="Share Loving Longmont with your community. Download our logo, copy website link code and share ready-made social media messages."><style>
+      :root {
+        --navy: #062f52;
+        --dark-navy: #03233e;
+        --red: #c8101e;
+        --cream: #fffaf1;
+        --light-blue: #eef5f5;
+        --sage: #e8f0ec;
+        --text: #253642;
+        --gray: #667780;
+        --white: #ffffff;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--text);
+        background: white;
+        line-height: 1.6;
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
+      a {
+        color: inherit;
+      }
+      .site-header {
+        background: rgba(255, 255, 255, 0.98);
+        border-bottom: 1px solid #e6e6e6;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+      .navbar {
+        max-width: 1450px;
+        margin: auto;
+        padding: 9px 22px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+      }
+      .nav-logo {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        min-width: 250px;
+      }
+      .nav-logo img {
+        width: 68px;
+        height: 68px;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+      .nav-brand-text {
+        margin-left: 13px;
+      }
+      .nav-brand-text strong {
+        display: block;
+        color: var(--navy);
+        font-size: 23px;
+        line-height: 1.1;
+      }
+      .nav-brand-text small {
+        display: block;
+        margin-top: 6px;
+        font-size: 9px;
+        letter-spacing: 2px;
+        font-weight: bold;
+        color: var(--navy);
+      }
+      .red-heart {
+        color: var(--red);
+      }
+      .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+      .nav-links a {
+        text-decoration: none;
+        color: var(--navy);
+        font-size: 12px;
+        font-weight: bold;
+        padding: 25px 0 22px;
+        border-bottom: 3px solid transparent;
+        white-space: nowrap;
+      }
+      .nav-links a:hover,
+      .nav-links a.active {
+        color: var(--red);
+        border-bottom-color: var(--red);
+      }
+      .nav-contact {
+        background: var(--navy);
+        color: white !important;
+        border-radius: 7px;
+        padding: 12px 18px !important;
+        border-bottom: none !important;
+      }
+      .nav-contact:hover {
+        background: var(--red);
+      }
+      .hero {
+        width: 100%;
+        position: relative;
+        background: var(--cream);
+      }
+      .hero img {
+        width: 100%;
+        height: auto;
+        max-height: 560px;
+        object-fit: cover;
+        object-position: center;
+      }
+      .hero-overlay {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        background: linear-gradient(
+          to top,
+          rgba(3, 35, 62, 0.76),
+          rgba(3, 35, 62, 0.05) 55%
+        );
+        padding: 40px 25px;
+      }
+      .hero-title {
+        text-align: center;
+        color: white;
+      }
+      .hero-title h1 {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(42px, 6vw, 64px);
+        margin: 0 0 7px;
+        line-height: 1.05;
+      }
+      .hero-title p {
+        margin: 0;
+        font-size: 18px;
+      }
+      .container {
+        max-width: 1200px;
+        margin: auto;
+      }
+      .eyebrow {
+        color: var(--red);
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        font-size: 12px;
+        font-weight: bold;
+        margin-bottom: 8px;
+      }
+      .section-title {
+        font-family: Georgia, "Times New Roman", serif;
+        color: var(--navy);
+        font-size: clamp(34px, 5vw, 50px);
+        line-height: 1.15;
+        margin: 0 0 15px;
+      }
+      .section-description {
+        max-width: 850px;
+        margin: auto;
+        color: var(--gray);
+        font-size: 17px;
+      }
+      .page-intro {
+        background: var(--cream);
+        padding: 60px 25px 35px;
+        text-align: center;
+      }
+      .notice-section {
+        background: var(--cream);
+        padding: 5px 25px 60px;
+      }
+      .notice-box {
+        max-width: 1000px;
+        margin: auto;
+        background: white;
+        border-left: 5px solid var(--red);
+        border-radius: 12px;
+        padding: 23px 27px;
+        box-shadow: 0 5px 18px rgba(0, 0, 0, 0.05);
+      }
+      .notice-box strong {
+        display: block;
+        color: var(--navy);
+        margin-bottom: 5px;
+      }
+      .notice-box p {
+        margin: 0;
+        color: var(--gray);
+        font-size: 14px;
+      }
+      .category-section {
+        background: white;
+        padding: 45px 25px;
+      }
+      .category-grid {
+        max-width: 1050px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 14px;
+      }
+      .category-card {
+        background: var(--light-blue);
+        border: 1px solid #dfe8e8;
+        border-radius: 13px;
+        text-align: center;
+        text-decoration: none;
+        padding: 22px 12px;
+        transition: 0.2s ease;
+      }
+      .category-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 7px 17px rgba(0, 0, 0, 0.07);
+      }
+      .category-card span {
+        display: block;
+        font-size: 29px;
+        margin-bottom: 6px;
+      }
+      .category-card strong {
+        font-family: Georgia, serif;
+        color: var(--navy);
+        font-size: 14px;
+      }
+      .featured-section {
+        background: var(--sage);
+        padding: 75px 25px;
+      }
+      .featured-grid {
+        max-width: 1100px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 45px;
+        align-items: center;
+      }
+      .featured-image {
+        border-radius: 18px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      }
+      .featured-image img {
+        width: 100%;
+        height: 440px;
+        object-fit: cover;
+      }
+      .featured-content h2 {
+        font-family: Georgia, serif;
+        color: var(--navy);
+        font-size: 39px;
+        line-height: 1.15;
+        margin: 6px 0 15px;
+      }
+      .featured-content p {
+        color: var(--gray);
+      }
+      .featured-info {
+        margin: 20px 0;
+      }
+      .featured-info div {
+        margin: 8px 0;
+        font-size: 14px;
+      }
+      .directory-section {
+        background: white;
+        padding: 75px 25px;
+      }
+      .business-grid {
+        max-width: 1180px;
+        margin: 45px auto 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 28px;
+      }
+      .business-card {
+        background: var(--cream);
+        border: 1px solid #e8e3d9;
+        border-radius: 17px;
+        overflow: hidden;
+        box-shadow: 0 7px 22px rgba(0, 0, 0, 0.055);
+        display: flex;
+        flex-direction: column;
+      }
+      .business-image {
+        height: 290px;
+        overflow: hidden;
+        background: var(--light-blue);
+      }
+      .business-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.35s ease;
+      }
+      .business-card:hover .business-image img {
+        transform: scale(1.025);
+      }
+      .business-placeholder {
+        height: 100%;
+        background: linear-gradient(135deg, #dce9e7, #eef5f5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 30px;
+        color: var(--navy);
+      }
+      .business-placeholder span {
+        display: block;
+        font-size: 48px;
+        margin-bottom: 8px;
+      }
+      .business-placeholder strong {
+        display: block;
+        font-family: Georgia, serif;
+        font-size: 22px;
+      }
+      .business-body {
+        padding: 27px;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+      }
+      .business-category {
+        color: var(--red);
+        font-size: 10px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      .business-body h3 {
+        font-family: Georgia, serif;
+        color: var(--navy);
+        font-size: 27px;
+        margin: 6px 0 12px;
+      }
+      .business-description {
+        color: var(--gray);
+        font-size: 14px;
+        flex-grow: 1;
+        margin-bottom: 17px;
+      }
+      .business-details {
+        padding: 14px 0;
+        border-top: 1px solid #e5e0d7;
+        border-bottom: 1px solid #e5e0d7;
+        margin-bottom: 18px;
+      }
+      .business-detail {
+        display: grid;
+        grid-template-columns: 24px 1fr;
+        gap: 7px;
+        margin: 7px 0;
+        font-size: 13px;
+      }
+      .business-detail strong {
+        color: var(--navy);
+      }
+      .business-links {
+        display: flex;
+        gap: 9px;
+        flex-wrap: wrap;
+      }
+      .business-button {
+        display: inline-block;
+        background: var(--navy);
+        color: white;
+        text-decoration: none;
+        border-radius: 7px;
+        padding: 10px 16px;
+        font-size: 12px;
+        font-weight: bold;
+        transition: 0.2s ease;
+      }
+      .business-button:hover {
+        background: var(--red);
+      }
+      .business-button.secondary {
+        background: white;
+        color: var(--navy);
+        border: 1px solid #cfd7d8;
+      }
+      .business-button.secondary:hover {
+        color: white;
+        background: var(--red);
+        border-color: var(--red);
+      }
+      .creative-section {
+        background: var(--light-blue);
+        padding: 75px 25px;
+      }
+      .creative-card {
+        max-width: 1050px;
+        margin: 40px auto 0;
+        display: grid;
+        grid-template-columns: 0.9fr 1.1fr;
+        background: white;
+        border-radius: 18px;
+        overflow: hidden;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+      }
+      .creative-photo {
+        min-height: 470px;
+        overflow: hidden;
+        background: var(--dark-navy);
+      }
+      .creative-photo img {
+        width: 100%;
+        height: 100%;
+        min-height: 470px;
+        object-fit: cover;
+        object-position: center 18%;
+      }
+      .creative-content {
+        padding: 42px;
+      }
+      .creative-content h3 {
+        color: var(--navy);
+        font-family: Georgia, serif;
+        font-size: 32px;
+        margin: 5px 0 13px;
+      }
+      .creative-content p {
+        color: var(--gray);
+      }
+      .support-local {
+        background: var(--cream);
+        padding: 75px 25px;
+      }
+      .support-grid {
+        max-width: 1050px;
+        margin: 40px auto 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+      .support-card {
+        background: white;
+        border-radius: 14px;
+        padding: 28px 23px;
+        text-align: center;
+      }
+      .support-card span {
+        font-size: 38px;
+      }
+      .support-card h3 {
+        color: var(--navy);
+        font-family: Georgia, serif;
+        margin: 8px 0;
+      }
+      .support-card p {
+        color: var(--gray);
+        font-size: 14px;
+      }
+      .cta-section {
+        background: linear-gradient(135deg, var(--navy), #0a4a77);
+        color: white;
+        text-align: center;
+        padding: 75px 25px;
+      }
+      .cta-section .eyebrow {
+        color: #ffb9be;
+      }
+      .cta-section h2 {
+        font-family: Georgia, serif;
+        font-size: 42px;
+        margin: 5px 0 15px;
+      }
+      .cta-section p {
+        max-width: 740px;
+        margin: 0 auto 25px;
+        color: #dce9f0;
+      }
+      .button-light {
+        display: inline-block;
+        background: white;
+        color: var(--navy);
+        text-decoration: none;
+        border-radius: 7px;
+        padding: 13px 25px;
+        font-weight: bold;
+      }
+      footer {
+        background: linear-gradient(135deg, #03233e, #063b62);
+        color: white;
+        padding: 55px 25px 20px;
+      }
+      .footer-grid {
+        max-width: 1150px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1.5fr 0.8fr 1.2fr;
+        gap: 60px;
+      }
+      .footer-logo-area {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+      .footer-logo-area img {
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+      .footer-logo-area h2 {
+        margin: 0;
+        font-size: 25px;
+      }
+      .footer-logo-area small {
+        font-size: 9px;
+        letter-spacing: 2px;
+      }
+      .footer-about {
+        max-width: 380px;
+        color: #d5e1e8;
+        font-size: 14px;
+        margin-top: 18px;
+      }
+      .footer-heading {
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 13px;
+      }
+      .footer-links a {
+        display: block;
+        text-decoration: none;
+        color: #e1ebf0;
+        font-size: 14px;
+        margin: 7px 0;
+      }
+      .footer-links a:hover {
+        color: white;
+        text-decoration: underline;
+      }
+      .footer-contact {
+        color: #e1ebf0;
+        font-size: 14px;
+      }
+      .footer-email {
+        display: inline-block;
+        margin-top: 8px;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .footer-bottom {
+        max-width: 1150px;
+        margin: 40px auto 0;
+        padding-top: 20px;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        text-align: center;
+        color: #c5d5df;
+        font-size: 12px;
+      }
+      @media (max-width: 1180px) {
+        .navbar {
+          flex-direction: column;
+          padding-bottom: 15px;
+        }
+        .nav-logo {
+          min-width: auto;
+        }
+        .nav-links {
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+        .nav-links a {
+          padding: 5px 0;
+        }
+      }
+      @media (max-width: 1050px) {
+        .category-grid {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+      @media (max-width: 900px) {
+        .featured-grid,
+        .business-grid,
+        .creative-card {
+          grid-template-columns: 1fr;
+        }
+        .support-grid {
+          grid-template-columns: 1fr;
+        }
+        .footer-grid {
+          grid-template-columns: 1fr;
+        }
+        .creative-photo img {
+          max-height: 650px;
+        }
+      }
+      @media (max-width: 650px) {
+        .nav-brand-text {
+          display: none;
+        }
+        .category-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .hero img {
+          min-height: 260px;
+          object-fit: cover;
+        }
+        .business-image {
+          height: 235px;
+        }
+        .featured-image img {
+          height: 300px;
+        }
+        .creative-content {
+          padding: 28px 22px;
+        }
+        .creative-photo {
+          min-height: 420px;
+        }
+        .creative-photo img {
+          min-height: 420px;
+        }
+      }
+    
+      /* Consistent Loving Longmont hero — matches home page */
+      .hero { width: 100%; min-height: 0 !important; padding: 0 !important; display: block !important; background: var(--cream, #fffaf1) !important; position: relative; }
+      .hero img { width: 100% !important; height: auto !important; max-height: 700px !important; min-height: 0 !important; object-fit: cover !important; object-position: center !important; display: block !important; }
+    
+/* Canonical Loving Longmont footer */
+footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55px 25px 20px}
+.footer-grid{max-width:1150px;margin:auto;display:grid;grid-template-columns:1.5fr .8fr 1.2fr;gap:60px}
+.footer-logo-area{display:flex;align-items:center;gap:15px}
+.footer-logo-area h2{margin:0;font-size:25px}
+.footer-logo-area small{font-size:9px;letter-spacing:2px}
+.footer-about{max-width:380px;color:#d5e1e8;font-size:14px;margin-top:18px}
+.footer-heading{font-weight:bold;font-size:16px;margin-bottom:13px}
+.footer-links a{display:block;text-decoration:none;color:#e1ebf0;font-size:14px;margin:7px 0}
+.footer-links a:hover{color:white;text-decoration:underline}
+.footer-contact{color:#e1ebf0;font-size:14px}
+.footer-email{display:inline-block;margin-top:8px;color:white;text-decoration:none;font-weight:bold}
+.footer-bottom{max-width:1150px;margin:40px auto 0;padding-top:20px;border-top:1px solid rgba(255,255,255,.2);text-align:center;color:#c5d5df;font-size:12px}
+.red-heart{color:var(--red,#c8101e)}
+@media(max-width:900px){.footer-grid{grid-template-columns:1fr}}
+.pricing-intro{padding:65px 24px 30px;text-align:center;background:var(--cream)}.pricing-intro h1{font:clamp(36px,5vw,54px) Georgia,serif;color:var(--navy);margin:10px 0 18px}.pricing-intro p{max-width:740px;margin:0 auto;color:var(--gray)}.plans{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;max-width:1180px;margin:0 auto;padding:35px 24px 60px}.plan{border:1px solid #dce7e5;border-radius:18px;background:white;padding:30px;display:flex;flex-direction:column;box-shadow:0 6px 20px #062f5208}.plan.recommended{border:2px solid var(--navy)}.plan h2{font:29px Georgia,serif;color:var(--navy);margin:12px 0}.plan .price{font-size:40px;font-weight:bold;color:var(--navy)}.plan .term{font-size:14px;color:var(--gray)}.plan ul{padding-left:20px;margin:24px 0;flex:1}.plan li{margin:10px 0;font-size:14px}.plan a{align-self:flex-start}.label{font-size:11px;text-transform:uppercase;letter-spacing:1.5px;color:var(--red);font-weight:bold}.founder{max-width:1132px;margin:0 auto;padding:24px 28px;background:var(--sage);border-radius:14px}.details{max-width:1050px;margin:0 auto;padding:55px 24px}.details h2{font:32px Georgia,serif;color:var(--navy)}.details h3{color:var(--navy);font-size:18px;margin-top:28px}.details p{color:var(--gray)}.pricing-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}.nav-links{flex-wrap:wrap;justify-content:center}.nav-links a{padding:10px 0}@media(max-width:900px){.plans{grid-template-columns:1fr;max-width:660px}.founder{margin:0 24px}}
+.sponsor-benefits{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 30px}@media(max-width:650px){.sponsor-benefits{grid-template-columns:1fr}}
+</style><style>body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#193e4c}.media-hero{text-align:center;background:#fffaf1;padding:44px 20px}.media-hero .eyebrow{color:#b52236;letter-spacing:.2em;text-transform:uppercase;font-size:12px;font-weight:700}.media-hero h1{font:700 clamp(32px,4.5vw,58px) Georgia,serif;color:#124535;margin:10px 0}.media-hero p{max-width:740px;margin:0 auto;font-size:17px}.media-wrap{max-width:1100px;margin:auto;padding:28px 20px}.media-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.media-card{border:1px solid #d9e5e7;border-radius:14px;background:#f8fbfb;padding:22px}.media-card h2{color:#083c62;font-size:23px;margin:0 0 10px}.media-card p{line-height:1.55}.media-code{display:block;white-space:pre-wrap;overflow-wrap:anywhere;background:white;border:1px solid #d7e1e4;padding:12px;border-radius:8px;font:13px/1.5 monospace;color:#163e4b}.media-btn{display:inline-block;border:0;border-radius:7px;padding:11px 15px;background:#0d5a87;color:white!important;text-decoration:none;font-weight:bold;cursor:pointer;margin:10px 7px 0 0}.media-logo{background:#fff;padding:22px;border:1px solid #dce5e8;border-radius:10px;max-width:440px;width:100%}.media-note{color:#536c75;font-size:13px}.media-cta{background:#eaf3f3;text-align:center;padding:30px 20px}.media-cta h2{color:#124535}@media(max-width:700px){.media-grid{grid-template-columns:1fr}.media-wrap{padding:18px 14px}.media-hero{padding:28px 16px}}</style></head><body><header class="ll-live-header"><div class="llh-mast"><a aria-label="Loving Longmont home" class="llh-brand" href="index.html"><img alt="Loving Longmont — A whole town to discover" height="398" src="assets/loving-longmont-logo-transparent.webp" width="1000"/></a><div class="llh-tools"><nav aria-label="Useful links"><a href="about.html">About</a><a href="contact.html">Contact</a><a href="contact.html">Add a Business</a><a href="sitemap.html">Site Map</a><a aria-label="Loving Longmont on Facebook" class="llh-facebook" href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" rel="noopener noreferrer" target="_blank">f</a></nav><form action="search.html" class="llh-search" method="get" role="search"><label class="llh-sr" for="llh-search">Search Loving Longmont</label><input id="llh-search" name="q" placeholder="Search businesses, events, or things to do…" type="search"/><button aria-label="Search" type="submit"><svg aria-hidden="true" fill="none" height="23" stroke="currentColor" stroke-width="2.4" viewbox="0 0 24 24" width="23"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg></button></form></div><details class="llh-mobile"><summary aria-label="Open navigation"><span aria-hidden="true">☰</span><small>Menu</small></summary><nav aria-label="Mobile navigation"><a href="index.html">Home</a><a href="events.html">Events</a><a href="businesses.html">Local Businesses</a><a href="things-to-do.html">Things to Do</a><a href="history.html">Longmont History</a><a href="spotlight.html">In The Spotlight</a><a href="animals.html">Animals &amp; Pets</a><a href="jobs.html">Jobs &amp; Work</a><a href="community.html">Community</a><a href="about.html">About Loving Longmont</a><a href="contact.html">Contact</a><a href="sitemap.html">Site Map</a></nav></details></div><div class="llh-band"><nav aria-label="Main navigation" class="llh-nav"><a href="index.html">Home</a><a href="events.html">Events</a><a href="businesses.html">Local Businesses</a><a href="things-to-do.html">Things to Do</a><a href="history.html">Longmont History</a><a href="spotlight.html">In The Spotlight</a><a href="animals.html">Animals &amp; Pets</a><a href="jobs.html">Jobs &amp; Work</a><a href="community.html">Community</a><a href="about.html">About Loving Longmont</a><a href="contact.html">Contact</a></nav></div><form action="search.html" class="llh-mobile-search llh-search" method="get" role="search"><label class="llh-sr" for="llh-mobile-search">Search Loving Longmont</label><input id="llh-mobile-search" name="q" placeholder="Search businesses, events…" type="search"/><button aria-label="Search" type="submit"><svg aria-hidden="true" fill="none" height="23" stroke="currentColor" stroke-width="2.4" viewbox="0 0 24 24" width="23"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg></button></form></header><main><section class="media-hero"><div class="eyebrow">Share the love • Spread the word</div><h1>Loving Longmont Media & Sharing Kit</h1><p>You don't need a storefront or a large business to deserve recognition. Help neighbors discover the people, makers, entrepreneurs, professionals and local places that make Longmont special.</p></section><section class="media-wrap"><h2>Help us keep Longmont visible</h2><p>If Loving Longmont has featured you, your business or your work, we'd appreciate a link back from your website or a mention on your social media. It's completely optional, and it helps more people discover local stories. Thank you for supporting the community!</p><div class="media-grid"><article class="media-card"><h2>1. Add a website link</h2><p>Use this simple link on your website, partner page or community resources page.</p><div class="media-code" id="website-text">Discover local people, businesses and hidden gems at Loving Longmont: https://lovinglongmont.com/</div><button class="media-btn" data-copy="website-text" type="button">Copy link text</button></article><article class="media-card"><h2>2. Add a linked logo</h2><p>Download our official logo and link it to Loving Longmont. Keep its proportions and original design intact.</p><img class="media-logo" src="assets/loving-longmont-logo-transparent.webp" alt="Official Loving Longmont logo"><a class="media-btn" href="assets/loving-longmont-logo-transparent.webp" download="loving-longmont-logo.webp">Download logo</a><div class="media-code" id="logo-html">&lt;a href="https://lovinglongmont.com/" target="_blank" rel="noopener"&gt;&lt;img src="YOUR-UPLOADED-LOGO-URL" alt="Discover Loving Longmont" width="240"&gt;&lt;/a&gt;</div><button class="media-btn" data-copy="logo-html" type="button">Copy logo link HTML</button><p class="media-note">Upload the downloaded logo to your own website, then replace YOUR-UPLOADED-LOGO-URL with its address.</p></article><article class="media-card"><h2>3. Share on social media</h2><p>Here's a message you can personalize and post to Facebook, Instagram or LinkedIn.</p><div class="media-code" id="social-text">We're proud to be part of the Loving Longmont community! Discover the local businesses, artists, professionals, makers and hidden gems that make Longmont special. Explore: https://lovinglongmont.com/ ❤️ #LovingLongmont #ShopLocalLongmont</div><button class="media-btn" data-copy="social-text" type="button">Copy social post</button><a class="media-btn" href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" target="_blank" rel="noopener">Visit our Facebook</a></article><article class="media-card"><h2>4. Tell people you're featured</h2><p>Have a Loving Longmont profile? Share the direct link to your own page, so people can learn your story.</p><div class="media-code" id="featured-text">We're featured on Loving Longmont! Read our story and discover other local people and businesses: [PASTE YOUR LOVING LONGMONT PROFILE LINK] #LovingLongmont</div><button class="media-btn" data-copy="featured-text" type="button">Copy featured message</button><p class="media-note">Replace the bracketed placeholder with your actual Loving Longmont profile URL.</p></article></div><h2 style="margin-top:30px">Logo and sharing guidelines</h2><p>You may use the official Loving Longmont logo to link to our website or share your feature. Please don't stretch, recolor, crop or modify it, or imply Loving Longmont endorses a product or service. Use your own photos or images you have permission to share. For press inquiries, interviews, special partnerships or requests for additional approved graphics, <a href="contact.html">contact Loving Longmont</a>.</p></section><section class="media-cta"><h2>Every link helps our community grow.</h2><p>Thank you for helping us celebrate the people behind Longmont's businesses, creativity and community.</p><a class="media-btn" href="pricing.html">Explore Community Sponsorships</a></section></main><footer class="ll-compact-footer"><div class="ll-footer-top"><div class="ll-footer-brand"><div class="footer-logo-area"><img alt="Loving Longmont Logo" src="Images/Website-Images/1b.png"/><div><h2>Loving Longmont</h2><small>PEOPLE <span class="red-heart">♥</span> PLACES <span class="red-heart">♥</span> POSSIBILITIES</small></div></div><p class="footer-about">Celebrating the people, businesses, events and places that make Longmont, Colorado a community worth loving.</p><div><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" rel="noopener" target="_blank">Facebook →</a></div></div><div><div><a href="https://mktvisibility.com" rel="noopener" target="_blank"><img alt="MKT Visibility" src="Images/Website-Images/MKT Visibility Logo main profile pic.png"/></a><div><a href="https://mktvisibility.com" rel="noopener" target="_blank">MKT Visibility</a><div>WE KEEP YOUR BUSINESS VISIBLE.</div></div></div><p>Helping small businesses stay visible through social media, digital marketing, websites, photography, video and Google Business Profile support.</p><div><a href="https://mktvisibility.com" rel="noopener" target="_blank">Website →</a><span>•</span><a href="https://www.facebook.com/profile.php?id=61594428531114" rel="noopener" target="_blank">Facebook →</a></div></div><div><div class="footer-heading">Connect With Us</div><p class="footer-contact">Have a business, event, photo, story or community resource you'd like Loving Longmont to know about?</p><a class="footer-email" href="contact.html">✉ hello.lovinglongmont@gmail.com</a><div><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" rel="noopener" target="_blank">ⓕ Follow Loving Longmont on Facebook</a></div></div></div><div><nav aria-label="Footer navigation" class="footer-links"><a href="index.html">Home</a><a href="events.html">Events</a><a href="businesses.html">Local Businesses</a><a href="things-to-do.html">Things to Do</a><a href="history.html">Longmont History</a><a href="spotlight.html">In The Spotlight</a><a href="animals.html">Animals &amp; Pets</a><a href="jobs.html">Jobs &amp; Work</a><a href="community.html">Community</a><a href="about.html">About Loving Longmont</a><a href="contact.html">Contact</a><a href="sitemap.html"><strong>Site Map →</strong></a></nav></div><div class="footer-bottom">© 2026 Loving Longmont. All rights reserved.   |   Made with <span class="red-heart">♥</span> for Longmont, Colorado.</div></footer><script src="assets/live/live-page.mjs?v=20261013-profile-layout" type="module"></script>
+<script src="assets/visual-cards.mjs" type="module"></script></body></html>+rate+'/hr';document.getElementById('sp-quarter-hours').textContent=(675*.7/rate).toFixed(1)+' hours';document.getElementById('sp-year-hours').textContent=(2700*.7/rate).toFixed(1)+' hours'}slider.addEventListener('input',update);update()})();</script><footer class="ll-compact-footer"><div class="ll-footer-top"><div class="ll-footer-brand"><div class="footer-logo-area"><img alt="Loving Longmont Logo" src="Images/Website-Images/1b.png"/><div><h2>Loving Longmont</h2><small>PEOPLE <span class="red-heart">♥</span> PLACES <span class="red-heart">♥</span> POSSIBILITIES</small></div></div><p class="footer-about">Celebrating the people, businesses, events and places that make Longmont, Colorado a community worth loving.</p><div><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" rel="noopener" target="_blank">Facebook →</a></div></div><div><div><a href="https://mktvisibility.com" rel="noopener" target="_blank"><img alt="MKT Visibility" src="Images/Website-Images/MKT Visibility Logo main profile pic.png"/></a><div><a href="https://mktvisibility.com" rel="noopener" target="_blank">MKT Visibility</a><div>WE KEEP YOUR BUSINESS VISIBLE.</div></div></div><p>Helping small businesses stay visible through social media, digital marketing, websites, photography, video and Google Business Profile support.</p><div><a href="https://mktvisibility.com" rel="noopener" target="_blank">Website →</a><span>•</span><a href="https://www.facebook.com/profile.php?id=61594428531114" rel="noopener" target="_blank">Facebook →</a></div></div><div><div class="footer-heading">Connect With Us</div><p class="footer-contact">Have a business, event, photo, story or community resource you'd like Loving Longmont to know about?</p><a class="footer-email" href="contact.html">✉ hello.lovinglongmont@gmail.com</a><div><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" rel="noopener" target="_blank">ⓕ Follow Loving Longmont on Facebook</a></div></div></div><div><nav aria-label="Footer navigation" class="footer-links"><a href="index.html">Home</a><a href="events.html">Events</a><a href="businesses.html">Local Businesses</a><a href="things-to-do.html">Things to Do</a><a href="history.html">Longmont History</a><a href="spotlight.html">In The Spotlight</a><a href="animals.html">Animals &amp; Pets</a><a href="jobs.html">Jobs &amp; Work</a><a href="community.html">Community</a><a href="about.html">About Loving Longmont</a><a href="contact.html">Contact</a><a href="sitemap.html"><strong>Site Map →</strong></a></nav></div><div class="footer-bottom">© 2026 Loving Longmont. All rights reserved.   |   Made with <span class="red-heart">♥</span> for Longmont, Colorado.</div></footer><script src="assets/live/live-page.mjs?v=20261013-profile-layout" type="module"></script>
+<script src="assets/visual-cards.mjs" type="module"></script></body></html><script>document.querySelectorAll('[data-copy]').forEach(function(button){button.addEventListener('click',async function(){var value=document.getElementById(button.getAttribute('data-copy')).textContent;try{await navigator.clipboard.writeText(value);var old=button.textContent;button.textContent='Copied!';setTimeout(function(){button.textContent=old},1800)}catch(e){window.prompt('Copy this text:',value)}})});</script></body></html>
