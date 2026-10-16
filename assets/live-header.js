@@ -12,6 +12,13 @@ document.addEventListener('DOMContentLoaded',()=>{
  addPricing(root.querySelector('.llh-tools nav'));
  addPricing(root.querySelector('.llh-mobile nav'));
  addPricing(document.querySelector('nav[aria-label="Footer navigation"]'));
+ // Keep the alphabetical directory reachable from every site's standard header/footer.
+ for(const nav of [root.querySelector('.llh-tools nav'),root.querySelector('.llh-mobile nav'),document.querySelector('nav[aria-label="Footer navigation"]')]){
+  if(!nav||nav.querySelector('a[href="directory.html"]'))continue;
+  const link=document.createElement('a');link.href='directory.html';link.textContent='Browse Categories';
+  if(location.pathname.endsWith('/directory.html'))link.setAttribute('aria-current','page');
+  nav.append(link);
+ }
  const dropdowns=[...root.querySelectorAll('details')];
  dropdowns.forEach(d=>d.addEventListener('toggle',()=>{if(d.open)dropdowns.filter(other=>other!==d).forEach(other=>other.open=false)}));
  document.addEventListener('click',e=>dropdowns.forEach(d=>{if(d.open&&!d.contains(e.target))d.open=false}));
