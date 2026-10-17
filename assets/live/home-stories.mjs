@@ -20,7 +20,7 @@ export function renderHomeStory(doc,row){
  const text=add('div',null,'ll-home-story-text');text.append(add('p',storyExcerpt(b.story,1150)));article.append(text);
  // Stable ID links also work before a newly named profile finishes deploying.
  const route=/^[a-z0-9]+(?:-[a-z0-9]+)*\.html$/.test(row.pageRoute||row.route||'')&&!(row.pageRoute||row.route).startsWith('business-')?(row.pageRoute||row.route):'business.html?id='+encodeURIComponent(row.business_id||'');
- const link=add('a','Read more →','ll-home-story-profile');link.href=route;article.append(link);const body=add('div',null,'ll-story-flow-body');if(images.length){const media=article.querySelector('.ll-home-story-images');if(media)body.append(media)}body.append(text,link);article.append(body);return article;
+ const link=add('a','Read more →','ll-home-story-profile');link.href=route;article.append(link);const body=add('div',null,'ll-story-flow-body');if(images.length){const media=article.querySelector('.ll-home-story-images');if(media)body.append(media)}body.append(title,text,link);article.append(body);return article;
 }
 export function renderHomeStories(doc,rows,page,site='Loving Longmont'){
  const ids=new Set();if(!STORY_PAGES.some(([route])=>route===page)||site!=='Loving Longmont')return ids;
