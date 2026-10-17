@@ -941,6 +941,13 @@ footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55
 .event-month .event-card .event-body{gap:8px!important}
 .event-month .event-card .ll-event-count{margin:0!important;color:#174b3e;font:700 13px/20px Arial,sans-serif;min-height:20px;flex:none}
 .event-month .event-card .ll-event-summary{margin:0!important;color:#52645f;font:14px/20px Arial,sans-serif;height:60px;min-height:60px;overflow:hidden;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;flex:none}
+</style><style id="ll-five-column-events">
+/* At most five event previews across; narrower screens retain readable cards. */
+body .event-month .event-grid[data-ll-visual-grid]{grid-template-columns:repeat(5,minmax(0,1fr))!important}
+@media(max-width:1100px){body .event-month .event-grid[data-ll-visual-grid]{grid-template-columns:repeat(4,minmax(0,1fr))!important}}
+@media(max-width:900px){body .event-month .event-grid[data-ll-visual-grid]{grid-template-columns:repeat(3,minmax(0,1fr))!important}}
+@media(max-width:760px){body .event-month .event-grid[data-ll-visual-grid]{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:500px){body .event-month .event-grid[data-ll-visual-grid]{grid-template-columns:minmax(0,1fr)!important}}
 </style></head>
 <body>
 <!-- ========================================
