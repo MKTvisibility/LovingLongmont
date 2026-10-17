@@ -33,3 +33,21 @@
 #home-business-stories .ll-home-story-image img{max-width:100%;display:block}
 #home-business-stories .ll-home-story-profile{min-height:28px}
 @media(max-width:760px){#home-business-stories .ll-home-story:first-child{grid-template-columns:minmax(0,1fr)}#home-business-stories .ll-home-story-images{max-width:100%}}
+
+/* 2026-10-17: shared alternating, single-column magazine spotlights. */
+#home-business-stories{width:100%;max-width:none;padding:40px 24px;background:transparent}
+#home-business-stories .ll-story-preview-grid{display:flex;flex-direction:column;gap:50px;max-width:1180px;width:100%;margin:0 auto}
+#home-business-stories .ll-story-preview-grid>.ll-home-story,
+#home-business-stories .ll-story-preview-grid>.ll-home-story:first-child{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-rows:auto auto 1fr;column-gap:42px;row-gap:12px;align-items:start;width:100%;max-width:none;min-height:280px;margin:0;padding:0 0 35px;border:0;border-bottom:1px solid #dce6e0;border-radius:0;background:transparent;box-shadow:none}
+#home-business-stories .ll-story-preview-grid .ll-home-story-images{grid-column:1;grid-row:1/4;display:flex;align-items:flex-start;width:100%;height:auto;min-height:0;margin:0;gap:8px;order:0;background:transparent}
+#home-business-stories .ll-story-preview-grid .ll-home-story-image{flex:1;min-width:0;background:transparent}
+#home-business-stories .ll-story-preview-grid .ll-home-story-image img,
+#home-business-stories .ll-story-preview-grid .ll-home-story:first-child .ll-home-story-image img{display:block;width:100%;height:auto;max-height:340px;object-fit:contain;object-position:left top;border:0;border-radius:0;background:transparent}
+#home-business-stories .ll-story-preview-grid .ll-home-story h3{grid-column:2;grid-row:1;margin:0}
+#home-business-stories .ll-story-preview-grid .ll-home-story-text{grid-column:2;grid-row:2}
+#home-business-stories .ll-story-preview-grid .ll-home-story-profile{grid-column:2;grid-row:3;align-self:start;margin:0}
+#home-business-stories .ll-story-preview-grid>.ll-home-story:nth-child(even) .ll-home-story-images{grid-column:2}
+#home-business-stories .ll-story-preview-grid>.ll-home-story:nth-child(even) h3,
+#home-business-stories .ll-story-preview-grid>.ll-home-story:nth-child(even) .ll-home-story-text,
+#home-business-stories .ll-story-preview-grid>.ll-home-story:nth-child(even) .ll-home-story-profile{grid-column:1}
+@media(max-width:760px){#home-business-stories .ll-story-preview-grid>.ll-home-story,#home-business-stories .ll-story-preview-grid>.ll-home-story:first-child{display:flex;flex-direction:column;gap:12px;min-height:0}#home-business-stories .ll-story-preview-grid .ll-home-story-images{order:-1}#home-business-stories .ll-story-preview-grid .ll-home-story-image img{max-height:300px}}
