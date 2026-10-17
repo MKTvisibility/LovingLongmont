@@ -1,4 +1,4 @@
-import './live/business-events-loader.mjs?v=20261017-uniform';
+import './live/business-events-loader.mjs?v=20261017-summaries';
 const gridClasses=['ll-connected-grid','quick-grid','resource-grid','category-grid','business-grid','project-grid','photo-grid','involved-grid','site-grid','gig-grid','option-grid','help-grid','event-grid','directory-grid','future-grid','idea-grid','community-life-grid','share-grid','support-grid','tip-grid','emergency-grid','grid'];
 const iconSelector='.image-pending,.image-placeholder,.business-icon,.tip-icon,.idea-icon,.project-icon,.involved-icon,.image-pending-icon,.resource-icon,.card-icon,.quick-icon,.site-icon,.gig-icon,.category-icon,.future-icon,.page-icon,.icon,.support-icon,.life-icon,.share-icon,.help-icon,.option-icon,.event-icon,.emergency-icon,.ll-category-icon';
 export const normalizeName=s=>String(s||'').toLowerCase().replace(/[^a-z0-9]/g,'');
@@ -75,3 +75,4 @@ if(typeof window!=='undefined'&&typeof document!=='undefined'){
  const update=()=>catalogPromise.then(c=>enhanceVisualCards(document,c)).catch(()=>{});
  update();document.addEventListener('ll-businesses-updated',update);
 }
+
