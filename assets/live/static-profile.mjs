@@ -42,3 +42,6 @@ if(source){const img=document.createElement('img');img.src=source;img.alt='Photo
 const heading=document.createElement('div');heading.className='bp-heading';if(visuals.logo){const logo=document.createElement('div');logo.className='bp-logo';const image=document.createElement('img');image.src=visuals.logo;image.alt=name+' logo';logo.append(image);heading.append(logo)}
 oldImage?.closest('.ll-visual-image,.business-image,.card-image')?.remove();if(oldImage?.isConnected)oldImage.remove();article.querySelectorAll('.card-image,.business-placeholder,.resource-label,.card-label,.card-type').forEach(e=>e.remove());
 while(article.firstChild)heading.append(article.firstChild);identity.append(media,heading);article.append(identity);article.className='bp-profile';document.querySelector('main').classList.add('bp-main');}
+
+// Notify independently managed public calendars after a static profile renders.
+document.dispatchEvent(new Event('ll-businesses-updated'));
