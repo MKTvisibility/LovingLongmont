@@ -397,6 +397,22 @@ footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55
 .ll-history-story-grid .ll-home-story-profile{display:inline-block;align-self:flex-start;margin:0;padding:0;background:none;color:#a20f1c;font:700 14px Arial,sans-serif;text-decoration:none}
 .ll-history-story-grid .ll-home-story-profile:hover{text-decoration:underline}
 @media(max-width:760px){.ll-history-story-grid .ll-connected-grid{grid-template-columns:1fr!important;gap:32px!important}.ll-history-story-grid .ll-home-story:first-child{display:flex!important;grid-column:auto;padding-bottom:28px!important}.ll-history-story-grid .ll-home-story:first-child .ll-home-story-image img{height:270px!important}.ll-history-story-grid .ll-home-story-image img{height:230px!important}}
+
+/* History spotlights: two equal, full-width editorial columns, never cards. */
+main .ll-history-story-grid{display:block!important;width:100%!important;max-width:1200px!important;margin:0 auto 55px!important;padding:0 24px!important;border:0!important;background:none!important;box-shadow:none!important}
+main .ll-history-story-grid .ll-connected-grid{display:grid!important;width:100%!important;max-width:none!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:40px!important;align-items:start!important}
+main .ll-history-story-grid .ll-connected-grid>.ll-home-story,
+main .ll-history-story-grid .ll-connected-grid>.ll-home-story:first-child,
+main .ll-history-story-grid .ll-connected-grid>*{display:flex!important;flex-direction:column!important;grid-column:auto!important;grid-row:auto!important;width:100%!important;max-width:none!important;min-width:0!important;align-items:stretch!important;gap:14px!important;margin:0!important;padding:0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;outline:0!important}
+main .ll-history-story-grid .ll-home-story-images,
+main .ll-history-story-grid .ll-home-story:first-child .ll-home-story-images{display:flex!important;order:-1!important;grid-column:auto!important;grid-row:auto!important;width:100%!important;gap:8px!important;margin:0!important}
+main .ll-history-story-grid .ll-home-story-image img,
+main .ll-history-story-grid .ll-home-story:first-child .ll-home-story-image img{height:285px!important;width:100%!important;object-fit:cover!important;border-radius:0!important}
+main .ll-history-story-grid .ll-home-story-logo img{object-fit:contain!important;background:#fff!important}
+main .ll-history-story-grid .ll-home-story h3{font:700 clamp(25px,2.6vw,34px)/1.18 Georgia,serif!important;color:#103f34!important;margin:0!important}
+main .ll-history-story-grid .ll-home-story-text{font:17px/1.7 Georgia,serif!important}
+main .ll-history-story-grid .ll-home-story-profile{align-self:flex-start!important}
+@media(max-width:760px){main .ll-history-story-grid .ll-connected-grid{grid-template-columns:1fr!important;gap:38px!important}main .ll-history-story-grid .ll-home-story-image img,main .ll-history-story-grid .ll-home-story:first-child .ll-home-story-image img{height:240px!important}}
 </style></head>
 <body>
 <header class="ll-live-header lln-header" data-navigation-version="20261016">
