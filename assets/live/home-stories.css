@@ -6,26 +6,24 @@
 @media(max-width:900px){.ll-story-preview-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.ll-story-preview-grid{grid-template-columns:1fr}.ll-home-stories{padding:24px 16px}}
 
-/* Editorial spotlights shared by every eligible Loving Longmont navigation page. */
-#home-business-stories{background:#fff;padding:56px max(20px,calc((100vw - 1200px)/2));}
-#home-business-stories>h2{max-width:none;margin:0 0 30px;font:700 clamp(30px,4vw,48px)/1.15 Georgia,serif;letter-spacing:-.025em}
-#home-business-stories .ll-story-preview-grid{max-width:none;grid-template-columns:repeat(2,minmax(0,1fr));gap:38px 34px;align-items:start}
-#home-business-stories .ll-home-story{background:transparent;border:0;border-radius:0;box-shadow:none;padding:0;margin:0;gap:12px;display:flex;flex-direction:column;min-width:0}
-#home-business-stories .ll-home-story:first-child{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);column-gap:38px;align-items:center;padding-bottom:36px;border-bottom:1px solid #d7dedc}
-#home-business-stories .ll-home-story-images{order:-1;display:flex;height:auto;min-height:0;gap:8px;margin:0;overflow:hidden}
+/* Consistent two-across magazine articles on all Loving Longmont navigation pages. */
+#home-business-stories{background:#fff;padding:48px max(20px,calc((100vw - 1200px)/2));width:100%;max-width:none;box-sizing:border-box}
+#home-business-stories>h2{max-width:1200px;margin:0 auto 26px;font:700 clamp(30px,4vw,48px)/1.15 Georgia,serif;color:#103f34}
+#home-business-stories .ll-story-preview-grid{display:grid;max-width:1200px;margin:0 auto;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px;align-items:start}
+#home-business-stories .ll-story-preview-grid .ll-home-story,
+#home-business-stories .ll-story-preview-grid .ll-home-story:first-child{display:flex;flex-direction:column;grid-column:auto;grid-row:auto;align-items:stretch;gap:14px;width:100%;max-width:none;min-width:0;margin:0;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none}
+#home-business-stories .ll-home-story-images{order:-1;display:flex;width:100%;height:auto;gap:8px;margin:0;overflow:hidden}
 #home-business-stories .ll-home-story-image{flex:1;min-width:0;margin:0}
-#home-business-stories .ll-home-story-image img{width:100%;height:245px;object-fit:cover;border-radius:0;background:#f1f3f0}
-#home-business-stories .ll-home-story:first-child .ll-home-story-images{grid-row:1/5;grid-column:1}
-#home-business-stories .ll-home-story:first-child .ll-home-story-image img{height:370px}
+#home-business-stories .ll-home-story-image img,
+#home-business-stories .ll-home-story:first-child .ll-home-story-image img{width:100%;height:285px;object-fit:cover;border-radius:0;background:#f1f3f0}
 #home-business-stories .ll-home-story-logo img{object-fit:contain;background:#fff}
-#home-business-stories .ll-home-story h3{font:700 clamp(24px,2.6vw,33px)/1.2 Georgia,serif;color:#062f52;letter-spacing:-.018em;margin:3px 0 0}
-#home-business-stories .ll-home-story:first-child h3{font-size:clamp(29px,3.3vw,44px)}
-#home-business-stories .ll-home-story-text{font:16px/1.75 Georgia,serif;color:#3c4c55}
+#home-business-stories .ll-home-story h3,
+#home-business-stories .ll-home-story:first-child h3{font:700 clamp(25px,2.7vw,34px)/1.2 Georgia,serif;color:#103f34;margin:0}
+#home-business-stories .ll-home-story-text{font:17px/1.7 Georgia,serif;color:#3c4c55}
 #home-business-stories .ll-home-story-text p{margin:0;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
-#home-business-stories .ll-home-story-profile{display:inline-flex;align-items:center;align-self:flex-start;margin:4px 0 0;padding:0;background:none;border-radius:0;color:#a20f1c;font:700 14px/1.5 Arial,sans-serif;text-decoration:none}
-#home-business-stories .ll-home-story-profile:hover{color:#062f52;background:none;text-decoration:underline}
-@media(max-width:760px){#home-business-stories{padding:38px 18px}#home-business-stories .ll-story-preview-grid{grid-template-columns:1fr;gap:32px}#home-business-stories .ll-home-story:first-child{display:flex;grid-column:auto;padding-bottom:30px}#home-business-stories .ll-home-story:first-child .ll-home-story-image img{height:270px}#home-business-stories .ll-home-story-image img{height:230px}}
-
+#home-business-stories .ll-home-story-profile{align-self:flex-start;margin:0;padding:0;background:none;border:0;border-radius:0;color:#a20f1c;font:700 15px/1.5 Arial,sans-serif;text-decoration:none}
+#home-business-stories .ll-home-story-profile:hover{text-decoration:underline;background:none}
+@media(max-width:760px){#home-business-stories{padding:34px 18px}#home-business-stories .ll-story-preview-grid{grid-template-columns:minmax(0,1fr);gap:36px}#home-business-stories .ll-home-story-image img,#home-business-stories .ll-home-story:first-child .ll-home-story-image img{height:235px}}
 /* Shared safety rules for every top-navigation story placement. */
 #home-business-stories,#home-business-stories *{box-sizing:border-box}
 #home-business-stories .ll-story-preview-grid,#home-business-stories .ll-home-story{min-width:0}
