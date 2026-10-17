@@ -25,10 +25,10 @@ export function renderHomeStory(doc,row){
 export function renderHomeStories(doc,rows,page,site='Loving Longmont'){
  const ids=new Set();if(!STORY_PAGES.some(([route])=>route===page)||site!=='Loving Longmont')return ids;
  let root=doc.getElementById('home-business-stories');
- const selected=rows.filter(r=>storyEligible(r,site,page)).sort((a,b)=>(a.spotlight_order||0)-(b.spotlight_order||0)||String(b.published_at||'').localeCompare(String(a.published_at||''))||a.public_content.name.localeCompare(b.public_content.name));
+ const selected=rows.filter(r=>storyEligible(r,site,page)).sort((a,b)=>String(b.public_content?.home_story?.selected_at||b.published_at||'').localeCompare(String(a.public_content?.home_story?.selected_at||a.published_at||''))||(b.spotlight_order||0)-(a.spotlight_order||0));
  if(!root&&!selected.length)return ids;
  if(!root){root=doc.createElement('section');root.id='home-business-stories';root.className='ll-home-stories';root.setAttribute('aria-label','Local business and professional stories');const main=doc.querySelector('main');const intro=main?.querySelector('.intro,.page-intro,.media-hero,.pricing-intro,.ll-directory-intro');const banner=main?.querySelector('.ll-live-banner,.page-hero');if(intro)intro.after(root);else if(banner)banner.after(root);else if(main)main.prepend(root);else doc.querySelector('header')?.after(root);}
- if(!doc.querySelector('[data-story-preview-css]')){const css=doc.createElement('link');css.rel='stylesheet';css.href=new URL('./home-stories.css?v=20261017-two-column-global',import.meta.url).href;css.dataset.storyPreviewCss='';doc.head.append(css);}
+ if(!doc.querySelector('[data-story-preview-css]')){const css=doc.createElement('link');css.rel='stylesheet';css.href=new URL('./home-stories.css?v=20261017-alternating-stories',import.meta.url).href;css.dataset.storyPreviewCss='';doc.head.append(css);}
  root.replaceChildren();root.hidden=!selected.length;if(!selected.length)return ids;
  const heading=doc.createElement('h2');heading.textContent='Stories from Our Community';root.append(heading);const grid=doc.createElement('div');grid.className='ll-story-preview-grid';root.append(grid);
  for(const row of selected){grid.append(renderHomeStory(doc,row));ids.add(row.business_id)}return ids;
