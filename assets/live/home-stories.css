@@ -5,13 +5,28 @@
 #home-business-stories .ll-story-preview-grid{display:flex;flex-direction:column;gap:32px}
 #home-business-stories .ll-home-story{display:block;min-width:0;width:100%;padding:0 0 28px;margin:0;border:0;border-bottom:1px solid #dce5e0;border-radius:0;background:transparent;box-shadow:none}
 #home-business-stories .ll-story-flow-body{display:flow-root}
-#home-business-stories .ll-home-story-images{float:left;display:flex;gap:10px;width:min(28%,285px);height:auto;margin:0 25px 12px 0;padding:0;background:transparent;border:0;box-shadow:none}
-#home-business-stories .ll-home-story:nth-child(even) .ll-home-story-images{float:right;margin:0 0 12px 25px}
+#home-business-stories .ll-home-story-images{float:left;display:flex;gap:10px;width:min(22%,230px);height:auto;margin:0 24px 12px 0;padding:0;background:transparent;border:0;box-shadow:none}
+#home-business-stories .ll-home-story:nth-child(even) .ll-home-story-images{float:right;margin:0 0 12px 24px}
 #home-business-stories .ll-home-story-image{flex:1;min-width:0;margin:0;padding:0;border:0;background:transparent;box-shadow:none}
-#home-business-stories .ll-home-story-image img{display:block;width:100%;height:auto;max-height:230px;object-fit:contain;object-position:left top;border:0;border-radius:0;background:transparent;box-shadow:none}
+#home-business-stories .ll-home-story-image img{display:block;width:100%;height:auto;max-height:180px;object-fit:contain;object-position:left top;border:0;border-radius:0;background:transparent;box-shadow:none}
 #home-business-stories .ll-home-story h3{font:700 clamp(24px,2.5vw,32px)/1.2 Georgia,serif;color:#103f34;margin:0 0 12px;overflow-wrap:anywhere}
 #home-business-stories .ll-home-story-text{font:16px/1.75 Georgia,serif;color:#34484a}
 #home-business-stories .ll-home-story-text p{display:block;margin:0;overflow:visible;white-space:normal}
 #home-business-stories .ll-home-story-profile{display:inline-block;margin:14px 0 0;color:#ad0d18;font:700 15px Arial,sans-serif;text-decoration:none;background:none;border:0}
 #home-business-stories .ll-home-story-profile:hover{text-decoration:underline}
 @media(max-width:650px){#home-business-stories{padding:28px 18px}#home-business-stories .ll-home-story-images{width:min(42%,180px);margin-right:14px}#home-business-stories .ll-home-story:nth-child(even) .ll-home-story-images{margin-left:14px}}
+
+/* Keep each excerpt alongside its image; do not let it fall beneath a float. */
+#home-business-stories .ll-home-story{display:grid;grid-template-columns:minmax(0,1fr);align-items:start;clear:both}
+#home-business-stories .ll-story-flow-body{display:grid;grid-template-columns:minmax(150px,22%) minmax(0,1fr);column-gap:26px;align-items:start}
+#home-business-stories .ll-home-story:nth-child(even) .ll-story-flow-body{grid-template-columns:minmax(0,1fr) minmax(150px,22%)}
+#home-business-stories .ll-home-story-images,#home-business-stories .ll-home-story:nth-child(even) .ll-home-story-images{float:none;width:100%;margin:0;grid-column:1;grid-row:1 / span 3;align-self:start}
+#home-business-stories .ll-home-story:nth-child(even) .ll-home-story-images{grid-column:2}
+#home-business-stories .ll-home-story h3,#home-business-stories .ll-home-story-text,#home-business-stories .ll-home-story-profile{grid-column:2;min-width:0}
+#home-business-stories .ll-home-story:nth-child(even) h3,#home-business-stories .ll-home-story:nth-child(even) .ll-home-story-text,#home-business-stories .ll-home-story:nth-child(even) .ll-home-story-profile{grid-column:1}
+#home-business-stories .ll-home-story h3{grid-row:1;margin-bottom:10px}
+#home-business-stories .ll-home-story-text{grid-row:2}
+#home-business-stories .ll-home-story-profile{grid-row:3;justify-self:start}
+#home-business-stories .ll-home-story-image img{max-height:190px;object-position:center top}
+@media(max-width:650px){#home-business-stories .ll-story-flow-body{grid-template-columns:minmax(95px,30%) minmax(0,1fr);column-gap:14px}#home-business-stories .ll-home-story:nth-child(even) .ll-story-flow-body{grid-template-columns:minmax(0,1fr) minmax(95px,30%)}#home-business-stories .ll-home-story h3{font-size:clamp(20px,5vw,27px)}#home-business-stories .ll-home-story-text{font-size:14px;line-height:1.55}}
+@media(max-width:420px){#home-business-stories .ll-story-flow-body,#home-business-stories .ll-home-story:nth-child(even) .ll-story-flow-body{display:flex;flex-direction:column;gap:8px}#home-business-stories .ll-home-story-images,#home-business-stories .ll-home-story:nth-child(even) .ll-home-story-images{width:min(65%,210px);margin:0 0 8px}#home-business-stories .ll-home-story-profile{margin-top:5px}}
