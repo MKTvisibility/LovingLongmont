@@ -1,4 +1,4 @@
-import {renderHomeStories,renderHomeStory} from './home-stories.mjs?v=20261017-homepage-match';
+import {renderHomeStories,renderHomeStory} from './home-stories.mjs?v=20261017-shared-story-layout';
 import {renderSectionPlacements} from './section-placements.mjs?v=20261016-sections';
 import {renderProfile,renderBusinessCard} from './profile-view.mjs?v=20261016-published-images';
 const BASE='https://gvmwkltwrlqwbqegieum.supabase.co',KEY='sb_publishable_SFIrQ_kqkLQJdBNMnaRr3g_w6XWKaBJ';
