@@ -11,7 +11,7 @@ export async function loadCategoryDirectory(doc=document,fetcher=fetch){
  ]);
  if(results.every(r=>r.status==='rejected')){root.textContent='Listings could not load. Please refresh.';return;}
  const catalog=results[0].status==='fulfilled'?results[0].value:[];
- const publications=results[1].status==='fulfilled'?results[1].value:[];
+ const publications=(results[1].status==='fulfilled'?results[1].value:[]).filter(row=>row.business_id!=='b8d00942-eb87-5cb3-bb6b-1e34daa74b9b');
  const published=new Map(publications.map(r=>[r.business_id,r]));
  const entries=new Map();
  for(const item of catalog){if(published.has(item.business_id)||!item.pages.includes(page))continue;entries.set(item.business_id,{...item,public_content:{name:item.name,description:item.description,gallery:item.gallery||[]},pageRoute:item.route||item.source});}
