@@ -1,0 +1,160 @@
+{
+  "reviewed": "2026-10-17",
+  "section": "Event Venues & Party Planning",
+  "placement": "events.html",
+  "businesses": [
+    {
+      "id": "30ffb903-49dd-5518-836c-61251e5200de",
+      "name": "Bricks on Main",
+      "route": "bricks-on-main.html",
+      "source": "https://www.workspaceatbricks.com/",
+      "offerings": "Event space, conference rooms and private offices",
+      "connect_legacy": false
+    },
+    {
+      "id": "eb74d766-9b39-5ccb-8a9c-db8b49d820c4",
+      "name": "Crackpots Pottery Studio",
+      "route": "crackpots-pottery-studio.html",
+      "source": "https://www.ecrackpots.com/parties",
+      "offerings": "Pottery parties for children and adults, with take-home party options",
+      "connect_legacy": false
+    },
+    {
+      "id": "a510e31c-509d-5340-ae6b-866456f28bcd",
+      "name": "Drifters",
+      "route": "drifters.html",
+      "source": "https://www.driftersthriftbar.com/",
+      "offerings": "Private gatherings in a downtown vintage shop and cocktail bar",
+      "connect_legacy": false
+    },
+    {
+      "id": "7195c87c-394b-5efb-8f1b-ccc0682006a4",
+      "name": "Quarter’s Bar + Arcade",
+      "route": "quarters-bar-arcade.html",
+      "source": "https://quartersbarandarcade.com/",
+      "offerings": "Birthday, holiday and corporate parties, plus wedding festivities",
+      "connect_legacy": false
+    },
+    {
+      "id": "d32c539c-7f42-5b0e-a58a-cea1805f543e",
+      "name": "The Canvas Local Art Bar",
+      "route": "the-canvas-local-art-bar.html",
+      "source": "https://thecanvasartbar.com/private-events/",
+      "offerings": "Customized painting parties, celebrations and team-building events",
+      "connect_legacy": false
+    },
+    {
+      "id": "ab70f6a2-9597-56ce-a256-162c17eb9fb2",
+      "name": "The Bee Hugger Farm",
+      "route": "the-bee-hugger-farm.html",
+      "source": "https://www.thebeehuggerfarm.com/",
+      "offerings": "Farm rentals, birthday parties, company picnics and celebrations",
+      "connect_legacy": false
+    },
+    {
+      "id": "40087e8f-f2e3-5ca9-b8d1-10b850d32a2f",
+      "name": "Wheelhouse",
+      "route": "wheelhouse.html",
+      "source": "https://www.wheelhouseclay.com/copy-of-membership-1",
+      "offerings": "Private pottery parties for adult groups",
+      "connect_legacy": false
+    },
+    {
+      "id": "b1f715a3-8051-5da2-a7d9-fdbfd6c41508",
+      "name": "Wren’s Nest Art Studio",
+      "route": "wrens-nest-art-studio.html",
+      "source": "https://wrensneststudio.com/classes#birthday",
+      "offerings": "Art birthday parties",
+      "connect_legacy": false
+    },
+    {
+      "id": "9e9f7041-0d86-5247-b34e-006008c44e0a",
+      "name": "Longmont Baseball League Cages",
+      "route": "business-9e9f7041-0d86-5247-b34e-006008c44e0a.html",
+      "source": "https://www.longmontbaseball.org/program/facility-rental/16796",
+      "offerings": "Facility rentals and birthday parties",
+      "connect_legacy": false
+    },
+    {
+      "id": "832d48a7-f183-52a9-a8aa-3a339eded0e6",
+      "name": "Longmont Ice Pavilion",
+      "route": "business-832d48a7-f183-52a9-a8aa-3a339eded0e6.html",
+      "source": "https://longmontcolorado.gov/recreation-services/activities/ice-skating/",
+      "offerings": "Private rink rentals for parties and group gatherings",
+      "connect_legacy": false
+    },
+    {
+      "id": "cfcee8d7-0f91-50b7-b5bc-20dc3a740657",
+      "name": "Longmont Climbing Collective",
+      "route": "business-cfcee8d7-0f91-50b7-b5bc-20dc3a740657.html",
+      "source": "https://climbingcollective.co/longmont-birthday-parties",
+      "offerings": "Staff-led climbing birthday parties",
+      "connect_legacy": false
+    },
+    {
+      "id": "9767f577-09a6-506c-a4e0-b80e625b1903",
+      "name": "Longmont Recreation Center",
+      "route": "business-9767f577-09a6-506c-a4e0-b80e625b1903.html",
+      "source": "https://longmontcolorado.gov/recreation-services/about-us/birthday-party-packages/",
+      "offerings": "Recreation birthday-party packages",
+      "connect_legacy": false
+    },
+    {
+      "id": "782fa096-2a9a-51f2-9e04-d6a116746ec9",
+      "name": "Open Window Studio",
+      "route": "open-window-studio.html",
+      "source": "https://www.openwindowstudio.org/birthday-and-events/",
+      "offerings": "Customized art birthday parties, date nights and friend gatherings",
+      "connect_legacy": false
+    },
+    {
+      "id": "5fc8af95-6c50-5ff5-972d-8882dc978ea0",
+      "name": "Sunflower Farm",
+      "route": "sunflower-farm.html",
+      "source": "https://www.sunflowerfarminfo.com/birthday-parties-group-bookings-privateparties",
+      "offerings": "Birthday parties, private farm bookings and company gatherings",
+      "connect_legacy": true
+    },
+    {
+      "id": "21f0f6d4-4fd4-594a-a4a8-927f09643e51",
+      "name": "Longmont Museum",
+      "route": "longmont-museum.html",
+      "source": "https://longmontcolorado.gov/museum/rentals/",
+      "offerings": "Meeting rooms, performances, receptions and courtyard weddings",
+      "connect_legacy": true
+    },
+    {
+      "id": "e45a8c4e-b19f-586e-b200-c9be8ee30979",
+      "name": "Historic Hoverhome",
+      "route": "historic-hoverhome.html",
+      "source": "https://www.stvrainhistory.org/our-properties/hoverhome-info/weddings-event-rentals/",
+      "offerings": "Historic house and grounds for wedding ceremonies, receptions and special events",
+      "connect_legacy": true
+    },
+    {
+      "id": "054303c4-f662-5f04-8760-8c61e067458c",
+      "name": "YA YA Farm & Orchard",
+      "route": "ya-ya-farm-orchard.html",
+      "source": "https://yayafarmandorchard.com/farm-wedding/",
+      "offerings": "Farm weddings, receptions, corporate events and celebrations",
+      "connect_legacy": true
+    },
+    {
+      "id": "b9860f68-1689-599b-b902-3a2ddc0bf1ec",
+      "name": "Old Mill Park",
+      "route": "old-mill-park.html",
+      "source": "https://www.stvrainhistory.org/our-properties/old-mill-park/old-mill-park-event-rental/",
+      "offerings": "Historic park rentals for private events and gatherings",
+      "connect_legacy": true
+    },
+    {
+      "id": "49f68adb-d7a2-5613-b17e-0e3f15667c4c",
+      "name": "Sandstone Ranch Visitors & Learning Center",
+      "route": "sandstone-ranch-visitors-learning-center.html",
+      "source": "https://longmontcolorado.gov/sandstone-ranch/visitors-learning-center-at-sandstone-ranch/",
+      "offerings": "Historic indoor and outdoor rentals for weddings, family gatherings and corporate retreats",
+      "connect_legacy": true
+    }
+  ],
+  "notes": "Only verified private-booking offerings selected. Agricultural Heritage Center explicitly excludes private events; Moxie private bookings reference Louisville, so these were excluded. No dedicated independent party planner was confirmed in the current listings."
+}
