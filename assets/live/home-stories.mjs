@@ -14,21 +14,21 @@ export function storyEligible(row,site='Loving Longmont',page='index.html'){
 export function renderHomeStory(doc,row){
  const b=row.public_content,article=doc.createElement('article');article.className='ll-home-story';article.dataset.storyBusiness=row.business_id||'';
  const add=(tag,text,cls)=>{const n=doc.createElement(tag);if(cls)n.className=cls;if(text)n.textContent=text;return n};
- const title=add('h3',b.name);article.append(title);
+ const title=add('h3',b.name);
  const images=storyImages(b);
  if(images.length){const media=add('div',null,'ll-home-story-images');media.dataset.count=String(images.length);for(const p of images){const figure=add('figure',null,'ll-home-story-image ll-home-story-'+p.key),img=doc.createElement('img');img.src=p.url;img.alt=p.alt||b.name;img.loading='lazy';img.addEventListener('error',()=>figure.remove(),{once:true});figure.append(img);if(p.caption)figure.append(add('figcaption',p.caption));media.append(figure)}article.append(media)}
- const text=add('div',null,'ll-home-story-text');text.append(add('p',storyExcerpt(b.story,1150)));article.append(text);
+ const text=add('div',null,'ll-home-story-text');text.append(add('p',storyExcerpt(b.story,420)));
  // Stable ID links also work before a newly named profile finishes deploying.
  const route=/^[a-z0-9]+(?:-[a-z0-9]+)*\.html$/.test(row.pageRoute||row.route||'')&&!(row.pageRoute||row.route).startsWith('business-')?(row.pageRoute||row.route):'business.html?id='+encodeURIComponent(row.business_id||'');
- const link=add('a','Read more →','ll-home-story-profile');link.href=route;article.append(link);const body=add('div',null,'ll-story-flow-body');if(images.length){const media=article.querySelector('.ll-home-story-images');if(media)body.append(media)}body.append(title,text,link);article.append(body);return article;
+ const link=add('a','Read more →','ll-home-story-profile');link.href=route;const body=add('div',null,'ll-story-flow-body');if(images.length){const media=article.querySelector('.ll-home-story-images');if(media)body.append(media)}body.append(title,text,link);article.append(body);return article;
 }
 export function renderHomeStories(doc,rows,page,site='Loving Longmont'){
  const ids=new Set();if(!STORY_PAGES.some(([route])=>route===page)||site!=='Loving Longmont')return ids;
  let root=doc.getElementById('home-business-stories');
  const selected=rows.filter(r=>storyEligible(r,site,page)).sort((a,b)=>String(b.public_content?.home_story?.selected_at||b.published_at||'').localeCompare(String(a.public_content?.home_story?.selected_at||a.published_at||''))||(b.spotlight_order||0)-(a.spotlight_order||0));
  if(!root&&!selected.length)return ids;
- if(!root){root=doc.createElement('section');root.id='home-business-stories';root.className='ll-home-stories';root.setAttribute('aria-label','Local business and professional stories');const main=doc.querySelector('main');const intro=main?.querySelector('.intro,.page-intro,.media-hero,.pricing-intro,.ll-directory-intro');const banner=main?.querySelector('.ll-live-banner,.page-hero');if(intro)intro.after(root);else if(banner)banner.after(root);else if(main)main.prepend(root);else doc.querySelector('header')?.after(root);}
- if(!doc.querySelector('[data-story-preview-css]')){const css=doc.createElement('link');css.rel='stylesheet';css.href=new URL('./home-stories.css?v=20261017-alternating-stories',import.meta.url).href;css.dataset.storyPreviewCss='';doc.head.append(css);}
+ if(!root){root=doc.createElement('section');root.id='home-business-stories';root.className='ll-home-stories';root.setAttribute('aria-label','Local business and professional stories');const main=doc.querySelector('main');const intro=main?.querySelector('.intro,.page-intro,.media-hero,.pricing-intro,.ll-directory-intro');const banner=main?.querySelector('.ll-live-banner,.page-hero');const historySlot=page==='history.html'?doc.getElementById('history-story-spotlights'):null;if(historySlot)historySlot.replaceWith(root);else if(intro)intro.after(root);else if(banner)banner.after(root);else if(main)main.prepend(root);else doc.querySelector('header')?.after(root);}
+ if(!doc.querySelector('[data-story-preview-css]')){const css=doc.createElement('link');css.rel='stylesheet';css.href=new URL('./home-stories.css?v=20261017-homepage-match',import.meta.url).href;css.dataset.storyPreviewCss='';doc.head.append(css);}
  root.replaceChildren();root.hidden=!selected.length;if(!selected.length)return ids;
  const heading=doc.createElement('h2');heading.textContent='Stories from Our Community';root.append(heading);const grid=doc.createElement('div');grid.className='ll-story-preview-grid';root.append(grid);
  for(const row of selected){grid.append(renderHomeStory(doc,row));ids.add(row.business_id)}return ids;
