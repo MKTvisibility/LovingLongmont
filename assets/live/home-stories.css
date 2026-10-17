@@ -51,3 +51,17 @@
 #home-business-stories .ll-story-preview-grid>.ll-home-story:nth-child(even) .ll-home-story-text,
 #home-business-stories .ll-story-preview-grid>.ll-home-story:nth-child(even) .ll-home-story-profile{grid-column:1}
 @media(max-width:760px){#home-business-stories .ll-story-preview-grid>.ll-home-story,#home-business-stories .ll-story-preview-grid>.ll-home-story:first-child{display:flex;flex-direction:column;gap:12px;min-height:0}#home-business-stories .ll-story-preview-grid .ll-home-story-images{order:-1}#home-business-stories .ll-story-preview-grid .ll-home-story-image img{max-height:300px}}
+
+/* Story flow: compact frameless photo floated into real article copy. */
+#home-business-stories .ll-story-preview-grid>.ll-home-story,
+#home-business-stories .ll-story-preview-grid>.ll-home-story:first-child{display:block!important;min-height:0!important;overflow:auto!important;padding:0 0 30px!important}
+#home-business-stories .ll-story-preview-grid .ll-home-story h3{display:block!important;margin:0 0 12px!important}
+#home-business-stories .ll-story-flow-body{display:flow-root!important;line-height:1.75}
+#home-business-stories .ll-story-flow-body .ll-home-story-images{display:flex!important;float:left!important;width:min(36%,320px)!important;height:auto!important;max-height:none!important;margin:0 24px 10px 0!important;background:none!important;border:0!important;box-shadow:none!important}
+#home-business-stories .ll-story-preview-grid>.ll-home-story:nth-child(even) .ll-story-flow-body .ll-home-story-images{float:right!important;margin:0 0 10px 24px!important}
+#home-business-stories .ll-story-flow-body .ll-home-story-image{background:none!important;border:0!important;box-shadow:none!important}
+#home-business-stories .ll-story-flow-body .ll-home-story-image img{display:block!important;width:100%!important;height:auto!important;max-height:250px!important;object-fit:contain!important;object-position:top left!important;background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important}
+#home-business-stories .ll-story-flow-body .ll-home-story-text{display:block!important;font:16px/1.8 Georgia,serif!important}
+#home-business-stories .ll-story-flow-body .ll-home-story-text p{display:block!important;-webkit-line-clamp:unset!important;overflow:visible!important}
+#home-business-stories .ll-story-flow-body .ll-home-story-profile{display:inline-block!important;margin:14px 0 0!important}
+@media(max-width:650px){#home-business-stories .ll-story-flow-body .ll-home-story-images{width:min(42%,190px)!important;margin-right:15px!important}#home-business-stories .ll-story-preview-grid>.ll-home-story:nth-child(even) .ll-story-flow-body .ll-home-story-images{margin-left:15px!important}}
