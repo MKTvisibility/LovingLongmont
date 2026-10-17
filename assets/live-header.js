@@ -26,3 +26,6 @@ document.addEventListener('DOMContentLoaded',()=>{
 });
 // Apply the approved missing-image style on every page using the shared header.
 import('./placeholders.mjs?v=20261016').catch(()=>{});
+
+// Shared analytics also covers future business pages generated from the template.
+import('./business-analytics.mjs?v=20261017').catch(()=>{});

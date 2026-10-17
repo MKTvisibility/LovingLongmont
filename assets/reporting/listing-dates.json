@@ -1,0 +1,504 @@
+{
+  "version": 1,
+  "note": "Earliest known listing evidence, not guaranteed original publication. New dates are preserved on first successful Command Center page publication.",
+  "businesses": {
+    "93d9984a-de4b-5a22-924f-41e43cac607a": {
+      "name": "Absolute Vinyl Records & Stereo",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "2e0287ad-e3c9-5296-8b68-96d9a5f80e16": {
+      "name": "Adorn Home & Gift Gallery",
+      "first_listed_at": "2026-10-12T22:59:00-06:00",
+      "source": "repository_first_mention",
+      "evidence": "ca84d37566c604e5deb3d9e0891ac8213bb7cb72"
+    },
+    "3223e212-c353-5864-a25c-549c9e961439": {
+      "name": "Agricultural Heritage Center",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "fd5a893d-2fbf-4f5d-a82c-06d73752f5a1": {
+      "name": "Boulder County Photography",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "30ffb903-49dd-5518-836c-61251e5200de": {
+      "name": "Bricks on Main",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "f632d5d8-bf5a-5900-b1d5-40c4035db7cb": {
+      "name": "Barbed Wire Books",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "ab70f6a2-9597-56ce-a256-162c17eb9fb2": {
+      "name": "The Bee Hugger Farm",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "c84651a2-19f4-5796-8f29-9794c45a31ac": {
+      "name": "Taskrabbit",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "7d786559-a58f-5565-a155-3c1a24bb223a": {
+      "name": "Bowen Bakery",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "f01ab95c-d482-5b99-901b-929dc891e002": {
+      "name": "Cheese Importers",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "05e3d0d9-619e-5386-a120-171771e867b0": {
+      "name": "Butterscotch Studios",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "825923d5-0d66-5730-bfda-ba0694eb364c": {
+      "name": "Salt and Bread",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "832d48a7-f183-52a9-a8aa-3a339eded0e6": {
+      "name": "Longmont Ice Pavilion",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "649bd89c-8a57-4d4b-ab43-dd579e5290da": {
+      "name": "Eliot Arts",
+      "first_listed_at": "2026-10-16T03:28:51.286784+00:00",
+      "source": "earliest_available_publication",
+      "evidence": "existing published_at; earlier listing date unknown"
+    },
+    "37eca09e-5fe7-4c48-a244-5040ac6c8cdb": {
+      "name": "Grace Gutierrez",
+      "first_listed_at": "2026-10-16T03:28:51.287358+00:00",
+      "source": "earliest_available_publication",
+      "evidence": "existing published_at; earlier listing date unknown"
+    },
+    "ff99a940-c027-5b6f-82a9-a6eabd5024ea": {
+      "name": "Lobos Cocina & Bar",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "98401719-0b78-5da6-a27b-166ba2cf56cb": {
+      "name": "Longmont Bicycle Company",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "74e4169b-0a4c-56d8-b361-9e6cebe64dcc": {
+      "name": "Longmont Buddhist Temple",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "094f2540-38e8-5b4b-86ac-e8c3f2adb696": {
+      "name": "Labor Systems",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "9767f577-09a6-506c-a4e0-b80e625b1903": {
+      "name": "Longmont Recreation Center",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "5fc8af95-6c50-5ff5-972d-8882dc978ea0": {
+      "name": "Sunflower Farm",
+      "first_listed_at": "2026-10-11T19:29:05-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5ce2c80a414d447d0aa99aced60db7d1477a9f6a"
+    },
+    "8acd678f-46b7-537f-bba3-5b81992808db": {
+      "name": "Longmont Humane Veterinary Clinic",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "fd1aad39-52b9-5a11-827e-2cd81b404cfc": {
+      "name": "Wax Crescent",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "dc0afb9b-1067-523b-a369-f90eb634d2c8": {
+      "name": "Express Employment Professionals",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "9ec450f8-9515-5017-a51d-f67ca9621f3b": {
+      "name": "Longmont Public Library",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "64c5bd6a-2ab7-5cac-8136-59e050798067": {
+      "name": "Longmont Yarn Shoppe",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "83acd5d0-cc51-4b5a-94ca-fd6f20586af9": {
+      "name": "Lynon Aksamit",
+      "first_listed_at": "2026-10-16T03:28:51.288965+00:00",
+      "source": "earliest_available_publication",
+      "evidence": "existing published_at; earlier listing date unknown"
+    },
+    "910f2f89-26da-56c8-85cc-63b4a15285c1": {
+      "name": "Magic Fairy Candles",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "314a9e64-67a4-5dc4-981c-8bda18f156a1": {
+      "name": "Maker General",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "746f42f3-f963-5608-aea0-e84fc66bc9db": {
+      "name": "Mile-Hi Skydiving Center",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "624fcc00-92ac-5c03-af34-8ee93db396f9": {
+      "name": "LoCo Skateshop",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "c7fc8f24-a5f4-45a3-929e-31f2e6301ef5": {
+      "name": "Minkler Pottery",
+      "first_listed_at": "2026-10-16T03:28:51.289467+00:00",
+      "source": "earliest_available_publication",
+      "evidence": "existing published_at; earlier listing date unknown"
+    },
+    "8a3d2ea6-98d0-5b73-8724-25f88ce2a509": {
+      "name": "MKT Visibility",
+      "first_listed_at": "2026-10-11T19:29:05-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5ce2c80a414d447d0aa99aced60db7d1477a9f6a"
+    },
+    "c11b9e8a-50a3-412e-82d8-7298bfaffd98": {
+      "name": "Moxie Bread Co. (Longmont Caf\u00e9)",
+      "first_listed_at": "2026-10-16T03:28:51.289757+00:00",
+      "source": "earliest_available_publication",
+      "evidence": "existing published_at; earlier listing date unknown"
+    },
+    "dcc37b83-6ca9-55a3-aa9f-9f40d46d0329": {
+      "name": "NewCastle Comics & Games",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "0157ba72-0571-5e51-a7cb-0530cc3bae16": {
+      "name": "Obra Arts",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "782fa096-2a9a-51f2-9e04-d6a116746ec9": {
+      "name": "Open Window Studio",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "8837e562-d85a-5e0b-a80f-aa9e446e956e": {
+      "name": "DirtLabs Suspension",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "a510e31c-509d-5340-ae6b-866456f28bcd": {
+      "name": "Drifters",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "acd843a3-a78b-59e0-825c-7c3080d9b3e1": {
+      "name": "Retail Therapy Vendor Market",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "05bc90f7-67fb-5f29-94a3-28b1a822bc0c": {
+      "name": "Recovery Caf\u00e9 Longmont",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "a9804aa2-58c5-5f7b-84ff-d6428d35263b": {
+      "name": "Robin Chocolates",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "51bd1faf-4ac5-5d4c-80a4-64cc4f6847bc": {
+      "name": "Ambrosia Glass Art",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "21f0f6d4-4fd4-594a-a4a8-927f09643e51": {
+      "name": "Longmont Museum",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "c6a43445-c778-58d0-87d8-30b6da3a0fee": {
+      "name": "Shoes & Brews",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "48e0e549-e4c5-5d2d-a599-f585a4f456ac": {
+      "name": "Rocky Mountain Pumpkin Ranch",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "b98dab85-db9c-50bd-b141-e6eed222e651": {
+      "name": "Scoops on the Corner",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "ad389d13-04d8-5c24-bf9f-797b0edb9f12": {
+      "name": "ROLINC Staffing & Search",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "0e3733f3-de3e-5203-b077-c6a177efb2ee": {
+      "name": "Elwood Staffing",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "815a9d3a-a929-546d-9720-e461f9d3c05c": {
+      "name": "A Pet's Place Animal Hospital",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "b05d4c08-c935-5607-a020-98a072c52800": {
+      "name": "Simply Bulk Market",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "d32c539c-7f42-5b0e-a58a-cea1805f543e": {
+      "name": "The Canvas Local Art Bar",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "e45a8c4e-b19f-586e-b200-c9be8ee30979": {
+      "name": "Historic Hoverhome",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "d643de4a-dc92-57a6-882a-396b72551722": {
+      "name": "The Blackbird House",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "b8d00942-eb87-5cb3-bb6b-1e34daa74b9b": {
+      "name": "The Longmonter Restaurant",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "2ed18639-98fd-5ac3-9c69-ec1abb51cf6c": {
+      "name": "SNOW Apparel",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "3032e438-3e5b-5a68-98ce-458d8167465e": {
+      "name": "The Quill & Candle Bookshop",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "7e4297fa-28c9-5454-8f04-6a023889901c": {
+      "name": "Boulder County Jobs",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "8d72b20f-fe3a-5d57-a78e-d37fd56b4959": {
+      "name": "Tumbleweed Art Collective",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "b1f715a3-8051-5da2-a7d9-fdbfd6c41508": {
+      "name": "Wren\u2019s Nest Art Studio",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "d62fa870-bd5f-4500-b2f2-9594878740b7": {
+      "name": "Wolf & Wren",
+      "first_listed_at": "2026-10-11T21:17:07-06:00",
+      "source": "repository_first_mention",
+      "evidence": "6d818f57e5d517fa8ad0c80194ea41d12453a30e"
+    },
+    "6c7c464d-c512-581f-b409-4cb90cdd7869": {
+      "name": "ResourceMFG",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "23b895c6-ece1-54aa-b7a7-1adac1647b35": {
+      "name": "Good Life Refuge",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "232b0828-fc48-5fbe-ad35-328f3c786073": {
+      "name": "Creative Treasures",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "28434f07-2feb-5181-b106-44b784cc4366": {
+      "name": "Wells Athletics Batting Cages",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "5cab42cb-4854-576a-a11e-d28cd726f038": {
+      "name": "City of Longmont Careers",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "054303c4-f662-5f04-8760-8c61e067458c": {
+      "name": "YA YA Farm & Orchard",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "49f68adb-d7a2-5613-b17e-0e3f15667c4c": {
+      "name": "Sandstone Ranch Visitors & Learning Center",
+      "first_listed_at": "2026-10-12T22:59:00-06:00",
+      "source": "repository_first_mention",
+      "evidence": "ca84d37566c604e5deb3d9e0891ac8213bb7cb72"
+    },
+    "eb74d766-9b39-5ccb-8a9c-db8b49d820c4": {
+      "name": "Crackpots Pottery Studio",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "b9860f68-1689-599b-b902-3a2ddc0bf1ec": {
+      "name": "Old Mill Park",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "2752667d-21fc-507e-ab0b-543c3cdca626": {
+      "name": "LaborMAX Staffing",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "3f2dd067-8b0d-5a87-adfd-ff8f473b3377": {
+      "name": "5280 Staffing Solutions",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "ab4d144b-e00a-501e-bc2f-03d060083a80": {
+      "name": "Composition Shop",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "0ba0d832-bd38-5408-85f6-b6fe481d4ad9": {
+      "name": "Golden Loaves",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "1f7d14c1-0273-5025-b493-5152c6638c5b": {
+      "name": "Juniper Goods",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "e8f7f4ee-ad2e-4676-9e99-0fcacb6a528c": {
+      "name": "Longmont Farmers Market",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "5f7b47dd-ab53-5945-9d4f-51a5d87c9ad4": {
+      "name": "Heart of Longmont",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "9e9f7041-0d86-5247-b34e-006008c44e0a": {
+      "name": "Longmont Baseball League Cages",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "5ae1a75e-7fdd-5167-96fd-4531b32a9ab2": {
+      "name": "Longmont Indian Kitchen",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "5b44dadc-9511-5688-ba72-23f589ba5524": {
+      "name": "The Flower Bin",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "40087e8f-f2e3-5ca9-b8d1-10b850d32a2f": {
+      "name": "Wheelhouse",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "cfcee8d7-0f91-50b7-b5bc-20dc3a740657": {
+      "name": "Longmont Climbing Collective",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "7195c87c-394b-5efb-8f1b-ccc0682006a4": {
+      "name": "Quarter\u2019s Bar + Arcade",
+      "first_listed_at": "2026-10-11T20:59:23-06:00",
+      "source": "repository_first_mention",
+      "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    }
+  }
+}
