@@ -1,5 +1,5 @@
-import './business-events-loader.mjs?v=20261018-research';
-import {renderProfile} from './profile-view.mjs?v=20261018-research';
+import './business-events-loader.mjs?v=20261018-research2';
+import {renderProfile} from './profile-view.mjs?v=20261018-research2';
 const PUBLIC_BASE='https://gvmwkltwrlqwbqegieum.supabase.co';
 const PUBLIC_KEY='sb_publishable_SFIrQ_kqkLQJdBNMnaRr3g_w6XWKaBJ';
 const normalizeBusinessName=value=>String(value||'').toLowerCase().replace(/[^a-z0-9]/g,'');
