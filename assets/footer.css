@@ -1,0 +1,36 @@
+/* Shared footer matched to the approved index.html footer. */
+.lln-footer{background:#062f52!important;color:white!important;padding:36px 24px 20px!important;font-family:Arial,Helvetica,sans-serif;line-height:1.5}.lln-footer-brand,.lln-footer-grid,.lln-footer-bottom{max-width:1280px;margin:0 auto}.lln-footer-brand a{color:white}.lln-footer-brand p{color:#dce7ed;font-size:14px;margin:9px 0 25px}.lln-footer-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:35px}.lln-footer-grid nav{display:block;border-left:1px solid #ffffff30;padding-left:24px}.lln-footer-grid nav:first-child{border-left:0;padding-left:0}.lln-footer h2{color:white!important;font:700 20px Arial!important;margin:0 0 14px!important}.lln-footer-grid a{display:block;color:#e2ecf2!important;font-size:15px;padding:5px 0}.lln-footer a:hover{text-decoration:underline}.lln-footer-bottom{border-top:1px solid #ffffff30;margin-top:28px;padding-top:18px;text-align:center;color:#dce7ed;font-size:13px}.lln-footer-bottom a{color:#fff}
+
+.lln-sponsor-section{max-width:1200px;margin:38px auto 0;padding:28px 0 0;border-top:1px solid rgba(255,255,255,.35);color:#fff}
+.lln-sponsor-section h2{font-size:clamp(23px,2.5vw,32px);margin:0 0 20px;color:#fff}
+.lln-sponsor-section>p{margin:0 0 32px;color:#dce6f1;font-size:clamp(15px,1.5vw,18px)}
+.lln-sponsor-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;align-items:stretch}
+.lln-sponsor-card{min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:space-between;text-align:center;gap:16px;padding:14px 12px;border:0;border-right:1px solid rgba(255,255,255,.35);border-radius:0;color:#fff;text-decoration:none;background:transparent}
+.lln-sponsor-card:last-child{border-right:0}
+.lln-sponsor-card:hover,.lln-sponsor-card:focus-visible{background:rgba(255,255,255,.09);outline-offset:3px}
+.lln-sponsor-art{height:180px;width:100%;display:block;background-repeat:no-repeat;background-position:center;background-size:100% 100%}
+.lln-sponsor-art img{width:100%;height:100%;object-fit:contain}
+.lln-sponsor-name{font-size:clamp(12px,1.2vw,16px);font-weight:600}
+.lln-sponsor-action{text-align:center;margin:32px auto 30px}
+.lln-sponsor-action a{display:inline-block;border:1px solid rgba(255,255,255,.65);border-radius:9px;padding:14px 48px;color:#fff;text-decoration:none;font-weight:700}
+.lln-sponsor-action a:hover{background:rgba(255,255,255,.13)}
+.lln-footer-bottom{display:flex!important;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;text-align:left!important}
+.lln-footer-social{display:flex;align-items:center;gap:14px}
+.lln-footer-social a{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:50%;background:#fff;color:#12365b;text-decoration:none;font-weight:800;font-size:25px}
+.lln-footer-social a:hover{background:#dceafa}
+@media(max-width:700px){.lln-sponsor-section{margin-top:26px;padding-top:22px}.lln-sponsor-section>p{margin-bottom:24px}.lln-sponsor-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.lln-sponsor-card{padding:10px 7px;border:1px solid rgba(255,255,255,.3);border-radius:9px}.lln-sponsor-art{height:125px;background-size:100% 100%}.lln-sponsor-name{font-size:12px}.lln-sponsor-action a{padding:12px 30px}.lln-footer-bottom{justify-content:center;text-align:center!important}.lln-footer-social{justify-content:center}}
+
+
+.lln-footer,.lln-footer *{box-sizing:border-box}
+.lln-footer{width:100%;margin:0;clear:both;font-family:Arial,Helvetica,sans-serif;line-height:1.5}
+.lln-footer a{text-decoration:none}
+.lln-footer .lln-wordmark{font-family:Arial,Helvetica,sans-serif;font-size:clamp(23px,2.7vw,38px);font-weight:800;letter-spacing:-1.5px;line-height:1.1}
+.lln-footer .lln-heart{color:#c8101e;margin-left:7px;letter-spacing:0}
+.lln-footer p{font-size:13px;line-height:1.5;max-width:none}
+.lln-footer .lln-sponsor-section{background:transparent;text-align:left}
+.lln-footer .lln-sponsor-card{color:#fff;font-size:13px;overflow-wrap:anywhere}
+.lln-footer .lln-sponsor-action a{font-size:13px}
+.lln-footer .lln-footer-social a{color:#12365b;font-size:25px}
+.lln-footer :focus-visible{outline:3px solid #e7a92b;outline-offset:3px}
+@media(max-width:800px){.lln-footer-grid{grid-template-columns:repeat(2,1fr);gap:28px}.lln-footer-grid nav{padding-left:0;border:0}.lln-footer .lln-wordmark{font-size:29px}}
+@media(max-width:420px){.lln-footer-grid{grid-template-columns:1fr}.lln-footer-grid nav{border-top:1px solid #ffffff26;padding-top:18px}}
