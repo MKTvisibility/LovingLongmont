@@ -34,7 +34,7 @@
         "enabled": true
       }
     ],
-    "logo_alt": "AMF logo cert og.png"
+    "logo_alt": "Aspen Moon Farm logo"
   },
   "colorado-horse-rescue.html": {
     "id": "1476073b-6854-5b53-b98b-18e53d924e6a",
@@ -51,7 +51,7 @@
     "email": "info@chr.org",
     "address": "10386 N 65th Street Longmont, CO 80503",
     "story": "Colorado Horse Rescue has worked with at-risk horses since 1986. Its work brings rehabilitation, adoption and foster support together to help horses move toward safe, suitable homes.\n\nEducation and community involvement are part of that mission. Visitors and prospective supporters can learn about the horses, current programs and opportunities to take part through the rescue's official website.",
-    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/art/farm.webp",
+    "image_url": "",
     "gallery": [
       {
         "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/colorado-horse-rescue-photo.webp",
@@ -126,7 +126,7 @@
       }
     ],
     "contact_url": "https://www.ecrackpots.com/contact",
-    "logo_alt": "Final Crackpots 3-01_Cropped.png"
+    "logo_alt": "Crackpots Pottery Studio logo"
   },
   "cultivate.html": {
     "id": "d61a53a1-8350-505f-b68f-98b45f8db6d9",
@@ -171,7 +171,7 @@
         "enabled": true
       }
     ],
-    "logo_alt": "City of Longmont Colorado logo"
+    "logo_alt": "Dickens Farm Nature Area logo"
   },
   "dirtlabs-suspension.html": {
     "id": "8837e562-d85a-5e0b-a80f-aa9e446e956e",
@@ -194,7 +194,7 @@
         "enabled": true
       }
     ],
-    "logo_alt": "The Leading Independent MTB Suspension Service and Tuning Center Since 2008."
+    "logo_alt": "DirtLabs Suspension logo"
   },
   "e8yoga.html": {
     "id": "1448293b-1ab2-59fb-8934-b4fcce7af96c",
@@ -206,7 +206,7 @@
     ],
     "phone": "303-818-9786",
     "address": "1127 Francis Street Longmont, CO 80501",
-    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/art/wellness.webp"
+    "image_url": ""
   },
   "elwood-staffing.html": {
     "id": "0e3733f3-de3e-5203-b077-c6a177efb2ee",
@@ -234,7 +234,8 @@
       "Longmont"
     ],
     "description": "Elwood Staffing connects job seekers with temporary, temp-to-hire and permanent opportunities in a variety of industries.",
-    "logo_alt": "Elwood Staffing logo"
+    "logo_alt": "Elwood Staffing logo",
+    "story": "Elwood Staffing helps employers and job seekers find an appropriate match for their needs. Its services include temporary, temporary-to-hire, contract and direct-hire opportunities.\n\nThe Longmont team can explain current positions, application steps and staffing options. Job seekers and employers can contact the local office for information specific to their situation."
   },
   "family-pet-hospital.html": {
     "id": "d0bbbf03-fef9-5a5c-9de7-cb911248c95b",
@@ -294,7 +295,14 @@
     "story": "Full Circle Yoga offers a downtown Longmont space for movement, mindfulness and connection. The studio welcomes people with different levels of experience and provides classes through its current schedule.\n\nWorkshops and other gatherings add opportunities to explore a practice or spend time with the studio community. Students can check class descriptions and registration information before choosing a session.",
     "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/full-circle-yoga-logo.webp",
     "events_url": "https://www.full-circle-yoga.com/upcoming-events",
-    "logo_alt": "FCY Log 1_edited.jpg"
+    "logo_alt": "Full Circle Yoga logo",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/full-circle-yoga-photo.webp",
+        "alt": "Photo from the official website of Full Circle Yoga",
+        "enabled": true
+      }
+    ]
   },
   "garden-acres-community-park.html": {
     "id": "9b0bb470-81bd-567a-a787-f3bff3ad0448",
@@ -325,7 +333,7 @@
         "enabled": true
       }
     ],
-    "logo_alt": "City of Longmont Colorado logo"
+    "logo_alt": "Garden Acres Community Park logo"
   },
   "good-life-refuge.html": {
     "id": "23b895c6-ece1-54aa-b7a7-1adac1647b35",
@@ -447,7 +455,7 @@
   "labormax-staffing.html": {
     "id": "2752667d-21fc-507e-ab0b-543c3cdca626",
     "name": "LaborMAX Staffing",
-    "email": "",
+    "email": "longmont@labormaxstaffing.com",
     "phone": "720-340-4680",
     "address": "1660 Main Street Longmont, CO 80501",
     "gallery": [
@@ -465,7 +473,8 @@
     ],
     "description": "A staffing option for people seeking temporary, general labor, construction, warehouse and similar work.",
     "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/labormax-staffing-logo.webp",
-    "logo_alt": "LaborMAX Staffing logo"
+    "logo_alt": "LaborMAX Staffing logo",
+    "story": "LaborMAX Staffing connects people looking for work with employers that need staff. Its Longmont office is part of a wider network offering temporary and other staffing opportunities.\n\nJob seekers can contact the local team to discuss current openings and the application process. Employers can ask about available staffing support for their projects and day-to-day operations."
   },
   "lifebridge-christian-church.html": {
     "id": "b1024657-0f13-5ac2-bd05-7b90ca11ac65",
@@ -511,7 +520,8 @@
         "enabled": true
       }
     ],
-    "contact_url": "https://locoskateshop.com/contact-us/"
+    "contact_url": "https://locoskateshop.com/contact-us/",
+    "email": "locoskateshop@gmail.com"
   },
   "longmont-animal-control.html": {
     "id": "40ff5638-5267-51c0-bd91-67ff4c2fef77",
@@ -526,7 +536,7 @@
     "email": "PSpoliceanimalcontrolunit@longmontcolorado.gov",
     "story": "Longmont's animal-control services are part of the city's public-safety work. The team helps address animal-related concerns and provides information about local responsibilities and regulations.\n\nThe city's animal-services page directs residents to the appropriate contacts for different situations. Contact the city for current guidance rather than approaching or transporting an unfamiliar animal without advice.",
     "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/longmont-animal-control-logo.webp",
-    "logo_alt": "City of Longmont Colorado logo"
+    "logo_alt": "Longmont Animal Control logo"
   },
   "longmont-bicycle-company.html": {
     "id": "98401719-0b78-5da6-a27b-166ba2cf56cb",
@@ -550,13 +560,13 @@
       }
     ],
     "events_url": "https://www.longmontbikes.com/articles/events-calendar-rides-clinics-sales-more-pg1219.htm",
-    "logo_alt": "Longmont Bicycle Company & Front Range eBikes Home Page"
+    "logo_alt": "Longmont Bicycle Company logo"
   },
   "longmont-farmers-market.html": {
     "id": "e8f7f4ee-ad2e-4676-9e99-0fcacb6a528c",
     "name": "Longmont Farmers Market",
     "email": "longmont@bcfm.org",
-    "phone": "",
+    "phone": "720-612-8185",
     "address": "",
     "gallery": [
       {
@@ -578,7 +588,7 @@
         "enabled": true
       }
     ],
-    "website": "https://bcfm.org/longmont-farmers-market/",
+    "website": "https://bcfm.org/markets/longmont-farmers-market/",
     "image_url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/e8f7f4ee-ad2e-4676-9e99-0fcacb6a528c/22cfdf8d-0883-4190-9d75-295128324f2d.jpg",
     "categories": [
       "Farmers Markets",
@@ -586,7 +596,9 @@
       "Agriculture",
       "Community Markets"
     ],
-    "description": ""
+    "description": "",
+    "events_url": "https://bcfm.org/markets/longmont-farmers-market/",
+    "story": "The Longmont Farmers Market began in 1989 as part of the local growers’ market movement. Its growers-only approach connects shoppers with the farmers and producers responsible for what they buy.\n\nAt the Boulder County Fairgrounds, seasonal food, prepared goods, music and family activities turn market day into a community gathering. Boulder County Farmers Markets also works to broaden access to local food through its food-access programs."
   },
   "longmont-food-rescue.html": {
     "id": "5c25ae4c-9408-5eec-b159-c5117934d3bc",
@@ -602,7 +614,14 @@
     "story": "Longmont Food Rescue brings people and surplus food together so usable food can reach the community rather than go to waste. Its work relies on relationships with food donors, community partners and volunteers.\n\nThe organization shares opportunities to help with food rescue and local activities through its website. People looking to volunteer or partner can contact the team for current needs and arrangements.",
     "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/2cfbcef88fa0b1.webp",
     "contact_url": "https://www.longmontfoodrescue.org/contact",
-    "events_url": "https://www.longmontfoodrescue.org/events"
+    "events_url": "https://www.longmontfoodrescue.org/events",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/longmont-food-rescue-photo.webp",
+        "alt": "Photo from the official website of Longmont Food Rescue",
+        "enabled": true
+      }
+    ]
   },
   "longmont-humane-society.html": {
     "id": "a0a84c34-56ba-5f87-aa91-a70f17c8f5c5",
@@ -616,7 +635,9 @@
     "phone": "303-772-1232",
     "email": "info@longmonthumane.org",
     "address": "9595 Nelson Road Longmont, CO 80501",
-    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/art/pets.webp"
+    "image_url": "",
+    "story": "Longmont Humane Society became an independent nonprofit animal shelter in 1972. Its facilities and services have expanded alongside the community, including the opening of the Allen Center in 2008.\n\nThe organization provides temporary shelter and care for companion animals while helping them find homes. Veterinary services, training, foster care, education and assistance for pet owners extend its work beyond the shelter.",
+    "events_url": "https://longmonthumane.org/get-involved/events/"
   },
   "longmont-ice-pavilion.html": {
     "id": "832d48a7-f183-52a9-a8aa-3a339eded0e6",
@@ -639,7 +660,9 @@
       "Seasonal Activity"
     ],
     "description": "The open-air covered rink at Roosevelt Park offers public skating, hockey and lessons during the winter season.",
-    "image_url": "https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,f_jpg,h_650,q_80,w_1000/https%3A%2F%2Fassets.simpleviewinc.com%2Fsimpleview%2Fimage%2Fupload%2Fcrm%2Flongmontco%2FIce-Skating--Sherri-O-Hara-15--77456a7d5056b36_77456f49-5056-b365-ab975084db923379.jpg"
+    "image_url": "https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,f_jpg,h_650,q_80,w_1000/https%3A%2F%2Fassets.simpleviewinc.com%2Fsimpleview%2Fimage%2Fupload%2Fcrm%2Flongmontco%2FIce-Skating--Sherri-O-Hara-15--77456a7d5056b36_77456f49-5056-b365-ab975084db923379.jpg",
+    "story": "Longmont Ice Pavilion gives the community an outdoor place to skate during its operating season. The city facility brings recreational skating and ice-sport programs into Roosevelt Park.\n\nPublic sessions, lessons and other activities follow a seasonal schedule. Visitors should check the city’s current information for opening dates, registration and admission details before heading to the ice.",
+    "events_url": "https://longmontcolorado.gov/recreation-services/activities/ice-skating/"
   },
   "longmont-meals-on-wheels.html": {
     "id": "42758a1e-aed2-5991-a342-f5a69e69941d",
@@ -657,7 +680,14 @@
     "story": "Longmont Meals on Wheels has served the community since 1969. Its meal deliveries combine nutritious food with a regular check-in for older adults and people with disabilities in Longmont and Niwot.\n\nThe organization also offers community lunches and other programs intended to support independence at home. Volunteers help prepare and deliver meals, while the team can explain enrollment and the options available to a particular household.",
     "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/longmont-meals-on-wheels-logo.webp",
     "events_url": "https://www.longmontmeals.org/events",
-    "logo_alt": "Longmont Meals on Wheels logo"
+    "logo_alt": "Longmont Meals on Wheels logo",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/longmont-meals-on-wheels-photo.webp",
+        "alt": "Photo from the official website of Longmont Meals on Wheels",
+        "enabled": true
+      }
+    ]
   },
   "longmont-senior-center.html": {
     "id": "ee2c79e0-a911-5882-99bc-820e84c4bda7",
@@ -680,7 +710,7 @@
         "enabled": true
       }
     ],
-    "logo_alt": "City of Longmont Colorado logo"
+    "logo_alt": "Longmont Senior Center logo"
   },
   "longmont-small-animal-hospital.html": {
     "id": "753d2fc4-2daf-5288-89cf-dcc39c8bca70",
@@ -755,7 +785,8 @@
       }
     ],
     "contact_url": "https://magicfairycandles.com/pages/contact",
-    "logo_alt": "Magic Fairy Candles"
+    "logo_alt": "Magic Fairy Candles logo",
+    "email": "kim@magicfairycandles.com"
   },
   "maker-general.html": {
     "id": "314a9e64-67a4-5dc4-981c-8bda18f156a1",
@@ -781,7 +812,7 @@
         "enabled": true
       }
     ],
-    "logo_alt": "Maker General"
+    "logo_alt": "Maker General logo"
   },
   "mcintosh-lake-nature-area.html": {
     "id": "3bbe73fd-c832-51d4-a786-92a00c10f6a9",
@@ -829,7 +860,7 @@
     "name": "NewCastle Comics & Games",
     "phone": "720-731-2658",
     "address": "508 5th Avenue, Longmont, CO 80501",
-    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/category-shop-local-art-small.webp",
+    "image_url": "",
     "categories": [
       "Comics",
       "Tabletop Games"
@@ -862,7 +893,7 @@
         "enabled": true
       }
     ],
-    "logo_alt": "Joyanna Rose Gittings   Obra Arts "
+    "logo_alt": "Obra Arts logo"
   },
   "old-mill-park.html": {
     "id": "b9860f68-1689-599b-b902-3a2ddc0bf1ec",
@@ -988,7 +1019,7 @@
       }
     ],
     "events_url": "https://www.openwindowstudio.org/class-calendar/",
-    "logo_alt": "Open Window Studio, Longmont Colorado"
+    "logo_alt": "Open Window Studio logo"
   },
   "our-center.html": {
     "id": "e2f626b7-aa5c-51ee-bb5b-c3b73ec0f309",
@@ -1014,7 +1045,7 @@
       }
     ],
     "events_url": "https://www.ourcenter.org/calendar/",
-    "logo_alt": "OUR Center"
+    "logo_alt": "OUR Center logo"
   },
   "paw-au-pair.html": {
     "id": "7c78a101-1047-5eb9-a97e-860ae254e23d",
@@ -1037,7 +1068,7 @@
         "enabled": true
       }
     ],
-    "logo_alt": "Paw Au Pair logo WEB.png"
+    "logo_alt": "Paw Au Pair logo"
   },
   "retail-therapy-vendor-market.html": {
     "id": "acd843a3-a78b-59e0-825c-7c3080d9b3e1",
@@ -1056,7 +1087,8 @@
     "website": "https://retailtherapyvendormarket.com/",
     "story": "Retail Therapy Vendor Market brings an assortment of sellers and styles together under one roof. The selection mixes vintage and previously owned finds with handmade pieces, repurposed goods and new gifts.\n\nThat changing mix gives shoppers a reason to browse slowly and return to see what vendors have brought in next. The market also shares announcements about upcoming store events through its official website.",
     "contact_url": "https://retailtherapyvendormarket.com/pages/contact",
-    "logo_alt": "Retail Therapy Vendor Market"
+    "logo_alt": "Retail Therapy Vendor Market logo",
+    "email": "retailtherapyvendormarket@gmail.com"
   },
   "rocky-mountain-kennels.html": {
     "id": "ebeae825-8c8b-506e-80cd-7bf0b6caf953",
@@ -1070,7 +1102,7 @@
     "email": "info@rockymountainkennels.com",
     "address": "1066 County Road 32, Longmont",
     "story": "Rocky Mountain Kennels provides boarding and day care in a country setting near Longmont. Its facilities include space for dogs to spend time outdoors as well as accommodations for their stay.\n\nThe business offers additional care options such as baths and nail trims. Owners can contact the kennel to discuss their dog's needs, availability and the requirements for a booking.",
-    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/art/pets.webp"
+    "image_url": ""
   },
   "rocky-mountain-pumpkin-ranch.html": {
     "id": "48e0e549-e4c5-5d2d-a599-f585a4f456ac",
@@ -1132,7 +1164,7 @@
     "story": "The Sandstone Ranch property was first homesteaded by the Coffin family in 1860. Its historic house now serves as a Visitors & Learning Center, connecting the area’s human history with its geology, landscape and wildlife.\n\nHands-on displays and surrounding historic buildings help visitors imagine life here more than a century ago. Nature trails, educational programs and seasonal public opening hours offer different ways to explore the ranch.",
     "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/dickens-farm-nature-area-logo.webp",
     "events_url": "https://longmontcolorado.gov/sandstone-ranch/visitors-learning-center-at-sandstone-ranch/special-programs-classes-events-sandstone-ranch/",
-    "logo_alt": "City of Longmont Colorado logo"
+    "logo_alt": "Sandstone Ranch Visitors & Learning Center logo"
   },
   "simply-bulk-market.html": {
     "id": "b05d4c08-c935-5607-a020-98a072c52800",
@@ -1140,7 +1172,7 @@
     "phone": "303-678-7069",
     "address": "418 Main St. Longmont, CO 80501",
     "website": "http://simplybulkmarket.com/",
-    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/category-shop-local-art-small.webp",
+    "image_url": "",
     "categories": [
       "Zero-Waste Market",
       "Specialty Grocery",
@@ -1216,10 +1248,10 @@
       "Food & Drink",
       "Community & Nonprofits"
     ],
-    "website": "https://www.johnthebaptist.org/",
+    "website": "https://www.johnthebaptist.org/food-bank",
     "phone": "303-678-1469",
-    "email": "info@johnthebaptist.org",
-    "address": "804 S Lincoln Street Longmont, CO 80501",
+    "email": "foodbank@johnthebaptist.org",
+    "address": "804 S. Lincoln Street, Longmont, CO 80501",
     "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/c98f1073ac26ba.webp",
     "gallery": [
       {
@@ -1228,7 +1260,8 @@
         "caption": "",
         "enabled": true
       }
-    ]
+    ],
+    "story": "St. John the Baptist Food Bank provides weekly food-assistance boxes for people and families in the Longmont community. The program is supported by the parish, community donations and volunteer labor.\n\nThe food bank operates from its warehouse on South Lincoln Street. New clients can contact the food-bank team for current intake arrangements, distribution information and any assistance needed with registration."
   },
   "table-of-hope-food-pantry.html": {
     "id": "7498b972-015b-571d-b16c-6b105d1c5de3",
@@ -1241,9 +1274,10 @@
     ],
     "website": "https://whitefieldschurch.com/",
     "phone": "720-781-7526",
-    "email": "nate@whitefieldschurch.com",
+    "email": "info@whitefieldschurch.com",
     "address": "2950 Colorful Avenue #100 Longmont, CO 80504",
-    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/art/faith.webp"
+    "image_url": "",
+    "story": "Table of Hope is the food-pantry ministry of White Fields Community Church. It is part of the church’s work to support people in Longmont and the surrounding community.\n\nThe church can explain current pantry arrangements and ways to contribute or volunteer. People seeking food assistance should contact the team for the latest distribution information."
   },
   "the-bee-hugger-farm.html": {
     "id": "ab70f6a2-9597-56ce-a256-162c17eb9fb2",
@@ -1282,7 +1316,7 @@
     "name": "The Blackbird House",
     "phone": "720-633-8779",
     "address": "439 Main St., Longmont, CO 80501",
-    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/category-shop-local-art-small.webp",
+    "image_url": "",
     "categories": [
       "Gifts",
       "Crystals",
@@ -1327,7 +1361,7 @@
     "name": "The Quill & Candle Bookshop",
     "phone": "970-660-7820",
     "address": "2007 100 Year Party Ct. Longmont, CO 80504",
-    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/art/learning.webp",
+    "image_url": "",
     "categories": [
       "Independent Bookstore",
       "Prospect",
@@ -1355,7 +1389,7 @@
         "enabled": true
       }
     ],
-    "logo_alt": "Westview Presbyterian Church Longmont"
+    "logo_alt": "The ROUND PANTRY logo"
   },
   "tinkermill.html": {
     "id": "ac659685-a763-53c7-8d20-63ea338b323a",
@@ -1385,7 +1419,7 @@
       }
     ],
     "events_url": "https://tinkermill.org/calendar/",
-    "logo_alt": "TinkerMill Logo"
+    "logo_alt": "TinkerMill logo"
   },
   "tumbleweed-art-collective.html": {
     "id": "8d72b20f-fe3a-5d57-a78e-d37fd56b4959",
@@ -1427,7 +1461,7 @@
     "story": "Patrick and Sandy Kuhnell built Twin Peaks Pet Care around helping animals stay comfortable and engaged while their people are away. The business serves Boulder County households with pet sitting and dog walking.\n\nIts team approach provides primary and backup care for clients. Owners can discuss their pet's routines, enrichment needs and location before choosing the services that fit.",
     "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/twin-peaks-pet-care-logo.webp",
     "contact_url": "https://twinpeakspetcare.com/contact/",
-    "logo_alt": "twin peaks pet care logo"
+    "logo_alt": "Twin Peaks Pet Care logo"
   },
   "union-reservoir-nature-area.html": {
     "id": "bb8d5f3e-2bd7-57f2-acee-9d5fdf75329e",
@@ -1454,7 +1488,7 @@
       }
     ],
     "events_url": "https://longmontcolorado.gov/union-reservoir-nature-area/special-events-union-reservoir/",
-    "logo_alt": "City of Longmont Colorado logo"
+    "logo_alt": "Union Reservoir Nature Area logo"
   },
   "valley-veterinary-hospital.html": {
     "id": "3a80f437-5abf-5b73-b39a-335c9ad5cc13",
@@ -1467,7 +1501,7 @@
     "phone": "303-776-0234",
     "address": "1191 Ken Pratt Boulevard, Longmont",
     "story": "Valley Veterinary Hospital has cared for Longmont pets since 1964. Its practice combines treatment for illness with preventive care and guidance that helps owners look after their animals over time.\n\nThe hospital provides diagnostic, dental and surgical services, with access to additional laboratories and referral practices when needed. Owners can contact the team to arrange care and learn about the services appropriate to their pet.",
-    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/1818ee8c0e487a.webp",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/valley-veterinary-hospital-logo.webp",
     "gallery": [
       {
         "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/valley-veterinary-hospital-photo.webp",
@@ -1475,7 +1509,8 @@
         "enabled": true
       }
     ],
-    "contact_url": "https://www.valleyvethospital.net/contact-us"
+    "contact_url": "https://www.valleyvethospital.net/contact-us",
+    "logo_alt": "Valley Veterinary Hospital logo"
   },
   "wax-crescent.html": {
     "id": "fd1aad39-52b9-5a11-827e-2cd81b404cfc",
@@ -1501,7 +1536,7 @@
       }
     ],
     "events_url": "https://waxcrescent.com/pages/events-experiences",
-    "logo_alt": "Wax Crescent "
+    "logo_alt": "Wax Crescent logo"
   },
   "westview-presbyterian-church.html": {
     "id": "64543f47-6670-5135-bade-5e327a17e99e",
@@ -1517,7 +1552,14 @@
     "address": "1500 Hover Street Longmont, CO 80501",
     "story": "Westview Presbyterian Church connects worship, learning and community service in Longmont. Its congregation gathers for services and study while supporting people through volunteer ministries.\n\nThe church is also home to The ROUND PANTRY, where volunteers prepare and distribute food. Newcomers can find worship information and current ways to take part through the church's official website.",
     "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/westview-presbyterian-church-logo.webp",
-    "logo_alt": "Westview Presbyterian Church Longmont"
+    "logo_alt": "Westview Presbyterian Church logo",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/westview-presbyterian-church-photo.webp",
+        "alt": "Photo from the official website of Westview Presbyterian Church",
+        "enabled": true
+      }
+    ]
   },
   "whispering-pines-pet-resort.html": {
     "id": "ba98608e-247a-5b93-a4bc-25b7f7114e66",
@@ -1567,7 +1609,7 @@
       "Shopping"
     ],
     "description": "One of downtown Longmont's most colorful little shops. Wolf & Wren specializes in clever letterpress greeting cards, stationery, notebooks, writing tools and thoughtfully curated gifts.\n\nTheir award-winning cards are designed and printed using vintage letterpress equipment, making this a particularly fun stop when you're searching for something different.",
-    "logo_alt": "Wolf & Wren Press"
+    "logo_alt": "Wolf & Wren logo"
   },
   "wrens-nest-art-studio.html": {
     "id": "b1f715a3-8051-5da2-a7d9-fdbfd6c41508",
@@ -1593,7 +1635,7 @@
       }
     ],
     "events_url": "https://wrensneststudio.com/calendar",
-    "logo_alt": "Wren's Nest logo"
+    "logo_alt": "Wren’s Nest Art Studio logo"
   },
   "callahan-house.html": {
     "name": "Callahan House",

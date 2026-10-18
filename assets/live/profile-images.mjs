@@ -31,7 +31,7 @@ export function profileVisuals(b,catalog={},id=''){
  const logo=b.logo_url||(isLogo?image:'');
  const photos=(b.gallery||[]).filter(p=>p?.url&&p.enabled!==false);
  // Published records use the explicitly labelled logo and photo controls.
- if(b.id)return {logo:image?asset(image):'',image:photos[0]?.url?asset(photos[0].url):'',art:'',illustration:false,usedGallery:Boolean(photos.length)};
+ if(b.id){const illustration=/\/assets\/art\/|category-.*art/i.test(image);const legacyPhoto=known?.kind==='photo'&&!/logo/i.test(image);return {logo:image&&!illustration&&!legacyPhoto?asset(image):'',image:photos[0]?.url?asset(photos[0].url):legacyPhoto?asset(image):'',art:'',illustration:false,usedGallery:Boolean(photos.length)};}
  const photo=photos[0]?.url||(!isLogo?image:'');
  const art=catalog.art?.[artFamily(b.name,(b.categories||[]).join(' ')+' '+(b.description||''))]||'assets/category-shop-local-art-small.webp';
  return {logo:logo?asset(logo):'',image:photo?asset(photo):asset(art),art:asset(art),illustration:!photo,usedGallery:photos[0]?.url===photo};

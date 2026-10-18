@@ -1,4 +1,4 @@
-import {profileVisuals} from './profile-images.mjs?v=20261013-layout';
+import {profileVisuals} from './profile-images.mjs?v=20261018-research3';
 // Shared by the public site and the Command Center preview. No HTML from records is evaluated.
 export function safeWebUrl(value){try{const u=new URL(value);return ['http:','https:'].includes(u.protocol)&&!u.username&&!u.password?u.href:''}catch{return ''}}
 function builder(root){const d=root.ownerDocument;return (tag,cls,text)=>{const n=d.createElement(tag);if(cls)n.className=cls;if(text!==undefined&&text!==null)n.textContent=String(text);return n}}

@@ -1,4 +1,4 @@
-import {renderBusinessCard} from './live/profile-view.mjs?v=20261018-research2';
+import {renderBusinessCard} from './live/profile-view.mjs?v=20261018-research3';
 export const alphabetical=(a,b)=>String(a.public_content?.name||a.name||'').localeCompare(String(b.public_content?.name||b.name||''),'en',{sensitivity:'base',numeric:true})||String(a.business_id||'').localeCompare(String(b.business_id||''));
 const normalize=s=>s.toLowerCase().replace(/&/g,'and').replace(/[^a-z0-9]/g,'');
 export async function loadCategoryDirectory(doc=document,fetcher=fetch){
