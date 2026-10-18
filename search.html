@@ -62,5 +62,5 @@ async function search(q){const request=++requestNumber;q=q.trim();results.replac
 form.addEventListener('submit',e=>{e.preventDefault();history.replaceState(null,'','?q='+encodeURIComponent(input.value));search(input.value);});const initial=new URLSearchParams(location.search).get('q');if(initial){input.value=initial;search(initial);}
 
 </script>
-<script src="assets/live/live-page.mjs?v=20261018-visits" type="module"></script>
+<script src="assets/live/live-page.mjs?v=20261018-listing-photos" type="module"></script>
 <script src="assets/visual-cards.mjs?v=20261018-visits" type="module"></script></body></html>

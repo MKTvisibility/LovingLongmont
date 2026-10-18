@@ -7,6 +7,13 @@
     "source": "animals.html",
     "pages": [
       "animals.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://apetsplacelongmont.com/wp-content/uploads/2023/04/Photo-Gallery-6.jpg.webp",
+        "caption": ""
+      }
     ]
   },
   {
@@ -18,6 +25,13 @@
     "pages": [
       "music-entertainment.html",
       "shopping-specialty-stores.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/93d9984a-de4b-5a22-924f-41e43cac607a/e8c93936-fb8b-4e19-900d-ac52a5ff2f41.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -29,6 +43,13 @@
     "pages": [
       "home-garden-gifts.html",
       "shopping-specialty-stores.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/2e0287ad-e3c9-5296-8b68-96d9a5f80e16/ab6c3c8f-8088-4e1f-8922-6252c26590dd.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -43,6 +64,23 @@
       "farms-local-essentials.html",
       "history.html",
       "things-to-do.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://assets.bouldercounty.gov/wp-content/uploads/2017/03/ag-heritage-center-05.jpg",
+        "caption": ""
+      },
+      {
+        "alt": "",
+        "url": "https://assets.bouldercounty.gov/wp-content/uploads/2021/07/ahc-01.jpg",
+        "caption": ""
+      },
+      {
+        "alt": "",
+        "url": "https://assets.bouldercounty.gov/wp-content/uploads/2017/03/ag-heritage-center-05.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -65,6 +103,13 @@
       "arts-crafts-makers.html",
       "classes-learning.html",
       "things-to-do.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://images.squarespace-cdn.com/content/v1/5f6b630970b74442192685b0/1600877329052-NH824IUZGU2CEEQ63AHT/72b351279b097467e9f0da65b186409e.jpg?format=1500w",
+        "caption": ""
+      }
     ]
   },
   {
@@ -75,6 +120,17 @@
     "source": "community.html",
     "pages": [
       "farms-local-essentials.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/98733d37-0cb2-5420-a95b-f161e8212cb9/3f39c606-462a-4228-aad2-b43c13407ba8.jpg",
+        "caption": ""
+      },
+      {
+        "alt": "Photo from the official website of Aspen Moon Farm",
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/aspen-moon-farm-photo.webp"
+      }
     ]
   },
   {
@@ -87,6 +143,18 @@
       "books-comics-games.html",
       "shopping-specialty-stores.html",
       "things-to-do.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/774284f3-05e6-53a0-aec6-7ebb422cc551/d9d69bf9-945d-4bc8-a093-6a0afd7eb3d4.jpg",
+        "caption": ""
+      },
+      {
+        "alt": "",
+        "url": "https://static.wixstatic.com/media/0eda35_6e343698029d885d8ef4ffd380ea8009.jpg/v1/fit/w_2500,h_1330,al_c/0eda35_6e343698029d885d8ef4ffd380ea8009.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -99,6 +167,28 @@
       "arts-crafts-makers.html",
       "books-comics-games.html",
       "shopping-specialty-stores.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://images.squarespace-cdn.com/content/v1/5bb956867eb88c3e3d6ae99f/1549334638380-AHSL1VD09DKGZDEDSM50/bwb%2Bsdjjd.jpg",
+        "caption": ""
+      },
+      {
+        "alt": "",
+        "url": "https://images.squarespace-cdn.com/content/v1/5bb956867eb88c3e3d6ae99f/1541375611133-Y3UC5GXLSTC1PY3WA79E/barbed-wire-books_600wide.jpg?format=500w",
+        "caption": ""
+      },
+      {
+        "alt": "",
+        "url": "https://images.squarespace-cdn.com/content/v1/5bb956867eb88c3e3d6ae99f/8512e4eb-78eb-46a5-b529-7472cd1e496c/Screenshot+2023-11-04+jon+bassoff.png?format=1500w",
+        "caption": ""
+      },
+      {
+        "alt": "",
+        "url": "https://images.squarespace-cdn.com/content/v1/5bb956867eb88c3e3d6ae99f/1538952993337-FDSJT77239XBOG7V4BCI/coupon.jpg?format=500w",
+        "caption": ""
+      }
     ]
   },
   {
@@ -109,6 +199,13 @@
     "source": "jobs.html",
     "pages": [
       "jobs.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/7e4297fa-28c9-5454-8f04-6a023889901c/a4ee2637-df88-4338-ba24-521552572ed7.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -119,6 +216,13 @@
     "source": "businesses.html",
     "pages": [
       "professional-business-services.html"
+    ],
+    "gallery": [
+      {
+        "alt": "Outdoor portrait by Boulder County Photography",
+        "url": "https://lovinglongmont.com/assets/boulder-county-photography/outdoor-portrait.webp",
+        "caption": "Original portrait photography by Boulder County Photography."
+      }
     ]
   },
   {
@@ -130,6 +234,13 @@
     "pages": [
       "farms-local-essentials.html",
       "food-drink.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://images.squarespace-cdn.com/content/v1/66ab9bae820aa04ff9d0f0eb/95ff5c56-f663-4ea8-958a-b5578752ce85/sourdough+boule+with+lilac.jpg?format=1500w",
+        "caption": ""
+      }
     ]
   },
   {
@@ -143,6 +254,13 @@
       "food-drink.html",
       "music-entertainment.html",
       "shopping-specialty-stores.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://static.wixstatic.com/media/f119ff_71b88b4c27594ceaaa77c14970c98bc0~mv2.jpg/v1/fill/w_347,h_514,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/f119ff_71b88b4c27594ceaaa77c14970c98bc0~mv2.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -156,6 +274,18 @@
       "classes-learning.html",
       "community.html",
       "music-entertainment.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/05e3d0d9-619e-5386-a120-171771e867b0/793474b0-b0cf-4f1f-acb9-058c6ce563dc.jpg",
+        "caption": ""
+      },
+      {
+        "alt": "",
+        "url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/05e3d0d9-619e-5386-a120-171771e867b0/790ff6f4-1896-4ffb-99b3-daca84043bdd.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -169,6 +299,13 @@
       "food-drink.html",
       "home-garden-gifts.html",
       "shopping-specialty-stores.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://i0.wp.com/cheeseimporters.com/wp-content/uploads/2025/10/Mercato-Italia-1-scaled.jpg?fit=2560%2C1937&ssl=1",
+        "caption": ""
+      }
     ]
   },
   {
@@ -179,6 +316,13 @@
     "source": "jobs.html",
     "pages": [
       "jobs.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://longmontcolorado.gov/wp-content/uploads/2024/07/Image-19.jpg?resize=768,513",
+        "caption": ""
+      }
     ]
   },
   {
@@ -191,6 +335,13 @@
       "animals.html",
       "classes-learning.html",
       "community.html"
+    ],
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/colorado-horse-rescue-photo.webp",
+        "alt": "Photo from the official website of Colorado Horse Rescue",
+        "enabled": true
+      }
     ]
   },
   {
@@ -203,6 +354,13 @@
       "animals.html",
       "classes-learning.html",
       "community.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://pktdrttrqtxfbmxqdrrb.supabase.co/storage/v1/object/public/animal-images/e5e26cc3-2848-4e0e-ba12-f552d36c8b24.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -215,6 +373,13 @@
       "books-comics-games.html",
       "food-drink.html",
       "shopping-specialty-stores.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/ab4d144b-e00a-501e-bc2f-03d060083a80/f812b0ea-229d-43d4-884d-6560d3cc025a.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -237,6 +402,13 @@
     "source": "animals.html",
     "pages": [
       "animals.html"
+    ],
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/cottage-kennels-farm-photo.webp",
+        "alt": "A woman sitting on a bench with six dogs around her outside.",
+        "enabled": true
+      }
     ]
   },
   {
@@ -249,6 +421,13 @@
       "arts-crafts-makers.html",
       "classes-learning.html",
       "things-to-do.html"
+    ],
+    "gallery": [
+      {
+        "alt": "Photo from the official website of Crackpots Pottery Studio",
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/crackpots-pottery-studio-photo.webp",
+        "enabled": true
+      }
     ]
   },
   {
@@ -261,6 +440,18 @@
       "arts-crafts-makers.html",
       "classes-learning.html",
       "shopping-specialty-stores.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://static.wixstatic.com/media/31edc9_38e60b49275b4b4a80ff58d0f832ba93~mv2.jpg/v1/fill/w_703,h_530,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Untitled.jpg",
+        "caption": ""
+      },
+      {
+        "alt": "",
+        "url": "https://static.wixstatic.com/media/31edc9_4483407a4c8d4634b6126cdee0a77c32~mv2.jpg/v1/fill/w_754,h_636,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/31edc9_4483407a4c8d4634b6126cdee0a77c32~mv2.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -272,6 +463,13 @@
     "pages": [
       "community.html",
       "food-assistance-basic-needs.html"
+    ],
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/cultivate-photo.webp",
+        "alt": "Photograph collage showing a senior volunteer helping in the yard, walking down a street and helping with grocery shopping",
+        "enabled": true
+      }
     ]
   },
   {
@@ -283,6 +481,13 @@
     "pages": [
       "animals.html",
       "shopping-specialty-stores.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://earthwisepet.com/assets/about-counter-Bu3xoDnZ.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -295,6 +500,13 @@
       "outdoor-recreation-adventure.html",
       "sports-fitness-equipment.html",
       "things-to-do.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/acc39774-c325-54e1-8c0f-a61f377dbd78/182ea440-e82c-4e3a-8e6c-39b2a2008c72.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -306,6 +518,13 @@
     "pages": [
       "professional-business-services.html",
       "sports-fitness-equipment.html"
+    ],
+    "gallery": [
+      {
+        "alt": "Photo from the official website of DirtLabs Suspension",
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/dirtlabs-suspension-photo.webp",
+        "enabled": true
+      }
     ]
   },
   {
@@ -328,6 +547,13 @@
       "food-drink.html",
       "music-entertainment.html",
       "shopping-specialty-stores.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://images.squarespace-cdn.com/content/v1/6975128ff8a1bd69e8d1d884/1791057821465-UOBT2YFSA6GYQKH1OCDM/IMG_0900.jpeg?format=750w",
+        "caption": ""
+      }
     ]
   },
   {
@@ -341,6 +567,13 @@
       "health-wellness.html",
       "sports-fitness-equipment.html",
       "things-to-do.html"
+    ],
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/e8yoga-photo.webp",
+        "alt": "Yoga practice in E8\u2019s cedar-lined studio; photo from its official website",
+        "enabled": true
+      }
     ]
   },
   {
@@ -351,6 +584,13 @@
     "source": "animals.html",
     "pages": [
       "animals.html"
+    ],
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/family-pet-hospital-photo.webp",
+        "alt": "Photo from the official website of Family Pet Hospital",
+        "enabled": true
+      }
     ]
   },
   {
@@ -364,6 +604,13 @@
       "classes-learning.html",
       "community.html",
       "things-to-do.html"
+    ],
+    "gallery": [
+      {
+        "url": "https://firehouseart.org/wp-content/uploads/2015/12/film-festival.jpeg",
+        "alt": "A film festival gathering at Firehouse Art Center; photo from its official website",
+        "enabled": true
+      }
     ]
   },
   {
@@ -375,6 +622,23 @@
     "pages": [
       "animals.html",
       "shopping-specialty-stores.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://fourpawsandco.com/wp-content/uploads/2023/07/Pup-In-Towel-2-768x846.jpg",
+        "caption": ""
+      },
+      {
+        "alt": "",
+        "url": "https://fourpawsandco.com/wp-content/uploads/2023/07/Orijen-Dog-Food-Small-2.jpg",
+        "caption": ""
+      },
+      {
+        "alt": "",
+        "url": "https://fourpawsandco.com/wp-content/uploads/2023/07/Collars-3.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -388,6 +652,13 @@
       "community.html",
       "health-wellness.html",
       "sports-fitness-equipment.html"
+    ],
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/full-circle-yoga-photo.webp",
+        "alt": "Photo from the official website of Full Circle Yoga",
+        "enabled": true
+      }
     ]
   },
   {
@@ -404,8 +675,13 @@
     ],
     "gallery": [
       {
-        "url": "https://longmontcolorado.gov/wp-content/uploads/2024/07/Garden-Acres.jpg",
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/garden-acres-community-park-photo.webp",
+        "alt": "A tree-lined sidewalk cuts between two fenced sports fields at Longmont's Garden Acres Park.",
+        "enabled": true
+      },
+      {
         "alt": "Garden Acres Community Park in Longmont",
+        "url": "https://longmontcolorado.gov/wp-content/uploads/2024/07/Garden-Acres.jpg",
         "caption": "",
         "enabled": true
       }
@@ -420,6 +696,13 @@
     "pages": [
       "farms-local-essentials.html",
       "food-drink.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/0ba0d832-bd38-5408-85f6-b6fe481d4ad9/a5580060-c128-4022-9bc7-fdffbb6ee7fb.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -450,6 +733,14 @@
     "pages": [
       "animals.html",
       "community.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://images.squarespace-cdn.com/content/v1/5e779f50df03c7413051b7de/1585226509746-OIFXQU2GXQV600XJLIDK/OB+the+Goat?format=500w",
+        "caption": "",
+        "enabled": true
+      }
     ]
   },
   {
@@ -461,6 +752,13 @@
     "pages": [
       "animals.html",
       "community.html"
+    ],
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/greenwood-wildlife-rehabilitation-center-photo.webp",
+        "alt": "Photo from the official website of Greenwood Wildlife Rehabilitation Center",
+        "enabled": true
+      }
     ]
   },
   {
@@ -472,6 +770,13 @@
     "pages": [
       "community.html",
       "faith-spirituality.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://dq5pwpg1q8ru0.cloudfront.net/2025/12/03/19/44/23/f498bd30-bcad-4146-a973-761e86e337fa/angie-childrens-time.png",
+        "caption": ""
+      }
     ]
   },
   {
@@ -482,6 +787,14 @@
     "source": "history.html",
     "pages": [
       "history.html"
+    ],
+    "gallery": [
+      {
+        "alt": "Historic Hoverhome",
+        "url": "https://www.stvrainhistory.org/s/cc_images/cache_8939585.jpg?t=1490129009",
+        "caption": "",
+        "enabled": true
+      }
     ]
   },
   {
@@ -492,7 +805,8 @@
     "source": "history.html",
     "pages": [
       "history.html"
-    ]
+    ],
+    "gallery": []
   },
   {
     "business_id": "99dfe9af-3c37-5236-b245-ff394d31bc2a",
@@ -515,6 +829,13 @@
       "food-drink.html",
       "home-garden-gifts.html",
       "shopping-specialty-stores.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://junipergoods.co/assets/about-founders-storefront-2L6nuxz6.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -526,6 +847,13 @@
     "pages": [
       "community.html",
       "faith-spirituality.html"
+    ],
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/lifebridge-christian-church-photo.webp",
+        "alt": "Photo from the official website of LifeBridge Christian Church",
+        "enabled": true
+      }
     ]
   },
   {
@@ -536,6 +864,13 @@
     "source": "businesses.html",
     "pages": [
       "food-drink.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://i0.wp.com/loboscocinabar.com/wp-content/uploads/2026/03/menu_1-1-scaled.jpg?resize=622%2C1024&ssl=1",
+        "caption": ""
+      }
     ]
   },
   {
@@ -547,6 +882,13 @@
     "pages": [
       "shopping-specialty-stores.html",
       "sports-fitness-equipment.html"
+    ],
+    "gallery": [
+      {
+        "alt": "New Arrivals",
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/loco-skateshop-photo.webp",
+        "enabled": true
+      }
     ]
   },
   {
@@ -557,7 +899,8 @@
     "source": "animals.html",
     "pages": [
       "animals.html"
-    ]
+    ],
+    "gallery": []
   },
   {
     "business_id": "b0ed8acc-6ca8-59dc-a0a8-addd2ce39328",
@@ -581,6 +924,13 @@
       "community.html",
       "sports-fitness-equipment.html",
       "things-to-do.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://crossbar.s3.amazonaws.com/organizations/1837/uploads/1326b3a7-dce8-4aa5-a71f-399b5c872b1a.JPG?versionId=et8p8GmCQdUYuWhF9YSFSTdD76hGYoFf",
+        "caption": ""
+      }
     ]
   },
   {
@@ -592,6 +942,13 @@
     "pages": [
       "shopping-specialty-stores.html",
       "sports-fitness-equipment.html"
+    ],
+    "gallery": [
+      {
+        "alt": "Photo from the official website of Longmont Bicycle Company",
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/longmont-bicycle-company-photo.webp",
+        "enabled": true
+      }
     ]
   },
   {
@@ -603,6 +960,13 @@
     "pages": [
       "community.html",
       "faith-spirituality.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/74e4169b-0a4c-56d8-b361-9e6cebe64dcc/4883a1fd-d004-4b43-bc64-bcf6b15378ca.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -616,6 +980,13 @@
       "outdoor-recreation-adventure.html",
       "sports-fitness-equipment.html",
       "things-to-do.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://images.squarespace-cdn.com/content/v1/6439be47decc65220d21ac84/533d22a3-256f-4359-be01-be254bd90489/5L0A1961.jpg?format=1500w",
+        "caption": ""
+      }
     ]
   },
   {
@@ -638,6 +1009,13 @@
     "pages": [
       "community.html",
       "food-assistance-basic-needs.html"
+    ],
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/longmont-food-rescue-photo.webp",
+        "alt": "Photo from the official website of Longmont Food Rescue",
+        "enabled": true
+      }
     ]
   },
   {
@@ -650,6 +1028,18 @@
       "animals.html",
       "classes-learning.html",
       "community.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/a0a84c34-56ba-5f87-aa91-a70f17c8f5c5/de8f824f-5e42-4726-bc5e-eab194473da9.jpg",
+        "caption": ""
+      },
+      {
+        "alt": "",
+        "url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/a0a84c34-56ba-5f87-aa91-a70f17c8f5c5/e744a99a-b7cc-4529-8803-c5fbfddbf892.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -661,6 +1051,13 @@
     "pages": [
       "animals.html",
       "community.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/8acd678f-46b7-537f-bba3-5b81992808db/daffeee4-fa6a-4df2-bd42-2ddd1868cc6a.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -677,10 +1074,9 @@
     ],
     "gallery": [
       {
-        "url": "https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,f_jpg,h_650,q_80,w_1000/https%3A%2F%2Fassets.simpleviewinc.com%2Fsimpleview%2Fimage%2Fupload%2Fcrm%2Flongmontco%2FIce-Skating--Sherri-O-Hara-15--77456a7d5056b36_77456f49-5056-b365-ab975084db923379.jpg",
         "alt": "Ice skating in Longmont Colorado",
-        "caption": "",
-        "enabled": true
+        "url": "https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,f_jpg,h_650,q_80,w_1000/https%3A%2F%2Fassets.simpleviewinc.com%2Fsimpleview%2Fimage%2Fupload%2Fcrm%2Flongmontco%2FIce-Skating--Sherri-O-Hara-15--77456a7d5056b36_77456f49-5056-b365-ab975084db923379.jpg",
+        "caption": ""
       }
     ]
   },
@@ -692,6 +1088,13 @@
     "source": "businesses.html",
     "pages": [
       "food-drink.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://images.squarespace-cdn.com/content/v1/69600dfddf4766572e05b91c/190737a2-e896-49c9-97ba-9291db7ce6cd/M3.jpg?format=1500w",
+        "caption": ""
+      }
     ]
   },
   {
@@ -703,6 +1106,13 @@
     "pages": [
       "community.html",
       "food-assistance-basic-needs.html"
+    ],
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/longmont-meals-on-wheels-photo.webp",
+        "alt": "Photo from the official website of Longmont Meals on Wheels",
+        "enabled": true
+      }
     ]
   },
   {
@@ -719,10 +1129,9 @@
     ],
     "gallery": [
       {
-        "url": "https://longmontcolorado.gov/wp-content/uploads/2025/01/Museum-exterior-s1ke73.tmp_.jpg",
         "alt": "Longmont Museum",
-        "caption": "",
-        "enabled": true
+        "url": "https://longmontcolorado.gov/wp-content/uploads/2025/01/Museum-exterior-s1ke73.tmp_.jpg",
+        "caption": ""
       }
     ]
   },
@@ -737,6 +1146,13 @@
       "community.html",
       "jobs.html",
       "things-to-do.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://longmontcolorado.gov/wp-content/uploads/2024/08/Library.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -749,6 +1165,13 @@
       "outdoor-recreation-adventure.html",
       "sports-fitness-equipment.html",
       "things-to-do.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://longmontcolorado.gov/wp-content/uploads/2026/10/water-play-feature-1.jpg?resize=768,533",
+        "caption": ""
+      }
     ]
   },
   {
@@ -760,6 +1183,13 @@
     "pages": [
       "classes-learning.html",
       "community.html"
+    ],
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/longmont-senior-center-photo.webp",
+        "alt": "Photo from the official website of Longmont Senior Center",
+        "enabled": true
+      }
     ]
   },
   {
@@ -770,6 +1200,13 @@
     "source": "animals.html",
     "pages": [
       "animals.html"
+    ],
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/longmont-small-animal-hospital-photo.webp",
+        "alt": "Photo from the official website of Longmont Small Animal Hospital",
+        "enabled": true
+      }
     ]
   },
   {
@@ -783,6 +1220,13 @@
       "classes-learning.html",
       "shopping-specialty-stores.html",
       "things-to-do.html"
+    ],
+    "gallery": [
+      {
+        "alt": "Photo from the official website of Longmont Yarn Shoppe",
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/longmont-yarn-shoppe-photo.webp",
+        "enabled": true
+      }
     ]
   },
   {
@@ -805,6 +1249,12 @@
       "arts-crafts-makers.html",
       "home-garden-gifts.html",
       "shopping-specialty-stores.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://cdn.faire.com/fastly/d03c1d6f775e483b27dfa1742ae261e6cd347b40e92337b7652fc20f28361ed0.jpeg?format=jpg&precrop=2394%2C2394%2Cx0%2Cy0%2Csafe&width=720"
+      }
     ]
   },
   {
@@ -817,6 +1267,13 @@
       "arts-crafts-makers.html",
       "classes-learning.html",
       "shopping-specialty-stores.html"
+    ],
+    "gallery": [
+      {
+        "alt": "Maker General Harriet Tubman Embroidery Kit",
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/maker-general-photo.webp",
+        "enabled": true
+      }
     ]
   },
   {
@@ -828,6 +1285,13 @@
     "pages": [
       "outdoor-recreation-adventure.html",
       "things-to-do.html"
+    ],
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/mcintosh-lake-nature-area-photo.webp",
+        "alt": "A view of Longmont's McIntosh Lake recreation area, with Long's Peak in the background.",
+        "enabled": true
+      }
     ]
   },
   {
@@ -840,6 +1304,18 @@
       "classes-learning.html",
       "outdoor-recreation-adventure.html",
       "things-to-do.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://www.milehiskydiving.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdihmql263%2Fimage%2Fupload%2Fv1753920918%2Fmilehiskydiving%2Fgallery%2Fthunderstorm%2Funtitled_231118_0089-4-Enhanced-NR_ryehzw.jpg&w=1920&q=75",
+        "caption": ""
+      },
+      {
+        "alt": "",
+        "url": "https://www.milehiskydiving.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdihmql263%2Fimage%2Fupload%2Fv1753920921%2Fmilehiskydiving%2Fgallery%2FDSC00056_oxqj1j.jpg&w=1920&q=75",
+        "caption": ""
+      }
     ]
   },
   {
@@ -850,6 +1326,13 @@
     "source": "businesses.html",
     "pages": [
       "professional-business-services.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/8a3d2ea6-98d0-5b73-8724-25f88ce2a509/d35b30c8-0df4-419a-a857-c59844ba4bd6.png",
+        "caption": ""
+      }
     ]
   },
   {
@@ -861,7 +1344,8 @@
     "pages": [
       "books-comics-games.html",
       "shopping-specialty-stores.html"
-    ]
+    ],
+    "gallery": []
   },
   {
     "business_id": "0157ba72-0571-5e51-a7cb-0530cc3bae16",
@@ -872,6 +1356,13 @@
     "pages": [
       "arts-crafts-makers.html",
       "classes-learning.html"
+    ],
+    "gallery": [
+      {
+        "alt": "Photo from the official website of Obra Arts",
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/obra-arts-photo.webp",
+        "enabled": true
+      }
     ]
   },
   {
@@ -884,6 +1375,14 @@
       "history.html",
       "outdoor-recreation-adventure.html",
       "things-to-do.html"
+    ],
+    "gallery": [
+      {
+        "alt": "Old Mill Park",
+        "url": "https://www.stvrainhistory.org/s/cc_images/cache_9043907.jpg?t=1486073355",
+        "caption": "",
+        "enabled": true
+      }
     ]
   },
   {
@@ -896,6 +1395,13 @@
       "community.html",
       "faith-spirituality.html",
       "history.html"
+    ],
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/old-st-stephen-s-church-photo.webp",
+        "alt": "Photo from the official website of Old St. Stephen\u2019s Church",
+        "enabled": true
+      }
     ]
   },
   {
@@ -906,6 +1412,13 @@
     "source": "animals.html",
     "pages": [
       "animals.html"
+    ],
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/olde-towne-animal-medical-center-photo.webp",
+        "alt": "Photo from the official website of Olde Towne Animal Medical Center",
+        "enabled": true
+      }
     ]
   },
   {
@@ -916,6 +1429,13 @@
     "source": "community.html",
     "pages": [
       "farms-local-essentials.html"
+    ],
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/ollin-farms-photo.webp",
+        "alt": "Family",
+        "enabled": true
+      }
     ]
   },
   {
@@ -927,6 +1447,13 @@
     "pages": [
       "arts-crafts-makers.html",
       "classes-learning.html"
+    ],
+    "gallery": [
+      {
+        "alt": "Photo from the official website of Open Window Studio",
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/open-window-studio-photo.webp",
+        "enabled": true
+      }
     ]
   },
   {
@@ -938,6 +1465,13 @@
     "pages": [
       "community.html",
       "food-assistance-basic-needs.html"
+    ],
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/our-center-photo.webp",
+        "alt": "Photo from the official website of OUR Center",
+        "enabled": true
+      }
     ]
   },
   {
@@ -948,6 +1482,13 @@
     "source": "animals.html",
     "pages": [
       "animals.html"
+    ],
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/paw-au-pair-photo.webp",
+        "alt": "Pet Sitter Longmont CO",
+        "enabled": true
+      }
     ]
   },
   {
@@ -960,6 +1501,13 @@
       "food-drink.html",
       "music-entertainment.html",
       "things-to-do.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://static.spotapps.co/spots/b1/40e7a25696478fa74f9a5345e1295e/full",
+        "caption": ""
+      }
     ]
   },
   {
@@ -972,6 +1520,13 @@
       "classes-learning.html",
       "community.html",
       "health-wellness.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://recoverycafelongmont.org/wp-content/uploads/2026/07/IMG_8394-1-scaled-e1785188246124-1024x777.jpeg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -983,6 +1538,13 @@
     "pages": [
       "arts-crafts-makers.html",
       "shopping-specialty-stores.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://retailtherapyvendormarket.com/cdn/shop/files/5292.jpg?v=1792256282&width=713",
+        "caption": ""
+      }
     ]
   },
   {
@@ -995,6 +1557,23 @@
       "food-drink.html",
       "home-garden-gifts.html",
       "shopping-specialty-stores.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://robinchocolates.com/wp-content/uploads/2019/09/Pomegranate.png",
+        "caption": ""
+      },
+      {
+        "alt": "",
+        "url": "https://robinchocolates.com/wp-content/uploads/2019/06/ginger-1.jpg",
+        "caption": ""
+      },
+      {
+        "alt": "",
+        "url": "https://robinchocolates.com/wp-content/uploads/2019/09/Salt-Caramel-Squares-2.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -1005,6 +1584,13 @@
     "source": "animals.html",
     "pages": [
       "animals.html"
+    ],
+    "gallery": [
+      {
+        "url": "https://www.rockymountainkennels.com/img/gallery/dogs-in-play-area-with-handler.jpg",
+        "alt": "Dogs with a handler at Rocky Mountain Kennels; photo from its official gallery",
+        "enabled": true
+      }
     ]
   },
   {
@@ -1017,6 +1603,13 @@
       "farms-local-essentials.html",
       "outdoor-recreation-adventure.html",
       "things-to-do.html"
+    ],
+    "gallery": [
+      {
+        "alt": "Assorted colorful gourds and Indian corn on straw",
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/rocky-mountain-pumpkin-ranch-photo.webp",
+        "enabled": true
+      }
     ]
   },
   {
@@ -1042,8 +1635,13 @@
     ],
     "gallery": [
       {
-        "url": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,q_85,w_1200/v1/crm/longmontco/37055267433_27facbf459_o0-13c8168a5056b36_13c819d5-5056-b365-ab0503c5ce51a7c1.jpg",
+        "alt": "Photo from the official website of Sandstone Ranch Visitors & Learning Center",
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/sandstone-ranch-visitors-learning-center-photo.webp",
+        "enabled": true
+      },
+      {
         "alt": "Sandstone Ranch in Longmont Colorado",
+        "url": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,q_85,w_1200/v1/crm/longmontco/37055267433_27facbf459_o0-13c8168a5056b36_13c819d5-5056-b365-ab0503c5ce51a7c1.jpg",
         "caption": "",
         "enabled": true
       }
@@ -1057,6 +1655,13 @@
     "source": "businesses.html",
     "pages": [
       "food-drink.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/b98dab85-db9c-50bd-b141-e6eed222e651/329bb481-cb22-430d-9e78-efe45c30d62a.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -1069,6 +1674,18 @@
       "food-drink.html",
       "shopping-specialty-stores.html",
       "sports-fitness-equipment.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://50f97fb5999e42a45c2e.cdn6.editmysite.com/uploads/b/50f97fb5999e42a45c2e51425f6695adf947cfbb1df60483fe64583c8c4ffe71/IMG_5536_1767983898.JPG?width=2400&optimize=medium",
+        "caption": ""
+      },
+      {
+        "alt": "",
+        "url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/c6a43445-c778-58d0-87d8-30b6da3a0fee/f0f6d2e2-32b3-4735-b6c7-2c19b4a59c24.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -1080,6 +1697,13 @@
     "pages": [
       "farms-local-essentials.html",
       "shopping-specialty-stores.html"
+    ],
+    "gallery": [
+      {
+        "alt": "Photo from the official website of Simply Bulk Market",
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/simply-bulk-market-photo.webp",
+        "enabled": true
+      }
     ]
   },
   {
@@ -1090,6 +1714,13 @@
     "source": "businesses.html",
     "pages": [
       "shopping-specialty-stores.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://lovinglongmont.github.io/loving-longmont-website/assets/official/6a96a34d9ef813.webp",
+        "caption": ""
+      }
     ]
   },
   {
@@ -1103,6 +1734,13 @@
       "health-wellness.html",
       "sports-fitness-equipment.html",
       "things-to-do.html"
+    ],
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/soul-19-photo.webp",
+        "alt": "Photo from the official website of SOUL 19",
+        "enabled": true
+      }
     ]
   },
   {
@@ -1119,8 +1757,8 @@
     ],
     "gallery": [
       {
-        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/c98f1073ac26ba.webp",
         "alt": "St. John the Baptist Catholic Church",
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/c98f1073ac26ba.webp",
         "caption": "",
         "enabled": true
       }
@@ -1138,8 +1776,8 @@
     ],
     "gallery": [
       {
-        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/c98f1073ac26ba.webp",
         "alt": "St. John the Baptist Food Bank",
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/c98f1073ac26ba.webp",
         "caption": "",
         "enabled": true
       }
@@ -1160,10 +1798,9 @@
     ],
     "gallery": [
       {
-        "url": "https://mktvisibility.github.io/LovingLongmont/sunflowerfarm.png",
         "alt": "Sunflower Farm",
-        "caption": "",
-        "enabled": true
+        "url": "https://mktvisibility.github.io/LovingLongmont/sunflowerfarm.png",
+        "caption": ""
       }
     ]
   },
@@ -1176,6 +1813,13 @@
     "pages": [
       "community.html",
       "food-assistance-basic-needs.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://table-of-hope.com/image/65/600",
+        "caption": ""
+      }
     ]
   },
   {
@@ -1186,6 +1830,13 @@
     "source": "jobs.html",
     "pages": [
       "jobs.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://www.taskrabbit.com/v3/assets/hero_landing-fdeb7ef8f1a4361ec76f75d007d79546.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -1198,6 +1849,14 @@
       "animals.html",
       "farms-local-essentials.html",
       "things-to-do.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://static.wixstatic.com/media/646d3b_1f680794b7444d01aa3858b487294198~mv2.jpg/v1/fill/w_499,h_487,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/646d3b_1f680794b7444d01aa3858b487294198~mv2.jpg",
+        "caption": "",
+        "enabled": true
+      }
     ]
   },
   {
@@ -1210,6 +1869,13 @@
       "faith-spirituality.html",
       "home-garden-gifts.html",
       "shopping-specialty-stores.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/d643de4a-dc92-57a6-882a-396b72551722/13ea90af-89a0-424c-ad56-bb2aa514d989.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -1222,6 +1888,13 @@
       "arts-crafts-makers.html",
       "classes-learning.html",
       "things-to-do.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://canvaslocalartbar.com/wp-content/uploads/2025/08/happy-group-painting.png",
+        "caption": ""
+      }
     ]
   },
   {
@@ -1233,6 +1906,13 @@
     "pages": [
       "home-garden-gifts.html",
       "shopping-specialty-stores.html"
+    ],
+    "gallery": [
+      {
+        "alt": "Legendary Flower Bin-Grown Hanging Baskets",
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/the-flower-bin-photo.webp",
+        "enabled": true
+      }
     ]
   },
   {
@@ -1245,6 +1925,13 @@
       "books-comics-games.html",
       "home-garden-gifts.html",
       "shopping-specialty-stores.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/3032e438-3e5b-5a68-98ce-458d8167465e/f3f15a43-627a-4b1b-9977-e44e55913354.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -1256,6 +1943,13 @@
     "pages": [
       "community.html",
       "food-assistance-basic-needs.html"
+    ],
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/the-round-pantry-photo.webp",
+        "alt": "Allen DSC_0011c3.JPG",
+        "enabled": true
+      }
     ]
   },
   {
@@ -1269,6 +1963,22 @@
       "classes-learning.html",
       "community.html",
       "things-to-do.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://tinkermill.org/wp-content/uploads/2021/09/pxl-20201119-173259000_orig-1024x768.jpg",
+        "caption": ""
+      },
+      {
+        "alt": "Photo from the official website of TinkerMill",
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/tinkermill-photo.webp"
+      },
+      {
+        "alt": "",
+        "url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/ac659685-a763-53c7-8d20-63ea338b323a/1e10a182-3d0b-49c4-8d63-e4a187366281.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -1280,6 +1990,14 @@
     "pages": [
       "arts-crafts-makers.html",
       "shopping-specialty-stores.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://media.rainpos.com/12828/carousel_module-7977345-image-26be0b86907d05469e766e9218a7bfbf.jpg",
+        "caption": "",
+        "enabled": true
+      }
     ]
   },
   {
@@ -1290,6 +2008,13 @@
     "source": "animals.html",
     "pages": [
       "animals.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/6b9f40e1-37dc-5ab6-9344-f3021209d673/01ddf16f-4cbf-447a-9644-258706795b83.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -1311,6 +2036,13 @@
     "pages": [
       "outdoor-recreation-adventure.html",
       "things-to-do.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/bb8d5f3e-2bd7-57f2-acee-9d5fdf75329e/1967b662-0814-4360-b030-6008c270ff92.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -1331,6 +2063,13 @@
     "source": "animals.html",
     "pages": [
       "animals.html"
+    ],
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/valley-veterinary-hospital-photo.webp",
+        "alt": "Woman holding dog in forest",
+        "enabled": true
+      }
     ]
   },
   {
@@ -1343,6 +2082,13 @@
       "classes-learning.html",
       "home-garden-gifts.html",
       "shopping-specialty-stores.html"
+    ],
+    "gallery": [
+      {
+        "alt": "Photo from the official website of Wax Crescent",
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/wax-crescent-photo.webp",
+        "enabled": true
+      }
     ]
   },
   {
@@ -1355,6 +2101,13 @@
       "classes-learning.html",
       "sports-fitness-equipment.html",
       "things-to-do.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://www.wellsathleticsco.com/wp-content/uploads/2025/10/wells-athletics-baseball-3-768x1024.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -1367,6 +2120,13 @@
       "community.html",
       "faith-spirituality.html",
       "food-assistance-basic-needs.html"
+    ],
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/westview-presbyterian-church-photo.webp",
+        "alt": "Photo from the official website of Westview Presbyterian Church",
+        "enabled": true
+      }
     ]
   },
   {
@@ -1379,6 +2139,18 @@
       "arts-crafts-makers.html",
       "classes-learning.html",
       "things-to-do.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://static.wixstatic.com/media/f82863_299137db5112414082aa5a7edaae078c~mv2.jpg",
+        "caption": ""
+      },
+      {
+        "alt": "",
+        "url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/40087e8f-f2e3-5ca9-b8d1-10b850d32a2f/bff8b7b8-b5b6-4916-af2a-bb8c8ff73b71.jpg",
+        "caption": ""
+      }
     ]
   },
   {
@@ -1390,6 +2162,13 @@
     "pages": [
       "animals.html",
       "classes-learning.html"
+    ],
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/whispering-pines-pet-resort-photo.webp",
+        "alt": "golden retriever and lab mix dogs at whispering pines pet resort daycare",
+        "enabled": true
+      }
     ]
   },
   {
@@ -1403,6 +2182,14 @@
       "books-comics-games.html",
       "home-garden-gifts.html",
       "shopping-specialty-stores.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://wolfandwren.com/cdn/shop/files/Wolf_and_Wren_Longmont_3.jpg?v=1720791309",
+        "caption": "",
+        "enabled": true
+      }
     ]
   },
   {
@@ -1426,6 +2213,13 @@
     "pages": [
       "arts-crafts-makers.html",
       "classes-learning.html"
+    ],
+    "gallery": [
+      {
+        "alt": "Wren's Nest Art Studio",
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/wren-s-nest-art-studio-photo.webp",
+        "enabled": true
+      }
     ]
   },
   {
@@ -1440,6 +2234,13 @@
       "history.html",
       "outdoor-recreation-adventure.html",
       "things-to-do.html"
+    ],
+    "gallery": [
+      {
+        "alt": "YA YA Farm & Orchard",
+        "url": "https://yayafarmandorchard.com/wp-content/uploads/2024/06/Truck-and-Barn-v4-original-ratio-2560w-jpg.webp",
+        "caption": ""
+      }
     ]
   },
   {
@@ -1454,6 +2255,26 @@
       "food-drink.html",
       "shopping-specialty-stores.html",
       "things-to-do.html"
+    ],
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/e8f7f4ee-ad2e-4676-9e99-0fcacb6a528c/2e207bea-3fc4-41a2-a2d3-78258be09b18.jpg",
+        "caption": "",
+        "enabled": true
+      },
+      {
+        "alt": "",
+        "url": "https://bcfm.org/wp-content/uploads/2024/03/EE_LongmontMarket23_0601-lowres-1024x683.jpg",
+        "caption": "",
+        "enabled": true
+      },
+      {
+        "alt": "",
+        "url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/e8f7f4ee-ad2e-4676-9e99-0fcacb6a528c/306e04ae-6687-463a-9102-4d08f83df8e0.jpg",
+        "caption": "",
+        "enabled": true
+      }
     ]
   }
 ]
