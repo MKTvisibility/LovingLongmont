@@ -1,4 +1,4 @@
-import {profileVisuals} from './profile-images.mjs?v=20261018-research3';
+import {profileVisuals} from './profile-images.mjs?v=20261018-visits';
 // Shared by the public site and the Command Center preview. No HTML from records is evaluated.
 export function safeWebUrl(value){try{const u=new URL(value);return ['http:','https:'].includes(u.protocol)&&!u.username&&!u.password?u.href:''}catch{return ''}}
 function builder(root){const d=root.ownerDocument;return (tag,cls,text)=>{const n=d.createElement(tag);if(cls)n.className=cls;if(text!==undefined&&text!==null)n.textContent=String(text);return n}}
@@ -12,7 +12,7 @@ export function renderProfile(root,b,catalog={}){const make=builder(root);root.r
  if(b.categories?.length)heading.append(make('p','bp-eyebrow',b.categories.join(' · ')));
  heading.append(make('h1','',b.name));if(b.tagline)heading.append(make('p','bp-tagline',b.tagline));if(b.description)heading.append(make('p','bp-intro',b.description));
  const phoneURL=b.phone?(b.phone_contact_mode==='sms'?'sms:':'tel:')+b.phone.replace(/[^+\d]/g,''):'';
- const actions=make('div','bp-actions');addLink(make,actions,safeWebUrl(b.website),'Visit Website ↗','bp-button');if(b.phone)addLink(make,actions,phoneURL,(b.phone_contact_mode==='sms'?'Text ':'Call ')+b.phone,'bp-button bp-outline');if(b.email)addLink(make,actions,'mailto:'+encodeURIComponent(b.email),'Email '+(b.photographer?.split(' ')[0]||'Business'),'bp-button bp-outline');else addLink(make,actions,safeWebUrl(b.contact_url),'Contact Business ↗','bp-button bp-outline');if(actions.childNodes.length)heading.append(actions);identity.append(heading);article.append(identity);
+ const actions=make('div','bp-actions');addLink(make,actions,safeWebUrl(b.website),'Visit Website ↗','bp-button');if(safeWebUrl(b.visit_url)){actions.id='plan-visit';addLink(make,actions,safeWebUrl(b.visit_url),b.visit_label||'Plan a Visit ↗','bp-button bp-outline');}if(b.phone)addLink(make,actions,phoneURL,(b.phone_contact_mode==='sms'?'Text ':'Call ')+b.phone,'bp-button bp-outline');if(b.email)addLink(make,actions,'mailto:'+encodeURIComponent(b.email),'Email '+(b.photographer?.split(' ')[0]||'Business'),'bp-button bp-outline');else addLink(make,actions,safeWebUrl(b.contact_url),'Contact Business ↗','bp-button bp-outline');if(actions.childNodes.length)heading.append(actions);identity.append(heading);article.append(identity);
  const gallery=(b.gallery||[]).filter(p=>p.enabled!==false&&safeWebUrl(p.url));
  const remainingGallery=visuals.usedGallery?gallery.slice(1):gallery;
  const grid=make('div','bp-content-grid'),story=make('div','bp-story');
@@ -25,7 +25,7 @@ export function renderProfile(root,b,catalog={}){const make=builder(root);root.r
  if(dl.childNodes.length){contact.append(make('p','bp-eyebrow','CONNECT WITH THE BUSINESS'),make('h2','','Get in touch'),dl);grid.append(contact)}
  if(grid.childNodes.length){if(grid.childNodes.length===1)grid.classList.add('bp-single-column');article.append(grid)}
  if(remainingGallery.length){const section=make('section','bp-gallery');section.append(make('p','bp-eyebrow','A LOOK AT THE WORK'),make('h2','','Gallery'));const photos=make('div','bp-gallery-grid');remainingGallery.forEach(p=>{const f=make('figure');photo(make,f,p.url,p.alt||b.name);if(p.caption)f.append(make('figcaption','',p.caption));photos.append(f)});section.append(photos);article.append(section)}
- const bottom=make('div','bp-bottom');addLink(make,bottom,'businesses.html','← Browse local businesses');article.append(bottom);root.append(article);return article;
+ const bottom=make('div','bp-bottom');addLink(make,bottom,'businesses.html','← Browse local businesses');article.append(bottom);root.append(article);if(root.ownerDocument.defaultView?.location.hash==='#plan-visit')root.ownerDocument.defaultView.requestAnimationFrame?.(()=>root.querySelector('#plan-visit')?.scrollIntoView?.({block:'center'}));return article;
 }
 export function directoryPhoto(content){return (content.gallery||[]).find(p=>p.enabled!==false&&safeWebUrl(p.url))||null}
 export function renderBusinessCard(document,row,variant='directory'){

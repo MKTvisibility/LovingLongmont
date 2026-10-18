@@ -50,7 +50,7 @@
     "phone": "720-494-1414",
     "email": "info@chr.org",
     "address": "10386 N 65th Street Longmont, CO 80503",
-    "story": "Colorado Horse Rescue has worked with at-risk horses since 1986. Its work brings rehabilitation, adoption and foster support together to help horses move toward safe, suitable homes.\n\nEducation and community involvement are part of that mission. Visitors and prospective supporters can learn about the horses, current programs and opportunities to take part through the rescue's official website.",
+    "story": "Colorado Horse Rescue has worked with at-risk horses since 1986. Its work brings rehabilitation, adoption and foster support together to help horses move toward safe, suitable homes.\n\nEducation and community involvement are part of that mission. Visitors and prospective supporters can learn about the horses, current programs and opportunities to take part through the rescue's official website.\n\nVisits to Colorado Horse Rescue are by appointment. Use the rescue’s official contact and hours page to arrange a tour and learn about current visitor opportunities.",
     "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/colorado-horse-rescue-logo.webp",
     "gallery": [
       {
@@ -59,7 +59,12 @@
         "enabled": true
       }
     ],
-    "logo_alt": "Colorado Horse Rescue logo"
+    "logo_alt": "Colorado Horse Rescue logo",
+    "visit_url": "https://chr.org/about/contact-hours/",
+    "visit_label": "Arrange a Visit ↗",
+    "services": [
+      "Sanctuary visits and tours by appointment"
+    ]
   },
   "colorado-reptile-humane-society.html": {
     "id": "93bac868-53b1-522d-928c-3f3fca53179a",
@@ -361,8 +366,13 @@
       "Farms & Agriculture"
     ],
     "description": "A Longmont nonprofit sanctuary providing a safe forever home for rescued farm animals. Good Life Refuge cares for over 60 animals and relies on volunteers and donors to support their residents.",
-    "story": "Good Life Refuge provides a sanctuary for rescued farm animals and shares their individual stories with the community. Its work combines ongoing animal care with opportunities for people to learn about compassion toward farmed animals.\n\nTours and special gatherings help visitors connect with the residents and the work of the refuge. Visits are organized through the sanctuary, so guests should check the current tour and event information before coming.",
-    "events_url": "https://www.goodliferefuge.org/events-calender"
+    "story": "Good Life Refuge provides a sanctuary for rescued farm animals and shares their individual stories with the community. Its work combines ongoing animal care with opportunities for people to learn about compassion toward farmed animals.\n\nTours and special gatherings help visitors connect with the residents and the work of the refuge. Visits are organized through the sanctuary, so guests should check the current tour and event information before coming.\n\nKindness Tours offer a guided visit to meet the sanctuary’s rescued farm animals and learn their stories. Public tours and private group tours are available, and the guided experience lasts approximately 45 minutes. Arrange a tour in advance through Good Life Refuge’s official booking page.",
+    "events_url": "https://www.goodliferefuge.org/events-calender",
+    "visit_url": "https://www.goodliferefuge.org/kindness-tour",
+    "visit_label": "Book a Kindness Tour ↗",
+    "services": [
+      "Kindness Tours: guided public and private group visits; advance booking required"
+    ]
   },
   "greenwood-wildlife-rehabilitation-center.html": {
     "id": "09f38a28-552d-5b68-aa78-d7e812e89ada",

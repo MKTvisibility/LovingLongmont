@@ -1,5 +1,5 @@
-import './business-events-loader.mjs?v=20261018-research3';
-import {renderProfile} from './profile-view.mjs?v=20261018-research3';
+import './business-events-loader.mjs?v=20261018-visits';
+import {renderProfile} from './profile-view.mjs?v=20261018-visits';
 const PUBLIC_BASE='https://gvmwkltwrlqwbqegieum.supabase.co';
 const PUBLIC_KEY='sb_publishable_SFIrQ_kqkLQJdBNMnaRr3g_w6XWKaBJ';
 const normalizeBusinessName=value=>String(value||'').toLowerCase().replace(/[^a-z0-9]/g,'');
@@ -32,7 +32,7 @@ if(staticRoot&&staticName){
    if(selected.row?.business_id||verified?.id)staticRoot.dataset.llProfile=selected.row?.business_id||verified.id;
    let catalog={};try{const response=await fetch(new URL('../visual-catalog.json',import.meta.url));if(response.ok)catalog=await response.json()}catch{}
    const content=selected.row?(selected.row.active?selected.row.public_content:null):verified;
-   const metadata=verified?Object.fromEntries(['contact_url','events_url','service_area','phone_contact_mode','logo_background','logo_alt','tagline'].filter(k=>verified[k]).map(k=>[k,verified[k]])):{};
+   const metadata=verified?Object.fromEntries(['visit_url','visit_label','contact_url','events_url','service_area','phone_contact_mode','logo_background','logo_alt','tagline'].filter(k=>verified[k]).map(k=>[k,verified[k]])):{};
    const existingCalendar=staticRoot.querySelector('#business-events');
    renderProfile(staticRoot,content?{...metadata,...content}:null,catalog);
    if(content&&existingCalendar)staticRoot.append(existingCalendar);
@@ -41,7 +41,7 @@ if(staticRoot&&staticName){
   }
  }catch{staticRoot.replaceChildren();const message=document.createElement('p');message.setAttribute('role','status');message.textContent='Business updates are temporarily unavailable. Please refresh to try again.';staticRoot.append(message);connected=true;}
 }
-import {profileVisuals} from './profile-images.mjs?v=20261018-research3';
+import {profileVisuals} from './profile-images.mjs?v=20261018-visits';
 const article=document.querySelector('main article'),title=article?.querySelector('h1');
 if(!connected&&article&&title){let catalog={};try{const r=await fetch(new URL('../visual-catalog.json',import.meta.url));if(r.ok)catalog=await r.json()}catch{}
 const name=title.textContent.trim(),oldImage=article.querySelector('img'),description=article.querySelector('p')?.textContent||'',visuals=profileVisuals({name,image_url:oldImage?.dataset.llOriginalSrc||oldImage?.getAttribute('src'),description},catalog);
