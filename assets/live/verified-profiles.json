@@ -51,14 +51,15 @@
     "email": "info@chr.org",
     "address": "10386 N 65th Street Longmont, CO 80503",
     "story": "Colorado Horse Rescue has worked with at-risk horses since 1986. Its work brings rehabilitation, adoption and foster support together to help horses move toward safe, suitable homes.\n\nEducation and community involvement are part of that mission. Visitors and prospective supporters can learn about the horses, current programs and opportunities to take part through the rescue's official website.",
-    "image_url": "",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/colorado-horse-rescue-logo.webp",
     "gallery": [
       {
         "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/colorado-horse-rescue-photo.webp",
         "alt": "Photo from the official website of Colorado Horse Rescue",
         "enabled": true
       }
-    ]
+    ],
+    "logo_alt": "Colorado Horse Rescue logo"
   },
   "colorado-reptile-humane-society.html": {
     "id": "93bac868-53b1-522d-928c-3f3fca53179a",
