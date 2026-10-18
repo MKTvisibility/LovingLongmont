@@ -1,5 +1,5 @@
 import './business-events-loader.mjs?v=20261018-visits';
-import {renderProfile} from './profile-view.mjs?v=20261018-navigation-v2';
+import {renderProfile} from './profile-view.mjs?v=20261018-visits';
 const PUBLIC_BASE='https://gvmwkltwrlqwbqegieum.supabase.co';
 const PUBLIC_KEY='sb_publishable_SFIrQ_kqkLQJdBNMnaRr3g_w6XWKaBJ';
 const normalizeBusinessName=value=>String(value||'').toLowerCase().replace(/[^a-z0-9]/g,'');
@@ -41,7 +41,7 @@ if(staticRoot&&staticName){
   }
  }catch{staticRoot.replaceChildren();const message=document.createElement('p');message.setAttribute('role','status');message.textContent='Business updates are temporarily unavailable. Please refresh to try again.';staticRoot.append(message);connected=true;}
 }
-import {profileVisuals} from './profile-images.mjs?v=20261018-navigation-v2';
+import {profileVisuals} from './profile-images.mjs?v=20261018-visits';
 const article=document.querySelector('main article'),title=article?.querySelector('h1');
 if(!connected&&article&&title){let catalog={};try{const r=await fetch(new URL('../visual-catalog.json',import.meta.url));if(r.ok)catalog=await r.json()}catch{}
 const name=title.textContent.trim(),oldImage=article.querySelector('img'),description=article.querySelector('p')?.textContent||'',visuals=profileVisuals({name,image_url:oldImage?.dataset.llOriginalSrc||oldImage?.getAttribute('src'),description},catalog);
