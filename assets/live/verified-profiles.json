@@ -297,7 +297,15 @@
     "email": "info@firehouseart.org",
     "address": "667 4th Avenue, Longmont, CO 80501",
     "story": "The Firehouse Art Center connects exhibitions and arts education in a historic downtown Longmont building. Its programs bring working artists and the wider community into the same creative space.\n\nMembership, volunteer opportunities and educational activities give people different ways to take part. The center’s official website shares current exhibitions, programs and ways to support its work.",
-    "image_url": "https://firehouseart.org/wp-content/uploads/2026/08/Screenshot-2026-08-22-175848.png"
+    "image_url": "https://firehouseart.org/wp-content/uploads/2024/01/Firehouse-Art-Center-Black.png",
+    "logo_alt": "Firehouse Art Center logo",
+    "gallery": [
+      {
+        "url": "https://firehouseart.org/wp-content/uploads/2015/12/film-festival.jpeg",
+        "alt": "A film festival gathering at Firehouse Art Center; photo from its official website",
+        "enabled": true
+      }
+    ]
   },
   "full-circle-yoga.html": {
     "id": "cb27fa4f-61ec-54af-ad1d-91b8c486bb47",
@@ -655,9 +663,10 @@
     "phone": "303-772-1232",
     "email": "info@longmonthumane.org",
     "address": "9595 Nelson Road Longmont, CO 80501",
-    "image_url": "",
+    "image_url": "https://longmonthumane.org/wp-content/uploads/2026/03/Longmont-Humane-Society-Logo-Horizontal-600x200.png",
     "story": "Longmont Humane Society became an independent nonprofit animal shelter in 1972. Its facilities and services have expanded alongside the community, including the opening of the Allen Center in 2008.\n\nThe organization provides temporary shelter and care for companion animals while helping them find homes. Veterinary services, training, foster care, education and assistance for pet owners extend its work beyond the shelter.",
-    "events_url": "https://longmonthumane.org/get-involved/events/"
+    "events_url": "https://longmonthumane.org/get-involved/events/",
+    "logo_alt": "Longmont Humane Society logo"
   },
   "longmont-ice-pavilion.html": {
     "id": "832d48a7-f183-52a9-a8aa-3a339eded0e6",
@@ -1123,7 +1132,15 @@
     "email": "info@rockymountainkennels.com",
     "address": "1066 County Road 32, Longmont",
     "story": "Rocky Mountain Kennels provides boarding and day care in a country setting near Longmont. Its facilities include space for dogs to spend time outdoors as well as accommodations for their stay.\n\nThe business offers additional care options such as baths and nail trims. Owners can contact the kennel to discuss their dog's needs, availability and the requirements for a booking.",
-    "image_url": ""
+    "image_url": "https://www.rockymountainkennels.com/img/rocky-mountain-kennels.png",
+    "logo_alt": "Rocky Mountain Kennels logo",
+    "gallery": [
+      {
+        "url": "https://www.rockymountainkennels.com/img/gallery/dogs-in-play-area-with-handler.jpg",
+        "alt": "Dogs with a handler at Rocky Mountain Kennels; photo from its official gallery",
+        "enabled": true
+      }
+    ]
   },
   "rocky-mountain-pumpkin-ranch.html": {
     "id": "48e0e549-e4c5-5d2d-a599-f585a4f456ac",
