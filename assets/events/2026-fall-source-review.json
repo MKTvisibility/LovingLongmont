@@ -15,13 +15,6 @@
   ],
   "business_reviews": [
     {
-      "name": "Ailurophile Cat & Home Care",
-      "website": "",
-      "checked_sources": [],
-      "verified_occurrences": 0,
-      "result": "No additional dated public event verified; undated, expired, private or unavailable calendars were not used"
-    },
-    {
       "name": "Amazon Flex",
       "website": "",
       "checked_sources": [],
@@ -336,7 +329,7 @@
       "result": "No additional dated public event verified; undated, expired, private or unavailable calendars were not used"
     },
     {
-      "name": "Old St. Stephen’s Church",
+      "name": "Old St. Stephen\u2019s Church",
       "website": "https://www.stvrainhistory.org/our-properties/old-st-stephen-s/",
       "checked_sources": [],
       "verified_occurrences": 0,
@@ -957,7 +950,7 @@
       "result": "No additional dated public event verified; undated, expired, private or unavailable calendars were not used"
     },
     {
-      "name": "Moxie Bread Co. (Longmont Café)",
+      "name": "Moxie Bread Co. (Longmont Caf\u00e9)",
       "website": "https://www.moxiebreadco.com/",
       "checked_sources": [
         "https://www.moxiebreadco.com/events"
@@ -1015,7 +1008,7 @@
       "result": "Dated public events added"
     },
     {
-      "name": "Quarter’s Bar + Arcade",
+      "name": "Quarter\u2019s Bar + Arcade",
       "website": "https://quartersbarandarcade.com/",
       "checked_sources": [
         "https://quartersbarandarcade.com/longmont-quarter-s-bar-arcade-events"
@@ -1038,7 +1031,7 @@
       "result": "No additional dated public event verified; undated, expired, private or unavailable calendars were not used"
     },
     {
-      "name": "Recovery Café Longmont",
+      "name": "Recovery Caf\u00e9 Longmont",
       "website": "https://recoverycafelongmont.org/",
       "checked_sources": [
         "https://recoverycafelongmont.org/events"
@@ -1192,7 +1185,7 @@
       "result": "No additional dated public event verified; undated, expired, private or unavailable calendars were not used"
     },
     {
-      "name": "Wren’s Nest Art Studio",
+      "name": "Wren\u2019s Nest Art Studio",
       "website": "https://wrensneststudio.com/",
       "checked_sources": [
         "https://wrensneststudio.com/calendar",
@@ -1475,7 +1468,7 @@
       "category": "Arts & Community"
     },
     {
-      "title": "Repair Café",
+      "title": "Repair Caf\u00e9",
       "organizer": "TinkerMill",
       "start": "2026-10-17T09:30:00-06:00",
       "end": "2026-10-17T14:30:00-06:00",
@@ -1602,7 +1595,7 @@
     },
     {
       "title": "Date Night Drop-Off Art",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-10-17T16:00:00",
       "end": "2026-10-17T18:00:00",
       "url": "https://wrensneststudio.com/classes#datenight",
@@ -1878,7 +1871,7 @@
     },
     {
       "title": "Monday Night Adult Skeeball League",
-      "organizer": "Quarter’s Bar + Arcade",
+      "organizer": "Quarter\u2019s Bar + Arcade",
       "start": "2026-10-19T00:00:00",
       "end": "2026-10-19T00:00:00",
       "url": "https://www.downtownlongmont.com/do/monday-night-adult-skeeball-league-3",
@@ -1892,14 +1885,14 @@
     },
     {
       "title": "No-School Day Art Camp",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-10-19T09:00:00",
       "end": "2026-10-19T15:00:00",
       "url": "https://wrensneststudio.com/classes#camps",
       "location": "2030 Ionosphere St., Unit A, Longmont",
       "image": "",
       "description": "",
-      "cost": "Half day $90 (ends 1 PM); full day $135; ages 4–12",
+      "cost": "Half day $90 (ends 1 PM); full day $135; ages 4\u201312",
       "category": "Art Classes & Camps"
     },
     {
@@ -1964,14 +1957,14 @@
     },
     {
       "title": "Afterschool Art",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-10-19T16:00:00",
       "end": "2026-10-19T17:30:00",
       "url": "https://wrensneststudio.com/classes#afterschool",
       "location": "2030 Ionosphere St., Unit A, Longmont",
       "image": "",
       "description": "",
-      "cost": "Daily drop-in $45; ages 4–12",
+      "cost": "Daily drop-in $45; ages 4\u201312",
       "category": "Art Classes & Camps"
     },
     {
@@ -2000,7 +1993,7 @@
     },
     {
       "title": "Open Studio",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-10-19T18:00:00",
       "end": "2026-10-19T20:00:00",
       "url": "https://wrensneststudio.com/classes#openstudio",
@@ -2038,7 +2031,7 @@
     },
     {
       "title": "Tuesday Night Adult Skeeball League",
-      "organizer": "Quarter’s Bar + Arcade",
+      "organizer": "Quarter\u2019s Bar + Arcade",
       "start": "2026-10-20T00:00:00",
       "end": "2026-10-20T00:00:00",
       "url": "https://www.downtownlongmont.com/do/tuesday-night-adult-skeeball-league-3",
@@ -2246,14 +2239,14 @@
     },
     {
       "title": "Afterschool Art",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-10-21T16:00:00",
       "end": "2026-10-21T17:30:00",
       "url": "https://wrensneststudio.com/classes#afterschool",
       "location": "2030 Ionosphere St., Unit A, Longmont",
       "image": "",
       "description": "",
-      "cost": "Daily drop-in $45; ages 4–12",
+      "cost": "Daily drop-in $45; ages 4\u201312",
       "category": "Art Classes & Camps"
     },
     {
@@ -2305,7 +2298,7 @@
       "category": "Library & Learning"
     },
     {
-      "title": "Workshop: What is Vision Zero? – Safer People",
+      "title": "Workshop: What is Vision Zero? \u2013 Safer People",
       "organizer": "Longmont Senior Center",
       "start": "2026-10-21T18:00:00",
       "end": "2026-10-21T19:30:00",
@@ -2577,7 +2570,7 @@
       "category": "Music & Community"
     },
     {
-      "title": "¡Viva la Vida! A Tribute to Frida Kahlo",
+      "title": "\u00a1Viva la Vida! A Tribute to Frida Kahlo",
       "organizer": "Longmont Museum",
       "start": "2026-10-22T19:00:00",
       "end": "2026-10-22T21:00:00",
@@ -2723,7 +2716,7 @@
       "location": "7873 St. Vrain Rd., Longmont",
       "image": "",
       "description": "",
-      "cost": "Ages 11–17; registration required",
+      "cost": "Ages 11\u201317; registration required",
       "category": "Local Events"
     },
     {
@@ -3237,7 +3230,7 @@
       "category": "Classes & Events"
     },
     {
-      "title": "Kids’ Creative Movement Class",
+      "title": "Kids\u2019 Creative Movement Class",
       "organizer": "Longmont Public Library",
       "start": "2026-10-25T14:00:00",
       "end": "2026-10-25T14:30:00",
@@ -3376,14 +3369,14 @@
     },
     {
       "title": "Afterschool Art",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-10-26T16:00:00",
       "end": "2026-10-26T17:30:00",
       "url": "https://wrensneststudio.com/classes#afterschool",
       "location": "2030 Ionosphere St., Unit A, Longmont",
       "image": "",
       "description": "",
-      "cost": "Daily drop-in $45; ages 4–12",
+      "cost": "Daily drop-in $45; ages 4\u201312",
       "category": "Art Classes & Camps"
     },
     {
@@ -3412,7 +3405,7 @@
     },
     {
       "title": "Open Studio",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-10-26T18:00:00",
       "end": "2026-10-26T20:00:00",
       "url": "https://wrensneststudio.com/classes#openstudio",
@@ -3682,14 +3675,14 @@
     },
     {
       "title": "Afterschool Art",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-10-28T16:00:00",
       "end": "2026-10-28T17:30:00",
       "url": "https://wrensneststudio.com/classes#afterschool",
       "location": "2030 Ionosphere St., Unit A, Longmont",
       "image": "",
       "description": "",
-      "cost": "Daily drop-in $45; ages 4–12",
+      "cost": "Daily drop-in $45; ages 4\u201312",
       "category": "Art Classes & Camps"
     },
     {
@@ -3943,7 +3936,7 @@
       "sessions": 1
     },
     {
-      "title": "Taller: ¿Qué es Visión Cero? – Personas más seguras",
+      "title": "Taller: \u00bfQu\u00e9 es Visi\u00f3n Cero? \u2013 Personas m\u00e1s seguras",
       "organizer": "Longmont Senior Center",
       "start": "2026-10-29T18:00:00",
       "end": "2026-10-29T19:30:00",
@@ -4003,7 +3996,7 @@
       "category": "Music & Community"
     },
     {
-      "title": "Mont Alto Motion Picture Orchestra: Fritz Lang’s Destiny (1921, NR)",
+      "title": "Mont Alto Motion Picture Orchestra: Fritz Lang\u2019s Destiny (1921, NR)",
       "organizer": "Longmont Museum",
       "start": "2026-10-29T19:00:00",
       "end": "2026-10-29T21:00:00",
@@ -4573,7 +4566,7 @@
       "category": "Classes & Events"
     },
     {
-      "title": "Lotería Mexicana",
+      "title": "Loter\u00eda Mexicana",
       "organizer": "Longmont Public Library",
       "start": "2026-11-01T15:00:00",
       "end": "2026-11-01T16:00:00",
@@ -4650,14 +4643,14 @@
     },
     {
       "title": "Afterschool Art",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-11-02T16:00:00",
       "end": "2026-11-02T17:30:00",
       "url": "https://wrensneststudio.com/classes#afterschool",
       "location": "2030 Ionosphere St., Unit A, Longmont",
       "image": "",
       "description": "",
-      "cost": "Daily drop-in $45; ages 4–12",
+      "cost": "Daily drop-in $45; ages 4\u201312",
       "category": "Art Classes & Camps"
     },
     {
@@ -4686,7 +4679,7 @@
     },
     {
       "title": "Open Studio",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-11-02T18:00:00",
       "end": "2026-11-02T20:00:00",
       "url": "https://wrensneststudio.com/classes#openstudio",
@@ -4733,7 +4726,7 @@
       "category": "Arts & Community"
     },
     {
-      "title": "Paper Pop-Ups: Kids’ Art Series",
+      "title": "Paper Pop-Ups: Kids\u2019 Art Series",
       "organizer": "Open Window Studio",
       "start": "2026-11-03T16:00:00",
       "end": "2026-11-03T17:30:00",
@@ -4741,7 +4734,7 @@
       "location": "7873 St. Vrain Rd., Longmont",
       "image": "",
       "description": "A three-session paper-art class beginning November 3. Registration covers the complete series.",
-      "cost": "Grades 1–5; register for November 3, 10 and 17",
+      "cost": "Grades 1\u20135; register for November 3, 10 and 17",
       "category": "Local Events"
     },
     {
@@ -4910,14 +4903,14 @@
     },
     {
       "title": "Afterschool Art",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-11-04T16:00:00",
       "end": "2026-11-04T17:30:00",
       "url": "https://wrensneststudio.com/classes#afterschool",
       "location": "2030 Ionosphere St., Unit A, Longmont",
       "image": "",
       "description": "",
-      "cost": "Daily drop-in $45; ages 4–12",
+      "cost": "Daily drop-in $45; ages 4\u201312",
       "category": "Art Classes & Camps"
     },
     {
@@ -5882,14 +5875,14 @@
     },
     {
       "title": "Afterschool Art",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-11-09T16:00:00",
       "end": "2026-11-09T17:30:00",
       "url": "https://wrensneststudio.com/classes#afterschool",
       "location": "2030 Ionosphere St., Unit A, Longmont",
       "image": "",
       "description": "",
-      "cost": "Daily drop-in $45; ages 4–12",
+      "cost": "Daily drop-in $45; ages 4\u201312",
       "category": "Art Classes & Camps"
     },
     {
@@ -5918,7 +5911,7 @@
     },
     {
       "title": "Open Studio",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-11-09T18:00:00",
       "end": "2026-11-09T20:00:00",
       "url": "https://wrensneststudio.com/classes#openstudio",
@@ -6053,7 +6046,7 @@
       "category": "Local Events"
     },
     {
-      "title": "Teen Writers’ Group",
+      "title": "Teen Writers\u2019 Group",
       "organizer": "Longmont Public Library",
       "start": "2026-11-10T18:00:00",
       "end": "2026-11-10T19:00:00",
@@ -6104,14 +6097,14 @@
     },
     {
       "title": "No-School Day Art Camp",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-11-11T09:00:00",
       "end": "2026-11-11T15:00:00",
       "url": "https://wrensneststudio.com/classes#camps",
       "location": "2030 Ionosphere St., Unit A, Longmont",
       "image": "",
       "description": "",
-      "cost": "Half day $90 (ends 1 PM); full day $135; ages 4–12",
+      "cost": "Half day $90 (ends 1 PM); full day $135; ages 4\u201312",
       "category": "Art Classes & Camps"
     },
     {
@@ -6142,14 +6135,14 @@
     },
     {
       "title": "Afterschool Art",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-11-11T16:00:00",
       "end": "2026-11-11T17:30:00",
       "url": "https://wrensneststudio.com/classes#afterschool",
       "location": "2030 Ionosphere St., Unit A, Longmont",
       "image": "",
       "description": "",
-      "cost": "Daily drop-in $45; ages 4–12",
+      "cost": "Daily drop-in $45; ages 4\u201312",
       "category": "Art Classes & Camps"
     },
     {
@@ -6537,7 +6530,7 @@
       "location": "7873 St. Vrain Rd., Longmont",
       "image": "",
       "description": "",
-      "cost": "Ages 11–17; registration required",
+      "cost": "Ages 11\u201317; registration required",
       "category": "Local Events"
     },
     {
@@ -6671,7 +6664,7 @@
       "sessions": 1
     },
     {
-      "title": "Kids’ Clay Workshop",
+      "title": "Kids\u2019 Clay Workshop",
       "organizer": "Open Window Studio",
       "start": "2026-11-14T13:00:00",
       "end": "2026-11-14T15:30:00",
@@ -6708,7 +6701,7 @@
     },
     {
       "title": "Date Night Drop-Off Art",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-11-14T16:00:00",
       "end": "2026-11-14T18:00:00",
       "url": "https://wrensneststudio.com/classes#datenight",
@@ -6998,14 +6991,14 @@
     },
     {
       "title": "Afterschool Art",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-11-16T16:00:00",
       "end": "2026-11-16T17:30:00",
       "url": "https://wrensneststudio.com/classes#afterschool",
       "location": "2030 Ionosphere St., Unit A, Longmont",
       "image": "",
       "description": "",
-      "cost": "Daily drop-in $45; ages 4–12",
+      "cost": "Daily drop-in $45; ages 4\u201312",
       "category": "Art Classes & Camps"
     },
     {
@@ -7022,7 +7015,7 @@
     },
     {
       "title": "Open Studio",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-11-16T18:00:00",
       "end": "2026-11-16T20:00:00",
       "url": "https://wrensneststudio.com/classes#openstudio",
@@ -7258,14 +7251,14 @@
     },
     {
       "title": "Afterschool Art",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-11-18T16:00:00",
       "end": "2026-11-18T17:30:00",
       "url": "https://wrensneststudio.com/classes#afterschool",
       "location": "2030 Ionosphere St., Unit A, Longmont",
       "image": "",
       "description": "",
-      "cost": "Daily drop-in $45; ages 4–12",
+      "cost": "Daily drop-in $45; ages 4\u201312",
       "category": "Art Classes & Camps"
     },
     {
@@ -7331,7 +7324,7 @@
       "category": "Library & Learning"
     },
     {
-      "title": "Workshop: What is Vision Zero? – Safer Speeds",
+      "title": "Workshop: What is Vision Zero? \u2013 Safer Speeds",
       "organizer": "Longmont Senior Center",
       "start": "2026-11-18T18:00:00",
       "end": "2026-11-18T19:30:00",
@@ -7505,7 +7498,7 @@
       "location": "Heart of Longmont, Longmont",
       "image": "",
       "description": "",
-      "cost": "Ages 0–8 and siblings; see organizer for details",
+      "cost": "Ages 0\u20138 and siblings; see organizer for details",
       "category": "Local Events"
     },
     {
@@ -7557,7 +7550,7 @@
       "category": "Library & Learning"
     },
     {
-      "title": "Taller: ¿Qué es Visión Cero? – Velocidades más seguras",
+      "title": "Taller: \u00bfQu\u00e9 es Visi\u00f3n Cero? \u2013 Velocidades m\u00e1s seguras",
       "organizer": "Longmont Senior Center",
       "start": "2026-11-19T18:00:00",
       "end": "2026-11-19T19:30:00",
@@ -7593,7 +7586,7 @@
       "category": "Classes & Events"
     },
     {
-      "title": "Cultural Caravan & the Future of Chamber Music: Can’t Take My Soul",
+      "title": "Cultural Caravan & the Future of Chamber Music: Can\u2019t Take My Soul",
       "organizer": "Longmont Museum",
       "start": "2026-11-19T19:00:00",
       "end": "2026-11-19T21:00:00",
@@ -7795,7 +7788,7 @@
       "category": "Arts & Community"
     },
     {
-      "title": "Repair Café",
+      "title": "Repair Caf\u00e9",
       "organizer": "TinkerMill",
       "start": "2026-11-21T09:30:00-07:00",
       "end": "2026-11-21T14:30:00-07:00",
@@ -7999,7 +7992,7 @@
       "category": "Farms & Family"
     },
     {
-      "title": "Kids’ Creative Movement Class",
+      "title": "Kids\u2019 Creative Movement Class",
       "organizer": "Longmont Public Library",
       "start": "2026-11-22T14:00:00",
       "end": "2026-11-22T14:30:00",
@@ -8052,14 +8045,14 @@
     },
     {
       "title": "No-School Day Art Camp",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-11-23T09:00:00",
       "end": "2026-11-23T15:00:00",
       "url": "https://wrensneststudio.com/classes#camps",
       "location": "2030 Ionosphere St., Unit A, Longmont",
       "image": "",
       "description": "",
-      "cost": "Half day $90 (ends 1 PM); full day $135; ages 4–12",
+      "cost": "Half day $90 (ends 1 PM); full day $135; ages 4\u201312",
       "category": "Art Classes & Camps"
     },
     {
@@ -8138,14 +8131,14 @@
     },
     {
       "title": "No-School Day Art Camp",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-11-24T09:00:00",
       "end": "2026-11-24T15:00:00",
       "url": "https://wrensneststudio.com/classes#camps",
       "location": "2030 Ionosphere St., Unit A, Longmont",
       "image": "",
       "description": "",
-      "cost": "Half day $90 (ends 1 PM); full day $135; ages 4–12",
+      "cost": "Half day $90 (ends 1 PM); full day $135; ages 4\u201312",
       "category": "Art Classes & Camps"
     },
     {
@@ -8238,14 +8231,14 @@
     },
     {
       "title": "No-School Day Art Camp",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-11-25T09:00:00",
       "end": "2026-11-25T15:00:00",
       "url": "https://wrensneststudio.com/classes#camps",
       "location": "2030 Ionosphere St., Unit A, Longmont",
       "image": "",
       "description": "",
-      "cost": "Half day $90 (ends 1 PM); full day $135; ages 4–12",
+      "cost": "Half day $90 (ends 1 PM); full day $135; ages 4\u201312",
       "category": "Art Classes & Camps"
     },
     {
@@ -8382,14 +8375,14 @@
     },
     {
       "title": "No-School Day Art Camp",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-11-27T09:00:00",
       "end": "2026-11-27T15:00:00",
       "url": "https://wrensneststudio.com/classes#camps",
       "location": "2030 Ionosphere St., Unit A, Longmont",
       "image": "",
       "description": "",
-      "cost": "Half day $90 (ends 1 PM); full day $135; ages 4–12",
+      "cost": "Half day $90 (ends 1 PM); full day $135; ages 4\u201312",
       "category": "Art Classes & Camps"
     },
     {
@@ -8600,14 +8593,14 @@
     },
     {
       "title": "Afterschool Art",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-11-30T16:00:00",
       "end": "2026-11-30T17:30:00",
       "url": "https://wrensneststudio.com/classes#afterschool",
       "location": "2030 Ionosphere St., Unit A, Longmont",
       "image": "",
       "description": "",
-      "cost": "Daily drop-in $45; ages 4–12",
+      "cost": "Daily drop-in $45; ages 4\u201312",
       "category": "Art Classes & Camps"
     },
     {
@@ -8624,7 +8617,7 @@
     },
     {
       "title": "Open Studio",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-11-30T18:00:00",
       "end": "2026-11-30T20:00:00",
       "url": "https://wrensneststudio.com/classes#openstudio",
@@ -8697,7 +8690,7 @@
       "category": "Library & Learning"
     },
     {
-      "title": "Holiday Crafts & Cardmaking: Kids’ Art Series",
+      "title": "Holiday Crafts & Cardmaking: Kids\u2019 Art Series",
       "organizer": "Open Window Studio",
       "start": "2026-12-01T16:00:00",
       "end": "2026-12-01T17:30:00",
@@ -8705,7 +8698,7 @@
       "location": "7873 St. Vrain Rd., Longmont",
       "image": "",
       "description": "A three-session holiday craft class beginning December 1. Registration covers the complete series.",
-      "cost": "Grades 1–5; register for December 1, 8 and 15",
+      "cost": "Grades 1\u20135; register for December 1, 8 and 15",
       "category": "Local Events"
     },
     {
@@ -8850,14 +8843,14 @@
     },
     {
       "title": "Afterschool Art",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-12-02T16:00:00",
       "end": "2026-12-02T17:30:00",
       "url": "https://wrensneststudio.com/classes#afterschool",
       "location": "2030 Ionosphere St., Unit A, Longmont",
       "image": "",
       "description": "",
-      "cost": "Daily drop-in $45; ages 4–12",
+      "cost": "Daily drop-in $45; ages 4\u201312",
       "category": "Art Classes & Camps"
     },
     {
@@ -9197,7 +9190,7 @@
       "location": "7873 St. Vrain Rd., Longmont",
       "image": "",
       "description": "",
-      "cost": "Ages 11–17; registration required",
+      "cost": "Ages 11\u201317; registration required",
       "category": "Local Events"
     },
     {
@@ -9365,7 +9358,7 @@
       "category": "Farms & Family"
     },
     {
-      "title": "Kids’ Clay Workshop",
+      "title": "Kids\u2019 Clay Workshop",
       "organizer": "Open Window Studio",
       "start": "2026-12-05T13:00:00",
       "end": "2026-12-05T15:30:00",
@@ -9575,7 +9568,7 @@
       "category": "Classes & Events"
     },
     {
-      "title": "Lotería Mexicana",
+      "title": "Loter\u00eda Mexicana",
       "organizer": "Longmont Public Library",
       "start": "2026-12-06T15:00:00",
       "end": "2026-12-06T16:00:00",
@@ -9652,14 +9645,14 @@
     },
     {
       "title": "Afterschool Art",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-12-07T16:00:00",
       "end": "2026-12-07T17:30:00",
       "url": "https://wrensneststudio.com/classes#afterschool",
       "location": "2030 Ionosphere St., Unit A, Longmont",
       "image": "",
       "description": "",
-      "cost": "Daily drop-in $45; ages 4–12",
+      "cost": "Daily drop-in $45; ages 4\u201312",
       "category": "Art Classes & Camps"
     },
     {
@@ -9688,7 +9681,7 @@
     },
     {
       "title": "Open Studio",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-12-07T18:00:00",
       "end": "2026-12-07T20:00:00",
       "url": "https://wrensneststudio.com/classes#openstudio",
@@ -9773,7 +9766,7 @@
       "category": "Library & Learning"
     },
     {
-      "title": "Teen Writers’ Group",
+      "title": "Teen Writers\u2019 Group",
       "organizer": "Longmont Public Library",
       "start": "2026-12-08T18:00:00",
       "end": "2026-12-08T19:00:00",
@@ -9838,14 +9831,14 @@
     },
     {
       "title": "Afterschool Art",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-12-09T16:00:00",
       "end": "2026-12-09T17:30:00",
       "url": "https://wrensneststudio.com/classes#afterschool",
       "location": "2030 Ionosphere St., Unit A, Longmont",
       "image": "",
       "description": "",
-      "cost": "Daily drop-in $45; ages 4–12",
+      "cost": "Daily drop-in $45; ages 4\u201312",
       "category": "Art Classes & Camps"
     },
     {
@@ -9878,7 +9871,7 @@
       "start": "2026-12-09T18:30:00",
       "end": "2026-12-09T20:00:00",
       "url": "https://longmontcolorado.gov/event/landlord-tenant-alliance/2026-12-09/",
-      "location": "Longmont Senior Center – Rooms D&E, 910 Longs Peak Ave, Longmont",
+      "location": "Longmont Senior Center \u2013 Rooms D&E, 910 Longs Peak Ave, Longmont",
       "image": "https://longmontcolorado.gov/wp-content/uploads/2026/04/City-of-Longmont-logo-D0omdy.tmp_.png",
       "description": "",
       "cost": "",
@@ -10035,7 +10028,7 @@
       "sessions": 1
     },
     {
-      "title": "Friday Afternoon Concert: Boulder Philharmonic Winter Wind’erland",
+      "title": "Friday Afternoon Concert: Boulder Philharmonic Winter Wind\u2019erland",
       "organizer": "Longmont Museum",
       "start": "2026-12-11T14:30:00",
       "end": "2026-12-11T16:30:00",
@@ -10376,14 +10369,14 @@
     },
     {
       "title": "Afterschool Art",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-12-14T16:00:00",
       "end": "2026-12-14T17:30:00",
       "url": "https://wrensneststudio.com/classes#afterschool",
       "location": "2030 Ionosphere St., Unit A, Longmont",
       "image": "",
       "description": "",
-      "cost": "Daily drop-in $45; ages 4–12",
+      "cost": "Daily drop-in $45; ages 4\u201312",
       "category": "Art Classes & Camps"
     },
     {
@@ -10412,7 +10405,7 @@
     },
     {
       "title": "Open Studio",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-12-14T18:00:00",
       "end": "2026-12-14T20:00:00",
       "url": "https://wrensneststudio.com/classes#openstudio",
@@ -10552,14 +10545,14 @@
     },
     {
       "title": "Afterschool Art",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-12-16T16:00:00",
       "end": "2026-12-16T17:30:00",
       "url": "https://wrensneststudio.com/classes#afterschool",
       "location": "2030 Ionosphere St., Unit A, Longmont",
       "image": "",
       "description": "",
-      "cost": "Daily drop-in $45; ages 4–12",
+      "cost": "Daily drop-in $45; ages 4\u201312",
       "category": "Art Classes & Camps"
     },
     {
@@ -10761,7 +10754,7 @@
       "category": "Library & Learning"
     },
     {
-      "title": "Repair Café",
+      "title": "Repair Caf\u00e9",
       "organizer": "TinkerMill",
       "start": "2026-12-19T09:30:00-07:00",
       "end": "2026-12-19T14:30:00-07:00",
@@ -10952,14 +10945,14 @@
     },
     {
       "title": "No-School Day Art Camp",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-12-21T09:00:00",
       "end": "2026-12-21T15:00:00",
       "url": "https://wrensneststudio.com/classes#camps",
       "location": "2030 Ionosphere St., Unit A, Longmont",
       "image": "",
       "description": "",
-      "cost": "Half day $90 (ends 1 PM); full day $135; ages 4–12",
+      "cost": "Half day $90 (ends 1 PM); full day $135; ages 4\u201312",
       "category": "Art Classes & Camps"
     },
     {
@@ -11038,14 +11031,14 @@
     },
     {
       "title": "No-School Day Art Camp",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-12-22T09:00:00",
       "end": "2026-12-22T15:00:00",
       "url": "https://wrensneststudio.com/classes#camps",
       "location": "2030 Ionosphere St., Unit A, Longmont",
       "image": "",
       "description": "",
-      "cost": "Half day $90 (ends 1 PM); full day $135; ages 4–12",
+      "cost": "Half day $90 (ends 1 PM); full day $135; ages 4\u201312",
       "category": "Art Classes & Camps"
     },
     {
@@ -11100,14 +11093,14 @@
     },
     {
       "title": "No-School Day Art Camp",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-12-23T09:00:00",
       "end": "2026-12-23T15:00:00",
       "url": "https://wrensneststudio.com/classes#camps",
       "location": "2030 Ionosphere St., Unit A, Longmont",
       "image": "",
       "description": "",
-      "cost": "Half day $90 (ends 1 PM); full day $135; ages 4–12",
+      "cost": "Half day $90 (ends 1 PM); full day $135; ages 4\u201312",
       "category": "Art Classes & Camps"
     },
     {
@@ -11263,7 +11256,7 @@
       "date_only": true
     },
     {
-      "title": "Kids’ Creative Movement Class",
+      "title": "Kids\u2019 Creative Movement Class",
       "organizer": "Longmont Public Library",
       "start": "2026-12-27T14:00:00",
       "end": "2026-12-27T14:30:00",
@@ -11302,14 +11295,14 @@
     },
     {
       "title": "No-School Day Art Camp",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-12-28T09:00:00",
       "end": "2026-12-28T15:00:00",
       "url": "https://wrensneststudio.com/classes#camps",
       "location": "2030 Ionosphere St., Unit A, Longmont",
       "image": "",
       "description": "",
-      "cost": "Half day $90 (ends 1 PM); full day $135; ages 4–12",
+      "cost": "Half day $90 (ends 1 PM); full day $135; ages 4\u201312",
       "category": "Art Classes & Camps"
     },
     {
@@ -11364,14 +11357,14 @@
     },
     {
       "title": "No-School Day Art Camp",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-12-29T09:00:00",
       "end": "2026-12-29T15:00:00",
       "url": "https://wrensneststudio.com/classes#camps",
       "location": "2030 Ionosphere St., Unit A, Longmont",
       "image": "",
       "description": "",
-      "cost": "Half day $90 (ends 1 PM); full day $135; ages 4–12",
+      "cost": "Half day $90 (ends 1 PM); full day $135; ages 4\u201312",
       "category": "Art Classes & Camps"
     },
     {
@@ -11400,14 +11393,14 @@
     },
     {
       "title": "No-School Day Art Camp",
-      "organizer": "Wren’s Nest Art Studio",
+      "organizer": "Wren\u2019s Nest Art Studio",
       "start": "2026-12-30T09:00:00",
       "end": "2026-12-30T15:00:00",
       "url": "https://wrensneststudio.com/classes#camps",
       "location": "2030 Ionosphere St., Unit A, Longmont",
       "image": "",
       "description": "",
-      "cost": "Half day $90 (ends 1 PM); full day $135; ages 4–12",
+      "cost": "Half day $90 (ends 1 PM); full day $135; ages 4\u201312",
       "category": "Art Classes & Camps"
     },
     {
@@ -11437,7 +11430,7 @@
       "date_only": true
     },
     {
-      "title": "Noon Year’s Party",
+      "title": "Noon Year\u2019s Party",
       "organizer": "Longmont Public Library",
       "start": "2026-12-31T11:00:00",
       "end": "2026-12-31T12:00:00",

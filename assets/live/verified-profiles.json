@@ -1,18 +1,4 @@
 {
-  "ailurophile-cat-home-care.html": {
-    "id": "01b6d46e-443b-55e7-b052-a6f9dcbd8971",
-    "name": "Ailurophile Cat & Home Care",
-    "description": "A Longmont-based service specializing specifically in in-home cat care, including feeding, litter care, play, companionship and care for cats with specialized routines.",
-    "categories": [
-      "Cat-Focused Care"
-    ],
-    "website": "https://ailurophilecats.com/",
-    "phone": "737-990-2287",
-    "email": "info@ailurophilecats.com",
-    "story": "Ailurophile focuses on caring for cats in their own homes. The cat-centered service is designed around familiar surroundings and each animal's daily routine, including feeding, litter care, play and companionship.\n\nOwners can discuss their cat's individual needs before arranging visits. The service area and any specialized care requirements should be confirmed directly when booking.",
-    "image_url": "https://mktvisibility.github.io/LovingLongmont/Images/Business-Images/ailurophile-cat-home-care.jpg",
-    "service_area": "Longmont and surrounding service area; in-home appointments"
-  },
   "aspen-moon-farm.html": {
     "id": "98733d37-0cb2-5420-a95b-f161e8212cb9",
     "name": "Aspen Moon Farm",
@@ -50,7 +36,7 @@
     "phone": "720-494-1414",
     "email": "info@chr.org",
     "address": "10386 N 65th Street Longmont, CO 80503",
-    "story": "Colorado Horse Rescue has worked with at-risk horses since 1986. Its work brings rehabilitation, adoption and foster support together to help horses move toward safe, suitable homes.\n\nEducation and community involvement are part of that mission. Visitors and prospective supporters can learn about the horses, current programs and opportunities to take part through the rescue's official website.\n\nVisits to Colorado Horse Rescue are by appointment. Use the rescue’s official contact and hours page to arrange a tour and learn about current visitor opportunities.",
+    "story": "Colorado Horse Rescue has worked with at-risk horses since 1986. Its work brings rehabilitation, adoption and foster support together to help horses move toward safe, suitable homes.\n\nEducation and community involvement are part of that mission. Visitors and prospective supporters can learn about the horses, current programs and opportunities to take part through the rescue's official website.\n\nVisits to Colorado Horse Rescue are by appointment. Use the rescue\u2019s official contact and hours page to arrange a tour and learn about current visitor opportunities.",
     "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/colorado-horse-rescue-logo.webp",
     "gallery": [
       {
@@ -61,7 +47,7 @@
     ],
     "logo_alt": "Colorado Horse Rescue logo",
     "visit_url": "https://chr.org/about/contact-hours/",
-    "visit_label": "Arrange a Visit ↗",
+    "visit_label": "Arrange a Visit \u2197",
     "services": [
       "Sanctuary visits and tours by appointment"
     ]
@@ -169,7 +155,7 @@
     "website": "https://longmontcolorado.gov/facilities/dickens-farm-nature-area/",
     "phone": "303-776-6050",
     "address": "Boston Avenue between Main and Martin Streets, Longmont, CO 80501",
-    "story": "Dickens Farm Nature Area follows the St. Vrain Creek through a 52-acre site between Main and Martin streets. It connects visitors with the St. Vrain Greenway while combining natural habitat, trails and places to play.\n\nThe site includes nature-play features, a beginner bike-skills trail and historical and environmental interpretation. Seasonal creek conditions affect water activities, so visitors should check the city’s current information before planning a trip.",
+    "story": "Dickens Farm Nature Area follows the St. Vrain Creek through a 52-acre site between Main and Martin streets. It connects visitors with the St. Vrain Greenway while combining natural habitat, trails and places to play.\n\nThe site includes nature-play features, a beginner bike-skills trail and historical and environmental interpretation. Seasonal creek conditions affect water activities, so visitors should check the city\u2019s current information before planning a trip.",
     "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/dickens-farm-nature-area-logo.webp",
     "gallery": [
       {
@@ -193,7 +179,7 @@
     "description": "An independent specialist in mountain-bike suspension service, repair and tuning, with local and mail-in service.",
     "website": "https://service.dirtlabs.com/",
     "email": "service@dirtlabs.com",
-    "story": "Mike “Luby” Luebesmier founded DirtLabs in Boulder in 2008 with a focus on mountain-bike suspension service and tuning. The business later grew into a Longmont workshop serving individual riders and bicycle shops across the country.\n\nThe team's work centers on inspecting, rebuilding and tuning forks, shocks and dropper posts. Riders can arrange local drop-off or mail-in service, with booking options tailored to individuals and bike shops.",
+    "story": "Mike \u201cLuby\u201d Luebesmier founded DirtLabs in Boulder in 2008 with a focus on mountain-bike suspension service and tuning. The business later grew into a Longmont workshop serving individual riders and bicycle shops across the country.\n\nThe team's work centers on inspecting, rebuilding and tuning forks, shocks and dropper posts. Riders can arrange local drop-off or mail-in service, with booking options tailored to individuals and bike shops.",
     "gallery": [
       {
         "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/dirtlabs-suspension-photo.webp",
@@ -222,12 +208,12 @@
     "gallery": [
       {
         "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/e8yoga-photo.webp",
-        "alt": "Yoga practice in E8’s cedar-lined studio; photo from its official website",
+        "alt": "Yoga practice in E8\u2019s cedar-lined studio; photo from its official website",
         "enabled": true
       }
     ],
     "events_url": "https://e8.yoga/events",
-    "story": "E8 Yoga Studio has served Longmont since 2021, creating a place for students and teachers to practice and learn together. Its classes include several forms of yoga alongside strength sessions, Pilates and other studio experiences.\n\nThe cedar-lined studio uses infrared heat for heated practices, with additional options described in the current schedule. Workshops and community gatherings offer other ways to take part in the studio’s life."
+    "story": "E8 Yoga Studio has served Longmont since 2021, creating a place for students and teachers to practice and learn together. Its classes include several forms of yoga alongside strength sessions, Pilates and other studio experiences.\n\nThe cedar-lined studio uses infrared heat for heated practices, with additional options described in the current schedule. Workshops and community gatherings offer other ways to take part in the studio\u2019s life."
   },
   "elwood-staffing.html": {
     "id": "0e3733f3-de3e-5203-b077-c6a177efb2ee",
@@ -284,7 +270,7 @@
   "firehouse-art-center.html": {
     "id": "409d1bb5-e183-5849-8652-3a55ba2dda90",
     "name": "Firehouse Art Center",
-    "description": "Longmont’s nonprofit contemporary art center presents rotating exhibitions, education programs and community events in the Creative District.",
+    "description": "Longmont\u2019s nonprofit contemporary art center presents rotating exhibitions, education programs and community events in the Creative District.",
     "categories": [
       "Contemporary Art",
       "Classes",
@@ -296,7 +282,7 @@
     "phone": "303-651-2787",
     "email": "info@firehouseart.org",
     "address": "667 4th Avenue, Longmont, CO 80501",
-    "story": "The Firehouse Art Center connects exhibitions and arts education in a historic downtown Longmont building. Its programs bring working artists and the wider community into the same creative space.\n\nMembership, volunteer opportunities and educational activities give people different ways to take part. The center’s official website shares current exhibitions, programs and ways to support its work.",
+    "story": "The Firehouse Art Center connects exhibitions and arts education in a historic downtown Longmont building. Its programs bring working artists and the wider community into the same creative space.\n\nMembership, volunteer opportunities and educational activities give people different ways to take part. The center\u2019s official website shares current exhibitions, programs and ways to support its work.",
     "image_url": "https://firehouseart.org/wp-content/uploads/2024/01/Firehouse-Art-Center-Black.png",
     "logo_alt": "Firehouse Art Center logo",
     "gallery": [
@@ -347,7 +333,7 @@
     "website": "https://longmontcolorado.gov/facility/garden-acres-community-park/",
     "phone": "303-776-6050",
     "address": "2058 Spencer Street, Longmont, CO 80501",
-    "story": "Garden Acres was developed in 1989 as Longmont’s third community park. Over time, its sports facilities, paths, playgrounds and gathering spaces have made it a place for both organized recreation and everyday neighborhood visits.\n\nThe Oligarchy Ditch Primary Greenway Trail runs through the park. Near the south entrance, Jerry Boyle’s bronze sculpture Free-For-All depicts three children at play, linking the park’s recreation spaces with Longmont’s public-art collection.",
+    "story": "Garden Acres was developed in 1989 as Longmont\u2019s third community park. Over time, its sports facilities, paths, playgrounds and gathering spaces have made it a place for both organized recreation and everyday neighborhood visits.\n\nThe Oligarchy Ditch Primary Greenway Trail runs through the park. Near the south entrance, Jerry Boyle\u2019s bronze sculpture Free-For-All depicts three children at play, linking the park\u2019s recreation spaces with Longmont\u2019s public-art collection.",
     "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/dickens-farm-nature-area-logo.webp",
     "gallery": [
       {
@@ -388,10 +374,10 @@
       "Farms & Agriculture"
     ],
     "description": "A Longmont nonprofit sanctuary providing a safe forever home for rescued farm animals. Good Life Refuge cares for over 60 animals and relies on volunteers and donors to support their residents.",
-    "story": "Good Life Refuge provides a sanctuary for rescued farm animals and shares their individual stories with the community. Its work combines ongoing animal care with opportunities for people to learn about compassion toward farmed animals.\n\nTours and special gatherings help visitors connect with the residents and the work of the refuge. Visits are organized through the sanctuary, so guests should check the current tour and event information before coming.\n\nKindness Tours offer a guided visit to meet the sanctuary’s rescued farm animals and learn their stories. Public tours and private group tours are available, and the guided experience lasts approximately 45 minutes. Arrange a tour in advance through Good Life Refuge’s official booking page.",
+    "story": "Good Life Refuge provides a sanctuary for rescued farm animals and shares their individual stories with the community. Its work combines ongoing animal care with opportunities for people to learn about compassion toward farmed animals.\n\nTours and special gatherings help visitors connect with the residents and the work of the refuge. Visits are organized through the sanctuary, so guests should check the current tour and event information before coming.\n\nKindness Tours offer a guided visit to meet the sanctuary\u2019s rescued farm animals and learn their stories. Public tours and private group tours are available, and the guided experience lasts approximately 45 minutes. Arrange a tour in advance through Good Life Refuge\u2019s official booking page.",
     "events_url": "https://www.goodliferefuge.org/events-calender",
     "visit_url": "https://www.goodliferefuge.org/kindness-tour",
-    "visit_label": "Book a Kindness Tour ↗",
+    "visit_label": "Book a Kindness Tour \u2197",
     "services": [
       "Kindness Tours: guided public and private group visits; advance booking required"
     ]
@@ -439,7 +425,7 @@
       "National Register District",
       "Historic Longmont"
     ],
-    "description": "The 1913–14 home of Charles Lewis Hover and Katherine Baird Hover anchors a preserved historic district connected to one of Longmont’s influential early families.",
+    "description": "The 1913\u201314 home of Charles Lewis Hover and Katherine Baird Hover anchors a preserved historic district connected to one of Longmont\u2019s influential early families.",
     "phone": "303-774-7810",
     "email": "office@stvrainhistory.org",
     "address": "1309 Hover Street, Longmont, CO 80501",
@@ -450,7 +436,7 @@
   "hover-farmstead.html": {
     "id": "4292ee88-5606-5e4d-a86b-3ea5be32d19a",
     "name": "Hover Farmstead",
-    "description": "The remaining farm buildings preserve the working side of the Hover family property and help tell Longmont’s agricultural story beyond the walls of Hoverhome.",
+    "description": "The remaining farm buildings preserve the working side of the Hover family property and help tell Longmont\u2019s agricultural story beyond the walls of Hoverhome.",
     "categories": [
       "Farm History",
       "Agricultural Heritage",
@@ -625,7 +611,7 @@
     ],
     "description": "",
     "events_url": "https://bcfm.org/markets/longmont-farmers-market/",
-    "story": "The Longmont Farmers Market began in 1989 as part of the local growers’ market movement. Its growers-only approach connects shoppers with the farmers and producers responsible for what they buy.\n\nAt the Boulder County Fairgrounds, seasonal food, prepared goods, music and family activities turn market day into a community gathering. Boulder County Farmers Markets also works to broaden access to local food through its food-access programs."
+    "story": "The Longmont Farmers Market began in 1989 as part of the local growers\u2019 market movement. Its growers-only approach connects shoppers with the farmers and producers responsible for what they buy.\n\nAt the Boulder County Fairgrounds, seasonal food, prepared goods, music and family activities turn market day into a community gathering. Boulder County Farmers Markets also works to broaden access to local food through its food-access programs."
   },
   "longmont-food-rescue.html": {
     "id": "5c25ae4c-9408-5eec-b159-c5117934d3bc",
@@ -690,7 +676,7 @@
     ],
     "description": "The open-air covered rink at Roosevelt Park offers public skating, hockey and lessons during the winter season.",
     "image_url": "https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,f_jpg,h_650,q_80,w_1000/https%3A%2F%2Fassets.simpleviewinc.com%2Fsimpleview%2Fimage%2Fupload%2Fcrm%2Flongmontco%2FIce-Skating--Sherri-O-Hara-15--77456a7d5056b36_77456f49-5056-b365-ab975084db923379.jpg",
-    "story": "Longmont Ice Pavilion gives the community an outdoor place to skate during its operating season. The city facility brings recreational skating and ice-sport programs into Roosevelt Park.\n\nPublic sessions, lessons and other activities follow a seasonal schedule. Visitors should check the city’s current information for opening dates, registration and admission details before heading to the ice.",
+    "story": "Longmont Ice Pavilion gives the community an outdoor place to skate during its operating season. The city facility brings recreational skating and ice-sport programs into Roosevelt Park.\n\nPublic sessions, lessons and other activities follow a seasonal schedule. Visitors should check the city\u2019s current information for opening dates, registration and admission details before heading to the ice.",
     "events_url": "https://longmontcolorado.gov/recreation-services/activities/ice-skating/"
   },
   "longmont-meals-on-wheels.html": {
@@ -956,8 +942,8 @@
   },
   "old-st-stephens-church.html": {
     "id": "9ca4674b-7a75-5525-99f1-7e719ba37c54",
-    "name": "Old St. Stephen’s Church",
-    "description": "Built in 1881 and long known as the “Little White Church,” this downtown landmark is among Longmont’s oldest surviving church buildings and now serves community and preservation uses.",
+    "name": "Old St. Stephen\u2019s Church",
+    "description": "Built in 1881 and long known as the \u201cLittle White Church,\u201d this downtown landmark is among Longmont\u2019s oldest surviving church buildings and now serves community and preservation uses.",
     "categories": [
       "1881 Church",
       "Local Landmark",
@@ -973,7 +959,7 @@
     "gallery": [
       {
         "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/old-st-stephen-s-church-photo.webp",
-        "alt": "Photo from the official website of Old St. Stephen’s Church",
+        "alt": "Photo from the official website of Old St. Stephen\u2019s Church",
         "enabled": true
       }
     ]
@@ -1199,7 +1185,7 @@
     "phone": "303-774-4692",
     "email": "sandstone.ranch@longmontcolorado.gov",
     "address": "3001 Sandstone Drive, Longmont, CO 80504",
-    "story": "The Sandstone Ranch property was first homesteaded by the Coffin family in 1860. Its historic house now serves as a Visitors & Learning Center, connecting the area’s human history with its geology, landscape and wildlife.\n\nHands-on displays and surrounding historic buildings help visitors imagine life here more than a century ago. Nature trails, educational programs and seasonal public opening hours offer different ways to explore the ranch.",
+    "story": "The Sandstone Ranch property was first homesteaded by the Coffin family in 1860. Its historic house now serves as a Visitors & Learning Center, connecting the area\u2019s human history with its geology, landscape and wildlife.\n\nHands-on displays and surrounding historic buildings help visitors imagine life here more than a century ago. Nature trails, educational programs and seasonal public opening hours offer different ways to explore the ranch.",
     "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/dickens-farm-nature-area-logo.webp",
     "events_url": "https://longmontcolorado.gov/sandstone-ranch/visitors-learning-center-at-sandstone-ranch/special-programs-classes-events-sandstone-ranch/",
     "logo_alt": "Sandstone Ranch Visitors & Learning Center logo"
@@ -1317,7 +1303,7 @@
     "email": "info@whitefieldschurch.com",
     "address": "2950 Colorful Avenue #100 Longmont, CO 80504",
     "image_url": "",
-    "story": "Table of Hope is the food-pantry ministry of White Fields Community Church. It is part of the church’s work to support people in Longmont and the surrounding community.\n\nThe church can explain current pantry arrangements and ways to contribute or volunteer. People seeking food assistance should contact the team for the latest distribution information."
+    "story": "Table of Hope is the food-pantry ministry of White Fields Community Church. It is part of the church\u2019s work to support people in Longmont and the surrounding community.\n\nThe church can explain current pantry arrangements and ways to contribute or volunteer. People seeking food assistance should contact the team for the latest distribution information."
   },
   "the-bee-hugger-farm.html": {
     "id": "ab70f6a2-9597-56ce-a256-162c17eb9fb2",
@@ -1384,7 +1370,7 @@
       "Gift Shops",
       "Shopping"
     ],
-    "description": "A family-owned Longmont garden center operating since 1971, with five acres of plants, indoor growing space, gardening supplies, gifts and home décor.",
+    "description": "A family-owned Longmont garden center operating since 1971, with five acres of plants, indoor growing space, gardening supplies, gifts and home d\u00e9cor.",
     "story": "Family-owned and operated since 1971, The Flower Bin has grown alongside generations of Colorado gardeners. Its Longmont garden center includes substantial greenhouse space, supported by a growing operation in Platteville.\n\nThe nursery brings plants, gardening supplies and seasonal gifts together, from annuals and hanging baskets to perennials, roses and houseplants. Its staff and gardening information help customers choose plants suited to their spaces and the Front Range's changing seasons.",
     "gallery": [
       {
@@ -1409,7 +1395,7 @@
     ],
     "description": "A cozy independent bookshop in Prospect New Town with curated fiction and children's books, book-themed gifts and community events including author visits and book clubs.",
     "website": "https://www.instagram.com/thequillandcandle_bookshop/",
-    "story": "The Quill & Candle Bookshop is an independent, woman-owned bookshop in Prospect New Town. Its shelves focus on selected fiction and children’s literature.\n\nAlongside books, the shop carries book-themed gifts, notebooks, games, puzzles, toys and candles. Visitors can follow its official social account for current shop news and activities."
+    "story": "The Quill & Candle Bookshop is an independent, woman-owned bookshop in Prospect New Town. Its shelves focus on selected fiction and children\u2019s literature.\n\nAlongside books, the shop carries book-themed gifts, notebooks, games, puzzles, toys and candles. Visitors can follow its official social account for current shop news and activities."
   },
   "the-round-pantry.html": {
     "id": "ef37c1cc-bd05-5f26-bc89-fb3f697d1cf5",
@@ -1656,7 +1642,7 @@
   },
   "wrens-nest-art-studio.html": {
     "id": "b1f715a3-8051-5da2-a7d9-fdbfd6c41508",
-    "name": "Wren’s Nest Art Studio",
+    "name": "Wren\u2019s Nest Art Studio",
     "phone": "720-340-5837",
     "address": "2030 Ionosphere St., Unit A Longmont, CO",
     "website": "https://wrensneststudio.com/",
@@ -1678,7 +1664,7 @@
       }
     ],
     "events_url": "https://wrensneststudio.com/calendar",
-    "logo_alt": "Wren’s Nest Art Studio logo"
+    "logo_alt": "Wren\u2019s Nest Art Studio logo"
   },
   "callahan-house.html": {
     "name": "Callahan House",
