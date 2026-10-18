@@ -7,7 +7,20 @@ const eventSummaries={"Full Circle Yoga": "Discover upcoming public events and c
 const normalize=s=>String(s||'').toLowerCase().replace(/[^a-z0-9]/g,'');
 const feed=fetch(BASE+'/rest/v1/cc_business_event_publications?select=business_id,name,events,revision,published_at',{headers:{apikey:KEY},cache:'no-store'}).then(r=>{if(!r.ok)throw Error('Events unavailable');return r.json()});
 const css=document.createElement('link');css.rel='stylesheet';css.href=new URL('./business-events.css',import.meta.url);document.head.append(css);
-function profileCalendar(rows){const profile=document.getElementById('business-profile'),page=location.pathname.split('/').pop(),id=profile?.dataset.llProfile||new URLSearchParams(location.search).get('id'),heading=(profile||document.querySelector('main'))?.querySelector('h1')?.textContent;const row=rows.find(r=>id?r.business_id===id:routes[r.business_id]===page||normalize(r.name)===normalize(heading));if(!row)return;const parent=profile||document.querySelector('main');if(!parent)return;let calendar=document.getElementById('business-events');if(!calendar){calendar=document.createElement('section');calendar.id='business-events';parent.append(calendar)}renderEventCalendar(calendar,row.events,{name:row.name});if(location.hash==='#business-events'&&!calendar.dataset.anchorHandled){calendar.dataset.anchorHandled='true';requestAnimationFrame(()=>calendar.scrollIntoView({block:'start'}))}}
+export function profileCalendar(rows){
+ const profile=document.getElementById('business-profile'),page=location.pathname.split('/').pop(),id=profile?.dataset.llProfile||new URLSearchParams(location.search).get('id'),parent=profile||document.querySelector('main'),heading=parent?.querySelector('h1')?.textContent;
+ const row=rows.find(r=>id?r.business_id===id:routes[r.business_id]===page||normalize(r.name)===normalize(heading));
+ if(!parent||(!row&&profile?.dataset.llProfileReady!=='true'))return;
+ // Do not place calendars on unavailable/unpublished business pages.
+ if(profile&&heading==='Business page unavailable')return;
+ let calendar=document.getElementById('business-events');
+ if(calendar&&!row&&calendar.dataset.llManaged!=='true')return;
+ if(!calendar){calendar=document.createElement('section');calendar.id='business-events';parent.append(calendar)}
+ calendar.dataset.llManaged='true';renderEventCalendar(calendar,row?.events||[],{name:row?.name||heading});
+ const official=profile?.dataset.llEventsUrl;
+ if(official){try{const u=new URL(official);if(['https:','http:'].includes(u.protocol)){const a=document.createElement('a');a.href=u.href;a.textContent='View official events and schedule ↗';a.target='_blank';a.rel='noopener noreferrer';a.className='bp-button bp-outline';calendar.append(a)}}catch{}}
+ if(location.hash==='#business-events'&&!calendar.dataset.anchorHandled){calendar.dataset.anchorHandled='true';requestAnimationFrame(()=>calendar.scrollIntoView({block:'start'}))}
+}
 function spotlight(rows){
  if(!document.getElementById('ll-event-search'))return;
  const monthIds={'2026-10':'october','2026-11':'november','2026-12':'december'};

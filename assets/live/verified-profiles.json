@@ -1,0 +1,1620 @@
+{
+  "ailurophile-cat-home-care.html": {
+    "id": "01b6d46e-443b-55e7-b052-a6f9dcbd8971",
+    "name": "Ailurophile Cat & Home Care",
+    "description": "A Longmont-based service specializing specifically in in-home cat care, including feeding, litter care, play, companionship and care for cats with specialized routines.",
+    "categories": [
+      "Cat-Focused Care"
+    ],
+    "website": "https://ailurophilecats.com/",
+    "phone": "737-990-2287",
+    "email": "info@ailurophilecats.com",
+    "story": "Ailurophile focuses on caring for cats in their own homes. The cat-centered service is designed around familiar surroundings and each animal's daily routine, including feeding, litter care, play and companionship.\n\nOwners can discuss their cat's individual needs before arranging visits. The service area and any specialized care requirements should be confirmed directly when booking.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/Images/Business-Images/ailurophile-cat-home-care.jpg",
+    "service_area": "Longmont and surrounding service area; in-home appointments"
+  },
+  "aspen-moon-farm.html": {
+    "id": "98733d37-0cb2-5420-a95b-f161e8212cb9",
+    "name": "Aspen Moon Farm",
+    "description": "A USDA Certified Organic Longmont farm growing vegetables, herbs, flowers and starter plants using biodynamic practices. The seasonal roadside stand makes it easy to shop directly from the farm.",
+    "categories": [
+      "Organic Farm",
+      "Roadside Stand",
+      "Farms & Agriculture"
+    ],
+    "website": "https://www.aspenmoonfarm.com/",
+    "email": "info@aspenmoonfarm.com",
+    "address": "7940 Hygiene Road Longmont, CO 80503",
+    "story": "Aspen Moon Farm has practiced biodynamic agriculture since 2009 and grows USDA Certified Organic vegetables, herbs, flowers and starter plants. Its seasonal farm store and CSA connect local households with what is growing in the fields.\n\nThe farm also participates in farmers markets, donates produce to food-access organizations and welcomes school tours when the growing schedule allows. Soil-health work and native plantings support its longer-term care for the land.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/aspen-moon-farm-logo.webp",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/aspen-moon-farm-photo.webp",
+        "alt": "Photo from the official website of Aspen Moon Farm",
+        "enabled": true
+      }
+    ],
+    "logo_alt": "AMF logo cert og.png"
+  },
+  "colorado-horse-rescue.html": {
+    "id": "1476073b-6854-5b53-b98b-18e53d924e6a",
+    "name": "Colorado Horse Rescue",
+    "description": "Colorado Horse Rescue has been helping at-risk horses since 1986. The organization provides rehabilitation, adoption, foster support and education while helping horses transition into safe homes.",
+    "categories": [
+      "Horse Rescue",
+      "Horses",
+      "Horses & Education",
+      "Animals & Pet Services"
+    ],
+    "website": "https://chr.org/",
+    "phone": "720-494-1414",
+    "email": "info@chr.org",
+    "address": "10386 N 65th Street Longmont, CO 80503",
+    "story": "Colorado Horse Rescue has worked with at-risk horses since 1986. Its work brings rehabilitation, adoption and foster support together to help horses move toward safe, suitable homes.\n\nEducation and community involvement are part of that mission. Visitors and prospective supporters can learn about the horses, current programs and opportunities to take part through the rescue's official website.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/art/farm.webp",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/colorado-horse-rescue-photo.webp",
+        "alt": "Photo from the official website of Colorado Horse Rescue",
+        "enabled": true
+      }
+    ]
+  },
+  "colorado-reptile-humane-society.html": {
+    "id": "93bac868-53b1-522d-928c-3f3fca53179a",
+    "name": "Colorado Reptile Humane Society",
+    "description": "This Longmont-area nonprofit specializes in reptiles and amphibians, providing sheltering, adoption, education and care guidance for animals with highly specialized needs. CoRHS also rehabilitates Colorado-native reptiles and amphibians, helping wildlife in need of specialized care.",
+    "categories": [
+      "Reptile & Amphibian Rescue",
+      "Animals & Pet Services"
+    ],
+    "website": "https://corhs.org/",
+    "phone": "303-776-2070",
+    "email": "info@corhs.org",
+    "address": "Longmont, Colorado",
+    "story": "Colorado Reptile Humane Society has worked to improve the lives of reptiles and amphibians since 1998. The organization combines sheltering with education and conservation.\n\nIts official website connects people with adoptable animals, rehoming information and guidance about reptiles and amphibians. Contact the organization before bringing an animal to the shelter.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/6ced134c0232ca.webp"
+  },
+  "cottage-kennels-farm.html": {
+    "id": "a9ef0a22-59e3-5509-b244-7a6fee825fdf",
+    "name": "Cottage Kennels Farm",
+    "description": "A smaller Longmont boarding facility offering overnight dog boarding, calmer day lodging and grooming with an emphasis on individualized routines.",
+    "categories": [
+      "Local Kennel & Grooming",
+      "Animals & Pet Services"
+    ],
+    "website": "https://cottagekennelsfarm.com/",
+    "phone": "866-694-1499",
+    "email": "Cottagekennelsfarm@gmail.com",
+    "address": "14077 County Road 5, Longmont",
+    "story": "Capria Busnardo took over Cottage Kennels Farm in 2022 after five years working as a kennel technician. Her experience in animal care and rescue helped shape a smaller boarding operation centered on the needs of individual dogs.\n\nThe kennel combines boarding, day lodging and grooming with separate rest periods and appropriately sized play groups. Owners can discuss their pet's temperament and routine before booking a stay.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/cottage-kennels-farm-logo.webp",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/cottage-kennels-farm-photo.webp",
+        "alt": "A woman sitting on a bench with six dogs around her outside.",
+        "enabled": true
+      }
+    ],
+    "phone_contact_mode": "sms",
+    "logo_alt": "Cottage Kennels Farm logo"
+  },
+  "crackpots-pottery-studio.html": {
+    "id": "eb74d766-9b39-5ccb-8a9c-db8b49d820c4",
+    "name": "Crackpots Pottery Studio",
+    "phone": "303-776-2211",
+    "address": "505 Main St. Longmont, CO 80501",
+    "website": "https://www.ecrackpots.com/",
+    "categories": [
+      "Paint-Your-Own Pottery",
+      "Art Studio",
+      "Pottery",
+      "Glass",
+      "Creative Fun",
+      "Creative Experience",
+      "Arts & Crafts"
+    ],
+    "description": "A longtime downtown Longmont creative studio where visitors can paint pottery and make art in a relaxed, all-ages setting. Crackpots also hosts parties, group gatherings and creative events.",
+    "email": "studio@ecrackpots.com",
+    "story": "Crackpots gives people a place to spend time together while making something by hand. Its downtown Longmont studio welcomes beginners as well as returning artists, with pottery painting and other creative projects for adults and children.\n\nThe studio supplies tools and guidance, then handles the finishing and firing of pottery projects. Open-studio visits do not require an appointment; private parties and special activities can be arranged through the studio.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/crackpots-pottery-studio-logo.webp",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/crackpots-pottery-studio-photo.webp",
+        "alt": "Photo from the official website of Crackpots Pottery Studio",
+        "enabled": true
+      }
+    ],
+    "contact_url": "https://www.ecrackpots.com/contact",
+    "logo_alt": "Final Crackpots 3-01_Cropped.png"
+  },
+  "cultivate.html": {
+    "id": "d61a53a1-8350-505f-b68f-98b45f8db6d9",
+    "name": "Cultivate",
+    "description": "A nonprofit helping older adults remain independent and connected through volunteer-powered services such as grocery help, minor home repairs, yard work, snow shoveling and medical rides.",
+    "categories": [
+      "Older Adult Support"
+    ],
+    "website": "https://cultivate.ngo/",
+    "phone": "303-443-1933",
+    "story": "Cultivate connects older adults with their surrounding communities as both volunteers and people receiving support. Its programs serve Broomfield, Boulder and Weld counties.\n\nVolunteer relationships help with everyday needs such as groceries and home maintenance while creating opportunities for regular human connection. Seniors and volunteers can contact Cultivate to learn which programs fit their circumstances.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/cultivate-logo.svg",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/cultivate-photo.webp",
+        "alt": "Photograph collage showing a senior volunteer helping in the yard, walking down a street and helping with grocery shopping",
+        "enabled": true
+      }
+    ],
+    "logo_alt": "Cultivate logo"
+  },
+  "dickens-farm-nature-area.html": {
+    "id": "acc39774-c325-54e1-8c0f-a61f377dbd78",
+    "name": "Dickens Farm Nature Area",
+    "description": "St. Vrain Creek runs directly through this 52-acre nature area. Explore the nature playground, beginner bike-skills trail, slower-moving water areas and St. Vrain Greenway.",
+    "categories": [
+      "Creek",
+      "Playground",
+      "Bikes",
+      "River Recreation",
+      "Outdoor Recreation"
+    ],
+    "website": "https://longmontcolorado.gov/facilities/dickens-farm-nature-area/",
+    "phone": "303-776-6050",
+    "address": "Boston Avenue between Main and Martin Streets, Longmont, CO 80501",
+    "story": "Dickens Farm Nature Area follows the St. Vrain Creek through a 52-acre site between Main and Martin streets. It connects visitors with the St. Vrain Greenway while combining natural habitat, trails and places to play.\n\nThe site includes nature-play features, a beginner bike-skills trail and historical and environmental interpretation. Seasonal creek conditions affect water activities, so visitors should check the city’s current information before planning a trip.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/dickens-farm-nature-area-logo.webp",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/dickens-farm-nature-area-photo.webp",
+        "alt": "This photo of Dickens Farm, used Courtesy of Confluent Design, shows people using tubes in the St. Vrain creek with snow capped mountains in the background.",
+        "enabled": true
+      }
+    ],
+    "logo_alt": "City of Longmont Colorado logo"
+  },
+  "dirtlabs-suspension.html": {
+    "id": "8837e562-d85a-5e0b-a80f-aa9e446e956e",
+    "name": "DirtLabs Suspension",
+    "phone": "720-213-4742",
+    "address": "721 Main St. Longmont, CO",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/dirtlabs-suspension-logo.webp",
+    "categories": [
+      "Bicycle Suspension",
+      "Specialist Repair"
+    ],
+    "description": "An independent specialist in mountain-bike suspension service, repair and tuning, with local and mail-in service.",
+    "website": "https://service.dirtlabs.com/",
+    "email": "service@dirtlabs.com",
+    "story": "Mike “Luby” Luebesmier founded DirtLabs in Boulder in 2008 with a focus on mountain-bike suspension service and tuning. The business later grew into a Longmont workshop serving individual riders and bicycle shops across the country.\n\nThe team's work centers on inspecting, rebuilding and tuning forks, shocks and dropper posts. Riders can arrange local drop-off or mail-in service, with booking options tailored to individuals and bike shops.",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/dirtlabs-suspension-photo.webp",
+        "alt": "Photo from the official website of DirtLabs Suspension",
+        "enabled": true
+      }
+    ],
+    "logo_alt": "The Leading Independent MTB Suspension Service and Tuning Center Since 2008."
+  },
+  "e8yoga.html": {
+    "id": "1448293b-1ab2-59fb-8934-b4fcce7af96c",
+    "name": "E8YOGA",
+    "description": "A locally owned Longmont studio with heated and non-heated yoga, meditation, yoga nidra, sound experiences and community events.",
+    "categories": [
+      "Local Yoga & Mindfulness",
+      "Health & Wellness"
+    ],
+    "phone": "303-818-9786",
+    "address": "1127 Francis Street Longmont, CO 80501",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/art/wellness.webp"
+  },
+  "elwood-staffing.html": {
+    "id": "0e3733f3-de3e-5203-b077-c6a177efb2ee",
+    "name": "Elwood Staffing",
+    "email": "longmont.co@elwoodstaffing.com",
+    "phone": "303-772-7422",
+    "address": "1020 Ken Pratt Boulevard Longmont, CO 80501",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/elwood-staffing-photo.webp",
+        "alt": "Photo from the official website of Elwood Staffing",
+        "enabled": true
+      },
+      {
+        "alt": "",
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/jobs/manufacturing-illustration.webp",
+        "caption": "",
+        "enabled": true
+      }
+    ],
+    "website": "https://www.elwoodstaffing.com/",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/elwood-staffing-logo.svg",
+    "categories": [
+      "Staffing",
+      "Longmont"
+    ],
+    "description": "Elwood Staffing connects job seekers with temporary, temp-to-hire and permanent opportunities in a variety of industries.",
+    "logo_alt": "Elwood Staffing logo"
+  },
+  "family-pet-hospital.html": {
+    "id": "d0bbbf03-fef9-5a5c-9de7-cb911248c95b",
+    "name": "Family Pet Hospital",
+    "description": "Family Pet Hospital focuses on dogs and cats and emphasizes a low-stress approach designed to reduce anxiety during veterinary visits.",
+    "categories": [
+      "Low-Stress Care"
+    ],
+    "website": "https://familypetlongmont.com/",
+    "phone": "303-485-1285",
+    "email": "info@familypetlongmont.com",
+    "address": "815 East 17th Avenue, Unit C-2, Longmont, CO 80504",
+    "story": "Family Pet Hospital builds its veterinary practice around reducing fear and stress for dogs and cats. Care is tailored to the animal and its family, with attention to comfort as well as medical needs.\n\nThe Longmont team provides preventive care, dentistry, illness care and pain management across a pet's life. Appointments and questions about available treatment can be arranged directly with the practice.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/family-pet-hospital-logo.webp",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/family-pet-hospital-photo.webp",
+        "alt": "Photo from the official website of Family Pet Hospital",
+        "enabled": true
+      }
+    ],
+    "contact_url": "https://familypetlongmont.com/contact-a-longmont-veterinarian/",
+    "logo_alt": "Family Pet Hospital logo"
+  },
+  "firehouse-art-center.html": {
+    "id": "409d1bb5-e183-5849-8652-3a55ba2dda90",
+    "name": "Firehouse Art Center",
+    "description": "Longmont’s nonprofit contemporary art center presents rotating exhibitions, education programs and community events in the Creative District.",
+    "categories": [
+      "Contemporary Art",
+      "Classes",
+      "Events",
+      "Arts & Culture",
+      "Arts & Crafts"
+    ],
+    "website": "https://firehouseart.org/",
+    "phone": "303-651-2787",
+    "email": "info@firehouseart.org",
+    "address": "667 4th Avenue, Longmont, CO 80501",
+    "story": "The Firehouse Art Center connects exhibitions and arts education in a historic downtown Longmont building. Its programs bring working artists and the wider community into the same creative space.\n\nMembership, volunteer opportunities and educational activities give people different ways to take part. The center’s official website shares current exhibitions, programs and ways to support its work.",
+    "image_url": "https://firehouseart.org/wp-content/uploads/2026/08/Screenshot-2026-08-22-175848.png"
+  },
+  "full-circle-yoga.html": {
+    "id": "cb27fa4f-61ec-54af-ad1d-91b8c486bb47",
+    "name": "Full Circle Yoga",
+    "description": "A community-focused downtown yoga studio offering a variety of practices including yoga, meditation, restorative classes and specialty programming.",
+    "categories": [
+      "Yoga",
+      "Meditation",
+      "Community",
+      "Health & Wellness",
+      "Community & Nonprofits"
+    ],
+    "website": "https://www.full-circle-yoga.com/",
+    "phone": "720-600-1490",
+    "address": "372 Main Street, 2nd Floor, Longmont, CO 80501",
+    "story": "Full Circle Yoga offers a downtown Longmont space for movement, mindfulness and connection. The studio welcomes people with different levels of experience and provides classes through its current schedule.\n\nWorkshops and other gatherings add opportunities to explore a practice or spend time with the studio community. Students can check class descriptions and registration information before choosing a session.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/full-circle-yoga-logo.webp",
+    "events_url": "https://www.full-circle-yoga.com/upcoming-events",
+    "logo_alt": "FCY Log 1_edited.jpg"
+  },
+  "garden-acres-community-park.html": {
+    "id": "9b0bb470-81bd-567a-a787-f3bff3ad0448",
+    "name": "Garden Acres Community Park",
+    "description": "A neighborhood sports hub with a batting cage, lighted softball fields, soccer space, cricket pitch, playgrounds, paths and public art.",
+    "categories": [
+      "Park",
+      "Batting Cage",
+      "Sports",
+      "Family Recreation",
+      "Outdoor Recreation"
+    ],
+    "website": "https://longmontcolorado.gov/facility/garden-acres-community-park/",
+    "phone": "303-776-6050",
+    "address": "2058 Spencer Street, Longmont, CO 80501",
+    "story": "Garden Acres was developed in 1989 as Longmont’s third community park. Over time, its sports facilities, paths, playgrounds and gathering spaces have made it a place for both organized recreation and everyday neighborhood visits.\n\nThe Oligarchy Ditch Primary Greenway Trail runs through the park. Near the south entrance, Jerry Boyle’s bronze sculpture Free-For-All depicts three children at play, linking the park’s recreation spaces with Longmont’s public-art collection.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/dickens-farm-nature-area-logo.webp",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/garden-acres-community-park-photo.webp",
+        "alt": "A tree-lined sidewalk cuts between two fenced sports fields at Longmont's Garden Acres Park.",
+        "enabled": true
+      },
+      {
+        "alt": "Garden Acres Community Park in Longmont",
+        "url": "https://longmontcolorado.gov/wp-content/uploads/2024/07/Garden-Acres.jpg",
+        "caption": "",
+        "enabled": true
+      }
+    ],
+    "logo_alt": "City of Longmont Colorado logo"
+  },
+  "good-life-refuge.html": {
+    "id": "23b895c6-ece1-54aa-b7a7-1adac1647b35",
+    "name": "Good Life Refuge",
+    "email": "info@goodliferefuge.org",
+    "phone": "720-204-8525",
+    "address": "13759 N 95th Street Longmont, CO 80504",
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://images.squarespace-cdn.com/content/v1/5e779f50df03c7413051b7de/1585226509746-OIFXQU2GXQV600XJLIDK/OB+the+Goat?format=500w",
+        "caption": "",
+        "enabled": true
+      }
+    ],
+    "website": "https://www.goodliferefuge.org/",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/3e395421669543.webp",
+    "categories": [
+      "Farm Animal Sanctuary",
+      "Rescued Farm Animals",
+      "Animal Sanctuary",
+      "Animals & Pet Services",
+      "Farms & Agriculture"
+    ],
+    "description": "A Longmont nonprofit sanctuary providing a safe forever home for rescued farm animals. Good Life Refuge cares for over 60 animals and relies on volunteers and donors to support their residents.",
+    "story": "Good Life Refuge provides a sanctuary for rescued farm animals and shares their individual stories with the community. Its work combines ongoing animal care with opportunities for people to learn about compassion toward farmed animals.\n\nTours and special gatherings help visitors connect with the residents and the work of the refuge. Visits are organized through the sanctuary, so guests should check the current tour and event information before coming.",
+    "events_url": "https://www.goodliferefuge.org/events-calender"
+  },
+  "greenwood-wildlife-rehabilitation-center.html": {
+    "id": "09f38a28-552d-5b68-aa78-d7e812e89ada",
+    "name": "Greenwood Wildlife Rehabilitation Center",
+    "description": "Greenwood rehabilitates orphaned, injured and sick wild birds, mammals and waterfowl from across the Front Range. Call before attempting to rescue or transport wildlife.",
+    "categories": [
+      "Wildlife Rehabilitation"
+    ],
+    "website": "https://www.greenwoodwildlife.org/",
+    "phone": "303-823-8455",
+    "email": "patientupdate@greenwoodwildlife.org",
+    "address": "Area: Highway 66 between Longmont and Lyons",
+    "story": "Greenwood Wildlife Rehabilitation Center began in 1982 and cares for orphaned, injured and sick wildlife. Its staff and volunteers work with a wide range of species, with the aim of returning animals to the wild when possible.\n\nEducation and community support are also part of its work. Anyone who finds an animal should contact Greenwood for instructions before attempting a rescue or bringing wildlife to the center.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/greenwood-wildlife-rehabilitation-center-logo.webp",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/greenwood-wildlife-rehabilitation-center-photo.webp",
+        "alt": "Photo from the official website of Greenwood Wildlife Rehabilitation Center",
+        "enabled": true
+      }
+    ],
+    "events_url": "https://www.greenwoodwildlife.org/upcomingevents/",
+    "logo_alt": "Greenwood Wildlife Rehabilitation Center logo"
+  },
+  "historic-hoverhome.html": {
+    "id": "e45a8c4e-b19f-586e-b200-c9be8ee30979",
+    "name": "Historic Hoverhome",
+    "gallery": [
+      {
+        "alt": "Historic Hoverhome",
+        "url": "https://www.stvrainhistory.org/s/cc_images/cache_8939585.jpg?t=1490129009",
+        "caption": "",
+        "enabled": true
+      }
+    ],
+    "website": "https://www.stvrainhistory.org/our-properties/hoverhome-info/",
+    "services": [
+      "Historic house and grounds for wedding ceremonies, receptions and special events"
+    ],
+    "categories": [
+      "Historic Home",
+      "National Register District",
+      "Historic Longmont"
+    ],
+    "description": "The 1913–14 home of Charles Lewis Hover and Katherine Baird Hover anchors a preserved historic district connected to one of Longmont’s influential early families.",
+    "phone": "303-774-7810",
+    "email": "office@stvrainhistory.org",
+    "address": "1309 Hover Street, Longmont, CO 80501",
+    "story": "The St. Vrain Historical Society acquired Hoverhome in late 1997 to preserve an important part of Longmont's history. The house and adjoining farmstead were added to the National Register of Historic Places in January 1999.\n\nToday, preservation work and scheduled tours help tell the story of the property and the people connected with it. The society publishes current tour dates and special events for visitors.",
+    "image_url": "https://www.stvrainhistory.org/s/cc_images/cache_8939585.jpg?t=1490129009",
+    "events_url": "https://www.stvrainhistory.org/our-properties/hoverhome-info/hoverhome-tours-events/"
+  },
+  "hover-farmstead.html": {
+    "id": "4292ee88-5606-5e4d-a86b-3ea5be32d19a",
+    "name": "Hover Farmstead",
+    "description": "The remaining farm buildings preserve the working side of the Hover family property and help tell Longmont’s agricultural story beyond the walls of Hoverhome.",
+    "categories": [
+      "Farm History",
+      "Agricultural Heritage",
+      "Farms & Agriculture"
+    ],
+    "website": "https://www.stvrainhistory.org/our-properties/hover-farmstead/",
+    "phone": "303-776-1870",
+    "email": "office@stvrainhistory.org",
+    "address": "1303 Hover Road, Longmont, CO 80501",
+    "story": "The St. Vrain Historical Society acquired the Hover Farmstead house in 1994 and its outbuildings in 1996. Restoration work began in 1997, preserving a connection to the agricultural history of the Longmont area.\n\nThe farmstead and neighboring Hoverhome are part of the society's work to protect historic places and share their stories. Contact the society for current access and tour information.",
+    "image_url": "https://www.stvrainhistory.org/s/cc_images/cache_8885175.jpg?t=1426626794"
+  },
+  "labor-systems.html": {
+    "id": "094f2540-38e8-5b4b-86ac-e8c3f2adb696",
+    "name": "Labor Systems",
+    "email": "info@laborsystems.com",
+    "phone": "303-774-9787",
+    "address": "838 Coffman Street Longmont, CO 80501",
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/jobs/trades-illustration.webp",
+        "caption": "",
+        "enabled": true
+      }
+    ],
+    "website": "https://www.laborsystems.com/",
+    "categories": [
+      "Temporary Employment"
+    ],
+    "description": "Another Longmont staffing option for people looking for temporary or labor-oriented opportunities.",
+    "story": "Labor Systems has provided temporary staffing services since 1985. Its work connects job seekers with employers in construction, industrial work, hospitality and other fields.\n\nThe company helps businesses arrange short-term and longer-term staffing. The official locations directory and contact team can explain current offices and service availability.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/jobs/trades-illustration.webp",
+    "contact_url": "https://www.laborsystems.com/contact-us"
+  },
+  "labormax-staffing.html": {
+    "id": "2752667d-21fc-507e-ab0b-543c3cdca626",
+    "name": "LaborMAX Staffing",
+    "email": "",
+    "phone": "720-340-4680",
+    "address": "1660 Main Street Longmont, CO 80501",
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/2752667d-21fc-507e-ab0b-543c3cdca626/45f70d4f-0393-4588-a605-4479cadb9b2b.jpg",
+        "caption": "",
+        "enabled": true
+      }
+    ],
+    "website": "https://www.labormax.net/",
+    "categories": [
+      "Day Labor",
+      "Staffing"
+    ],
+    "description": "A staffing option for people seeking temporary, general labor, construction, warehouse and similar work.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/labormax-staffing-logo.webp",
+    "logo_alt": "LaborMAX Staffing logo"
+  },
+  "lifebridge-christian-church.html": {
+    "id": "b1024657-0f13-5ac2-bd05-7b90ca11ac65",
+    "name": "LifeBridge Christian Church",
+    "description": "A local Christian congregation offering Sunday worship, children's programming, student ministry and opportunities to connect through community groups and service.",
+    "categories": [
+      "Christian Community",
+      "Community & Nonprofits"
+    ],
+    "website": "https://lbcc.org/",
+    "email": "info@lbcc.org",
+    "address": "10345 Ute Highway Longmont, CO 80504",
+    "story": "LifeBridge Christian Church connects its Longmont congregation through worship, small groups, family programs and community service. Its history reaches back to the late nineteenth century, while its current campus serves people across different stages of life.\n\nThe church describes its mission as introducing people to Jesus and helping them take their next steps in faith. New visitors can find service information, children's programs and ways to connect on its official website.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/lifebridge-christian-church-logo.svg",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/lifebridge-christian-church-photo.webp",
+        "alt": "Photo from the official website of LifeBridge Christian Church",
+        "enabled": true
+      }
+    ],
+    "logo_background": "dark",
+    "logo_alt": "LifeBridge Christian Church logo"
+  },
+  "loco-skateshop.html": {
+    "id": "624fcc00-92ac-5c03-af34-8ee93db396f9",
+    "name": "LoCo Skateshop",
+    "phone": "303-772-2972",
+    "address": "622 Main St., #101 Longmont, CO 80501",
+    "website": "https://locoskateshop.com/",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/2bf52d2bf743e4.webp",
+    "categories": [
+      "Skate Shop",
+      "Locally Owned",
+      "Shopping"
+    ],
+    "description": "Founded in Longmont by local skaters, LoCo carries skateboard and longboard gear, clothing and accessories while serving as a community hub for skaters throughout Boulder County.",
+    "story": "Friends Jim Stone and Andy Delpapa founded LoCo Skateshop in 2016 to give local skaters a shop of their own. The Longmont storefront grew into a gathering place for riders, with an online store extending its reach beyond Boulder County.\n\nAlongside boards, shoes, protective gear and apparel, the shop offers in-person advice and board repairs. Its skate team and staff keep the shop connected to the people and places that shape the local skate community.",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/loco-skateshop-photo.webp",
+        "alt": "New Arrivals",
+        "enabled": true
+      }
+    ],
+    "contact_url": "https://locoskateshop.com/contact-us/"
+  },
+  "longmont-animal-control.html": {
+    "id": "40ff5638-5267-51c0-bd91-67ff4c2fef77",
+    "name": "Longmont Animal Control",
+    "description": "Longmont Animal Control handles domestic animal concerns, certain wildlife calls, pet licensing, animal bites, lost-animal issues and animal-related ordinance enforcement.",
+    "categories": [
+      "City Animal Services",
+      "Animals & Pet Services"
+    ],
+    "website": "https://longmontcolorado.gov/public-safety/public-safety-services/animals/",
+    "phone": "303-651-8500",
+    "email": "PSpoliceanimalcontrolunit@longmontcolorado.gov",
+    "story": "Longmont's animal-control services are part of the city's public-safety work. The team helps address animal-related concerns and provides information about local responsibilities and regulations.\n\nThe city's animal-services page directs residents to the appropriate contacts for different situations. Contact the city for current guidance rather than approaching or transporting an unfamiliar animal without advice.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/longmont-animal-control-logo.webp",
+    "logo_alt": "City of Longmont Colorado logo"
+  },
+  "longmont-bicycle-company.html": {
+    "id": "98401719-0b78-5da6-a27b-166ba2cf56cb",
+    "name": "Longmont Bicycle Company",
+    "phone": "303-834-9994",
+    "address": "110 Emery Street, Unit D, Longmont, CO 80501",
+    "website": "https://www.longmontbikes.com/",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/longmont-bicycle-company-logo.webp",
+    "categories": [
+      "Family-Owned Bike Shop",
+      "Shopping"
+    ],
+    "description": "A locally owned, family-run full-service bicycle shop founded in 2017, with bikes and e-bikes for many riding styles plus cycling gear, repairs and maintenance.",
+    "email": "info@longmontbikes.com",
+    "story": "Longmont Bicycle Company is a family-owned shop serving riders at every stage, from a child's first bike to commuting, gravel rides and mountain trails. Its selection includes conventional and electric bicycles, alongside a service and repair department.\n\nThe shop has moved to 110 Emery Street, Unit D. Visitors can explore bikes, ask for help choosing equipment and try a test ride at the new location.",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/longmont-bicycle-company-photo.webp",
+        "alt": "Photo from the official website of Longmont Bicycle Company",
+        "enabled": true
+      }
+    ],
+    "events_url": "https://www.longmontbikes.com/articles/events-calendar-rides-clinics-sales-more-pg1219.htm",
+    "logo_alt": "Longmont Bicycle Company & Front Range eBikes Home Page"
+  },
+  "longmont-farmers-market.html": {
+    "id": "e8f7f4ee-ad2e-4676-9e99-0fcacb6a528c",
+    "name": "Longmont Farmers Market",
+    "email": "longmont@bcfm.org",
+    "phone": "",
+    "address": "",
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/e8f7f4ee-ad2e-4676-9e99-0fcacb6a528c/2e207bea-3fc4-41a2-a2d3-78258be09b18.jpg",
+        "caption": "",
+        "enabled": true
+      },
+      {
+        "alt": "",
+        "url": "https://bcfm.org/wp-content/uploads/2024/03/EE_LongmontMarket23_0601-lowres-1024x683.jpg",
+        "caption": "",
+        "enabled": true
+      },
+      {
+        "alt": "",
+        "url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/e8f7f4ee-ad2e-4676-9e99-0fcacb6a528c/306e04ae-6687-463a-9102-4d08f83df8e0.jpg",
+        "caption": "",
+        "enabled": true
+      }
+    ],
+    "website": "https://bcfm.org/longmont-farmers-market/",
+    "image_url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/e8f7f4ee-ad2e-4676-9e99-0fcacb6a528c/22cfdf8d-0883-4190-9d75-295128324f2d.jpg",
+    "categories": [
+      "Farmers Markets",
+      "Local Food",
+      "Agriculture",
+      "Community Markets"
+    ],
+    "description": ""
+  },
+  "longmont-food-rescue.html": {
+    "id": "5c25ae4c-9408-5eec-b159-c5117934d3bc",
+    "name": "Longmont Food Rescue",
+    "description": "A local nonprofit reducing food waste while getting fresh food directly to people who can use it. Programs include no-cost groceries, free produce distributions, community fridges and Fresh Food Connect.",
+    "categories": [
+      "Free Food",
+      "Food Rescue",
+      "Food & Drink",
+      "Animals & Pet Services"
+    ],
+    "website": "https://www.longmontfoodrescue.org/",
+    "story": "Longmont Food Rescue brings people and surplus food together so usable food can reach the community rather than go to waste. Its work relies on relationships with food donors, community partners and volunteers.\n\nThe organization shares opportunities to help with food rescue and local activities through its website. People looking to volunteer or partner can contact the team for current needs and arrangements.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/2cfbcef88fa0b1.webp",
+    "contact_url": "https://www.longmontfoodrescue.org/contact",
+    "events_url": "https://www.longmontfoodrescue.org/events"
+  },
+  "longmont-humane-society.html": {
+    "id": "a0a84c34-56ba-5f87-aa91-a70f17c8f5c5",
+    "name": "Longmont Humane Society",
+    "description": "Longmont's primary nonprofit animal shelter provides adoption, lost-and-found services, pet rehoming resources, dog training, veterinary care, fostering, volunteering and humane education.",
+    "categories": [
+      "Animal Shelter",
+      "Animals & Pet Services"
+    ],
+    "website": "https://longmonthumane.org/",
+    "phone": "303-772-1232",
+    "email": "info@longmonthumane.org",
+    "address": "9595 Nelson Road Longmont, CO 80501",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/art/pets.webp"
+  },
+  "longmont-ice-pavilion.html": {
+    "id": "832d48a7-f183-52a9-a8aa-3a339eded0e6",
+    "name": "Longmont Ice Pavilion",
+    "email": "",
+    "phone": "303-774-4777",
+    "address": "725 Eighth Avenue, Longmont, CO 80501",
+    "gallery": [
+      {
+        "alt": "Ice skating in Longmont Colorado",
+        "url": "https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,f_jpg,h_650,q_80,w_1000/https%3A%2F%2Fassets.simpleviewinc.com%2Fsimpleview%2Fimage%2Fupload%2Fcrm%2Flongmontco%2FIce-Skating--Sherri-O-Hara-15--77456a7d5056b36_77456f49-5056-b365-ab975084db923379.jpg",
+        "caption": "",
+        "enabled": true
+      }
+    ],
+    "website": "https://longmontcolorado.gov/recreation-services/activities/ice-skating/",
+    "categories": [
+      "Ice Skating",
+      "Winter",
+      "Seasonal Activity"
+    ],
+    "description": "The open-air covered rink at Roosevelt Park offers public skating, hockey and lessons during the winter season.",
+    "image_url": "https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,f_jpg,h_650,q_80,w_1000/https%3A%2F%2Fassets.simpleviewinc.com%2Fsimpleview%2Fimage%2Fupload%2Fcrm%2Flongmontco%2FIce-Skating--Sherri-O-Hara-15--77456a7d5056b36_77456f49-5056-b365-ab975084db923379.jpg"
+  },
+  "longmont-meals-on-wheels.html": {
+    "id": "42758a1e-aed2-5991-a342-f5a69e69941d",
+    "name": "Longmont Meals on Wheels",
+    "description": "A local nonprofit delivering hot meals and a daily wellness check to older adults and people with disabilities in Longmont and Niwot.",
+    "categories": [
+      "Meals",
+      "Seniors",
+      "Disability Support"
+    ],
+    "website": "https://www.longmontmeals.org/",
+    "phone": "303-772-0540",
+    "email": "office@lmow.org",
+    "address": "910 Longs Peak Avenue Longmont, CO 80501",
+    "story": "Longmont Meals on Wheels has served the community since 1969. Its meal deliveries combine nutritious food with a regular check-in for older adults and people with disabilities in Longmont and Niwot.\n\nThe organization also offers community lunches and other programs intended to support independence at home. Volunteers help prepare and deliver meals, while the team can explain enrollment and the options available to a particular household.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/longmont-meals-on-wheels-logo.webp",
+    "events_url": "https://www.longmontmeals.org/events",
+    "logo_alt": "Longmont Meals on Wheels logo"
+  },
+  "longmont-senior-center.html": {
+    "id": "ee2c79e0-a911-5882-99bc-820e84c4bda7",
+    "name": "Longmont Senior Center",
+    "description": "A local gathering place for adults 55+ with more than 200 programs each quarter, including classes, fitness, technology help, social activities, support services and volunteer opportunities.",
+    "categories": [
+      "55+ Community",
+      "Community & Nonprofits"
+    ],
+    "website": "https://longmontcolorado.gov/senior-services/",
+    "phone": "303-651-8411",
+    "email": "senior@longmontcolorado.gov",
+    "address": "910 Longs Peak Avenue Longmont, CO 80501",
+    "story": "The Longmont Senior Center brings city programs, practical support and social connection together for older adults. Its activities give residents ways to keep learning, stay active and meet other people.\n\nSenior Services also helps people find resources and navigate changing needs. Current programs, registration details and assistance contacts are available through the city's Senior Services pages.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/longmont-senior-center-logo.webp",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/longmont-senior-center-photo.webp",
+        "alt": "Photo from the official website of Longmont Senior Center",
+        "enabled": true
+      }
+    ],
+    "logo_alt": "City of Longmont Colorado logo"
+  },
+  "longmont-small-animal-hospital.html": {
+    "id": "753d2fc4-2daf-5288-89cf-dcc39c8bca70",
+    "name": "Longmont Small Animal Hospital",
+    "description": "A locally owned and female-led veterinary hospital providing preventive care, dentistry, surgery, urgent care, diagnostics and care for some exotic pets.",
+    "categories": [
+      "Privately Owned",
+      "Female-Led"
+    ],
+    "website": "https://longmontsmallanimalhospital.com/",
+    "phone": "303-651-3039",
+    "email": "info@longmontsmallanimalhospital.com",
+    "address": "104 S Main Street, Longmont",
+    "story": "Longmont Small Animal Hospital has served local pets since 2016. The privately owned, female-led practice emphasizes a welcoming setting where owners can discuss their animal's care without judgment.\n\nThe hospital combines routine preventive care with diagnostic, dental and surgical services. Its team works with families to understand each pet's needs and plan appropriate care.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/longmont-small-animal-hospital-logo.webp",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/longmont-small-animal-hospital-photo.webp",
+        "alt": "Photo from the official website of Longmont Small Animal Hospital",
+        "enabled": true
+      }
+    ],
+    "contact_url": "https://longmontsmallanimalhospital.com/contact/",
+    "logo_alt": "Longmont Small Animal Hospital logo"
+  },
+  "longmont-yarn-shoppe.html": {
+    "id": "64c5bd6a-2ab7-5cac-8136-59e050798067",
+    "name": "Longmont Yarn Shoppe",
+    "phone": "303-678-8242",
+    "address": "454 Main St. Longmont, CO",
+    "website": "https://www.longmontyarn.com/",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/longmont-yarn-shoppe-logo.webp",
+    "categories": [
+      "Yarn",
+      "Fiber Arts",
+      "Classes",
+      "Arts & Crafts"
+    ],
+    "description": "An independent, woman-owned yarn shop with knitting and crochet supplies, fiber-arts tools and hands-on classes.",
+    "email": "info@longmontyarn.com",
+    "story": "Longmont Yarn Shoppe brings fiber supplies and shared learning together in a neighborhood setting. Knitting, crochet, spinning and needle-felting classes offer ways to begin a new craft or build on existing skills.\n\nThe shop's calendar also includes community handwork sessions and casual crochet gatherings, giving makers a chance to bring a project, exchange ideas and spend time with other people who enjoy working with fiber.",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/longmont-yarn-shoppe-photo.webp",
+        "alt": "Photo from the official website of Longmont Yarn Shoppe",
+        "enabled": true
+      }
+    ],
+    "events_url": "https://www.longmontyarn.com/module/events.htm?pageComponentId=1840218&month=current",
+    "logo_alt": "Longmont Yarn Shoppe logo"
+  },
+  "magic-fairy-candles.html": {
+    "id": "910f2f89-26da-56c8-85cc-63b4a15285c1",
+    "name": "Magic Fairy Candles",
+    "phone": "720-771-0359",
+    "address": "634 Main St. Longmont, CO 80501",
+    "website": "https://magicfairycandles.com/",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/magic-fairy-candles-logo.webp",
+    "categories": [
+      "Candles",
+      "Apothecary",
+      "Curious Finds",
+      "Colorado Made"
+    ],
+    "description": "Much more than a candle shop. Magic Fairy Candles carries handmade candles, aromatherapy, crystals, incense, natural perfumes, ritual items, apothecary goods and plenty of unexpected finds.",
+    "story": "Kim Brain's early fascination with scented oils eventually led her to pour a first candle while raising her children. That small beginning grew into Magic Fairy Candles, a Longmont business making candles and aromatics in small batches.\n\nThe shop brings together its handmade products with crystals, ritual supplies and items for the home. Kim and her team describe their work as a way to encourage everyday moments of reflection, creativity and connection.",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/magic-fairy-candles-photo.webp",
+        "alt": "IMG_0720",
+        "enabled": true
+      }
+    ],
+    "contact_url": "https://magicfairycandles.com/pages/contact",
+    "logo_alt": "Magic Fairy Candles"
+  },
+  "maker-general.html": {
+    "id": "314a9e64-67a4-5dc4-981c-8bda18f156a1",
+    "name": "Maker General",
+    "phone": "720-310-5328",
+    "address": "381 Main St. Longmont, CO 80501",
+    "website": "https://makergeneral.com/",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/maker-general-logo.webp",
+    "categories": [
+      "Craft",
+      "Textiles",
+      "Maker Shop",
+      "Arts & Crafts",
+      "Shopping"
+    ],
+    "description": "A general store built specifically for makers. Maker General specializes in thoughtfully selected textile and fiber supplies, handmade goods and creative materials. They also host sewing, mending and maker workshops.",
+    "email": "makergenerallongmont@gmail.com",
+    "story": "Julie Benoit and Stephanie Sterling created Maker General after years of making, teaching and imagining a creative space of their own. The two Baltimore transplants wanted a general store for people working with textiles and fiber in Longmont.\n\nTheir Main Street shop combines selected tools and supplies with workshops, classes and craft gatherings. Visitors can find materials for a project and opportunities to learn alongside other local makers.",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/maker-general-photo.webp",
+        "alt": "Maker General Harriet Tubman Embroidery Kit",
+        "enabled": true
+      }
+    ],
+    "logo_alt": "Maker General"
+  },
+  "mcintosh-lake-nature-area.html": {
+    "id": "3bbe73fd-c832-51d4-a786-92a00c10f6a9",
+    "name": "McIntosh Lake Nature Area",
+    "description": "Enjoy Longs Peak views while walking around the lake, fishing, kayaking, canoeing or paddleboarding. It's one of Longmont's favorite sunset spots.",
+    "categories": [
+      "Lake",
+      "Trails",
+      "Paddleboarding",
+      "Lake & Trails",
+      "Outdoor Recreation"
+    ],
+    "website": "https://longmontcolorado.gov/facilities/mcintosh-lake-nature-area/",
+    "phone": "303-776-6050",
+    "address": "1929 Harvard Street, Longmont, CO 80503",
+    "story": "McIntosh Lake opened to the public in 2004 as part of a phased nature-area plan. A 3.5-mile trail loop links the surrounding parks and gives visitors changing views of the water, habitat and mountain backdrop.\n\nThe city continues to manage the site for recreation and wildlife. Visitors can check official information for lake access, permitted activities and current conditions.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/ede3e81438c658.webp",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/mcintosh-lake-nature-area-photo.webp",
+        "alt": "A view of Longmont's McIntosh Lake recreation area, with Long's Peak in the background.",
+        "enabled": true
+      }
+    ]
+  },
+  "mkt-visibility.html": {
+    "id": "8a3d2ea6-98d0-5b73-8724-25f88ce2a509",
+    "name": "MKT Visibility",
+    "address": "Serving Colorado small businesses Remote services available",
+    "website": "https://mktvisibility.com",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/mkt-visibility-logo.webp",
+    "categories": [
+      "Digital Marketing",
+      "Social Media",
+      "Websites",
+      "Shopping"
+    ],
+    "description": "Helping Colorado small businesses stay visible without having to do all of the marketing themselves. MKT Visibility provides social media management, content creation, photography and video, website support, Google Business Profile support, and digital marketing services tailored to small businesses.",
+    "email": "MKTvisibility@gmail.com",
+    "story": "MKT Visibility was built around the practical marketing tasks that small-business owners often struggle to fit into a busy week. The Colorado business brings social media, content, photography, video and website support together in one place.\n\nIts approach starts by reviewing what customers find online, identifying gaps and arranging an appropriate level of ongoing support. Services also include Google Business Profile updates and coordinated digital content.",
+    "logo_alt": "MKT Visibility logo"
+  },
+  "newcastle-comics-games.html": {
+    "id": "dcc37b83-6ca9-55a3-aa9f-9f40d46d0329",
+    "name": "NewCastle Comics & Games",
+    "phone": "720-731-2658",
+    "address": "508 5th Avenue, Longmont, CO 80501",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/category-shop-local-art-small.webp",
+    "categories": [
+      "Comics",
+      "Tabletop Games"
+    ],
+    "description": "A local specialty shop for comic books, tabletop games, trading cards and collectibles.",
+    "website": "https://newcastlecomics.com/",
+    "email": "locohelp@newcastlecomics.com",
+    "story": "NewCastle Comics & Games serves Longmont readers and players from its downtown shop on 5th Avenue. The business also has a separate St. Louis-area location, with distinct contact details for each store.\n\nLongmont customers can contact the local team directly about comics, games and current shop offerings. The Longmont email and phone listed here connect visitors with that location.",
+    "contact_url": "https://newcastlecomics.com/blog1/index.php/contact-us/"
+  },
+  "obra-arts.html": {
+    "id": "0157ba72-0571-5e51-a7cb-0530cc3bae16",
+    "name": "Obra Arts",
+    "email": "joyannarose@gmail.com",
+    "phone": "970-568-6058",
+    "address": "332 Main St., upstairs on the left, Longmont, CO",
+    "website": "https://www.joyannarose.com/",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/obra-arts-logo.webp",
+    "categories": [
+      "Watercolor",
+      "Gallery",
+      "Bilingual Classes"
+    ],
+    "description": "Artist Joyanna Rose Gittings welcomes visitors to a working studio and gallery offering handmade art and creative learning in English and Spanish.",
+    "story": "Obra Arts is the working studio of artist Joyanna Rose Gittings in downtown Longmont's Creative District. The public studio offers a look at finished art, works in progress, materials and the process behind her paintings.\n\nJoyanna shares her practice through lessons, demonstrations and a newsletter about creativity and local art. Visitors are encouraged to call before making a special trip because off-site artist activities can change studio availability.",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/obra-arts-photo.webp",
+        "alt": "Photo from the official website of Obra Arts",
+        "enabled": true
+      }
+    ],
+    "logo_alt": "Joyanna Rose Gittings   Obra Arts "
+  },
+  "old-mill-park.html": {
+    "id": "b9860f68-1689-599b-b902-3a2ddc0bf1ec",
+    "name": "Old Mill Park",
+    "gallery": [
+      {
+        "alt": "Old Mill Park",
+        "url": "https://www.stvrainhistory.org/s/cc_images/cache_9043907.jpg?t=1486073355",
+        "caption": "",
+        "enabled": true
+      }
+    ],
+    "website": "https://www.stvrainhistory.org/our-properties/old-mill-park/",
+    "services": [
+      "Historic park rentals for private events and gatherings"
+    ],
+    "categories": [
+      "Historic Park",
+      "Pioneer Buildings",
+      "Pioneer History",
+      "Outdoor Recreation"
+    ],
+    "description": "A small downtown historic park where relocated pioneer-era buildings, gardens and artifacts create an approachable window into early life in the St. Vrain Valley.",
+    "phone": "303-776-1870",
+    "email": "office@stvrainhistory.org",
+    "address": "237 Pratt Street, Longmont, CO 80501",
+    "story": "Old Mill Park was dedicated on August 1, 1976, as a place to preserve and share historic structures connected with the Longmont area. The St. Vrain Historical Society brought buildings together at the site to help tell local stories.\n\nThe park is a Longmont landmark and remains part of the society's preservation work. Visitors can check with the society for tours and current access arrangements.",
+    "image_url": "https://www.stvrainhistory.org/s/cc_images/cache_9043907.jpg?t=1486073355",
+    "events_url": "https://www.stvrainhistory.org/our-properties/old-mill-park/old-mill-park-events-tours/"
+  },
+  "old-st-stephens-church.html": {
+    "id": "9ca4674b-7a75-5525-99f1-7e719ba37c54",
+    "name": "Old St. Stephen’s Church",
+    "description": "Built in 1881 and long known as the “Little White Church,” this downtown landmark is among Longmont’s oldest surviving church buildings and now serves community and preservation uses.",
+    "categories": [
+      "1881 Church",
+      "Local Landmark",
+      "Historic Landmark",
+      "Community & Nonprofits"
+    ],
+    "website": "https://www.stvrainhistory.org/our-properties/old-st-stephen-s/",
+    "phone": "303-776-1870",
+    "email": "office@stvrainhistory.org",
+    "address": "470 Main Street, Longmont, CO 80501",
+    "story": "Built in 1881, Old St. Stephen's Church is one of the historic places preserved by the St. Vrain Historical Society. Its continued care keeps a surviving part of early Longmont available for future generations.\n\nThe society shares the building's history and organizes access through its programs. Contact the society for current tours, events or other arrangements.",
+    "image_url": "https://www.stvrainhistory.org/s/cc_images/cache_21301957.jpg",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/old-st-stephen-s-church-photo.webp",
+        "alt": "Photo from the official website of Old St. Stephen’s Church",
+        "enabled": true
+      }
+    ]
+  },
+  "olde-towne-animal-medical-center.html": {
+    "id": "adb9cade-6ea0-58e1-818d-48ef68bedaaa",
+    "name": "Olde Towne Animal Medical Center",
+    "description": "A full-service veterinary practice providing preventive care and medical services from puppy and kitten care through senior-pet wellness.",
+    "categories": [
+      "Downtown Longmont"
+    ],
+    "website": "https://oldetowneveterinary.com/",
+    "phone": "303-651-9400",
+    "email": "clientservices@oldetowneveterinary.com",
+    "address": "426 Terry Street, Longmont",
+    "story": "Olde Towne Animal Medical Center provides veterinary care for Longmont pets through a local clinical team. Its practice combines preventive care with services for animals that are ill or need further treatment.\n\nThe clinic encourages owners to stay involved in decisions about their pet's health. Its official website provides information about the team, services and how to arrange a visit.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/olde-towne-animal-medical-center-logo.webp",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/olde-towne-animal-medical-center-photo.webp",
+        "alt": "Photo from the official website of Olde Towne Animal Medical Center",
+        "enabled": true
+      }
+    ],
+    "contact_url": "https://oldetowneveterinary.com/contact-us/",
+    "logo_alt": "Olde Towne Animal Medical Center logo"
+  },
+  "ollin-farms.html": {
+    "id": "0e63a880-b8e1-5a3b-97d7-50450b5f8179",
+    "name": "Ollin Farms",
+    "description": "A family-run regenerative farm growing vegetables and building community around food, healthy soil and education. The farm offers a seasonal farm stand, CSA shares, youth education, farm tours and farm-to-table dinners.",
+    "categories": [
+      "Family Farm",
+      "Farm Stand",
+      "Local Farm",
+      "Farms & Agriculture"
+    ],
+    "website": "https://ollinfarms.com/",
+    "email": "info@ollinfarms.com",
+    "address": "8627 N 95th Street Longmont, CO 80504",
+    "story": "Ollin Farms has grown food in the Longmont area since 2007, building its work around healthy soil, healthy food and a connected community. The family farm uses regenerative practices and shares its harvest through a farm stand and CSA.\n\nYouth programs and community activities connect that growing work with learning. Visitors can check seasonal farm information and current opportunities through the farm's official website.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/ollin-farms-logo.webp",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/ollin-farms-photo.webp",
+        "alt": "Family",
+        "enabled": true
+      }
+    ],
+    "logo_alt": "Ollin Farms logo"
+  },
+  "open-window-studio.html": {
+    "id": "782fa096-2a9a-51f2-9e04-d6a116746ec9",
+    "name": "Open Window Studio",
+    "phone": "720-400-1319",
+    "address": "7873 St. Vrain Road, Longmont, CO",
+    "website": "https://www.openwindowstudio.org/",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/open-window-studio-logo.webp",
+    "categories": [
+      "Art",
+      "Clay",
+      "Classes & Camps",
+      "Arts & Crafts"
+    ],
+    "description": "Explore art and clay through classes, workshops and camps for children, teens and adults in a creative studio on a Longmont family farm.",
+    "email": "page@openwindowstudio.org",
+    "story": "Open Window Studio creates space for experimentation with art and clay on a family farm in Longmont. Its classes encourage children, teens and adults to explore ideas in a supportive studio environment.\n\nThe program includes classes, camps, guided studio time and workshops, as well as creative birthday parties and small gatherings. The emphasis is on the process of making and discovering what each student wants to create.",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/open-window-studio-photo.webp",
+        "alt": "Photo from the official website of Open Window Studio",
+        "enabled": true
+      }
+    ],
+    "events_url": "https://www.openwindowstudio.org/class-calendar/",
+    "logo_alt": "Open Window Studio, Longmont Colorado"
+  },
+  "our-center.html": {
+    "id": "e2f626b7-aa5c-51ee-bb5b-c3b73ec0f309",
+    "name": "OUR Center",
+    "description": "A Longmont nonprofit resource center providing groceries, meals and other support to individuals and families working toward stability and self-sufficiency.",
+    "categories": [
+      "Food",
+      "Meals",
+      "Family Support",
+      "Food & Drink"
+    ],
+    "website": "https://www.ourcenter.org/",
+    "phone": "303-772-5529",
+    "email": "info@ourcenter.org",
+    "address": "220 Collyer Street Longmont, CO 80501",
+    "story": "OUR Center connects people in the St. Vrain Valley with food and other support during difficult times. Its Longmont resource center brings several forms of assistance together so people can discuss their needs with a team.\n\nFood services, community partnerships and volunteer support are central to that work. Anyone seeking help can contact the center to learn about current services, hours and any eligibility requirements.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/our-center-logo.webp",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/our-center-photo.webp",
+        "alt": "Photo from the official website of OUR Center",
+        "enabled": true
+      }
+    ],
+    "events_url": "https://www.ourcenter.org/calendar/",
+    "logo_alt": "OUR Center"
+  },
+  "paw-au-pair.html": {
+    "id": "7c78a101-1047-5eb9-a97e-860ae254e23d",
+    "name": "Paw Au Pair",
+    "description": "Longmont-based professional in-home pet sitting and dog walking for dogs, cats, puppies, special-needs pets, birds and fish.",
+    "categories": [
+      "Local In-Home Pet Sitting",
+      "Animals & Pet Services"
+    ],
+    "website": "https://www.pawaupair.com/",
+    "phone": "303-485-8498",
+    "email": "pawaupair@msn.com",
+    "address": "Service Area: Longmont and Northern Colorado",
+    "story": "Paw Au Pair grew out of owner Linda's work helping households and caring for their animals. After offering pet sitting through a personal-assistant business, she chose to focus on the work she most enjoyed: looking after pets.\n\nThe Longmont service provides care in familiar home surroundings, including visits, overnight care and dog walking. Owners can discuss routines, special needs and basic household tasks when arranging service.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/paw-au-pair-logo.webp",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/paw-au-pair-photo.webp",
+        "alt": "Pet Sitter Longmont CO",
+        "enabled": true
+      }
+    ],
+    "logo_alt": "Paw Au Pair logo WEB.png"
+  },
+  "retail-therapy-vendor-market.html": {
+    "id": "acd843a3-a78b-59e0-825c-7c3080d9b3e1",
+    "name": "Retail Therapy Vendor Market",
+    "phone": "720-552-1082",
+    "address": "611 2nd Ave. Longmont, CO",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/retail-therapy-vendor-market-logo.webp",
+    "categories": [
+      "Vendor Market",
+      "Vintage",
+      "Makers",
+      "Arts & Crafts",
+      "Shopping"
+    ],
+    "description": "An indoor multi-vendor market featuring independent sellers, vintage finds and handmade goods.",
+    "website": "https://retailtherapyvendormarket.com/",
+    "story": "Retail Therapy Vendor Market brings an assortment of sellers and styles together under one roof. The selection mixes vintage and previously owned finds with handmade pieces, repurposed goods and new gifts.\n\nThat changing mix gives shoppers a reason to browse slowly and return to see what vendors have brought in next. The market also shares announcements about upcoming store events through its official website.",
+    "contact_url": "https://retailtherapyvendormarket.com/pages/contact",
+    "logo_alt": "Retail Therapy Vendor Market"
+  },
+  "rocky-mountain-kennels.html": {
+    "id": "ebeae825-8c8b-506e-80cd-7bf0b6caf953",
+    "name": "Rocky Mountain Kennels",
+    "description": "Longmont-area dog boarding and doggie daycare with climate-controlled kennels and outdoor exercise areas.",
+    "categories": [
+      "Longmont Boarding"
+    ],
+    "website": "https://www.rockymountainkennels.com/",
+    "phone": "303-651-3647",
+    "email": "info@rockymountainkennels.com",
+    "address": "1066 County Road 32, Longmont",
+    "story": "Rocky Mountain Kennels provides boarding and day care in a country setting near Longmont. Its facilities include space for dogs to spend time outdoors as well as accommodations for their stay.\n\nThe business offers additional care options such as baths and nail trims. Owners can contact the kennel to discuss their dog's needs, availability and the requirements for a booking.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/art/pets.webp"
+  },
+  "rocky-mountain-pumpkin-ranch.html": {
+    "id": "48e0e549-e4c5-5d2d-a599-f585a4f456ac",
+    "name": "Rocky Mountain Pumpkin Ranch",
+    "address": "9059 Ute Hwy. Longmont, CO",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/rocky-mountain-pumpkin-ranch-logo.webp",
+    "categories": [
+      "Farm",
+      "Seasonal Experiences",
+      "Organic Farm",
+      "Seasonal",
+      "Seasonal Farm Fun",
+      "Farms & Agriculture"
+    ],
+    "description": "A local seasonal farm destination known for its fall pumpkin activities and family outings.",
+    "website": "https://rockymtnpumpkinranch.com/",
+    "phone": "303-684-0087",
+    "email": "admin@rmpr.farm",
+    "story": "Rocky Mountain Pumpkin Ranch combines a seasonal farm stand with fall traditions for families. The farm grows produce and welcomes visitors during its growing and harvest seasons.\n\nIn autumn, the ranch adds pumpkins and a fall carnival, with activities offered on selected dates. Visitors should check the ranch's official schedule for the current season, available activities and any tickets or separate ride charges.",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/rocky-mountain-pumpkin-ranch-photo.webp",
+        "alt": "Assorted colorful gourds and Indian corn on straw",
+        "enabled": true
+      }
+    ],
+    "events_url": "https://rockymtnpumpkinranch.com/events/",
+    "logo_alt": "Rocky Mountain Pumpkin Ranch logo"
+  },
+  "sandstone-ranch-visitors-learning-center.html": {
+    "id": "49f68adb-d7a2-5613-b17e-0e3f15667c4c",
+    "name": "Sandstone Ranch Visitors & Learning Center",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/sandstone-ranch-visitors-learning-center-photo.webp",
+        "alt": "Photo from the official website of Sandstone Ranch Visitors & Learning Center",
+        "enabled": true
+      },
+      {
+        "alt": "Sandstone Ranch in Longmont Colorado",
+        "url": "https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,q_85,w_1200/v1/crm/longmontco/37055267433_27facbf459_o0-13c8168a5056b36_13c819d5-5056-b365-ab0503c5ce51a7c1.jpg",
+        "caption": "",
+        "enabled": true
+      }
+    ],
+    "website": "https://longmontcolorado.gov/sandstone-ranch/visitors-learning-center-at-sandstone-ranch/",
+    "services": [
+      "Historic indoor and outdoor rentals for weddings, family gatherings and corporate retreats"
+    ],
+    "categories": [
+      "History",
+      "Nature",
+      "Wildlife"
+    ],
+    "description": "Explore a historic homestead first settled in 1860. Inside you'll find hands-on history and environmental exhibits, while outside trails pass historic buildings, sandstone bluffs and wildlife habitat.",
+    "phone": "303-774-4692",
+    "email": "sandstone.ranch@longmontcolorado.gov",
+    "address": "3001 Sandstone Drive, Longmont, CO 80504",
+    "story": "The Sandstone Ranch property was first homesteaded by the Coffin family in 1860. Its historic house now serves as a Visitors & Learning Center, connecting the area’s human history with its geology, landscape and wildlife.\n\nHands-on displays and surrounding historic buildings help visitors imagine life here more than a century ago. Nature trails, educational programs and seasonal public opening hours offer different ways to explore the ranch.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/dickens-farm-nature-area-logo.webp",
+    "events_url": "https://longmontcolorado.gov/sandstone-ranch/visitors-learning-center-at-sandstone-ranch/special-programs-classes-events-sandstone-ranch/",
+    "logo_alt": "City of Longmont Colorado logo"
+  },
+  "simply-bulk-market.html": {
+    "id": "b05d4c08-c935-5607-a020-98a072c52800",
+    "name": "Simply Bulk Market",
+    "phone": "303-678-7069",
+    "address": "418 Main St. Longmont, CO 80501",
+    "website": "http://simplybulkmarket.com/",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/category-shop-local-art-small.webp",
+    "categories": [
+      "Zero-Waste Market",
+      "Specialty Grocery",
+      "Shopping"
+    ],
+    "description": "A downtown bulk market where shoppers can refill their own containers with foods, spices, teas, personal-care products, cleaning supplies and other goods while reducing packaging waste.",
+    "email": "simplybulkmarket@gmail.com",
+    "story": "Heidi and Devin Quince were customers of Simply Bulk Market before buying the business from Phil and Georgia Bratty in 2016. They continued its focus on buying useful amounts of everyday goods while reducing unnecessary packaging.\n\nBins and barrels hold grains, beans, spices, nuts and other pantry staples. The store also offers refillable household and personal-care products, so shoppers can purchase the amount they need rather than a standard package size.",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/simply-bulk-market-photo.webp",
+        "alt": "Photo from the official website of Simply Bulk Market",
+        "enabled": true
+      }
+    ]
+  },
+  "soul-19.html": {
+    "id": "b019264a-7958-5ea8-b075-2e1538600992",
+    "name": "SOUL 19",
+    "description": "A Longmont mindful-movement studio combining yoga, strength, barre, breathwork and meditation. The studio emphasizes connection, growth and shared experience.",
+    "categories": [
+      "Mindful Movement"
+    ],
+    "website": "https://www.soul19.com/",
+    "phone": "720-600-4868",
+    "email": "info@soul19.com",
+    "address": "1350 Ken Pratt Boulevard Longmont, CO",
+    "story": "SOUL 19 brings yoga, barre, strength and meditation into a shared Longmont studio. Its class offerings give students different ways to explore movement and build a practice that suits them.\n\nWorkshops and community gatherings extend the regular schedule. The studio's official calendar provides current class details, instructors and registration information.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/soul-19-logo.svg",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/soul-19-photo.webp",
+        "alt": "Photo from the official website of SOUL 19",
+        "enabled": true
+      }
+    ],
+    "events_url": "https://www.soul19.com/calendar",
+    "logo_background": "dark",
+    "logo_alt": "SOUL 19 logo"
+  },
+  "st-john-the-baptist-catholic-church.html": {
+    "id": "700ddcf0-5977-5cb7-b1d1-e7eda7a67c9c",
+    "name": "St. John the Baptist Catholic Church",
+    "description": "A longstanding Longmont Catholic parish with English and Spanish services, religious education, community ministries and its own community food bank.",
+    "categories": [
+      "Catholic Community",
+      "Community & Nonprofits"
+    ],
+    "website": "https://www.johnthebaptist.org/",
+    "phone": "303-776-0737",
+    "email": "info@johnthebaptist.org",
+    "address": "323 Collyer Street Longmont, CO 80501",
+    "story": "St. John the Baptist Catholic Church brings parish worship, faith formation and service together in Longmont. The parish's programs support people through different stages of family and community life.\n\nVisitors can use the official parish website to find current services, events and ways to get involved. The parish office can help with questions about particular ministries or arrangements.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/st-john-the-baptist-catholic-church-logo.webp",
+    "gallery": [
+      {
+        "alt": "St. John the Baptist Catholic Church",
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/c98f1073ac26ba.webp",
+        "caption": "",
+        "enabled": true
+      }
+    ],
+    "events_url": "https://www.johnthebaptist.org/events",
+    "logo_background": "dark",
+    "logo_alt": "St. John the Baptist Catholic Church logo"
+  },
+  "st-john-the-baptist-food-bank.html": {
+    "id": "53dad91f-ea82-5bc3-885f-cf6de7487024",
+    "name": "St. John the Baptist Food Bank",
+    "description": "A volunteer-supported Longmont food bank providing food boxes to local individuals and families experiencing difficult times.",
+    "categories": [
+      "Community Food Bank",
+      "Food & Drink",
+      "Community & Nonprofits"
+    ],
+    "website": "https://www.johnthebaptist.org/",
+    "phone": "303-678-1469",
+    "email": "info@johnthebaptist.org",
+    "address": "804 S Lincoln Street Longmont, CO 80501",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/c98f1073ac26ba.webp",
+    "gallery": [
+      {
+        "alt": "St. John the Baptist Food Bank",
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/c98f1073ac26ba.webp",
+        "caption": "",
+        "enabled": true
+      }
+    ]
+  },
+  "table-of-hope-food-pantry.html": {
+    "id": "7498b972-015b-571d-b16c-6b105d1c5de3",
+    "name": "Table of Hope Food Pantry",
+    "description": "A volunteer-run nonprofit food pantry operating from White Fields Community Church. The pantry provides food assistance and welcomes community volunteers to help with distribution and operations.",
+    "categories": [
+      "Volunteer-Run Food Pantry",
+      "Food & Drink",
+      "Community & Nonprofits"
+    ],
+    "website": "https://whitefieldschurch.com/",
+    "phone": "720-781-7526",
+    "email": "nate@whitefieldschurch.com",
+    "address": "2950 Colorful Avenue #100 Longmont, CO 80504",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/art/faith.webp"
+  },
+  "the-bee-hugger-farm.html": {
+    "id": "ab70f6a2-9597-56ce-a256-162c17eb9fb2",
+    "name": "The Bee Hugger Farm",
+    "email": "comeandbee@gmail.com",
+    "phone": "303-330-8277",
+    "address": "12590 Ute Highway Longmont, CO 80504",
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://static.wixstatic.com/media/646d3b_1f680794b7444d01aa3858b487294198~mv2.jpg/v1/fill/w_499,h_487,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/646d3b_1f680794b7444d01aa3858b487294198~mv2.jpg",
+        "caption": "",
+        "enabled": true
+      }
+    ],
+    "website": "https://www.thebeehuggerfarm.com/",
+    "image_url": "https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/ab70f6a2-9597-56ce-a256-162c17eb9fb2/fd5ca0bf-b262-414d-8186-2335501c2b42.jpg",
+    "categories": [
+      "Family Farm",
+      "Local Farm",
+      "Honey",
+      "Seasonal Experiences",
+      "Small Family Farm",
+      "Farm",
+      "Animals",
+      "Family Fun",
+      "Farm & Animals",
+      "Animals & Pet Services",
+      "Farms & Agriculture"
+    ],
+    "description": "A quirky six-acre family farm with bees, horses, goats, pigs, chickens, peacocks, U-Pick sunflowers, pumpkins, local honey and more. Visitors can feed animals, climb tractors and explore the property. Check the website and social media for pony rides, storytimes and other special events.",
+    "story": "The Bee Hugger Farm invites visitors to connect with farm life through its animals, seasonal activities and open outdoor spaces. Its Longmont setting brings together small-farm experiences and a place for families to spend time outside.\n\nActivities vary with the season, so checking the farm's current announcements is the best way to plan a visit or learn about a special gathering."
+  },
+  "the-blackbird-house.html": {
+    "id": "d643de4a-dc92-57a6-882a-396b72551722",
+    "name": "The Blackbird House",
+    "phone": "720-633-8779",
+    "address": "439 Main St., Longmont, CO 80501",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/category-shop-local-art-small.webp",
+    "categories": [
+      "Gifts",
+      "Crystals",
+      "Metaphysical",
+      "Gift Shops",
+      "Shopping"
+    ],
+    "description": "A downtown shop for unusual gifts, crystals and metaphysical finds.",
+    "website": "https://www.instagram.com/blackbirdhouselongmont/",
+    "email": "blackbirdhouselongmont@gmail.com",
+    "story": "The Blackbird House opened beneath Blackbird Ink in downtown Longmont in 2023. The shop brings together plants, rocks, fossils, artwork and other natural curiosities at 439 Main Street.\n\nIts selection reflects an interest in nature, creativity and unusual finds. Visitors can browse gifts and apothecary goods, while the shop shares current news through its Longmont social account."
+  },
+  "the-flower-bin.html": {
+    "id": "5b44dadc-9511-5688-ba72-23f589ba5524",
+    "name": "The Flower Bin",
+    "phone": "303-772-3454",
+    "address": "1805 Nelson Road Longmont, CO 80501",
+    "website": "https://www.theflowerbin.net/",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/the-flower-bin-logo.webp",
+    "categories": [
+      "Garden Center",
+      "Plants",
+      "Gifts",
+      "Garden Destination",
+      "Gift Shops",
+      "Shopping"
+    ],
+    "description": "A family-owned Longmont garden center operating since 1971, with five acres of plants, indoor growing space, gardening supplies, gifts and home décor.",
+    "story": "Family-owned and operated since 1971, The Flower Bin has grown alongside generations of Colorado gardeners. Its Longmont garden center includes substantial greenhouse space, supported by a growing operation in Platteville.\n\nThe nursery brings plants, gardening supplies and seasonal gifts together, from annuals and hanging baskets to perennials, roses and houseplants. Its staff and gardening information help customers choose plants suited to their spaces and the Front Range's changing seasons.",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/the-flower-bin-photo.webp",
+        "alt": "Legendary Flower Bin-Grown Hanging Baskets",
+        "enabled": true
+      }
+    ],
+    "contact_url": "https://www.theflowerbin.net/contact-us",
+    "logo_alt": "The Flower Bin logo"
+  },
+  "the-quill-candle-bookshop.html": {
+    "id": "3032e438-3e5b-5a68-98ce-458d8167465e",
+    "name": "The Quill & Candle Bookshop",
+    "phone": "970-660-7820",
+    "address": "2007 100 Year Party Ct. Longmont, CO 80504",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/art/learning.webp",
+    "categories": [
+      "Independent Bookstore",
+      "Prospect",
+      "Shopping"
+    ],
+    "description": "A cozy independent bookshop in Prospect New Town with curated fiction and children's books, book-themed gifts and community events including author visits and book clubs.",
+    "website": "https://www.instagram.com/thequillandcandle_bookshop/",
+    "story": "The Quill & Candle Bookshop is an independent, woman-owned bookshop in Prospect New Town. Its shelves focus on selected fiction and children’s literature.\n\nAlongside books, the shop carries book-themed gifts, notebooks, games, puzzles, toys and candles. Visitors can follow its official social account for current shop news and activities."
+  },
+  "the-round-pantry.html": {
+    "id": "ef37c1cc-bd05-5f26-bc89-fb3f697d1cf5",
+    "name": "The ROUND PANTRY",
+    "description": "A community food distribution hosted by Westview Presbyterian Church. Shoppers receive prepacked groceries including pantry foods and fresh items when available. No qualification or ID is required.",
+    "categories": [
+      "No-Cost Groceries"
+    ],
+    "website": "https://westviewpres.org/round-pantry-welcome",
+    "address": "1500 Hover Street Longmont, CO 80501",
+    "story": "The ROUND PANTRY is a food-distribution program hosted at Westview Presbyterian Church. Volunteers prepare and distribute bags of food, with produce, refrigerated items and other goods included as available.\n\nThe pantry welcomes people arriving by car or on foot. Its official information explains current distribution days, hours and volunteer opportunities, including seasonal exceptions to the regular schedule.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/the-round-pantry-logo.webp",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/the-round-pantry-photo.webp",
+        "alt": "Allen DSC_0011c3.JPG",
+        "enabled": true
+      }
+    ],
+    "logo_alt": "Westview Presbyterian Church Longmont"
+  },
+  "tinkermill.html": {
+    "id": "ac659685-a763-53c7-8d20-63ea338b323a",
+    "name": "TinkerMill",
+    "description": "A volunteer-powered nonprofit makerspace with woodworking, welding, pottery, textiles, robotics, laser cutting, blacksmithing and more.",
+    "categories": [
+      "Makerspace",
+      "Workshops",
+      "Community",
+      "Makers",
+      "Longmont",
+      "Arts & Crafts",
+      "Shopping",
+      "Community & Nonprofits"
+    ],
+    "website": "https://tinkermill.org/",
+    "phone": "720-204-3090",
+    "email": "info@tinkermill.org",
+    "address": "1840 Delaware Place, Unit A, Longmont, CO 80501",
+    "story": "TinkerMill brings tools, shared workspaces and a community of makers together in Longmont. Members can develop projects across disciplines including woodworking, metalworking, electronics and other hands-on arts.\n\nClasses, shop activities and community events help people learn how to use equipment and work alongside other makers. Check the official calendar for current sessions and any training or membership requirements.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/tinkermill-logo.webp",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/tinkermill-photo.webp",
+        "alt": "Photo from the official website of TinkerMill",
+        "enabled": true
+      }
+    ],
+    "events_url": "https://tinkermill.org/calendar/",
+    "logo_alt": "TinkerMill Logo"
+  },
+  "tumbleweed-art-collective.html": {
+    "id": "8d72b20f-fe3a-5d57-a78e-d37fd56b4959",
+    "name": "Tumbleweed Art Collective",
+    "email": "tumbleweed.studioco@gmail.com",
+    "phone": "303-960-9382",
+    "story": "Tumbleweed Art Collective brings a boutique, artist studios and classes together in Longmont. Its mix of workspaces and shared activities gives artists and visitors different ways to take part in the local creative community.\n\nThe collective's calendar includes open studio time, children's art activities and workshops. Current listings provide the details for visiting a studio session or trying a particular technique.",
+    "address": "1333 Coffman St., Suite A Longmont, CO 80501",
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://media.rainpos.com/12828/carousel_module-7977345-image-26be0b86907d05469e766e9218a7bfbf.jpg",
+        "caption": "",
+        "enabled": true
+      }
+    ],
+    "website": "https://www.thetumbleweedartcollective.com/",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/tumbleweed-art-collective-logo.webp",
+    "categories": [
+      "Local Art",
+      "Handmade Goods",
+      "Arts & Crafts"
+    ],
+    "description": "Part boutique, part gallery and part creative community. Tumbleweed features handmade art and goods created by local artists and makers, including work for the home and garden. It's the kind of place where the inventory changes depending on what local artists are creating.",
+    "events_url": "https://www.thetumbleweedartcollective.com/module/events.htm?pageComponentId=1840218&month=current",
+    "logo_alt": "Tumbleweed Art Collective logo"
+  },
+  "twin-peaks-pet-care.html": {
+    "id": "6b9f40e1-37dc-5ab6-9344-f3021209d673",
+    "name": "Twin Peaks Pet Care",
+    "description": "A locally owned pet-care company serving Longmont and surrounding Boulder County communities with in-home pet care, dog walking, pet sitting and training.",
+    "categories": [
+      "Locally Owned"
+    ],
+    "website": "https://twinpeakspetcare.com/",
+    "phone": "303-351-2208",
+    "email": "petcare@twinpeakspetcare.com",
+    "address": "Service Area: Longmont and surrounding Boulder County communities.",
+    "story": "Patrick and Sandy Kuhnell built Twin Peaks Pet Care around helping animals stay comfortable and engaged while their people are away. The business serves Boulder County households with pet sitting and dog walking.\n\nIts team approach provides primary and backup care for clients. Owners can discuss their pet's routines, enrichment needs and location before choosing the services that fit.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/twin-peaks-pet-care-logo.webp",
+    "contact_url": "https://twinpeakspetcare.com/contact/",
+    "logo_alt": "twin peaks pet care logo"
+  },
+  "union-reservoir-nature-area.html": {
+    "id": "bb8d5f3e-2bd7-57f2-acee-9d5fdf75329e",
+    "name": "Union Reservoir Nature Area",
+    "description": "This 736-acre body of water offers boating, fishing, kayaking, paddleboarding, picnicking and a dedicated dog beach.",
+    "categories": [
+      "Reservoir",
+      "Beach",
+      "Kayaking",
+      "Water Recreation",
+      "Outdoor Recreation"
+    ],
+    "website": "https://longmontcolorado.gov/union-reservoir-nature-area/",
+    "phone": "303-772-1265",
+    "email": "union@longmontcolorado.gov",
+    "address": "461 County Road 26, Longmont, CO 80504",
+    "story": "Union Reservoir is a 736-acre lake in Longmont, originally known as Calkins Lake. The nature area gives residents and visitors a place to spend time near the water and enjoy outdoor recreation.\n\nThe city manages access and provides current information about seasonal activities, fees and rules. Visitors should check those details before planning a water-based outing.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/union-reservoir-nature-area-logo.webp",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/union-reservoir-nature-area-photo.webp",
+        "alt": "The beach at Longmont's Union Reservoir is seen in autumn. with colorful leaves.",
+        "enabled": true
+      }
+    ],
+    "events_url": "https://longmontcolorado.gov/union-reservoir-nature-area/special-events-union-reservoir/",
+    "logo_alt": "City of Longmont Colorado logo"
+  },
+  "valley-veterinary-hospital.html": {
+    "id": "3a80f437-5abf-5b73-b39a-335c9ad5cc13",
+    "name": "Valley Veterinary Hospital",
+    "description": "A full-service small-animal hospital providing medical, surgical, dental, diagnostic and wellness care for dogs and cats.",
+    "categories": [
+      "Established Longmont Practice"
+    ],
+    "website": "https://www.valleyvethospital.net/",
+    "phone": "303-776-0234",
+    "address": "1191 Ken Pratt Boulevard, Longmont",
+    "story": "Valley Veterinary Hospital has cared for Longmont pets since 1964. Its practice combines treatment for illness with preventive care and guidance that helps owners look after their animals over time.\n\nThe hospital provides diagnostic, dental and surgical services, with access to additional laboratories and referral practices when needed. Owners can contact the team to arrange care and learn about the services appropriate to their pet.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/1818ee8c0e487a.webp",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/valley-veterinary-hospital-photo.webp",
+        "alt": "Woman holding dog in forest",
+        "enabled": true
+      }
+    ],
+    "contact_url": "https://www.valleyvethospital.net/contact-us"
+  },
+  "wax-crescent.html": {
+    "id": "fd1aad39-52b9-5a11-827e-2cd81b404cfc",
+    "name": "Wax Crescent",
+    "email": "shinebright@waxcrescent.com",
+    "address": "525 3rd Ave., Suite 101, Longmont, CO 80501",
+    "website": "https://waxcrescent.com/pages/wax-crescent-storefront",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/wax-crescent-logo.webp",
+    "categories": [
+      "Handmade Candles",
+      "Gifts",
+      "Workshops",
+      "Gift Shops",
+      "Shopping"
+    ],
+    "description": "Shop small-batch candles and curated artisan goods, or join a candle-making class focused on blending your own fragrance.",
+    "story": "Founder Kym began exploring candle making in 2016 and launched Wax Crescent in November 2019 after several years of testing ingredients and fragrances. The collection grew from four original scents into a changing range of small-batch candles.\n\nThe downtown Longmont studio extends that work through candle-making workshops and a selection of gifts from other makers. Guests can explore fragrance blending and create a candle of their own, while the business also offers a candle bar for private events.",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/wax-crescent-photo.webp",
+        "alt": "Photo from the official website of Wax Crescent",
+        "enabled": true
+      }
+    ],
+    "events_url": "https://waxcrescent.com/pages/events-experiences",
+    "logo_alt": "Wax Crescent "
+  },
+  "westview-presbyterian-church.html": {
+    "id": "64543f47-6670-5135-bade-5e327a17e99e",
+    "name": "Westview Presbyterian Church",
+    "description": "A Longmont Presbyterian congregation with worship, study groups, fellowship activities and extensive community service through The ROUND PANTRY.",
+    "categories": [
+      "Presbyterian",
+      "Community Outreach",
+      "Community & Nonprofits"
+    ],
+    "website": "https://westviewpres.org/",
+    "phone": "303-776-3242",
+    "address": "1500 Hover Street Longmont, CO 80501",
+    "story": "Westview Presbyterian Church connects worship, learning and community service in Longmont. Its congregation gathers for services and study while supporting people through volunteer ministries.\n\nThe church is also home to The ROUND PANTRY, where volunteers prepare and distribute food. Newcomers can find worship information and current ways to take part through the church's official website.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/westview-presbyterian-church-logo.webp",
+    "logo_alt": "Westview Presbyterian Church Longmont"
+  },
+  "whispering-pines-pet-resort.html": {
+    "id": "ba98608e-247a-5b93-a4bc-25b7f7114e66",
+    "name": "Whispering Pines Pet Resort",
+    "description": "A country-style Longmont pet-care facility offering dog boarding, daycare, cat boarding, grooming and training.",
+    "categories": [
+      "Country Pet Care",
+      "Animals & Pet Services"
+    ],
+    "website": "https://k9country.com/",
+    "phone": "303-776-3907",
+    "email": "info@whisperingpinespetresort.com",
+    "address": "14360 N 83rd Street, Longmont",
+    "story": "The business formerly known as Whispering Pines Pet Resort now operates as Canine Country. Its official announcement directs customers to k9country.com and says the existing phone number and booking link remain in use.\n\nThe Longmont-area property provides a country setting for pet boarding and day care. Customers should use the current website for services, requirements and reservations.",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/dde6ab6845e9d8.webp",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/whispering-pines-pet-resort-photo.webp",
+        "alt": "golden retriever and lab mix dogs at whispering pines pet resort daycare",
+        "enabled": true
+      }
+    ],
+    "tagline": "Now Canine Country"
+  },
+  "wolf-wren.html": {
+    "id": "d62fa870-bd5f-4500-b2f2-9594878740b7",
+    "name": "Wolf & Wren",
+    "email": "hello@wolfandwren.com",
+    "phone": "(925) 457-6050",
+    "story": "Their award-winning cards are designed and printed using vintage\n            letterpress equipment, making this a particularly fun stop when\n            you're searching for something different.",
+    "address": "331 Main St., Longmont, CO 80501",
+    "gallery": [
+      {
+        "alt": "",
+        "url": "https://wolfandwren.com/cdn/shop/files/Wolf_and_Wren_Longmont_3.jpg?v=1720791309",
+        "caption": "",
+        "enabled": true
+      }
+    ],
+    "website": "https://wolfandwren.com/",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/wolf-wren-logo.webp",
+    "categories": [
+      "Letterpress",
+      "Stationery",
+      "Paper Goods",
+      "Gift Shops",
+      "Shopping"
+    ],
+    "description": "One of downtown Longmont's most colorful little shops. Wolf & Wren specializes in clever letterpress greeting cards, stationery, notebooks, writing tools and thoughtfully curated gifts.\n\nTheir award-winning cards are designed and printed using vintage letterpress equipment, making this a particularly fun stop when you're searching for something different.",
+    "logo_alt": "Wolf & Wren Press"
+  },
+  "wrens-nest-art-studio.html": {
+    "id": "b1f715a3-8051-5da2-a7d9-fdbfd6c41508",
+    "name": "Wren’s Nest Art Studio",
+    "phone": "720-340-5837",
+    "address": "2030 Ionosphere St., Unit A Longmont, CO",
+    "website": "https://wrensneststudio.com/",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/wren-s-nest-art-studio-logo.webp",
+    "categories": [
+      "Art Studio",
+      "Classes",
+      "Camps",
+      "Arts & Crafts"
+    ],
+    "description": "Art classes, camps, open studio sessions and creative gatherings for children and adults.",
+    "email": "hello@wrensneststudio.com",
+    "story": "Wren's Nest Art Studio gives young artists room to explore materials and develop their own ideas. Its Longmont programs include after-school and homeschool art, camps and other creative studio experiences.\n\nThe studio also offers open studio opportunities and special sessions. Families can use the official calendar to find age ranges, dates and registration details for current programs.",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/wren-s-nest-art-studio-photo.webp",
+        "alt": "Wren's Nest Art Studio",
+        "enabled": true
+      }
+    ],
+    "events_url": "https://wrensneststudio.com/calendar",
+    "logo_alt": "Wren's Nest logo"
+  },
+  "callahan-house.html": {
+    "name": "Callahan House",
+    "categories": [
+      "Historic House",
+      "Gardens",
+      "Event Venue"
+    ],
+    "description": "A historic Victorian home and garden in Longmont, offering community events and space for private gatherings. Visits outside special events are by appointment.",
+    "website": "https://longmontcolorado.gov/facilities/callahan-house/",
+    "email": "callahan@longmontcolorado.gov",
+    "phone": "303-776-5191",
+    "address": "312 Terry Street, Longmont, CO 80501",
+    "logo_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/dickens-farm-nature-area-logo.webp",
+    "logo_alt": "City of Longmont logo",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/callahan-house-photo.webp",
+        "alt": "Callahan House and garden; photo from the City of Longmont"
+      }
+    ],
+    "story": "Callahan House was built in 1892 and became the home of Longmont merchants Thomas and Alice Callahan. In 1938, the couple gave the house and garden to the City of Longmont as a place for local people to gather.\n\nThe preserved home and Italian-style garden continue to host community programs, weddings and other events. The city maintains the property and offers information about appointments and public opening dates."
+  }
+}

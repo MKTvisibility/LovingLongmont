@@ -1,6 +1,6 @@
 import {renderHomeStories,renderHomeStory} from './home-stories.mjs?v=20261017-intro-placement';
 import {renderSectionPlacements} from './section-placements.mjs?v=20261016-sections';
-import {renderProfile,renderBusinessCard} from './profile-view.mjs?v=20261016-published-images';
+import {renderProfile,renderBusinessCard} from './profile-view.mjs?v=20261018-research';
 const BASE='https://gvmwkltwrlqwbqegieum.supabase.co',KEY='sb_publishable_SFIrQ_kqkLQJdBNMnaRr3g_w6XWKaBJ';
 const page=location.pathname.split('/').pop()||'index.html';
 async function load(){const response=await fetch(BASE+'/rest/v1/cc_ll_live_publications?select=business_id,route,public_content,directory,spotlight_pages,spotlight_order,active,revision,published_at,sites,site_placements',{headers:{apikey:KEY},cache:'no-store'});if(!response.ok)throw Error('Business updates unavailable');const rows=(await response.json()).filter(r=>r.business_id!=='b8d00942-eb87-5cb3-bb6b-1e34daa74b9b'&&r.active&&(r.sites||['Loving Longmont']).includes(document.documentElement.dataset.businessSite||'Loving Longmont'));

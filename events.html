@@ -820,7 +820,7 @@ footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55
 #event-venues .ll-venue-intro{max-width:900px;color:#53655e;line-height:1.65;margin:0 0 24px}#event-venues>h2{margin-bottom:12px}
 </style>
 <link href="assets/live-header.css" rel="stylesheet"/>
-<link href="assets/live/business-profile.css?v=20261016-photo-audit" rel="stylesheet"/>
+<link href="assets/live/business-profile.css?v=20261018-research" rel="stylesheet"/>
 <link href="assets/visual-cards.css" rel="stylesheet"/><style id="event-card-layout-fix">
 /* Event links must target official, event-specific pages; never searches or directories. */
 .event-grid[data-ll-visual-grid]{align-items:stretch!important}
@@ -1019,7 +1019,7 @@ body .event-month .event-grid[data-ll-visual-grid]{grid-template-columns:repeat(
 <script src="assets/live/live-page.mjs?v=20261017-story-previews" type="module"></script>
 <script src="assets/visual-cards.mjs?v=20261017-event-summaries" type="module"></script><script id="ll-verified-events-filter">
 (()=>{const input=document.getElementById('ll-event-search');if(!input)return;const count=document.getElementById('ll-event-filter-count');input.addEventListener('input',()=>{const cards=[...document.querySelectorAll('.event-month .event-card')],text=cards.map(card=>(card.textContent+' '+(card.dataset.eventSearch||'')).toLowerCase());const query=input.value.trim().toLowerCase();let visible=0;cards.forEach((card,index)=>{const match=!query||text[index].includes(query);card.hidden=!match;if(match)visible++;const details=card.querySelector('.ll-event-sessions');if(details)details.open=Boolean(query&&match)});count.textContent=query?visible+' matching listings.':''});document.querySelectorAll('.ll-event-host-image img').forEach(img=>{img.addEventListener('error',()=>{img.hidden=true;const fallback=img.parentElement.querySelector('.ll-event-name-art');if(fallback)fallback.hidden=false},{once:true})})})();
-</script><script src="assets/live/business-events-loader.mjs?v=20261017-summaries" type="module"></script><script id="ll-hide-unverified-instagram">
+</script><script src="assets/live/business-events-loader.mjs?v=20261018-research" type="module"></script><script id="ll-hide-unverified-instagram">
 (function(){
   function removeUnverifiedInstagram(){
     document.querySelectorAll('a,button').forEach(function(el){
