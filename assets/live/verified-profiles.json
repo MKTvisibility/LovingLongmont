@@ -73,7 +73,7 @@
     "email": "info@corhs.org",
     "address": "Longmont, Colorado",
     "story": "Colorado Reptile Humane Society has worked to improve the lives of reptiles and amphibians since 1998. The organization combines sheltering with education and conservation.\n\nIts official website connects people with adoptable animals, rehoming information and guidance about reptiles and amphibians. Contact the organization before bringing an animal to the shelter.",
-    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/6ced134c0232ca.webp"
+    "image_url": ""
   },
   "cottage-kennels-farm.html": {
     "id": "a9ef0a22-59e3-5509-b244-7a6fee825fdf",
@@ -435,21 +435,14 @@
     "email": "info@laborsystems.com",
     "phone": "303-774-9787",
     "address": "838 Coffman Street Longmont, CO 80501",
-    "gallery": [
-      {
-        "alt": "",
-        "url": "https://mktvisibility.github.io/LovingLongmont/assets/jobs/trades-illustration.webp",
-        "caption": "",
-        "enabled": true
-      }
-    ],
+    "gallery": [],
     "website": "https://www.laborsystems.com/",
     "categories": [
       "Temporary Employment"
     ],
     "description": "Another Longmont staffing option for people looking for temporary or labor-oriented opportunities.",
     "story": "Labor Systems has provided temporary staffing services since 1985. Its work connects job seekers with employers in construction, industrial work, hospitality and other fields.\n\nThe company helps businesses arrange short-term and longer-term staffing. The official locations directory and contact team can explain current offices and service availability.",
-    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/jobs/trades-illustration.webp",
+    "image_url": "",
     "contact_url": "https://www.laborsystems.com/contact-us"
   },
   "labormax-staffing.html": {
@@ -621,7 +614,8 @@
         "alt": "Photo from the official website of Longmont Food Rescue",
         "enabled": true
       }
-    ]
+    ],
+    "logo_background": "dark"
   },
   "longmont-humane-society.html": {
     "id": "a0a84c34-56ba-5f87-aa91-a70f17c8f5c5",
@@ -829,14 +823,15 @@
     "phone": "303-776-6050",
     "address": "1929 Harvard Street, Longmont, CO 80503",
     "story": "McIntosh Lake opened to the public in 2004 as part of a phased nature-area plan. A 3.5-mile trail loop links the surrounding parks and gives visitors changing views of the water, habitat and mountain backdrop.\n\nThe city continues to manage the site for recreation and wildlife. Visitors can check official information for lake access, permitted activities and current conditions.",
-    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/ede3e81438c658.webp",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/dickens-farm-nature-area-logo.webp",
     "gallery": [
       {
         "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/mcintosh-lake-nature-area-photo.webp",
         "alt": "A view of Longmont's McIntosh Lake recreation area, with Long's Peak in the background.",
         "enabled": true
       }
-    ]
+    ],
+    "logo_alt": "City of Longmont logo"
   },
   "mkt-visibility.html": {
     "id": "8a3d2ea6-98d0-5b73-8724-25f88ce2a509",
@@ -1252,7 +1247,7 @@
     "phone": "303-678-1469",
     "email": "foodbank@johnthebaptist.org",
     "address": "804 S. Lincoln Street, Longmont, CO 80501",
-    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/c98f1073ac26ba.webp",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/st-john-the-baptist-catholic-church-logo.webp",
     "gallery": [
       {
         "alt": "St. John the Baptist Food Bank",
@@ -1261,7 +1256,9 @@
         "enabled": true
       }
     ],
-    "story": "St. John the Baptist Food Bank provides weekly food-assistance boxes for people and families in the Longmont community. The program is supported by the parish, community donations and volunteer labor.\n\nThe food bank operates from its warehouse on South Lincoln Street. New clients can contact the food-bank team for current intake arrangements, distribution information and any assistance needed with registration."
+    "story": "St. John the Baptist Food Bank provides weekly food-assistance boxes for people and families in the Longmont community. The program is supported by the parish, community donations and volunteer labor.\n\nThe food bank operates from its warehouse on South Lincoln Street. New clients can contact the food-bank team for current intake arrangements, distribution information and any assistance needed with registration.",
+    "logo_alt": "St. John the Baptist Catholic Church logo",
+    "logo_background": "dark"
   },
   "table-of-hope-food-pantry.html": {
     "id": "7498b972-015b-571d-b16c-6b105d1c5de3",

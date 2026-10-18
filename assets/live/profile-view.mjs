@@ -8,7 +8,7 @@ export function renderProfile(root,b,catalog={}){const make=builder(root);root.r
  root.dataset.llProfileReady='true';if(safeWebUrl(b.events_url))root.dataset.llEventsUrl=safeWebUrl(b.events_url);
  const article=make('article','bp-profile'),identity=make('div','bp-identity'),heading=make('div','bp-heading');
  const visuals=profileVisuals(b,catalog,root.dataset.llProfile),media=make('figure','bp-primary-image');const primary=photo(make,media,visuals.image,(visuals.illustration?'Illustration representing ':'Photo of ')+b.name);if(visuals.illustration){media.dataset.imageKind='art';media.append(make('figcaption','','Illustration'))}if(primary)primary.addEventListener('error',()=>{media.replaceChildren(make('span','bp-name-placeholder',b.name));media.dataset.imageKind='name'},{once:true});if(visuals.image)identity.append(media);else identity.classList.add('bp-no-feature');
- if(visuals.logo){const logo=make('div','bp-logo');if(b.logo_background==='dark')logo.classList.add('bp-logo-dark');photo(make,logo,visuals.logo,b.logo_alt||b.name+' logo');heading.append(logo)}
+ if(visuals.logo){const logo=make('div','bp-logo');if(b.logo_background==='dark'||visuals.logoBackground==='dark')logo.classList.add('bp-logo-dark');photo(make,logo,visuals.logo,b.logo_alt||b.name+' logo');heading.append(logo)}
  if(b.categories?.length)heading.append(make('p','bp-eyebrow',b.categories.join(' · ')));
  heading.append(make('h1','',b.name));if(b.tagline)heading.append(make('p','bp-tagline',b.tagline));if(b.description)heading.append(make('p','bp-intro',b.description));
  const phoneURL=b.phone?(b.phone_contact_mode==='sms'?'sms:':'tel:')+b.phone.replace(/[^+\d]/g,''):'';
