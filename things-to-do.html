@@ -10,612 +10,883 @@
 </script>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>Things to Do &amp; Family Fun | Loving Longmont</title>
-<meta content="Make room for a different kind of day in Longmont. Explore hands-on studios, museums, farms, parks and recreation spots for a family outing, time with friends or a new experience close to home. Check individual pages before planning your visit." name="description">
+<title>Things to Do | Loving Longmont</title>
+
 <style>
-      :root {
-        --navy: #062f52;
-        --navy-dark: #03233e;
-        --red: #c8101e;
-        --cream: #fffaf1;
-        --sage: #e8f0ec;
-        --light: #f4f7f7;
-        --text: #293b45;
-        --gray: #687983;
-        --white: #fff;
-        --green: #347455;
-        --gold: #9b6808;
-      }
-      * {
-        box-sizing: border-box;
-      }
-      html {
-        scroll-behavior: smooth;
-      }
-      body {
-        margin: 0;
-        font-family: Arial, Helvetica, sans-serif;
-        line-height: 1.6;
-        color: var(--text);
-        background: #fff;
-      }
-      img {
-        max-width: 100%;
-        display: block;
-      }
-      a {
-        color: inherit;
-      }
-      .site-header {
-        background: rgba(255, 255, 255, 0.98);
-        border-bottom: 1px solid #e5e5e5;
-        position: sticky;
-        top: 0;
-        z-index: 1000;
-      }
-      .navbar {
-        max-width: 1450px;
-        margin: auto;
-        padding: 9px 22px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 20px;
-      }
-      .nav-logo {
-        display: flex;
-        align-items: center;
-        text-decoration: none;
-        min-width: 250px;
-      }
-      .nav-logo img {
-        width: 68px;
-        height: 68px;
-        object-fit: cover;
-        border-radius: 5px;
-      }
-      .nav-brand-text {
-        margin-left: 13px;
-      }
-      .nav-brand-text strong {
-        color: var(--navy);
-        display: block;
-        font-size: 23px;
-        line-height: 1.1;
-      }
-      .nav-brand-text small {
-        display: block;
-        margin-top: 6px;
-        font-size: 9px;
-        letter-spacing: 2px;
-        color: var(--navy);
-        font-weight: bold;
-      }
-      .heart, 
-      .red-heart {
-        color: var(--red);
-      }
-      .nav-links {
-        display: flex;
-        align-items: center;
-        gap: 15px;
-      }
-      .nav-links a {
-        text-decoration: none;
-        color: var(--navy);
-        font-size: 12px;
-        font-weight: bold;
-        padding: 25px 0 22px;
-        border-bottom: 3px solid transparent;
-        white-space: nowrap;
-      }
-      .nav-links a:hover, 
-      .nav-links a.active {
-        color: var(--red);
-        border-bottom-color: var(--red);
-      }
-      .nav-contact {
-        color: white !important;
-        background: var(--navy);
-        border-radius: 7px;
-        padding: 12px 18px !important;
-        border-bottom: none !important;
-      }
-      .nav-contact:hover {
-        background: var(--red);
-      }
-      .hero {
-        position: relative;
-        background: var(--cream);
-      }
-      .hero img {
-        width: 100%;
-        max-height: 555px;
-        object-fit: cover;
-      }
-      .hero-overlay {
-        position: absolute;
-        inset: 0;
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
-        padding: 45px 25px;
-        background: linear-gradient(
-          to top,
-          rgba(3, 35, 62, 0.78),
-          rgba(3, 35, 62, 0.02) 60%
+
+:root {
+    --navy:#062f52;
+    --dark-navy:#03233e;
+    --red:#c8101e;
+    --cream:#fffaf1;
+    --light-blue:#eef5f5;
+    --sage:#e8f0ec;
+    --text:#253642;
+    --gray:#667780;
+    --white:#ffffff;
+    --green:#347455;
+    --gold:#9b6808;
+}
+
+* {
+    box-sizing:border-box;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+body {
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    color:var(--text);
+    background:var(--white);
+    line-height:1.6;
+}
+
+img {
+    max-width:100%;
+    display:block;
+}
+
+a {
+    color:inherit;
+}
+
+
+/* ========================================
+   HEADER
+======================================== */
+
+.site-header {
+    background:rgba(255,255,255,.98);
+    border-bottom:1px solid #e6e6e6;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.navbar {
+    max-width:1450px;
+    margin:auto;
+    padding:9px 22px;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:20px;
+}
+
+.nav-logo {
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+    min-width:250px;
+}
+
+.nav-logo img {
+    width:68px;
+    height:68px;
+    object-fit:cover;
+    border-radius:5px;
+}
+
+.nav-brand-text {
+    margin-left:13px;
+}
+
+.nav-brand-text strong {
+    display:block;
+    color:var(--navy);
+    font-size:23px;
+    line-height:1.1;
+}
+
+.nav-brand-text small {
+    display:block;
+    margin-top:6px;
+    font-size:9px;
+    letter-spacing:2px;
+    font-weight:bold;
+    color:var(--navy);
+}
+
+.red-heart {
+    color:var(--red);
+}
+
+.nav-links {
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.nav-links a {
+    text-decoration:none;
+    color:var(--navy);
+    font-size:12px;
+    font-weight:bold;
+    padding:25px 0 22px;
+    border-bottom:3px solid transparent;
+    white-space:nowrap;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color:var(--red);
+    border-bottom-color:var(--red);
+}
+
+.nav-contact {
+    background:var(--navy);
+    color:white !important;
+    border-radius:7px;
+    padding:12px 18px !important;
+    border-bottom:none !important;
+}
+
+.nav-contact:hover {
+    background:var(--red);
+}
+
+
+/* ========================================
+   HERO
+======================================== */
+
+.hero {
+    position:relative;
+    background:var(--cream);
+}
+
+.hero img {
+    width:100%;
+    max-height:560px;
+    object-fit:cover;
+}
+
+.hero-overlay {
+    position:absolute;
+    inset:0;
+
+    display:flex;
+    align-items:flex-end;
+    justify-content:center;
+
+    padding:45px 25px;
+
+    background:
+        linear-gradient(
+            to top,
+            rgba(3,35,62,.80),
+            rgba(3,35,62,.05) 58%
         );
-      }
-      .hero-text {
-        text-align: center;
-        color: #fff;
-      }
-      .hero-text h1 {
-        font-family: Georgia, "Times New Roman", serif;
-        font-size: clamp(42px, 6vw, 68px);
-        line-height: 1.05;
-        margin: 0 0 8px;
-      }
-      .hero-text p {
-        margin: 0;
-        font-size: 18px;
-      }
-      .container {
-        max-width: 1200px;
-        margin: auto;
-      }
-      .eyebrow {
-        text-transform: uppercase;
-        letter-spacing: 4px;
-        color: var(--red);
-        font-size: 12px;
-        font-weight: bold;
-        margin-bottom: 8px;
-      }
-      .section-title {
-        font-family: Georgia, "Times New Roman", serif;
-        color: var(--navy);
-        font-size: clamp(34px, 5vw, 50px);
-        line-height: 1.1;
-        margin: 0 0 16px;
-      }
-      .section-description {
-        color: var(--gray);
-        max-width: 850px;
-        margin: auto;
-        font-size: 17px;
-      }
-      .intro {
-        text-align: center;
-        padding: 60px 25px 34px;
-        background: var(--cream);
-      }
-      .categories {
-        background: var(--cream);
-        padding: 15px 25px 60px;
-      }
-      .category-grid {
-        max-width: 1150px;
-        margin: auto;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 15px;
-      }
-      .category-card {
-        text-decoration: none;
-        text-align: center;
-        border-radius: 14px;
-        padding: 21px 12px;
-        background: linear-gradient(145deg, #f4f9f7, #e8f1f0);
-        border: 1px solid #dae6e3;
-        transition: 0.25s;
-      }
-      .category-card:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 12px 27px rgba(0, 0, 0, 0.08);
-      }
-      .category-icon {
-        font-size: 31px;
-      }
-      .category-card h3 {
-        margin: 5px 0 0;
-        color: var(--navy);
-        font-family: Georgia, serif;
-        font-size: 17px;
-      }
-      .cost-guide {
-        padding: 35px 25px;
-        border-bottom: 1px solid #eee;
-      }
-      .cost-row {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 12px;
-      }
-      .cost-chip {
-        font-size: 13px;
-        font-weight: bold;
-        border-radius: 40px;
-        padding: 9px 18px;
-      }
-      .free {
-        background: #e3f4e9;
-        color: #24613e;
-      }
-      .low {
-        background: #fff1cc;
-        color: #805800;
-      }
-      .paid {
-        background: #fbe4e6;
-        color: #941622;
-      }
-      .attractions {
-        padding: 75px 25px;
-      }
-      .attractions-heading {
-        text-align: center;
-        margin-bottom: 43px;
-      }
-      .grid {
-        max-width: 1200px;
-        margin: auto;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 28px;
-      }
-      .card {
-        background: #fff;
-        border: 1px solid #e3e7e8;
-        border-radius: 16px;
-        overflow: hidden;
-        box-shadow: 0 7px 24px rgba(0, 0, 0, 0.065);
-        display: flex;
-        flex-direction: column;
-        transition: 0.25s;
-      }
-      .card:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 13px 32px rgba(0, 0, 0, 0.1);
-      }
-      .card-image {
-        height: 235px;
-        position: relative;
-        overflow: hidden;
-        background: #e9f0f0;
-      }
-      .card-image img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        transition: 0.35s;
-      }
-      .card:hover .card-image img {
-        transform: scale(1.025);
-      }
-      .image-pending {
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        padding: 30px;
-        color: #60737e;
-        background: linear-gradient(135deg, #edf4f3, #dde8e8);
-      }
-      .image-pending-inner {
-        max-width: 210px;
-      }
-      .image-pending-icon {
-        font-size: 38px;
-        margin-bottom: 8px;
-      }
-      .image-pending strong {
-        display: block;
-        color: var(--navy);
-        font-family: Georgia, serif;
-        font-size: 20px;
-        margin-bottom: 5px;
-      }
-      .image-pending span {
-        font-size: 12px;
-      }
-      .badge {
-        position: absolute;
-        top: 15px;
-        left: 15px;
-        background: #fff;
-        border-radius: 20px;
-        padding: 7px 13px;
-        text-transform: uppercase;
-        font-size: 11px;
-        font-weight: bold;
-        letter-spacing: 0.5px;
-        box-shadow: 0 3px 9px rgba(0, 0, 0, 0.13);
-      }
-      .badge-free {
-        color: #21603c;
-      }
-      .badge-low {
-        color: #835b05;
-      }
-      .badge-paid {
-        color: var(--red);
-      }
-      .card-body {
-        padding: 24px;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-      }
-      .card-type {
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: var(--red);
-        font-size: 10px;
-        font-weight: bold;
-      }
-      .card-body h3 {
-        font-family: Georgia, serif;
-        color: var(--navy);
-        margin: 7px 0 10px;
-        font-size: 24px;
-        line-height: 1.15;
-      }
-      .card-description {
-        margin: 0 0 16px;
-        color: var(--gray);
-        font-size: 14px;
-      }
-      .details {
-        margin-top: auto;
-        padding-top: 15px;
-        border-top: 1px solid #ececec;
-      }
-      .detail {
-        font-size: 13px;
-        margin: 7px 0;
-        color: #40515b;
-      }
-      .detail strong {
-        color: var(--navy);
-      }
-      .detail a {
-        text-decoration: none;
-        color: var(--navy);
-      }
-      .detail a:hover {
-        text-decoration: underline;
-      }
-      .buttons {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 8px;
-        margin-top: 18px;
-      }
-      .card-button {
-        padding: 10px 14px;
-        border-radius: 6px;
-        text-decoration: none;
-        font-size: 12px;
-        font-weight: bold;
-      }
-      .website {
-        background: var(--navy);
-        color: #fff;
-      }
-      .website:hover {
-        background: #0a4a78;
-      }
-      .directions {
-        background: #edf3f4;
-        color: var(--navy);
-      }
-      .local-ideas {
-        padding: 75px 25px;
-        background: var(--sage);
-      }
-      .local-heading {
-        text-align: center;
-      }
-      .idea-grid {
-        max-width: 1100px;
-        margin: 40px auto 0;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-      }
-      .idea {
-        background: #fff;
-        border-radius: 14px;
-        padding: 27px;
-      }
-      .idea-icon {
-        font-size: 34px;
-      }
-      .idea h3 {
-        font-family: Georgia, serif;
-        color: var(--navy);
-        margin: 9px 0;
-      }
-      .idea p {
-        font-size: 14px;
-        color: var(--gray);
-        margin: 0;
-      }
-      .note-section {
-        padding: 65px 25px;
-        background: var(--cream);
-      }
-      .note {
-        max-width: 950px;
-        margin: auto;
-        padding: 32px;
-        border-radius: 14px;
-        border-left: 6px solid var(--red);
-        background: #fff;
-        box-shadow: 0 5px 18px rgba(0, 0, 0, 0.05);
-      }
-      .note h2 , 
-      .note h1 {
-        font-family: Georgia, serif;
-        color: var(--navy);
-        margin-top: 0;
-      }
-      .note li {
-        margin: 8px 0;
-        color: var(--gray);
-      }
-      .submit {
-        padding: 75px 25px;
-        text-align: center;
-        color: #fff;
-        background: linear-gradient(135deg, var(--navy), #0a4a77);
-      }
-      .submit .eyebrow {
-        color: #ffbdc1;
-      }
-      .submit h2 , 
-      .submit h1 {
-        font-family: Georgia, serif;
-        font-size: 42px;
-        margin: 5px 0 13px;
-      }
-      .submit p {
-        max-width: 750px;
-        margin: 0 auto 24px;
-        color: #d9e7ee;
-      }
-      .submit-button {
-        display: inline-block;
-        background: var(--red);
-        color: #fff;
-        text-decoration: none;
-        padding: 13px 24px;
-        border-radius: 7px;
-        font-weight: bold;
-      }
-      footer {
-        background: linear-gradient(135deg, #03233e, #063b62);
-        color: #fff;
-        padding: 55px 25px 20px;
-      }
-      .footer-grid {
-        max-width: 1150px;
-        margin: auto;
-        display: grid;
-        grid-template-columns: 1.5fr 0.8fr 1.2fr;
-        gap: 60px;
-      }
-      .footer-logo-area {
-        display: flex;
-        align-items: center;
-        gap: 15px;
-      }
-      .footer-logo-area h2 , 
-      .footer-logo-area h1 {
-        margin: 0;
-      }
-      .footer-logo-area small {
-        font-size: 9px;
-        letter-spacing: 2px;
-      }
-      .footer-about, 
-      .footer-contact {
-        color: #d6e2e9;
-        font-size: 14px;
-      }
-      .footer-about {
-        max-width: 380px;
-        margin-top: 18px;
-      }
-      .footer-heading {
-        font-size: 16px;
-        font-weight: bold;
-        margin-bottom: 12px;
-      }
-      .footer-links a {
-        display: block;
-        color: #e3edf1;
-        text-decoration: none;
-        margin: 7px 0;
-        font-size: 14px;
-      }
-      .footer-links a:hover {
-        text-decoration: underline;
-      }
-      .footer-email {
-        color: #fff;
-        text-decoration: none;
-        font-weight: bold;
-      }
-      .footer-bottom {
-        max-width: 1150px;
-        margin: 40px auto 0;
-        padding-top: 20px;
-        border-top: 1px solid rgba(255, 255, 255, 0.2);
-        text-align: center;
-        color: #c5d6df;
-        font-size: 12px;
-      }
-      @media (max-width: 1180px) {
-        .navbar {
-          flex-direction: column;
-          padding-bottom: 15px;
-        }
-        .nav-logo {
-          min-width: auto;
-        }
-        .nav-links {
-          flex-wrap: wrap;
-          justify-content: center;
-        }
-        .nav-links a {
-          padding: 5px 0;
-        }
-      }
-      @media (max-width: 1050px) {
-        .category-grid, 
-        .grid {
-          grid-template-columns: repeat(2, 1fr);
-        }
-        .idea-grid {
-          grid-template-columns: 1fr;
-        }
-      }
-      @media (max-width: 900px) {
-        .footer-grid {
-          grid-template-columns: 1fr;
-        }
-      }
-      @media (max-width: 700px) {
-        .grid {
-          grid-template-columns: 1fr;
-        }
-        .nav-brand-text {
-          display: none;
-        }
-        .hero img {
-          min-height: 260px;
-          object-fit: cover;
-        }
-      }
-      @media (max-width: 560px) {
-        .category-grid {
-          grid-template-columns: 1fr;
-        }
-      }
-    
+}
+
+.hero-text {
+    text-align:center;
+    color:white;
+}
+
+.hero-text h1 {
+    font-family:Georgia, "Times New Roman", serif;
+    font-size:clamp(42px,6vw,66px);
+    margin:0 0 8px;
+    line-height:1.05;
+}
+
+.hero-text p {
+    margin:0;
+    font-size:18px;
+}
+
+
+/* ========================================
+   SHARED
+======================================== */
+
+.container {
+    max-width:1200px;
+    margin:auto;
+}
+
+.eyebrow {
+    color:var(--red);
+    text-transform:uppercase;
+    letter-spacing:4px;
+    font-size:12px;
+    font-weight:bold;
+    margin-bottom:8px;
+}
+
+.section-title {
+    font-family:Georgia, "Times New Roman", serif;
+    color:var(--navy);
+    font-size:clamp(34px,5vw,50px);
+    line-height:1.12;
+    margin:0 0 15px;
+}
+
+.section-description {
+    max-width:850px;
+    margin:auto;
+    color:var(--gray);
+    font-size:17px;
+}
+
+.section-heading {
+    text-align:center;
+    margin-bottom:42px;
+}
+
+
+/* ========================================
+   INTRO
+======================================== */
+
+.intro {
+    background:var(--cream);
+    padding:60px 25px 35px;
+    text-align:center;
+}
+
+
+/* ========================================
+   QUICK NAVIGATION
+======================================== */
+
+.quick-section {
+    background:var(--cream);
+    padding:15px 25px 65px;
+}
+
+.quick-grid {
+    max-width:1150px;
+    margin:auto;
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:16px;
+}
+
+.quick-card {
+    background:white;
+    border:1px solid #e1e7e7;
+    border-radius:15px;
+    padding:25px 18px;
+
+    text-align:center;
+    text-decoration:none;
+
+    transition:.25s;
+}
+
+.quick-card:hover {
+    transform:translateY(-4px);
+    box-shadow:0 12px 28px rgba(0,0,0,.08);
+}
+
+.quick-icon {
+    font-size:36px;
+}
+
+.quick-card h3 {
+    font-family:Georgia,serif;
+    color:var(--navy);
+    font-size:19px;
+    margin:8px 0 4px;
+}
+
+.quick-card p {
+    color:var(--gray);
+    font-size:13px;
+    margin:0;
+}
+
+
+/* ========================================
+   RESOURCE SECTIONS
+======================================== */
+
+.resources {
+    padding:75px 25px;
+}
+
+.resources.alt {
+    background:var(--sage);
+}
+
+.resources.cream {
+    background:var(--cream);
+}
+
+.resources.blue {
+    background:var(--light-blue);
+}
+
+.resource-grid {
+    max-width:1200px;
+    margin:auto;
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:24px;
+}
+
+.resource-card {
+    background:white;
+
+    border:1px solid #e1e7e7;
+    border-radius:16px;
+
+    padding:27px;
+
+    display:flex;
+    flex-direction:column;
+
+    box-shadow:0 6px 20px rgba(0,0,0,.05);
+
+    transition:.25s;
+}
+
+.resource-card:hover {
+    transform:translateY(-4px);
+    box-shadow:0 12px 30px rgba(0,0,0,.09);
+}
+
+.resource-icon {
+    width:58px;
+    height:58px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    background:var(--light-blue);
+
+    border-radius:13px;
+
+    font-size:30px;
+
+    margin-bottom:14px;
+}
+
+.resource-label {
+    color:var(--red);
+    font-size:10px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-weight:bold;
+}
+
+.resource-card h3 {
+    font-family:Georgia,serif;
+    color:var(--navy);
+
+    font-size:23px;
+    line-height:1.2;
+
+    margin:7px 0 10px;
+}
+
+.resource-card p {
+    color:var(--gray);
+    font-size:14px;
+    margin-top:0;
+}
+
+.details {
+    border-top:1px solid #eee;
+    padding-top:14px;
+    margin-top:auto;
+}
+
+.detail {
+    margin:7px 0;
+    font-size:13px;
+    color:#465760;
+}
+
+.detail strong {
+    color:var(--navy);
+}
+
+.detail a {
+    color:var(--navy);
+    text-decoration:none;
+}
+
+.detail a:hover {
+    text-decoration:underline;
+}
+
+
+/* ========================================
+   BUTTONS
+======================================== */
+
+.buttons {
+    display:flex;
+    gap:9px;
+    flex-wrap:wrap;
+    margin-top:18px;
+}
+
+.button {
+    display:inline-block;
+    text-decoration:none;
+
+    border-radius:7px;
+    padding:10px 15px;
+
+    font-size:12px;
+    font-weight:bold;
+}
+
+.button-primary {
+    background:var(--navy);
+    color:white;
+}
+
+.button-primary:hover {
+    background:var(--red);
+}
+
+.button-secondary {
+    background:#edf2f2;
+    color:var(--navy);
+}
+
+.button-red {
+    background:var(--red);
+    color:white;
+}
+
+.button-red:hover {
+    background:#aa0d16;
+}
+
+.button-light {
+    background:white;
+    color:var(--navy);
+}
+
+
+/* ========================================
+   LOCAL FOOD FEATURE
+======================================== */
+
+.market-feature {
+    background:white;
+    padding:75px 25px;
+}
+
+.market-box {
+    max-width:1100px;
+    margin:auto;
+
+    display:grid;
+    grid-template-columns:.85fr 1.15fr;
+    gap:45px;
+
+    align-items:center;
+
+    background:
+        linear-gradient(
+            135deg,
+            #eef6f2,
+            #fffaf1
+        );
+
+    border-radius:20px;
+    padding:45px;
+}
+
+.market-visual {
+    min-height:370px;
+
+    border-radius:17px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #dbeadf,
+            #f5e8c8
+        );
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    text-align:center;
+    padding:35px;
+}
+
+.market-visual span {
+    display:block;
+    font-size:70px;
+}
+
+.market-visual strong {
+    display:block;
+    color:var(--navy);
+    font-family:Georgia,serif;
+    font-size:27px;
+}
+
+.market-content h2 ,
+
+.market-content h1 {
+    color:var(--navy);
+    font-family:Georgia,serif;
+    font-size:39px;
+    line-height:1.15;
+    margin:5px 0 16px;
+}
+
+.market-content p {
+    color:var(--gray);
+}
+
+
+/* ========================================
+   FOOD HELP NOTICE
+======================================== */
+
+.help-notice {
+    background:#fff8f8;
+    padding:55px 25px;
+}
+
+.help-box {
+    max-width:1000px;
+    margin:auto;
+
+    border-left:7px solid var(--red);
+    background:white;
+
+    border-radius:14px;
+
+    padding:30px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.05);
+}
+
+.help-box h2 ,
+
+.help-box h1 {
+    color:var(--navy);
+    font-family:Georgia,serif;
+    margin:0 0 10px;
+}
+
+.help-box p {
+    color:var(--gray);
+    margin-bottom:0;
+}
+
+
+/* ========================================
+   COMMUNITY LIFE
+======================================== */
+
+.community-life {
+    background:white;
+    padding:75px 25px;
+}
+
+.community-life-grid {
+    max-width:1100px;
+    margin:40px auto 0;
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:22px;
+}
+
+.life-card {
+    background:var(--cream);
+    border:1px solid #eee5d9;
+    border-radius:15px;
+    padding:28px 24px;
+    text-align:center;
+}
+
+.life-card span {
+    font-size:38px;
+}
+
+.life-card h3 {
+    color:var(--navy);
+    font-family:Georgia,serif;
+    margin:8px 0;
+}
+
+.life-card p {
+    color:var(--gray);
+    font-size:14px;
+}
+
+
+/* ========================================
+   ASK / SHARE
+======================================== */
+
+.share-section {
+    background:var(--sage);
+    padding:75px 25px;
+}
+
+.share-grid {
+    max-width:1050px;
+    margin:40px auto 0;
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:22px;
+}
+
+.share-card {
+    background:white;
+    border-radius:15px;
+    padding:30px 24px;
+    text-align:center;
+}
+
+.share-card span {
+    font-size:40px;
+}
+
+.share-card h3 {
+    color:var(--navy);
+    font-family:Georgia,serif;
+    margin:9px 0;
+}
+
+.share-card p {
+    color:var(--gray);
+    font-size:14px;
+}
+
+
+/* ========================================
+   CTA
+======================================== */
+
+.cta {
+    background:
+        linear-gradient(
+            135deg,
+            var(--navy),
+            #0a4a77
+        );
+
+    color:white;
+    text-align:center;
+
+    padding:75px 25px;
+}
+
+.cta .eyebrow {
+    color:#ffc2c6;
+}
+
+.cta h2 ,
+
+.cta h1 {
+    font-family:Georgia,serif;
+    font-size:42px;
+    margin:5px 0 14px;
+}
+
+.cta p {
+    max-width:760px;
+    margin:0 auto 25px;
+    color:#dce9ef;
+}
+
+
+/* ========================================
+   FOOTER
+======================================== */
+
+footer {
+    background:
+        linear-gradient(
+            135deg,
+            #03233e,
+            #063b62
+        );
+
+    color:white;
+    padding:55px 25px 20px;
+}
+
+.footer-grid {
+    max-width:1150px;
+    margin:auto;
+
+    display:grid;
+    grid-template-columns:1.5fr .8fr 1.2fr;
+    gap:60px;
+}
+
+.footer-logo-area {
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.footer-logo-area img {
+    width:90px;
+    height:90px;
+    object-fit:cover;
+    border-radius:5px;
+}
+
+.footer-logo-area h2 ,
+
+.footer-logo-area h1 {
+    margin:0;
+    font-size:25px;
+}
+
+.footer-logo-area small {
+    font-size:9px;
+    letter-spacing:2px;
+}
+
+.footer-about {
+    max-width:380px;
+    color:#d5e1e8;
+    font-size:14px;
+    margin-top:18px;
+}
+
+.footer-heading {
+    font-weight:bold;
+    font-size:16px;
+    margin-bottom:13px;
+}
+
+.footer-links a {
+    display:block;
+    text-decoration:none;
+    color:#e1ebf0;
+    font-size:14px;
+    margin:7px 0;
+}
+
+.footer-links a:hover {
+    color:white;
+    text-decoration:underline;
+}
+
+.footer-contact {
+    color:#e1ebf0;
+    font-size:14px;
+}
+
+.footer-email {
+    display:inline-block;
+    margin-top:8px;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.footer-bottom {
+    max-width:1150px;
+    margin:40px auto 0;
+    padding-top:20px;
+
+    border-top:1px solid rgba(255,255,255,.2);
+
+    text-align:center;
+    color:#c5d5df;
+    font-size:12px;
+}
+
+
+/* ========================================
+   RESPONSIVE
+======================================== */
+
+@media(max-width:1180px) {
+
+    .navbar {
+        flex-direction:column;
+        padding-bottom:15px;
+    }
+
+    .nav-logo {
+        min-width:auto;
+    }
+
+    .nav-links {
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .nav-links a {
+        padding:5px 0;
+    }
+}
+
+@media(max-width:1050px) {
+
+    .quick-grid,
+    .resource-grid,
+    .community-life-grid,
+    .share-grid {
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+@media(max-width:900px) {
+
+    .market-box {
+        grid-template-columns:1fr;
+    }
+
+    .footer-grid {
+        grid-template-columns:1fr;
+    }
+}
+
+@media(max-width:650px) {
+
+    .quick-grid,
+    .resource-grid,
+    .community-life-grid,
+    .share-grid {
+        grid-template-columns:1fr;
+    }
+
+    .nav-brand-text {
+        display:none;
+    }
+
+    .hero img {
+        min-height:260px;
+        object-fit:cover;
+    }
+
+    .market-box {
+        padding:28px 22px;
+    }
+}
+
+
       /* Consistent Loving Longmont hero — matches home page */
       .hero { width: 100%; min-height: 0 !important; padding: 0 !important; display: block !important; background: var(--cream, #fffaf1) !important; position: relative; }
       .hero img { width: 100% !important; height: auto !important; max-height: 700px !important; min-height: 0 !important; object-fit: cover !important; object-position: center !important; display: block !important; }
-    
+
 /* Canonical Loving Longmont footer */
 footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55px 25px 20px}
 .footer-grid{max-width:1150px;margin:auto;display:grid;grid-template-columns:1.5fr .8fr 1.2fr;gap:60px}
 .footer-logo-area{display:flex;align-items:center;gap:15px}
-.footer-logo-area h2, 
+.footer-logo-area h2,
 .footer-logo-area h1{margin:0;font-size:25px}
 .footer-logo-area small{font-size:9px;letter-spacing:2px}
 .footer-about{max-width:380px;color:#d5e1e8;font-size:14px;margin-top:18px}
@@ -631,206 +902,26 @@ footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55
 <link href="assets/live-header.css" rel="stylesheet">
 
 <link href="assets/live/business-profile.css?v=20261018-research" rel="stylesheet">
-<link href="assets/visual-cards.css?v=20261013-bee-hugger-fill" rel="stylesheet"><link rel="stylesheet" href="assets/compact-directory.css?v=20261016-compact"><link rel="stylesheet" href="assets/navigation.css?v=20261016"><script defer src="assets/live-header.js?v=20261016-consistent-placeholders"></script><link rel="stylesheet" href="assets/footer.css?v=20261017-footer-sync"/></head>
-<body>
-<header class="ll-live-header lln-header" data-navigation-version="20261016">
-<div class="lln-utility"><a href="about.html">About</a><a href="contact.html">Contact</a><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr">Facebook</a></div>
-<div class="lln-brandrow"><a class="lln-brand" href="index.html" aria-label="Loving Longmont home"><span class="lln-wordmark">Loving Longmont<span class="lln-heart" aria-hidden="true">♥</span></span></a><form class="lln-search" action="search.html" role="search"><label class="lln-sr" for="lln-search">Search Loving Longmont</label><input id="lln-search" name="q" type="search" placeholder="Search Loving Longmont"><button type="submit" aria-label="Search">Search</button></form><a class="lln-cta" href="request-free-profile.html">Add or Claim Your Business</a></div>
-<button class="lln-toggle" type="button" aria-expanded="false" aria-controls="lln-main" hidden>☰ Menu</button><nav class="lln-main" id="lln-main" aria-label="Main navigation"><a href="index.html">Home</a><details class="lln-drop lln-directory"><summary>Local Directory</summary><div class="lln-panel lln-mega"><section><h2>Shop & Eat</h2><a href="food-drink.html">Food & Drink</a><a href="shopping-specialty-stores.html">Shopping</a><a href="home-garden-gifts.html">Home, Garden & Gifts</a><a href="books-comics-games.html">Books, Comics & Games</a></section><section><h2>Create & Explore</h2><a href="arts-crafts-makers.html">Arts, Crafts & Makers</a><a href="music-entertainment.html">Music & Entertainment</a><a href="classes-learning.html">Classes & Learning</a><a href="outdoor-recreation-adventure.html">Outdoor Recreation</a><a href="sports-fitness-equipment.html">Sports & Fitness</a></section><section><h2>Services & Essentials</h2><a href="farms-local-essentials.html">Farms & Local Essentials</a><a href="professional-business-services.html">Professional Services</a><a href="health-wellness.html">Health & Wellness</a><a href="animals.html">Animals & Pets</a></section><a class="lln-all" href="directory.html">View All Categories →</a><a class="lln-all" href="businesses.html">Browse All Businesses →</a></div></details><details class="lln-drop"><summary>Things to Do</summary><div class="lln-panel"><a href="things-to-do.html">All Things to Do</a><a href="outdoor-recreation-adventure.html">Outdoor Adventures</a><a href="classes-learning.html">Classes & Learning</a><a href="music-entertainment.html">Music & Entertainment</a><a href="history.html">Longmont History</a><a href="spotlight.html">In the Spotlight</a></div></details><a href="events.html">Events</a><details class="lln-drop"><summary>Community</summary><div class="lln-panel"><a href="community.html">Community Overview</a><a href="jobs.html">Jobs & Training</a><a href="animals.html">Animals & Pets</a><a href="food-assistance-basic-needs.html">Food & Basic Needs</a><a href="faith-spirituality.html">Faith & Spirituality</a><a href="find-a-local-volunteer-opportunity.html">Volunteer Opportunities</a></div></details><details class="lln-drop"><summary>Get Involved</summary><div class="lln-panel"><a href="request-free-profile.html">Add a Business</a><a href="membership.html">Membership & Pricing</a><a href="pricing.html#contribute">Become a Sponsor</a><a href="become-a-contributor.html">Share Stories & Photos</a><a href="media-kit.html">Media & Sharing Kit</a></div></details></nav></header>
-<section aria-label="Longmont community parade" class="ll-live-banner"><img alt="Watercolor illustration adapted from a Longmont community parade, with local people at Coffman Street." fetchpriority="high" height="724" sizes="100vw" src="assets/longmont-parade-panorama.webp" srcset="assets/longmont-parade-panorama-small.webp 1050w, assets/longmont-parade-panorama.webp 2172w" width="2172"/></section>
-<section class="intro ll-directory-intro">
-<div class="container">
-<div class="eyebrow">Explore Our Community</div>
-<h1 class="section-title">Things to Do &amp; Family Fun</h1>
-<p class="section-description category-introduction">Make room for a different kind of day in Longmont. Explore hands-on studios, museums, farms, parks and recreation spots for a family outing, time with friends or a new experience close to home. Check individual pages before planning your visit.</p>
-</div>
-</section>
-<section class="categories">
-<div class="category-grid" data-ll-visual-grid="">
-<a class="category-card" data-ll-visual-card="" href="#free"><div class="ll-visual-image" data-image-kind="art" data-image-tone="light"><img alt="Illustration for Free Things to Do" src="assets/category-get-outside-art-small.webp"></div>
-<h3>Free Things to Do</h3></a><a class="category-card" data-ll-visual-card="" href="#outdoors"><div class="ll-visual-image" data-image-kind="art" data-image-tone="light"><img alt="Illustration for Get Outdoors" src="assets/category-get-outside-art-small.webp"></div>
-<h3>Get Outdoors</h3></a><a class="category-card" data-ll-visual-card="" href="#family"><div class="ll-visual-image" data-image-kind="art" data-image-tone="light"><img alt="Illustration for Family Fun" src="assets/category-get-outside-art-small.webp"></div>
-<h3>Family Fun</h3></a><a class="category-card" data-ll-visual-card="" href="#indoor"><div class="ll-visual-image" data-image-kind="art" data-image-tone="light"><img alt="Illustration for Indoor Fun" src="assets/category-shop-local-art-small.webp"></div>
-<h3>Indoor Fun</h3></a><a class="category-card" data-ll-visual-card="" href="history.html"><div class="ll-visual-image" data-image-kind="art" data-image-tone="light"><img alt="Illustration for Longmont History" src="assets/category-history-art-small.webp"></div>
-<h3>Longmont History</h3></a><a class="category-card" data-ll-visual-card="" href="#batting"><div class="ll-visual-image" data-image-kind="art" data-image-tone="light"><img alt="Illustration for Batting Cages" src="assets/category-shop-local-art-small.webp"></div>
-<h3>Batting Cages</h3></a><a class="category-card" data-ll-visual-card="" href="#makers"><div class="ll-visual-image" data-image-kind="art" data-image-tone="light"><img alt="Illustration for Arts &amp; Makers" src="assets/category-arts-culture-art-small.webp"></div>
-<h3>Arts &amp; Makers</h3></a><a class="category-card" data-ll-visual-card="" href="#water"><div class="ll-visual-image" data-image-kind="art" data-image-tone="light"><img alt="Illustration for Water Adventures" src="assets/category-shop-local-art-small.webp"></div>
-<h3>Water Adventures</h3></a><a class="category-card" data-ll-visual-card="" href="#adventure"><div class="ll-visual-image" data-image-kind="art" data-image-tone="light"><img alt="Illustration for Adventure" src="assets/category-shop-local-art-small.webp"></div>
-<h3>Adventure</h3></a><a class="category-card" data-ll-visual-card="" href="#seasonal"><div class="ll-visual-image" data-image-kind="art" data-image-tone="light"><img alt="Illustration for Seasonal Fun" src="assets/category-shop-local-art-small.webp"></div>
-<h3>Seasonal Fun</h3></a>
-</div>
-</section>
-<section class="cost-guide">
-<div class="cost-row">
-<span class="cost-chip free">💚 FREE</span><span class="cost-chip low">$ LOW COST / FEES MAY APPLY</span><span class="cost-chip paid">$$ PAID ACTIVITY</span>
-</div>
-</section>
-<section class="attractions">
-<div class="attractions-heading">
-<div class="eyebrow">The Loving Longmont Guide</div>
-<h2 class="section-title">Explore Longmont</h2>
-<p class="section-description">
-          From free outdoor adventures to memorable experiences, there is a lot
-          more to do around Longmont than you may realize.
-        </p>
-</div>
-<div class="grid" data-ll-visual-grid="">
-<article class="card" data-business-category="Nature • Fishing • Walking" data-ll-visual-card="" id="free"><div class="ll-visual-image" data-image-kind="existing" data-image-tone="light"><a aria-label="Golden Ponds Nature Area" class="card-button website" href="golden-ponds-nature-area.html"><img alt="Golden Ponds Nature Area in Longmont Colorado" loading="lazy" src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_639,q_80,w_1000/v1/clients/longmontco-redesign/Things_to_Do_Outdoors_Lakes_and_Rivers_Golden_Ponds_da15ee49-8111-4bf7-8128-f3d7f4fd503e.png"></a></div><div class="business-body"><h3><a href="golden-ponds-nature-area.html">Golden Ponds Nature Area</a></h3><p class="business-description">Four ponds, mountain views, wildlife and 2.6 miles of trails make
-              Golden Ponds one of Longmont's easiest places to spend a peaceful
-              Colorado afternoon.</p><div class="business-links"><a class="business-button" href="golden-ponds-nature-area.html">View Business Page →</a></div></div></article>
-<article class="card" data-business-category="Lake • Trails • Paddleboarding" data-ll-visual-card="" id="outdoors"><div class="ll-visual-image" data-image-kind="logo" data-image-tone="light"><a aria-label="McIntosh Lake Nature Area" class="card-button website" href="mcintosh-lake-nature-area.html"><img alt="McIntosh Lake Nature Area" src="assets/official/ede3e81438c658.webp"></a></div><div class="business-body"><h3><a href="mcintosh-lake-nature-area.html">McIntosh Lake Nature Area</a></h3><p class="business-description">Enjoy Longs Peak views while walking around the lake, fishing,
-              kayaking, canoeing or paddleboarding. It's one of Longmont's
-              favorite sunset spots.</p><div class="business-links"><a class="business-button" href="mcintosh-lake-nature-area.html">View Business Page →</a></div></div></article>
-<article class="card" data-business-category="Creek • Playground • Bikes" data-ll-visual-card="" id="water"><div class="ll-visual-image" data-image-kind="logo" data-image-tone="light"><a aria-label="Dickens Farm Nature Area" class="card-button website" href="dickens-farm-nature-area.html"><img alt="Dickens Farm Nature Area" src="assets/official/ede3e81438c658.webp"></a></div><div class="business-body"><h3><a href="dickens-farm-nature-area.html">Dickens Farm Nature Area</a></h3><p class="business-description">St. Vrain Creek runs directly through this 52-acre nature area.
-              Explore the nature playground, beginner bike-skills trail,
-              slower-moving water areas and St. Vrain Greenway.</p><div class="business-links"><a class="business-button" href="dickens-farm-nature-area.html">View Business Page →</a></div></div></article>
-<article class="card" data-business-category="Reservoir • Beach • Kayaking" data-ll-visual-card=""><div class="ll-visual-image" data-image-kind="logo" data-image-tone="light"><a aria-label="Union Reservoir Nature Area" class="card-button website" href="union-reservoir-nature-area.html"><img alt="Union Reservoir Nature Area" src="assets/official/ede3e81438c658.webp"></a></div><div class="business-body"><h3><a href="union-reservoir-nature-area.html">Union Reservoir Nature Area</a></h3><p class="business-description">This 736-acre body of water offers boating, fishing, kayaking,
-              paddleboarding, picnicking and a dedicated dog beach.</p><div class="business-links"><a class="business-button" href="union-reservoir-nature-area.html">View Business Page →</a></div></div></article>
-<article class="card" data-business-category="Farm • History • Animals" data-ll-visual-card="" id="history"><div class="ll-visual-image" data-image-kind="existing" data-image-tone="light"><a aria-label="Agricultural Heritage Center" class="card-button website" href="agricultural-heritage-center.html"><img alt="Agricultural Heritage Center near Longmont Colorado" loading="lazy" src="https://content.govdelivery.com/attachments/fancy_images/COBOULDER/2022/03/5721251/4035121/img-2826_crop.jpg"></a></div><div class="business-body"><h3><a href="agricultural-heritage-center.html">Agricultural Heritage Center</a></h3><p class="business-description">Discover Boulder County's agricultural history while exploring the
-              historic farm, red barn, equipment, rural landscape and seasonal
-              farm animals.</p><div class="business-links"><a class="business-button" href="agricultural-heritage-center.html">View Business Page →</a></div></div></article>
-<article class="card" data-business-category="History • Nature • Wildlife" data-ll-visual-card=""><div class="ll-visual-image" data-image-kind="existing" data-image-tone="light"><a aria-label="Sandstone Ranch Visitors &amp; Learning Center" class="card-button website" href="sandstone-ranch-visitors-learning-center.html"><img alt="Sandstone Ranch in Longmont Colorado" loading="lazy" src="https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,q_85,w_1200/v1/crm/longmontco/37055267433_27facbf459_o0-13c8168a5056b36_13c819d5-5056-b365-ab0503c5ce51a7c1.jpg"></a></div><div class="business-body"><h3><a href="sandstone-ranch-visitors-learning-center.html">Sandstone Ranch Visitors &amp; Learning Center</a></h3><p class="business-description">Explore a historic homestead first settled in 1860. Inside you'll
-              find hands-on history and environmental exhibits, while outside
-              trails pass historic buildings, sandstone bluffs and wildlife
-              habitat.</p><div class="business-links"><a class="business-button" href="sandstone-ranch-visitors-learning-center.html">View Business Page →</a></div></div></article>
-<article class="card" data-business-category="Art • Culture • History" data-ll-visual-card=""><div class="ll-visual-image" data-image-kind="existing" data-image-tone="light"><a aria-label="Longmont Museum" class="card-button website" href="longmont-museum.html"><img alt="Longmont Museum" loading="lazy" src="https://longmontcolorado.gov/wp-content/uploads/2025/01/Museum-exterior-s1ke73.tmp_.jpg"></a></div><div class="business-body"><h3><a href="longmont-museum.html">Longmont Museum</a></h3><p class="business-description">Explore exhibitions about Longmont's history, art and culture and
-              enjoy performances, films, talks, classes and special community
-              events.</p><div class="business-links"><a class="business-button" href="longmont-museum.html">View Business Page →</a></div></div></article>
-<article class="card" data-business-category="Farm • Animals • Family" data-ll-visual-card="" id="garden-acres"><div class="ll-visual-image" data-image-kind="existing" data-image-tone="light"><a aria-label="Sunflower Farm" class="card-button website" href="sunflower-farm.html"><img alt="Children visiting Sunflower Farm in Longmont Colorado" loading="lazy" src="sunflowerfarm.png"></a></div><div class="business-body"><h3><a href="sunflower-farm.html">Sunflower Farm</a></h3><p class="business-description">FARMFEST public hours are open each weekend, where you will be
-              able to have direct contact with all of your favorite farm animals
-              and can visit our pumpkin patch, pick your own sunflower fields
-              and visit our Halloween Forest in October. During Farmfest you
-              will discover an old airplane, sandboxes, bicycles, tree houses,
-              playhouses, dueling zip-lines, swings and John Deere Tractors.</p><div class="business-links"><a class="business-button" href="sunflower-farm.html">View Business Page →</a></div></div></article>
-<article class="card" data-business-category="Farm • Animals • Family Fun" data-ll-live-business="ab70f6a2-9597-56ce-a256-162c17eb9fb2" data-ll-placement="directory" data-ll-visual-card=""><div class="ll-visual-image" data-image-kind="existing" data-image-tone="light"><a aria-label="The Bee Hugger Farm" class="card-button website" href="the-bee-hugger-farm.html"><img alt="The Bee Hugger Farm in Longmont Colorado" loading="lazy" src="https://static.wixstatic.com/media/646d3b_9df553f39bb54fd6a14a96b92d28bedd~mv2.jpg"></a></div><div class="business-body"><h3><a href="the-bee-hugger-farm.html">The Bee Hugger Farm</a></h3><p class="business-description">A quirky six-acre family farm with bees, horses, goats, pigs,
-              chickens, peacocks, U-Pick sunflowers, pumpkins, local honey and
-              more. Visitors can feed animals, climb tractors and explore the
-              property. Check the website and social media for pony rides,
-              storytimes and other special events.</p><div class="business-links"><a class="business-button" href="the-bee-hugger-farm.html">View Business Page →</a></div></div></article>
-<article class="card" data-business-category="Climbing • Fitness • Indoor" data-ll-visual-card="" id="indoor"><div class="ll-visual-image" data-image-kind="image" data-image-tone="dark"><a aria-label="Longmont Climbing Collective" class="card-button website" href="longmont-climbing-collective.html"><img alt="Longmont Climbing Collective" src="assets/official/fe74efc426ea4a.webp"></a></div><div class="business-body"><h3><a href="longmont-climbing-collective.html">Longmont Climbing Collective</a></h3><p class="business-description">Try indoor climbing, bouldering, fitness or yoga. Programs are
-              available for adults and children, making it a great year-round
-              activity.</p><div class="business-links"><a class="business-button" href="longmont-climbing-collective.html">View Business Page →</a></div></div></article>
-<article class="card" data-business-category="Swimming • Recreation • Indoor" data-ll-visual-card=""><div class="ll-visual-image" data-image-kind="logo" data-image-tone="light"><a aria-label="Longmont Recreation Center" class="card-button website" href="longmont-recreation-center.html"><img alt="Longmont Recreation Center" src="assets/official/ede3e81438c658.webp"></a></div><div class="business-body"><h3><a href="longmont-recreation-center.html">Longmont Recreation Center</a></h3><p class="business-description">Swim, climb, play basketball or work out under one roof. The
-              center includes lap and leisure pools, waterslides, a lazy river,
-              climbing wall, gymnasium and fitness areas.</p><div class="business-links"><a class="business-button" href="longmont-recreation-center.html">View Business Page →</a></div></div></article>
-<article class="card" data-business-category="Adventure • Bucket List" data-ll-visual-card="" id="adventure"><div class="ll-visual-image" data-image-kind="existing" data-image-tone="light"><a aria-label="Mile-Hi Skydiving Center" class="card-button website" href="mile-hi-skydiving-center.html"><img alt="Skydiving in Longmont Colorado" loading="lazy" src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_639,q_80,w_1000/v1/clients/longmontco-redesign/Skydiving_e8e31b0d-59c8-4d03-b1c5-264236627256.jpg"></a></div><div class="business-body"><h3><a href="mile-hi-skydiving-center.html">Mile-Hi Skydiving Center</a></h3><p class="business-description">For a completely different view of Longmont, take to the sky.
-              Mile-Hi offers tandem skydives for first-timers as well as
-              training for experienced jumpers.</p><div class="business-links"><a class="business-button" href="mile-hi-skydiving-center.html">View Business Page →</a></div></div></article>
-<article class="card" data-business-category="Ice Skating • Winter" data-ll-visual-card="" id="seasonal"><div class="ll-visual-image" data-image-kind="existing" data-image-tone="light"><a aria-label="Longmont Ice Pavilion" class="card-button website" href="longmont-ice-pavilion.html"><img alt="Ice skating in Longmont Colorado" loading="lazy" src="https://assets.simpleviewinc.com/simpleview/image/fetch/c_fill,f_jpg,h_650,q_80,w_1000/https%3A%2F%2Fassets.simpleviewinc.com%2Fsimpleview%2Fimage%2Fupload%2Fcrm%2Flongmontco%2FIce-Skating--Sherri-O-Hara-15--77456a7d5056b36_77456f49-5056-b365-ab975084db923379.jpg"></a></div><div class="business-body"><h3><a href="longmont-ice-pavilion.html">Longmont Ice Pavilion</a></h3><p class="business-description">The open-air covered rink at Roosevelt Park offers public skating,
-              hockey and lessons during the winter season.</p><div class="business-links"><a class="business-button" href="longmont-ice-pavilion.html">View Business Page →</a></div></div></article>
-<article class="card" data-business-category="Baseball • Indoor • Training" data-ll-visual-card="" id="batting"><div class="ll-visual-image" data-image-kind="existing" data-image-tone="light"><a aria-label="Wells Athletics Batting Cages" class="card-button website" href="wells-athletics-batting-cages.html"><img alt="Indoor baseball training at Wells Athletics" loading="lazy" referrerpolicy="no-referrer" src="https://www.wellsathleticsco.com/wp-content/uploads/2025/10/wells-athletics-baseball-3-768x1024.jpg"></a></div><div class="business-body"><h3><a href="wells-athletics-batting-cages.html">Wells Athletics Batting Cages</a></h3><p class="business-description">A locally owned, year-round indoor baseball facility with batting
-              cages, pitching machines and space for individual or team
-              practice.</p><div class="business-links"><a class="business-button" href="wells-athletics-batting-cages.html">View Business Page →</a></div></div></article>
-<article class="card" data-business-category="Baseball • Youth • Facility Rental" data-ll-visual-card=""><div class="ll-visual-image" data-image-kind="existing" data-image-tone="light"><a aria-label="Longmont Baseball League Cages" class="card-button website" href="longmont-baseball-league-cages.html"><img alt="Longmont Baseball League logo" loading="lazy" referrerpolicy="no-referrer" src="https://crossbar.s3.amazonaws.com/organizations/1837/uploads/513b9392-973c-4fce-a48f-233ae9cca7dc.png" style="object-fit: contain; padding: 24px; background: #fff"></a></div><div class="business-body"><h3><a href="longmont-baseball-league-cages.html">Longmont Baseball League Cages</a></h3><p class="business-description">The nonprofit Longmont Baseball League rents two indoor cages with
-              an Iron Mike pitching machine, hitting nets, tees and practice
-              balls.</p><div class="business-links"><a class="business-button" href="longmont-baseball-league-cages.html">View Business Page →</a></div></div></article>
-<article class="card" data-business-category="Park • Batting Cage • Sports" data-ll-visual-card="" id="family"><div class="ll-visual-image" data-image-kind="existing" data-image-tone="light"><a aria-label="Garden Acres Community Park" class="card-button website" href="garden-acres-community-park.html"><img alt="Garden Acres Community Park in Longmont" loading="lazy" referrerpolicy="no-referrer" src="https://longmontcolorado.gov/wp-content/uploads/2024/07/Garden-Acres.jpg"></a></div><div class="business-body"><h3><a href="garden-acres-community-park.html">Garden Acres Community Park</a></h3><p class="business-description">A neighborhood sports hub with a batting cage, lighted softball
-              fields, soccer space, cricket pitch, playgrounds, paths and public
-              art.</p><div class="business-links"><a class="business-button" href="garden-acres-community-park.html">View Business Page →</a></div></div></article>
-<article class="card" data-business-category="Pottery • Glass • Creative Fun" data-ll-visual-card="" id="makers"><div class="ll-visual-image" data-image-kind="existing" data-image-tone="light"><a aria-label="Crackpots" class="card-button website" href="crackpots-pottery-studio.html"><img alt="Crackpots pottery studio" loading="lazy" referrerpolicy="no-referrer" src="https://static.wixstatic.com/media/3bd341_8e86ab56c08347afa09da84258b33aa1~mv2.jpg/v1/fit/w_2500,h_1330,al_c/3bd341_8e86ab56c08347afa09da84258b33aa1~mv2.jpg"></a></div><div class="business-body"><h3><a href="crackpots-pottery-studio.html">Crackpots</a></h3><p class="business-description">A downtown paint-your-own-pottery studio offering glass fusing,
-              mosaics, classes, parties and walk-in creative time for all ages.</p><div class="business-links"><a class="business-button" href="crackpots-pottery-studio.html">View Business Page →</a></div></div></article>
-<article class="card" data-business-category="Board Games • Cards • Miniatures" data-ll-visual-card=""><div class="ll-visual-image" data-image-kind="existing" data-image-tone="light"><a aria-label="Atomic Goblin Games" class="card-button website" href="atomic-goblin-games.html"><img alt="Atomic Goblin Games in Longmont" loading="lazy" referrerpolicy="no-referrer" src="https://static.wixstatic.com/media/0eda35_6e343698029d885d8ef4ffd380ea8009.jpg/v1/fit/w_2500,h_1330,al_c/0eda35_6e343698029d885d8ef4ffd380ea8009.jpg"></a></div><div class="business-body"><h3><a href="atomic-goblin-games.html">Atomic Goblin Games</a></h3><p class="business-description">An independent game shop and gathering place for board games,
-              trading cards, tabletop miniatures and scheduled community play.</p><div class="business-links"><a class="business-button" href="atomic-goblin-games.html">View Business Page →</a></div></div></article>
-<article class="card" data-business-category="Makerspace • Workshops • Community" data-ll-visual-card=""><div class="ll-visual-image" data-image-kind="logo" data-image-tone="light"><a aria-label="TinkerMill" class="card-button website" href="tinkermill.html"><img alt="TinkerMill makerspace logo" loading="lazy" referrerpolicy="no-referrer" src="https://tinkermill.org/wp-content/uploads/2021/09/cropped-TinkerMill-Logo-Green-1.png" style="object-fit: contain; padding: 28px; background: #fff"></a></div><div class="business-body"><h3><a href="tinkermill.html">TinkerMill</a></h3><p class="business-description">A volunteer-powered nonprofit makerspace with woodworking,
-              welding, pottery, textiles, robotics, laser cutting, blacksmithing
-              and more.</p><div class="business-links"><a class="business-button" href="tinkermill.html">View Business Page →</a></div></div></article>
-<article class="card" data-business-category="Orchard • Farm Stand • U-Pick" data-ll-visual-card=""><div class="ll-visual-image" data-image-kind="existing" data-image-tone="light"><a aria-label="YA YA Farm &amp; Orchard" class="card-button website" href="ya-ya-farm-orchard.html"><img alt="YA YA Farm and Orchard" loading="lazy" referrerpolicy="no-referrer" src="https://yayafarmandorchard.com/wp-content/uploads/2024/06/Truck-and-Barn-v4-original-ratio-2560w-jpg.webp"></a></div><div class="business-body"><h3><a href="ya-ya-farm-orchard.html">YA YA Farm &amp; Orchard</a></h3><p class="business-description">A historic family orchard with fruit trees, farm animals, a
-              seasonal farm stand and reservation-based U-pick experiences.</p><div class="business-links"><a class="business-button" href="ya-ya-farm-orchard.html">View Business Page →</a></div></div></article>
-<article class="card" data-business-category="Contemporary Art • Classes • Events" data-ll-visual-card="" id="firehouse-art-center"><div class="ll-visual-image" data-image-kind="existing" data-image-tone="light"><a aria-label="Firehouse Art Center" class="card-button website" href="firehouse-art-center.html"><img alt="Firehouse Art Center exhibition" loading="lazy" referrerpolicy="no-referrer" src="https://firehouseart.org/wp-content/uploads/2026/08/Screenshot-2026-08-22-175848.png"></a></div><div class="business-body"><h3><a href="firehouse-art-center.html">Firehouse Art Center</a></h3><p class="business-description">Longmont’s nonprofit contemporary art center presents rotating
-              exhibitions, education programs and community events in the
-              Creative District.</p><div class="business-links"><a class="business-button" href="firehouse-art-center.html">View Business Page →</a></div></div></article>
-
-</div>
-</section>
-<section class="local-ideas">
-<div class="local-heading">
-<div class="eyebrow">Choose Your Adventure</div>
-<h2 class="section-title">What Kind of Day Are You Looking For?</h2>
-</div>
-<div class="idea-grid" data-ll-visual-grid="">
-<div class="idea" data-ll-visual-card=""><div class="ll-visual-image" data-image-kind="art" data-image-tone="light"><img alt="Illustration for A Completely Free Day" src="assets/category-get-outside-art-small.webp"></div>
-<h3>A Completely Free Day</h3>
-<p>
-            Walk around McIntosh Lake, explore Golden Ponds, visit the
-            Agricultural Heritage Center or discover Longmont history at
-            Sandstone Ranch.
-          </p>
-</div>
-<div class="idea" data-ll-visual-card=""><div class="ll-visual-image" data-image-kind="art" data-image-tone="light"><img alt="Illustration for A Family Day" src="assets/art/pets.webp"></div>
-<h3>A Family Day</h3>
-<p>
-            Explore Dickens Farm, meet the animals at Sunflower Farm or spend
-            the afternoon swimming at the Longmont Recreation Center.
-          </p>
-</div>
-<div class="idea" data-ll-visual-card=""><div class="ll-visual-image" data-image-kind="art" data-image-tone="light"><img alt="Illustration for A Date Day" src="assets/art/wellness.webp"></div>
-<h3>A Date Day</h3>
-<p>
-            Take a sunset walk at Golden Ponds or McIntosh Lake, try climbing
-            together or ice skate during the winter.
-          </p>
-</div>
-<div class="idea" data-ll-visual-card=""><div class="ll-visual-image" data-image-kind="art" data-image-tone="light"><img alt="Illustration for A Water Day" src="assets/category-get-outside-art-small.webp"></div>
-<h3>A Water Day</h3>
-<p>
-            Kayak or paddleboard at McIntosh Lake or spend a full summer day at
-            Union Reservoir.
-          </p>
-</div>
-<div class="idea" data-ll-visual-card=""><div class="ll-visual-image" data-image-kind="art" data-image-tone="light"><img alt="Illustration for A Rainy Day" src="assets/art/wellness.webp"></div>
-<h3>A Rainy Day</h3>
-<p>
-            Try the Longmont Climbing Collective, Recreation Center or check the
-            Longmont Museum's program schedule.
-          </p>
-</div>
-<div class="idea" data-ll-visual-card=""><div class="ll-visual-image" data-image-kind="art" data-image-tone="light"><img alt="Illustration for A Bucket-List Day" src="assets/art/pets.webp"></div>
-<h3>A Bucket-List Day</h3>
-<p>
-            Go skydiving over the Front Range or try something new like
-            climbing, kayaking or paddleboarding.
-          </p>
-</div>
-</div>
-</section>
-<section class="note-section">
-<div class="note">
-<h2>Before You Go</h2>
-<ul>
-<li>
-            Hours, prices, programs and seasonal availability can change. Use
-            the official website button on each listing before making a special
-            trip.
-          </li>
-<li>
-            Most Longmont nature areas are open approximately one hour before
-            sunrise until one hour after sunset.
-          </li>
-<li>
-            A Colorado Parks &amp; Wildlife fishing license is required at Longmont
-            fishing locations when applicable.
-          </li>
-<li>
-            Water levels and creek conditions vary throughout the year. Always
-            follow posted safety information.
-          </li>
-<li>
-            Many outdoor Longmont attractions are completely free, making it
-            possible to explore the community without spending anything.
-          </li>
-</ul>
-</div>
-</section>
-<section class="submit">
-<div class="eyebrow">Help Build the Guide</div>
-<h2>Know Something We Should Add?</h2>
-<p>
-        Have a favorite Longmont park, attraction, activity, hidden gem or
-        experience that belongs on this page? Tell us about it.
-      </p>
-<a class="submit-button" href="contact.html">Suggest Something →</a>
-</section>
-<section class="ll-connected-spotlights" data-category-directory="" aria-label="Category listings" style="max-width:1200px;margin:0 auto;padding:32px 25px"></section><footer class="ll-compact-footer lln-footer" data-navigation-version="20261016"><div class="lln-footer-brand"><a href="index.html"><span class="lln-wordmark">Loving Longmont<span class="lln-heart" aria-hidden="true">♥</span></span></a><p>People • Places • Possibilities</p></div><div class="lln-footer-grid"><nav aria-label="Explore footer"><h2>Explore</h2><a href="index.html">Home</a><a href="directory.html">Local Directory</a><a href="things-to-do.html">Things to Do</a><a href="events.html">Events</a><a href="community.html">Community</a><a href="#lln-get-involved">Get Involved</a></nav><nav aria-label="Community footer"><h2>Community</h2><a href="jobs.html">Jobs & Training</a><a href="animals.html">Animals & Pets</a><a href="food-assistance-basic-needs.html">Food & Basic Needs</a><a href="faith-spirituality.html">Faith & Spirituality</a><a href="find-a-local-volunteer-opportunity.html">Volunteer Opportunities</a></nav><nav id="lln-get-involved" aria-label="Get Involved footer"><h2>Get Involved</h2><a href="request-free-profile.html">Add a Business</a><a href="membership.html">Membership & Pricing</a><a href="pricing.html#contribute">Become a Sponsor</a><a href="become-a-contributor.html">Share Stories & Photos</a><a href="media-kit.html">Media & Sharing Kit</a></nav><nav aria-label="About & Connect footer"><h2>About & Connect</h2><a href="about.html">About Loving Longmont</a><a href="contact.html">Contact</a><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr">Facebook</a><a href="sitemap.html">Site Map</a><a href="https://mktcolorado.com">Explore MKT Colorado ↗</a></nav></div><section class="lln-sponsor-section" aria-labelledby="lln-sponsors-title"><h2 id="lln-sponsors-title">Our Sponsors &amp; Creative Partners</h2><p>Supporting the local businesses and creators who help keep Loving Longmont connected.</p><div class="lln-sponsor-grid"><a class="lln-sponsor-card" href="https://mktvisibility.com" target="_blank" rel="noopener noreferrer"><span class="lln-sponsor-art" role="img" aria-label="MKT Visibility mountain logo" style="background-image:url('assets/sponsors/mkt-visibility.svg')"></span><span class="lln-sponsor-name">MKT Visibility ↗</span></a><a class="lln-sponsor-card" href="https://opentheorycove.com" target="_blank" rel="noopener noreferrer"><span class="lln-sponsor-art" role="img" aria-label="Open Theory Cove tree and book artwork" style="background-image:url('assets/sponsors/open-theory-cove.svg')"></span><span class="lln-sponsor-name">Open Theory Cove ↗</span></a><a class="lln-sponsor-card" href="https://www.bouldercountyphotography.com" target="_blank" rel="noopener noreferrer"><span class="lln-sponsor-art" role="img" aria-label="Boulder County Photography mountain and camera logo" style="background-image:url('assets/sponsors/boulder-county-photography.svg')"></span><span class="lln-sponsor-name">Boulder County Photography ↗</span></a><a class="lln-sponsor-card" href="https://linktr.ee/art.ificially_intelligent" target="_blank" rel="noopener noreferrer"><span class="lln-sponsor-art" role="img" aria-label="Tim Skolyak Creative Brands artwork" style="background-image:url('assets/sponsors/tim-skolyak-creative.svg')"></span><span class="lln-sponsor-name">Tim Skolyak Creative Brands ↗</span></a></div><div class="lln-sponsor-action"><a href="pricing.html#contribute">Become a Sponsor ↗</a></div></section><div class="lln-footer-bottom"><span>© 2026 Loving Longmont • Powered by <a href="https://mktvisibility.com">MKT Visibility</a></span><nav class="lln-footer-social" aria-label="Loving Longmont social media"><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Loving Longmont on Facebook" title="Facebook">f</a></nav></div></footer>
-<script src="assets/live/live-page.mjs?v=20261018-visits" type="module"></script>
-<script src="assets/visual-cards.mjs?v=20261018-visits" type="module"></script><script type="module" src="assets/category-directory.mjs?v=20261016-photo-audit"></script>
-</body></html>
+<link href="assets/visual-cards.css?v=20261013-bee-hugger-fill" rel="stylesheet"><style>main.category-main{min-height:40vh}.category-main .intro{padding:60px 25px}.category-index{max-width:1000px;margin:0 auto;padding:0 25px 60px;columns:2;column-gap:36px}.category-index li{break-inside:avoid;margin:0 0 14px}.category-index a{color:#062f52}@media(max-width:650px){.category-index{columns:1}}</style><link rel="stylesheet" href="assets/compact-directory.css?v=20261018-navigation-v2"><link rel="stylesheet" href="assets/navigation.css?v=20261016"><script defer src="assets/live-header.js?v=20261018-navigation-v2"></script><style id="food-drink-compact-layout">
+/* Keep the Food & Drink directory readable without oversized, tall cards. */
+body.food-drink-page .category-main .intro{padding:30px 20px 24px!important}
+body.food-drink-page #home-business-stories{padding-top:20px;padding-bottom:14px}
+body.food-drink-page #home-business-stories>h2{margin-bottom:14px}
+body.food-drink-page #home-business-stories .ll-story-preview-grid{gap:16px}
+body.food-drink-page #home-business-stories .ll-home-story{padding-bottom:15px}
+body.food-drink-page [data-category-directory]{padding:12px 24px 20px!important}
+body.food-drink-page .ll-connected-spotlights:not([data-category-directory]){max-width:1240px;margin:0 auto;padding:12px 24px 26px}
+body.food-drink-page .ll-connected-spotlights:not([data-category-directory])>h2{margin:0 0 14px}
+body.food-drink-page :is([data-category-directory],.ll-connected-spotlights) .ll-connected-grid{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:18px!important;align-items:stretch!important}
+body.food-drink-page :is([data-category-directory],.ll-connected-spotlights) :is(.business-card,.ll-connected-card,.ll-compact-card){height:auto!important;min-height:315px!important;max-height:none!important;padding:12px!important;overflow:visible!important}
+body.food-drink-page :is([data-category-directory],.ll-connected-spotlights) :is(.business-card,.ll-connected-card,.ll-compact-card) :is(.ll-card-image,.ll-visual-image){height:125px!important;min-height:125px!important;max-height:125px!important;flex-basis:125px!important;margin-bottom:9px!important}
+body.food-drink-page :is([data-category-directory],.ll-connected-spotlights) :is(.business-card,.ll-connected-card,.ll-compact-card) h3{font-size:17px!important;line-height:1.2!important;margin-bottom:8px!important;min-height:0!important;max-height:none!important;display:block!important;overflow:visible!important;-webkit-line-clamp:unset!important}
+body.food-drink-page :is([data-category-directory],.ll-connected-spotlights) :is(.business-card,.ll-connected-card,.ll-compact-card) .business-description{font-size:13px!important;line-height:1.45!important;display:block!important;height:auto!important;min-height:0!important;max-height:none!important;overflow:visible!important;-webkit-line-clamp:unset!important;white-space:normal!important;margin:0 0 12px!important}
+body.food-drink-page :is([data-category-directory],.ll-connected-spotlights) :is(.business-card,.ll-connected-card,.ll-compact-card) .business-body{height:auto!important;min-height:0!important;overflow:visible!important}
+body.food-drink-page :is([data-category-directory],.ll-connected-spotlights) :is(.business-card,.ll-connected-card,.ll-compact-card) .business-links{margin-top:auto!important;padding-top:8px!important}
+@media(max-width:950px){body.food-drink-page :is([data-category-directory],.ll-connected-spotlights) .ll-connected-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}}
+@media(max-width:650px){body.food-drink-page :is([data-category-directory],.ll-connected-spotlights) .ll-connected-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:14px!important}}
+@media(max-width:390px){body.food-drink-page :is([data-category-directory],.ll-connected-spotlights) .ll-connected-grid{grid-template-columns:1fr!important}}
+</style><link rel="stylesheet" href="assets/footer.css?v=20261017-footer-sync"/><link rel="stylesheet" href="assets/navigation-v2.css?v=20261018-navigation-v2"></head><body class="food-drink-page"><header class="ll-live-header lln-header" data-navigation-version="20261018-navigation-v2"><div class="lln-utility"><a href="about.html">About</a><a href="contact.html">Contact</a><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr">Facebook</a></div><div class="lln-brandrow"><a class="lln-brand" href="index.html" aria-label="Loving Longmont home"><span class="lln-wordmark">Loving Longmont<span class="lln-heart" aria-hidden="true">♥</span></span></a><form class="lln-search" action="search.html" role="search"><label class="lln-sr" for="lln-search">Search Loving Longmont</label><input id="lln-search" name="q" type="search" placeholder="Search Loving Longmont"><button type="submit" aria-label="Search">Search</button></form><a class="lln-cta" href="request-free-profile.html">Add or Claim Your Business</a></div><button class="lln-toggle" type="button" aria-expanded="false" aria-controls="lln-main" hidden>☰ Menu</button><nav class="lln-main" id="lln-main" aria-label="Main navigation"><a href="index.html">Home</a><details class="lln-drop lln-directory"><summary>Local Directory</summary><div class="lln-panel"><a href="directory.html">View All Categories</a><a href="businesses.html">Browse All Listings</a><a href="food-drink.html">Food &amp; Drink</a><a href="farms-local-essentials.html">Local Essentials</a><a href="shopping-specialty-stores.html">Shopping</a><a href="arts-crafts-makers.html">Arts, Crafts &amp; Makers</a><a href="music-entertainment.html">Music &amp; Entertainment</a><a href="professional-business-services.html">Professional Services</a><a href="health-wellness.html">Health &amp; Wellness</a><a href="animals.html">Animals &amp; Pets</a><a href="books-comics-games.html">Books, Comics &amp; Games</a><a href="home-garden-gifts.html">Home, Garden &amp; Gifts</a><a href="sports-fitness-equipment.html">Sports, Fitness &amp; Recreation</a></div></details><details class="lln-drop "><summary>Things to Do</summary><div class="lln-panel"><a href="things-to-do.html">All Things to Do</a><a href="outdoor-recreation-adventure.html">Outdoor Recreation</a><a href="museums-historic-sites.html">Museums &amp; Historic Sites</a><a href="kids-family-activities.html">Kids, Family Activities &amp; Camps</a><a href="classes-learning.html">Classes &amp; Learning</a><a href="event-venues-group-experiences.html">Event Venues &amp; Group Experiences</a><a href="farm-visits-seasonal-fun.html">Farm Visits &amp; Seasonal Fun</a></div></details><a href="events.html">Events</a><details class="lln-drop "><summary>Community</summary><div class="lln-panel"><a href="community.html">Community Overview</a><a href="faith-spirituality.html">Faith &amp; Spirituality</a><a href="food-assistance-basic-needs.html">Food &amp; Basic Needs</a><a href="recovery-peer-support.html">Recovery &amp; Peer Support</a><a href="senior-services.html">Senior Services</a><a href="find-a-local-volunteer-opportunity.html">Volunteer Opportunities</a><a href="jobs.html">Jobs &amp; Training</a></div></details><details class="lln-drop "><summary>Get Involved</summary><div class="lln-panel"><a href="request-free-profile.html">Add or Claim Your Business</a><a href="become-a-contributor.html">Share Stories &amp; Photos</a><a href="media-kit.html">Media &amp; Sharing Kit</a></div></details><a class="lln-sponsor-nav-link" href="pricing.html#contribute">Become a Sponsor</a></nav></header>
+<section aria-label="Longmont community parade" class="ll-live-banner"><img alt="Watercolor illustration adapted from a Longmont community parade, with local people at Coffman Street." fetchpriority="high" height="724" sizes="100vw" src="assets/longmont-parade-panorama.webp" srcset="assets/longmont-parade-panorama-small.webp 1050w, assets/longmont-parade-panorama.webp 2172w" width="2172"/></section><main class="ll-nav-page" data-directory-hub><h1>Things to Do</h1><p>Explore Longmont through outdoor adventures, historic places, creative classes, farm visits and family experiences.</p><div class="ll-nav-cards"><a class="ll-nav-card" href="outdoor-recreation-adventure.html"><h2>Outdoor Recreation</h2><p>Parks, trails, lakes and outdoor adventures.</p></a><a class="ll-nav-card" href="museums-historic-sites.html"><h2>Museums &amp; Historic Sites</h2><p>Explore Longmont’s museums, preserved buildings, historic homes and places that tell the community’s story. Check each location for tour times, seasonal openings and reservations.</p></a><a class="ll-nav-card" href="kids-family-activities.html"><h2>Kids, Family Activities &amp; Camps</h2><p>Find creative classes, farm experiences, museums and activities for children and families. Check age requirements, dates and registration with each organizer.</p></a><a class="ll-nav-card" href="classes-learning.html"><h2>Classes &amp; Learning</h2><p>Creative classes, workshops, lessons and useful skills.</p></a><a class="ll-nav-card" href="event-venues-group-experiences.html"><h2>Event Venues &amp; Group Experiences</h2><p>Find spaces and experiences for celebrations, meetings, weddings, private parties and creative group outings. Contact each provider about capacity, booking and current options.</p></a><a class="ll-nav-card" href="farm-visits-seasonal-fun.html"><h2>Farm Visits &amp; Seasonal Fun</h2><p>Explore farm visits, orchard outings, seasonal experiences and educational farms. Check public visiting hours and book ahead where required.</p></a></div><p><a href="history.html">Read Longmont History</a> · <a href="spotlight.html">In the Spotlight</a></p></main><footer class="ll-compact-footer lln-footer" data-navigation-version="20261018-navigation-v2"><div class="lln-footer-brand"><a href="index.html">Loving Longmont ♥</a><p>People • Places • Possibilities</p></div><div class="lln-footer-grid"><nav aria-label="Explore footer"><h2>Explore</h2><a href="index.html">Home</a><a href="directory.html">Local Directory</a><a href="things-to-do.html">Things to Do</a><a href="events.html">Events</a><a href="community.html">Community</a></nav><nav aria-label="Local Directory footer"><h2>Local Directory</h2><a href="food-drink.html">Food &amp; Drink</a><a href="farms-local-essentials.html">Local Essentials</a><a href="shopping-specialty-stores.html">Shopping</a><a href="arts-crafts-makers.html">Arts, Crafts &amp; Makers</a><a href="music-entertainment.html">Music &amp; Entertainment</a><a href="professional-business-services.html">Professional Services</a><a href="health-wellness.html">Health &amp; Wellness</a><a href="animals.html">Animals &amp; Pets</a><a href="books-comics-games.html">Books, Comics &amp; Games</a><a href="home-garden-gifts.html">Home, Garden &amp; Gifts</a><a href="sports-fitness-equipment.html">Sports, Fitness &amp; Recreation</a></nav><nav aria-label="Things to Do footer"><h2>Things to Do</h2><a href="outdoor-recreation-adventure.html">Outdoor Recreation</a><a href="museums-historic-sites.html">Museums &amp; Historic Sites</a><a href="kids-family-activities.html">Kids, Family Activities &amp; Camps</a><a href="classes-learning.html">Classes &amp; Learning</a><a href="event-venues-group-experiences.html">Event Venues &amp; Group Experiences</a><a href="farm-visits-seasonal-fun.html">Farm Visits &amp; Seasonal Fun</a></nav><nav aria-label="Community footer"><h2>Community</h2><a href="faith-spirituality.html">Faith &amp; Spirituality</a><a href="food-assistance-basic-needs.html">Food &amp; Basic Needs</a><a href="recovery-peer-support.html">Recovery &amp; Peer Support</a><a href="senior-services.html">Senior Services</a><a href="find-a-local-volunteer-opportunity.html">Volunteer Opportunities</a><a href="jobs.html">Jobs &amp; Training</a></nav><nav aria-label="Get Involved footer"><h2>Get Involved</h2><a href="request-free-profile.html">Add or Claim Your Business</a><a href="become-a-contributor.html">Share Stories &amp; Photos</a><a href="media-kit.html">Media &amp; Sharing Kit</a><a href="pricing.html#contribute">Become a Sponsor</a></nav><nav aria-label="About & Connect footer"><h2>About & Connect</h2><a href="about.html">About Loving Longmont</a><a href="contact.html">Contact</a><a href="search.html">Search</a><a href="sitemap.html">Site Map</a><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr">Facebook</a><a href="https://mktcolorado.com">Explore MKT Colorado ↗</a></nav></div><section class="lln-sponsor-section" aria-labelledby="lln-sponsors-title"><h2 id="lln-sponsors-title">Our Sponsors &amp; Creative Partners</h2><p>Supporting the local businesses and creators who help keep Loving Longmont connected.</p><div class="lln-sponsor-grid"><a class="lln-sponsor-card" href="https://mktvisibility.com" target="_blank" rel="noopener noreferrer"><span class="lln-sponsor-art" role="img" aria-label="MKT Visibility mountain logo" style="background-image:url('assets/sponsors/mkt-visibility.svg')"></span><span class="lln-sponsor-name">MKT Visibility ↗</span></a><a class="lln-sponsor-card" href="https://opentheorycove.com" target="_blank" rel="noopener noreferrer"><span class="lln-sponsor-art" role="img" aria-label="Open Theory Cove tree and book artwork" style="background-image:url('assets/sponsors/open-theory-cove.svg')"></span><span class="lln-sponsor-name">Open Theory Cove ↗</span></a><a class="lln-sponsor-card" href="https://www.bouldercountyphotography.com" target="_blank" rel="noopener noreferrer"><span class="lln-sponsor-art" role="img" aria-label="Boulder County Photography mountain and camera logo" style="background-image:url('assets/sponsors/boulder-county-photography.svg')"></span><span class="lln-sponsor-name">Boulder County Photography ↗</span></a><a class="lln-sponsor-card" href="https://linktr.ee/art.ificially_intelligent" target="_blank" rel="noopener noreferrer"><span class="lln-sponsor-art" role="img" aria-label="Tim Skolyak Creative Brands artwork" style="background-image:url('assets/sponsors/tim-skolyak-creative.svg')"></span><span class="lln-sponsor-name">Tim Skolyak Creative Brands ↗</span></a></div><div class="lln-sponsor-action"><a href="pricing.html#contribute">Become a Sponsor ↗</a></div></section><div class="lln-footer-bottom"><span>© 2026 Loving Longmont • Powered by <a href="https://mktvisibility.com">MKT Visibility</a></span><nav class="lln-footer-social" aria-label="Loving Longmont social media"><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Loving Longmont on Facebook" title="Facebook">f</a></nav></div></footer><script type="module" src="assets/category-directory.mjs?v=20261018-navigation-v2"></script>
+<script src="assets/live/live-page.mjs?v=20261018-navigation-v2" type="module"></script></body></html>

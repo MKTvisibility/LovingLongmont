@@ -1,4 +1,4 @@
-import {profileVisuals} from './profile-images.mjs?v=20261018-visits';
+import {profileVisuals} from './profile-images.mjs?v=20261018-navigation-v2';
 // Shared by the public site and the Command Center preview. No HTML from records is evaluated.
 export function safeWebUrl(value){try{const u=new URL(value);return ['http:','https:'].includes(u.protocol)&&!u.username&&!u.password?u.href:''}catch{return ''}}
 function builder(root){const d=root.ownerDocument;return (tag,cls,text)=>{const n=d.createElement(tag);if(cls)n.className=cls;if(text!==undefined&&text!==null)n.textContent=String(text);return n}}
@@ -27,7 +27,14 @@ export function renderProfile(root,b,catalog={}){const make=builder(root);root.r
  if(remainingGallery.length){const section=make('section','bp-gallery');section.append(make('p','bp-eyebrow','A LOOK AT THE WORK'),make('h2','','Gallery'));const photos=make('div','bp-gallery-grid');remainingGallery.forEach(p=>{const f=make('figure');photo(make,f,p.url,p.alt||b.name);if(p.caption)f.append(make('figcaption','',p.caption));photos.append(f)});section.append(photos);article.append(section)}
  const bottom=make('div','bp-bottom');addLink(make,bottom,'businesses.html','← Browse local businesses');article.append(bottom);root.append(article);if(root.ownerDocument.defaultView?.location.hash==='#plan-visit')root.ownerDocument.defaultView.requestAnimationFrame?.(()=>root.querySelector('#plan-visit')?.scrollIntoView?.({block:'center'}));return article;
 }
-export function directoryPhoto(content){return (content.gallery||[]).find(p=>p.enabled!==false&&safeWebUrl(p.url))||null}
+export function directoryPhotos(content){
+ const resolve=url=>{if(!url)return '';try{return safeWebUrl(new URL(String(url).replace('https://lovinglongmont.github.io/loving-longmont-website/','https://mktvisibility.github.io/LovingLongmont/'),new URL('../../',import.meta.url)).href)}catch{return ''}};
+ const selected=(content.gallery||[]).filter(p=>p.enabled!==false&&resolve(p.url)).map(p=>({...p,url:resolve(p.url)}));
+ if(selected.length)return selected;
+ const visual=profileVisuals(content,{},content.id);const url=resolve(visual.image);
+ return url&&!visual.illustration&&!/\/assets\/art\/|category-.*art|logo/i.test(url)?[{url,alt:content.name}]:[];
+}
+export function directoryPhoto(content){return directoryPhotos(content)[0]||null}
 export function renderBusinessCard(document,row,variant='directory'){
  const root=document.createElement('article'),make=builder(root),b=row.public_content||{};
  root.className=(variant==='staffing'?'ll-staffing-card':variant==='spotlight'?'ll-connected-card':'business-card')+' ll-compact-card';
@@ -35,7 +42,7 @@ export function renderBusinessCard(document,row,variant='directory'){
  const filename=row.route||'',route=row.pageRoute||((filename.startsWith('business-')||document.documentElement.dataset.businessSite==='MKT Colorado'||filename==='7-anubis-farms.html')?'business.html#id='+encodeURIComponent(row.business_id):filename);
  const frame=make('div','ll-card-image'),link=make('a');link.href=route;link.setAttribute('aria-label',b.name||'Business page');
  const placeholder=make('span','ll-card-name-art',b.name||'Local business');placeholder.setAttribute('aria-hidden','true');link.append(placeholder);
- const selected=directoryPhoto(b);if(selected){const img=photo(make,link,selected.url,selected.alt||b.name);img.width=400;img.height=250;img.decoding='async';placeholder.hidden=true;img.addEventListener('error',()=>{placeholder.hidden=false});}
+ const candidates=directoryPhotos({...b,id:row.business_id}),selected=candidates[0];if(selected){const img=photo(make,link,selected.url,selected.alt||b.name);img.width=400;img.height=250;img.decoding='async';placeholder.hidden=true;let next=1;img.addEventListener('error',()=>{if(next<candidates.length){img.hidden=false;img.src=candidates[next++].url;}else placeholder.hidden=false;});}
  frame.append(link);root.append(frame);
  const body=make('div','business-body'),title=make('h3');addLink(make,title,route,b.name);body.append(title);
  const intro=make('p','business-description',String(b.description||b.tagline||'Meet this business and discover what it offers.').replace(/\s+/g,' ').trim());body.append(intro);
