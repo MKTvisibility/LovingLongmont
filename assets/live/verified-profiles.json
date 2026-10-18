@@ -146,7 +146,8 @@
         "enabled": true
       }
     ],
-    "logo_alt": "Cultivate logo"
+    "logo_alt": "Cultivate logo",
+    "email": "info@cultivate.ngo"
   },
   "dickens-farm-nature-area.html": {
     "id": "acc39774-c325-54e1-8c0f-a61f377dbd78",
@@ -1386,7 +1387,9 @@
         "enabled": true
       }
     ],
-    "logo_alt": "The ROUND PANTRY logo"
+    "logo_alt": "The ROUND PANTRY logo",
+    "email": "wview@westviewpres.org",
+    "phone": "303-776-3242"
   },
   "tinkermill.html": {
     "id": "ac659685-a763-53c7-8d20-63ea338b323a",
@@ -1556,7 +1559,8 @@
         "alt": "Photo from the official website of Westview Presbyterian Church",
         "enabled": true
       }
-    ]
+    ],
+    "email": "wview@westviewpres.org"
   },
   "whispering-pines-pet-resort.html": {
     "id": "ba98608e-247a-5b93-a4bc-25b7f7114e66",
