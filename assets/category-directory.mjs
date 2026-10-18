@@ -18,6 +18,13 @@ export async function loadCategoryDirectory(doc=document,fetcher=fetch){
   if(root.contains(node)||node.closest('.home-story-spotlights,.ll-business-calendar,.event-card'))continue;
   if(ids.has(node.dataset.llLiveBusiness)||node.classList.contains('ll-connected-spotlights'))node.remove();
  }
+ const knownRoutes=new Set(catalog.map(r=>String(r.route||routes[r.business_id]||'').split('#')[0]).filter(Boolean));
+ for(const card of doc.querySelectorAll('article')){
+  if(root.contains(card)||card.closest('.home-story-spotlights,.ll-business-calendar')||card.classList.contains('event-card'))continue;
+  const link=card.querySelector('h3 a,h2 a');if(!link)continue;
+  const destination=new URL(link.getAttribute('href'),doc.baseURI).pathname.split('/').pop();
+  if(knownRoutes.has(destination))card.remove();
+ }
  const status=doc.createElement('p');status.className='ll-directory-status';status.textContent=rows.length+' '+(rows.length===1?'listing':'listings')+' · Alphabetical';
  const grid=doc.createElement('div');grid.className='ll-connected-grid ll-compact-grid';grid.dataset.llPreserveLayout='';
  if(page==='jobs.html'){
