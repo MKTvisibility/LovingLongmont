@@ -208,12 +208,26 @@
     "name": "E8YOGA",
     "description": "A locally owned Longmont studio with heated and non-heated yoga, meditation, yoga nidra, sound experiences and community events.",
     "categories": [
-      "Local Yoga & Mindfulness",
-      "Health & Wellness"
+      "Yoga",
+      "Pilates",
+      "Strength",
+      "Meditation"
     ],
-    "phone": "303-818-9786",
-    "address": "1127 Francis Street Longmont, CO 80501",
-    "image_url": ""
+    "phone": "720-552-0935",
+    "address": "1127 Francis Street, Longmont, CO 80501",
+    "image_url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/e8yoga-logo.webp",
+    "website": "https://e8.yoga/",
+    "email": "contact@e8.yoga",
+    "logo_alt": "E8 Yoga Studio logo",
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/profile-repair/e8yoga-photo.webp",
+        "alt": "Yoga practice in E8’s cedar-lined studio; photo from its official website",
+        "enabled": true
+      }
+    ],
+    "events_url": "https://e8.yoga/events",
+    "story": "E8 Yoga Studio has served Longmont since 2021, creating a place for students and teachers to practice and learn together. Its classes include several forms of yoga alongside strength sessions, Pilates and other studio experiences.\n\nThe cedar-lined studio uses infrared heat for heated practices, with additional options described in the current schedule. Workshops and community gatherings offer other ways to take part in the studio’s life."
   },
   "elwood-staffing.html": {
     "id": "0e3733f3-de3e-5203-b077-c6a177efb2ee",
