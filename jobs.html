@@ -941,6 +941,32 @@ footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55
 }
 #remote .site-card[data-ll-visual-card]:hover{border-color:#347455!important}
 #remote .site-card[data-ll-visual-card]:focus-visible{outline:3px solid #347455;outline-offset:4px}
+</style><style id="jobs-side-gig-card-layout">
+/* Match static gig resources to the outlined live resource card. */
+#side-gigs .gig-grid[data-ll-visual-grid]{align-items:stretch!important}
+#side-gigs :is(.gig-card,.ll-compact-card,.business-card,.ll-connected-card){
+ display:flex!important;flex-direction:column!important;align-self:stretch!important;
+ min-width:0!important;height:auto!important;min-height:350px!important;max-height:none!important;
+ padding:12px!important;border:2px solid #263647!important;border-radius:16px!important;
+ background:#fffaf4!important;box-shadow:0 2px 5px rgba(0,0,0,.06)!important;
+ overflow:hidden!important;
+}
+#side-gigs :is(.gig-card,.ll-compact-card,.business-card,.ll-connected-card) :is(.ll-visual-image,.ll-card-image){
+ flex:0 0 110px!important;width:100%!important;height:110px!important;
+ min-height:110px!important;max-height:110px!important;margin:0 0 12px!important;
+}
+#side-gigs :is(.gig-card,.ll-compact-card,.business-card,.ll-connected-card) h3{
+ display:block!important;font-size:17px!important;line-height:1.25!important;
+ height:auto!important;min-height:0!important;max-height:none!important;
+ margin:0 0 9px!important;overflow-wrap:anywhere;-webkit-line-clamp:unset!important;
+}
+#side-gigs :is(.gig-card,.ll-compact-card,.business-card,.ll-connected-card) :is(p,.business-description){
+ display:block!important;font-size:13px!important;line-height:1.5!important;
+ min-height:0!important;max-height:none!important;margin:0 0 12px!important;
+ overflow:visible!important;-webkit-line-clamp:unset!important;
+}
+#side-gigs .gig-card>a:last-child{margin-top:auto!important;padding-top:8px!important;overflow-wrap:anywhere}
+#side-gigs :is(.gig-card,.ll-compact-card,.business-card,.ll-connected-card):hover{border-color:#347455!important}
 </style></head>
 <body>
 <!-- =========================================================
