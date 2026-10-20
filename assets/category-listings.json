@@ -392,6 +392,13 @@
       "classes-learning.html",
       "community.html",
       "jobs.html"
+    ],
+    "gallery": [
+      {
+        "url": "https://mktvisibility.github.io/LovingLongmont/assets/official/connecting-colorado-user-logo.png",
+        "alt": "Workforce Colorado — Connecting Colorado logo",
+        "enabled": true
+      }
     ]
   },
   {
