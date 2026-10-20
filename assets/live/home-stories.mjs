@@ -3,7 +3,8 @@ import {STORY_PAGES,storyPages} from './story-pages.mjs';
 const imageKeys=['logo','left','photo3'];
 const imageURL=value=>{try{const u=new URL(value);return u.protocol==='https:'&&!u.username&&!u.password?u.href:''}catch{return ''}};
 export function storyImages(content){
- const selected=new Set(content.home_story?.images||[]),gallery=(content.gallery||[]).filter(p=>p.enabled!==false);
+ const requested=content.home_story?.images;
+ const selected=new Set(Array.isArray(requested)&&requested.length?requested:['left']),gallery=(content.gallery||[]).filter(p=>p.enabled!==false);
  const options={logo:{url:content.image_url,alt:content.name+' logo'},left:gallery[0],photo3:gallery[1]};
  return imageKeys.filter(key=>selected.has(key)&&imageURL(options[key]?.url)).map(key=>({...options[key],url:imageURL(options[key].url),key}));
 }
