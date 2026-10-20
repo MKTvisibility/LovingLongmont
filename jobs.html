@@ -918,6 +918,29 @@ footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55
 .jobs-official-resource .ll-visual-image a,.jobs-official-resource .ll-card-image a{display:flex!important;align-items:center!important;justify-content:center!important;width:100%!important;height:100%!important;padding:0!important}
 #side-gigs .jobs-official-resource .ll-visual-image img,.jobs-official-resource .ll-visual-image img,.jobs-official-resource .ll-card-image img{display:block!important;width:100%!important;height:94px!important;max-width:100%!important;max-height:94px!important;object-fit:contain!important;position:static!important;transform:none!important}
 .jobs-official-resource .gig-logo-wordmark{display:none!important}
+</style><style id="jobs-search-card-layout">
+/* Keep job-search providers in the same outlined cards as local listings. */
+#remote .site-grid[data-ll-visual-grid]{align-items:stretch!important}
+#remote .site-card[data-ll-visual-card]{
+ display:flex!important;flex-direction:column!important;min-width:0!important;
+ height:350px!important;padding:12px!important;border:2px solid #263647!important;
+ border-radius:16px!important;background:#fffaf4!important;
+ box-shadow:0 2px 5px rgba(0,0,0,.06)!important;overflow:hidden!important;
+}
+#remote .site-card[data-ll-visual-card] .ll-visual-image{
+ flex:0 0 110px!important;width:100%!important;height:110px!important;
+ min-height:110px!important;max-height:110px!important;margin:0 0 12px!important;
+}
+#remote .site-card[data-ll-visual-card]>strong{
+ font-size:17px!important;line-height:1.25!important;margin:0 0 9px!important;
+ overflow-wrap:anywhere;
+}
+#remote .site-card[data-ll-visual-card]>span{
+ display:block!important;font-size:13px!important;line-height:1.5!important;
+ margin:0!important;overflow:visible!important;-webkit-line-clamp:unset!important;
+}
+#remote .site-card[data-ll-visual-card]:hover{border-color:#347455!important}
+#remote .site-card[data-ll-visual-card]:focus-visible{outline:3px solid #347455;outline-offset:4px}
 </style></head>
 <body>
 <!-- =========================================================
