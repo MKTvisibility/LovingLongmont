@@ -201,7 +201,7 @@
       "evidence": "5ce2c80a414d447d0aa99aced60db7d1477a9f6a"
     },
     "c11b9e8a-50a3-412e-82d8-7298bfaffd98": {
-      "name": "Moxie Bread Co. (Longmont Caf\u00e9)",
+      "name": "Moxie Bread Co. (Longmont Café)",
       "first_listed_at": "2026-10-16T03:28:51.289757+00:00",
       "source": "earliest_available_publication",
       "evidence": "existing published_at; earlier listing date unknown"
@@ -243,7 +243,7 @@
       "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
     },
     "05bc90f7-67fb-5f29-94a3-28b1a822bc0c": {
-      "name": "Recovery Caf\u00e9 Longmont",
+      "name": "Recovery Café Longmont",
       "first_listed_at": "2026-10-11T20:59:23-06:00",
       "source": "repository_first_mention",
       "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
@@ -357,7 +357,7 @@
       "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
     },
     "b1f715a3-8051-5da2-a7d9-fdbfd6c41508": {
-      "name": "Wren\u2019s Nest Art Studio",
+      "name": "Wren’s Nest Art Studio",
       "first_listed_at": "2026-10-11T20:59:23-06:00",
       "source": "repository_first_mention",
       "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
@@ -495,10 +495,16 @@
       "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
     },
     "7195c87c-394b-5efb-8f1b-ccc0682006a4": {
-      "name": "Quarter\u2019s Bar + Arcade",
+      "name": "Quarter’s Bar + Arcade",
       "first_listed_at": "2026-10-11T20:59:23-06:00",
       "source": "repository_first_mention",
       "evidence": "5e01fcfeb03427ea3980dc9f84df94afcea3f7f1"
+    },
+    "96c24e1a-09ec-4b65-8514-747cd880ca6b": {
+      "name": "Artemis Flower Farm",
+      "first_listed_at": "2026-10-25T06:23:23.644Z",
+      "source": "first_recorded_page_publication",
+      "evidence": "Recorded by Command Center page publisher; earlier unrecorded listing history may be unknown."
     }
   }
 }
