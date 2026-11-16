@@ -39,3 +39,25 @@
 #home-business-stories .ll-home-story:nth-child(even) .ll-story-flow-body>.ll-home-story-profile{grid-column:1;grid-row:3}
 #home-business-stories .ll-home-story:nth-child(even) .ll-story-flow-body{grid-template-rows:auto auto auto;align-content:start}
 }
+
+/* Homepage: two stacked community stories on left; matching-height giveaway on right. */
+@media(min-width:761px){
+#home-business-stories .ll-story-giveaway-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-rows:auto auto;column-gap:30px;row-gap:18px;align-items:stretch}
+#home-business-stories .ll-story-giveaway-layout>.ll-home-story{grid-column:1;margin:0;padding:0 0 15px}
+#home-business-stories .ll-story-giveaway-layout>.ll-home-story:nth-child(2){grid-row:2}
+#home-business-stories .ll-story-giveaway-layout>.ll-giveaway-ad{grid-column:2;grid-row:1 / span 2;min-width:0}
+#home-business-stories .ll-story-giveaway-layout .ll-story-flow-body,
+#home-business-stories .ll-story-giveaway-layout .ll-home-story:nth-child(even) .ll-story-flow-body{grid-template-columns:minmax(0,1fr) minmax(115px,30%);gap:14px}
+#home-business-stories .ll-story-giveaway-layout .ll-home-story h3{font-size:clamp(22px,2.1vw,28px)}
+#home-business-stories .ll-story-giveaway-layout .ll-home-story-text{font-size:14px;line-height:1.55}
+}
+#home-business-stories .ll-giveaway-ad{display:flex;min-height:310px;border-radius:12px;overflow:hidden;background:linear-gradient(145deg,#06243b 0%,#064c55 55%,#1c6c2b 100%);box-shadow:0 8px 24px rgba(5,35,50,.14)}
+#home-business-stories .ll-giveaway-link{display:flex;flex:1;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:15px;padding:30px 24px;color:white;text-decoration:none}
+#home-business-stories .ll-giveaway-brand{font:700 clamp(23px,2.5vw,34px)/1.15 Arial,sans-serif}
+#home-business-stories .ll-giveaway-headline{font:800 clamp(25px,3vw,39px)/1.12 Georgia,serif;max-width:520px}
+#home-business-stories .ll-giveaway-value{font:800 19px/1.3 Arial,sans-serif;color:#e5fbb5}
+#home-business-stories .ll-giveaway-steps{font:700 16px/1.65 Arial,sans-serif;max-width:420px}
+#home-business-stories .ll-giveaway-cta{display:inline-block;background:white;color:#06243b;padding:12px 22px;border-radius:7px;font:800 15px Arial,sans-serif}
+#home-business-stories .ll-giveaway-site{font:600 14px Arial,sans-serif;opacity:.9}
+#home-business-stories .ll-giveaway-link:hover .ll-giveaway-cta{background:#e5fbb5}
+@media(max-width:760px){#home-business-stories .ll-story-giveaway-layout{display:flex;flex-direction:column;gap:22px}#home-business-stories .ll-giveaway-ad{min-height:330px}}
