@@ -1,23 +1,22 @@
 document.addEventListener('DOMContentLoaded',()=>{
  const root=document.querySelector('.lln-header');if(!root)return;
  const toggle=root.querySelector('.lln-toggle'),nav=root.querySelector('.lln-main');
+ if(!toggle||!nav)return;
  toggle.hidden=false;root.classList.add('lln-enhanced');
  toggle.addEventListener('click',()=>{const open=toggle.getAttribute('aria-expanded')!=='true';toggle.setAttribute('aria-expanded',String(open));nav.classList.toggle('lln-open',open)});
- // Keep the sponsorship call to action visible in the primary navigation sitewide.
- if(nav&&!nav.querySelector('.lln-sponsor-nav-link')){
-   const sponsor=document.createElement('a');
-   sponsor.className='lln-sponsor-nav-link';
-   sponsor.href='pricing.html#contribute';
-   sponsor.textContent='Become a Sponsor';
-   sponsor.setAttribute('aria-label','Become a Loving Longmont sponsor');
-   nav.appendChild(sponsor);
-   if(!document.getElementById('lln-sponsor-nav-style')){
-     const style=document.createElement('style');
-     style.id='lln-sponsor-nav-style';
-     style.textContent='.lln-main .lln-sponsor-nav-link{display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;background:#c9001a!important;color:#fff!important;font-weight:700!important;border-radius:6px;padding:10px 15px;margin:5px 10px;text-decoration:none}.lln-main .lln-sponsor-nav-link:hover,.lln-main .lln-sponsor-nav-link:focus-visible{background:#a90016!important;outline:2px solid #fff;outline-offset:2px}@media(max-width:900px){.lln-main .lln-sponsor-nav-link{margin:8px 0;width:100%;box-sizing:border-box}}';
-     document.head.appendChild(style);
-   }
+ const utility=root.querySelector('.lln-utility');
+ const brandAction=root.querySelector('.lln-brandrow .lln-cta');
+ if(brandAction&&utility)brandAction.replaceWith(utility);
+ nav.querySelectorAll('a[href="pricing.html#contribute"]').forEach(link=>link.remove());
+ if(!nav.querySelector('.lln-business-nav-link')){
+   const business=document.createElement('a');
+   business.className='lln-business-nav-link';
+   business.href='request-free-profile.html';
+   business.textContent='Claim or Add Your Business';
+   nav.append(business);
  }
+ toggle.textContent='☰';
+ toggle.setAttribute('aria-label','Menu');
  const groups=[...root.querySelectorAll('.lln-drop')];
  groups.forEach(group=>group.addEventListener('toggle',()=>{if(group.open)groups.filter(other=>other!==group).forEach(other=>other.open=false)}));
  document.addEventListener('click',e=>groups.forEach(group=>{if(group.open&&!group.contains(e.target))group.open=false}));
