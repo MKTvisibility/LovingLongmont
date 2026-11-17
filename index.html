@@ -839,6 +839,36 @@ footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55
     }
   }
 </style>
+<style>
+  .ll-visibility-banner {
+    padding: 0 clamp(8px, 3vw, 28px) 14px;
+  }
+  .ll-visibility-banner__art {
+    position: relative;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  .ll-visibility-banner__art img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .ll-visibility-banner__art a {
+    position: absolute;
+    display: block;
+  }
+  .ll-visibility-banner__art a:focus-visible {
+    outline: 3px solid #fff;
+    box-shadow: 0 0 0 5px #062f52;
+  }
+  .ll-visibility-banner__check {
+    inset: 51% 30.5% 29% 34.3%;
+    border-radius: 12px;
+  }
+  .ll-visibility-banner__facebook {
+    inset: 79% 15% 6% 16.5%;
+  }
+</style>
 </head>
 <body>
 <!-- ========================================
@@ -862,10 +892,13 @@ footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55
     <img class="ll-home-guide__image" src="Local%20Coffee%2C%20Art%20and%20Books.png" alt="Local coffee, art and books in Longmont.">
   </div>
 </section>
-<!-- ========================================
-     MAIN CATEGORIES
-======================================== -->
-<section aria-label="Explore Longmont" class="ll-category-panel"><nav aria-label="Explore by category" class="ll-category-grid"><a class="ll-category-card" href="businesses.html#food-drink-restaurants"><img alt="" height="768" loading="lazy" sizes="(max-width:620px) 44vw, (max-width:1000px) 29vw, 192px" src="assets/category-eat-drink-art.webp" srcset="assets/category-eat-drink-art-small.webp 480w, assets/category-eat-drink-art.webp 1024w" width="1024"/><h3>Eat &amp; Drink <span aria-hidden="true">→</span></h3></a><a class="ll-category-card" href="businesses.html#home-gifts-shopping"><img alt="" height="768" loading="lazy" sizes="(max-width:620px) 44vw, (max-width:1000px) 29vw, 192px" src="assets/category-shop-local-art.webp" srcset="assets/category-shop-local-art-small.webp 480w, assets/category-shop-local-art.webp 1024w" width="1024"/><h3>Shop Local <span aria-hidden="true">→</span></h3></a><a class="ll-category-card" href="businesses.html#arts-crafts-classes"><img alt="" height="768" loading="lazy" sizes="(max-width:620px) 44vw, (max-width:1000px) 29vw, 192px" src="assets/category-arts-culture-art.webp" srcset="assets/category-arts-culture-art-small.webp 480w, assets/category-arts-culture-art.webp 1024w" width="1024"/><h3>Arts &amp; Culture <span aria-hidden="true">→</span></h3></a><a class="ll-category-card" href="events.html"><img alt="" height="768" loading="lazy" sizes="(max-width:620px) 44vw, (max-width:1000px) 29vw, 192px" src="assets/category-events-art.webp" srcset="assets/category-events-art-small.webp 480w, assets/category-events-art.webp 1024w" width="1024"/><h3>Events <span aria-hidden="true">→</span></h3></a><a class="ll-category-card" href="things-to-do.html"><img alt="" height="768" loading="lazy" sizes="(max-width:620px) 44vw, (max-width:1000px) 29vw, 192px" src="assets/category-get-outside-art.webp" srcset="assets/category-get-outside-art-small.webp 480w, assets/category-get-outside-art.webp 1024w" width="1024"/><h3>Get Outside <span aria-hidden="true">→</span></h3></a><a class="ll-category-card" href="history.html"><img alt="" height="768" loading="lazy" sizes="(max-width:620px) 44vw, (max-width:1000px) 29vw, 192px" src="assets/category-history-art.webp" srcset="assets/category-history-art-small.webp 480w, assets/category-history-art.webp 1024w" width="1024"/><h3>Our History <span aria-hidden="true">→</span></h3></a></nav></section>
+<section class="ll-visibility-banner" aria-label="MKT Visibility Check promotion">
+  <div class="ll-visibility-banner__art">
+    <img src="assets/mkt-visibility-home-banner.png" width="1112" height="279" loading="lazy" alt="MKT Visibility. Is your business being found online? Get a professional Visibility Check for $149.95 and see how your business appears across Google, social media, and the web.">
+    <a class="ll-visibility-banner__check" href="https://mktvisibility.com/visibility-check.html" aria-label="Get your $149.95 Visibility Check"></a>
+    <a class="ll-visibility-banner__facebook" href="https://www.facebook.com/share/14ts57yW1J7/?mibextid=wwXIfr" aria-label="Follow MKT Visibility on Facebook for a chance to win a free Visibility Check"></a>
+  </div>
+</section>
 <!-- ========================================
      COMMUNITY
 ======================================== -->
