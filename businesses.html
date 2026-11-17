@@ -717,7 +717,58 @@ footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55
 .category-section,.featured-section,.directory-section,.creative-section,.support-local,.cta-section{padding:24px 18px}
 .creative-content{padding:20px}
 }
-</style><link rel="stylesheet" href="assets/compact-directory.css?v=20261016-compact"><link rel="stylesheet" href="assets/navigation.css?v=20261016"><script defer src="assets/live-header.js?v=20261016-consistent-placeholders"></script><link rel="stylesheet" href="assets/footer.css?v=20261017-footer-sync"/></head>
+</style><link rel="stylesheet" href="assets/compact-directory.css?v=20261016-compact"><link rel="stylesheet" href="assets/navigation.css?v=20261016"><script defer src="assets/live-header.js?v=20261016-consistent-placeholders"></script><link rel="stylesheet" href="assets/footer.css?v=20261017-footer-sync"/><style>
+  .ll-directory-visibility {
+    background: #fffaf1;
+    padding: 8px clamp(18px, 4vw, 42px) 24px;
+  }
+  .ll-directory-visibility__inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1fr);
+    align-items: center;
+    gap: clamp(24px, 4vw, 48px);
+  }
+  .ll-directory-visibility__photo {
+    display: block;
+    padding: 12px;
+    background: #fff;
+    border: 1px solid #dce5e9;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(6, 47, 82, 0.08);
+  }
+  .ll-directory-visibility__photo img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .ll-directory-visibility h2 {
+    color: #062f52;
+    font: 700 clamp(28px, 3.1vw, 44px)/1.12 Georgia, serif;
+    margin: 8px 0 16px;
+  }
+  .ll-directory-visibility p {
+    color: #526573;
+    margin: 0 0 14px;
+    line-height: 1.65;
+  }
+  .ll-directory-visibility .ll-directory-visibility__cta {
+    display: inline-block;
+    padding: 13px 20px;
+    background: #c8101e;
+    color: #fff;
+    border-radius: 6px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .ll-directory-visibility__cta:hover { background: #a90016; }
+  @media (max-width: 700px) {
+    .ll-directory-visibility__inner { grid-template-columns: minmax(0, 1fr); }
+    .ll-directory-visibility__photo { width: 100%; max-width: 450px; margin: 0 auto; }
+  }
+</style>
+</head>
 <body>
 <header class="ll-live-header lln-header" data-navigation-version="20261016">
 <div class="lln-utility"><a href="about.html">About</a><a href="contact.html">Contact</a><a href="https://www.facebook.com/share/14qusKUCj3m/?mibextid=wwXIfr">Facebook</a></div>
@@ -730,6 +781,20 @@ footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55
 <h1 class="section-title">Local Businesses</h1>
 <p class="section-description category-introduction">Discover the shops, makers and services that give Longmont its own character. Browse local businesses, learn a little about what they offer, and follow their stories to find a new favorite or make a useful connection close to home.</p>
 </div>
+</section>
+<section class="ll-directory-visibility" aria-labelledby="ll-directory-visibility-title">
+  <div class="ll-directory-visibility__inner" data-ll-preserve-layout="">
+    <a class="ll-directory-visibility__photo" href="https://mktvisibility.com/visibility-check.html" aria-label="Learn about the MKT Visibility Check">
+      <img src="IMG_4547.jpeg" alt="MKT Visibility support for local businesses" loading="lazy">
+    </a>
+    <div>
+      <div class="eyebrow">MKT Visibility</div>
+      <h2 id="ll-directory-visibility-title">Help Customers Find Your Business Online</h2>
+      <p>See what customers find when they look for your business on Google, social media, and the web. The MKT Visibility Check highlights missing or inconsistent information and shows you where to improve your website, listings, and social profiles.</p>
+      <p>Get practical recommendations so you know what to fix first and can make it easier for customers to find and contact you.</p>
+      <a class="ll-directory-visibility__cta" href="https://mktvisibility.com/visibility-check.html">Get Your Visibility Check →</a>
+    </div>
+  </div>
 </section>
 <section class="notice-section">
 <div class="notice-box">
