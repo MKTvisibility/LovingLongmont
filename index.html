@@ -908,7 +908,8 @@ footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55
     color: #0b1933;
     font-family: Georgia, "Times New Roman", serif;
   }
-  .ll-featured-stories h2 {
+  .ll-featured-stories h2,
+  #ll-newsletter-heading {
     display: flex;
     align-items: center;
     gap: clamp(10px, 2vw, 24px);
@@ -916,7 +917,14 @@ footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55
     font-size: clamp(24px, 3.2vw, 40px);
     line-height: 1.1;
   }
+  #ll-newsletter-heading {
+    max-width: 1240px;
+    margin-inline: auto;
+    color: #0b1933;
+    font-family: Georgia, "Times New Roman", serif;
+  }
   .ll-featured-stories h2::after,
+  #ll-newsletter-heading::after,
   #ll-explore-title::before {
     content: "";
     flex: 1;
@@ -1053,13 +1061,11 @@ footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55
 <!-- ========================================
      EMAIL
 ======================================== -->
-<section class="newsletter">
+<section class="newsletter" aria-labelledby="ll-newsletter-heading">
+<h2 id="ll-newsletter-heading">Stay in the Loop</h2>
 <div class="newsletter-inner">
 <div class="ll-newsletter-intro"><div class="newsletter-title">
-<div>
-<h3>Stay in the Loop</h3>
 <p>Get the latest events, spotlights and community updates.</p>
-</div>
 </div><img alt="Watercolor illustration of a woman reading a Loving Longmont newsletter at an outdoor café" class="ll-newsletter-art" height="800" loading="lazy" src="assets/art/newsletter-reader.webp" width="800"/></div>
 <div class="ll-subscribe-form"><iframe data-tally-src="https://tally.so/embed/BzOlLe?alignLeft=1&amp;hideTitle=1&amp;transparentBackground=1&amp;dynamicHeight=1" frameborder="0" height="480" loading="lazy" marginheight="0" marginwidth="0" src="https://tally.so/embed/BzOlLe?alignLeft=1&amp;hideTitle=1&amp;transparentBackground=1&amp;dynamicHeight=1" title="Subscribe to Loving Longmont" width="100%"></iframe></div>
 </div>
