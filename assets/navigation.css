@@ -22,3 +22,24 @@
 @media(max-width:460px){
   .lln-brandrow .lln-utility{font-size:13px}
 }
+
+.lln-brandrow .lln-utility {
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  align-items: center;
+  gap: 3px clamp(10px, 1.5vw, 24px);
+  line-height: 18px;
+}
+.lln-utility .lln-visibility-cta {
+  grid-column: 1 / -1;
+  display: block;
+  padding: 3px 7px;
+  background: #062f52;
+  color: #fff !important;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 17px;
+}
+.lln-utility .lln-visibility-cta:hover { background: #144c76; }

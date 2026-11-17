@@ -7,6 +7,13 @@ document.addEventListener('DOMContentLoaded',()=>{
  const utility=root.querySelector('.lln-utility');
  const brandAction=root.querySelector('.lln-brandrow .lln-cta');
  if(brandAction&&utility)brandAction.replaceWith(utility);
+ if(utility&&!utility.querySelector('.lln-visibility-cta')){
+   const visibility=document.createElement('a');
+   visibility.className='lln-visibility-cta';
+   visibility.href='https://mktvisibility.com/visibility-check.html';
+   visibility.textContent='Get Your Visibility Check';
+   utility.append(visibility);
+ }
  nav.querySelectorAll('a[href="pricing.html#contribute"]').forEach(link=>link.remove());
  if(!nav.querySelector('.lln-business-nav-link')){
    const business=document.createElement('a');
