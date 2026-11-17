@@ -862,11 +862,38 @@ footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55
     box-shadow: 0 0 0 5px #062f52;
   }
   .ll-visibility-banner__check {
-    inset: 51% 30.5% 29% 34.3%;
+    inset: 50.4% 30.7% 29.2% 33.4%;
     border-radius: 12px;
   }
   .ll-visibility-banner__facebook {
-    inset: 79% 15% 6% 16.5%;
+    inset: 80.8% 14.6% 4.3% 15%;
+  }
+  .ll-visibility-banner__art a span {
+    display: none;
+  }
+  @media (max-width: 600px) {
+    .ll-visibility-banner__art a {
+      position: static;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      margin-top: 6px;
+      padding: 6px 12px;
+      border-radius: 6px;
+      color: #fff;
+      background: var(--navy);
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+    }
+    .ll-visibility-banner__art .ll-visibility-banner__check {
+      background: var(--red);
+    }
+    .ll-visibility-banner__art a span {
+      display: inline;
+    }
   }
 </style>
 </head>
@@ -894,9 +921,9 @@ footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55
 </section>
 <section class="ll-visibility-banner" aria-label="MKT Visibility Check promotion">
   <div class="ll-visibility-banner__art">
-    <img src="assets/mkt-visibility-home-banner.png" width="1112" height="279" loading="lazy" alt="MKT Visibility. Is your business being found online? Get a professional Visibility Check for $149.95 and see how your business appears across Google, social media, and the web.">
-    <a class="ll-visibility-banner__check" href="https://mktvisibility.com/visibility-check.html" aria-label="Get your $149.95 Visibility Check"></a>
-    <a class="ll-visibility-banner__facebook" href="https://www.facebook.com/share/14ts57yW1J7/?mibextid=wwXIfr" aria-label="Follow MKT Visibility on Facebook for a chance to win a free Visibility Check"></a>
+    <img src="assets/mkt-visibility-banner-trimmed.webp" width="2113" height="508" loading="lazy" alt="MKT Visibility. Is your business being found online? Get a professional Visibility Check for $149.95 and see how your business appears across Google, social media, and the web.">
+    <a class="ll-visibility-banner__check" href="https://mktvisibility.com/visibility-check.html" aria-label="Get your $149.95 Visibility Check"><span>Get Your Visibility Check · $149.95</span></a>
+    <a class="ll-visibility-banner__facebook" href="https://www.facebook.com/share/14ts57yW1J7/?mibextid=wwXIfr" aria-label="Follow MKT Visibility on Facebook for a chance to win a free Visibility Check"><span>Follow on Facebook for a chance to win</span></a>
   </div>
 </section>
 <!-- ========================================
