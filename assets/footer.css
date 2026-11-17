@@ -34,3 +34,32 @@
 .lln-footer :focus-visible{outline:3px solid #e7a92b;outline-offset:3px}
 @media(max-width:800px){.lln-footer-grid{grid-template-columns:repeat(2,1fr);gap:28px}.lln-footer-grid nav{padding-left:0;border:0}.lln-footer .lln-wordmark{font-size:29px}}
 @media(max-width:420px){.lln-footer-grid{grid-template-columns:1fr}.lln-footer-grid nav{border-top:1px solid #ffffff26;padding-top:18px}}
+
+  .lln-footer .lln-sponsor-section {
+    background: #000;
+    padding: 16px clamp(14px, 3vw, 36px) 12px;
+  }
+  .lln-footer .lln-sponsor-section h2 {
+    margin-bottom: 6px !important;
+  }
+  .lln-footer .lln-sponsor-section > p {
+    margin: 0 0 9px;
+  }
+  .lln-footer .lln-sponsor-card {
+    gap: 4px;
+    padding: 4px 8px;
+  }
+  .lln-footer .lln-sponsor-art {
+    height: 94px;
+  }
+  .lln-footer .lln-sponsor-action {
+    margin: 10px auto 0;
+  }
+  .lln-footer .lln-sponsor-action a {
+    padding: 7px 30px;
+  }
+  @media (max-width: 700px) {
+    .lln-footer .lln-sponsor-art {
+      height: 76px;
+    }
+  }

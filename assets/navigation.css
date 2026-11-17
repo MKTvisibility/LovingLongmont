@@ -43,3 +43,12 @@
   line-height: 17px;
 }
 .lln-utility .lln-visibility-cta:hover { background: #144c76; }
+
+
+.lln-header + .ll-live-banner { width:100%; margin:0; padding:0; background:#fff; line-height:0; }
+.lln-header + .ll-live-banner > img { display:block; width:100%; max-width:100%; height:auto !important; max-height:none !important; object-fit:contain !important; }
+  .ll-live-banner {
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 7px 14px rgba(6, 32, 53, 0.24);
+  }
