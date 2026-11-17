@@ -900,6 +900,85 @@ footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55
     }
   }
 </style>
+<style>
+  .ll-featured-stories {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 10px clamp(16px, 3vw, 40px) 28px;
+    color: #0b1933;
+    font-family: Georgia, "Times New Roman", serif;
+  }
+  .ll-featured-stories h2 {
+    display: flex;
+    align-items: center;
+    gap: clamp(10px, 2vw, 24px);
+    margin: 0 0 12px;
+    font-size: clamp(24px, 3.2vw, 40px);
+    line-height: 1.1;
+  }
+  .ll-featured-stories h2::after,
+  #ll-explore-title::before {
+    content: "";
+    flex: 1;
+    border-top: 2px solid var(--red);
+  }
+  .ll-featured-cards {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: clamp(12px, 1.8vw, 23px);
+  }
+  .ll-featured-stories a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .ll-featured-stories a:hover h3,
+  .ll-featured-stories a:hover span {
+    text-decoration: underline;
+  }
+  .ll-featured-cards img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1.75;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .ll-featured-cards h3 {
+    margin: 6px 8px 0;
+    font-size: clamp(16px, 1.9vw, 23px);
+    line-height: 1.12;
+  }
+  #ll-explore-title {
+    margin: 24px 0 12px;
+    text-align: center;
+  }
+  .ll-featured-explore {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+  .ll-featured-explore a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 4px;
+    text-align: center;
+    font-size: clamp(14px, 1.8vw, 22px);
+    font-weight: 700;
+    line-height: 1.08;
+  }
+  .ll-featured-explore a + a {
+    border-left: 1px solid #c99f9f;
+  }
+  .ll-featured-explore svg {
+    width: clamp(32px, 5vw, 57px);
+    height: auto;
+  }
+  @media (max-width: 650px) {
+    .ll-featured-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .ll-featured-explore { grid-template-columns: repeat(3, minmax(0, 1fr)); row-gap: 12px; }
+    .ll-featured-explore a:nth-child(4) { border-left: 0; }
+  }
+</style>
 </head>
 <body>
 <!-- ========================================
@@ -929,6 +1008,24 @@ footer{background:linear-gradient(135deg,#03233e,#063b62);color:white;padding:55
     <a class="ll-visibility-banner__check" href="https://mktvisibility.com/visibility-check.html" aria-label="Get your $149.95 Visibility Check"><span>Get Your Visibility Check · $149.95</span></a>
     <a class="ll-visibility-banner__facebook" href="https://www.facebook.com/share/14ts57yW1J7/?mibextid=wwXIfr" aria-label="Follow MKT Visibility on Facebook for a chance to win a free Visibility Check"><span>Follow on Facebook for a chance to win</span></a>
   </div>
+</section>
+<section class="ll-featured-stories" aria-labelledby="ll-featured-title">
+  <h2 id="ll-featured-title">Featured Stories</h2>
+  <div class="ll-featured-cards">
+    <a href="business.html?id=ac659685-a763-53c7-8d20-63ea338b323a"><img src="https://tinkermill.org/wp-content/uploads/2021/09/pxl-20201119-173259000_orig-1024x768.jpg" alt="" loading="lazy"><h3>TinkerMill</h3></a>
+    <a href="barbed-wire-books.html"><img src="https://images.squarespace-cdn.com/content/v1/5bb956867eb88c3e3d6ae99f/1541375611133-Y3UC5GXLSTC1PY3WA79E/barbed-wire-books_600wide.jpg?format=500w" alt="" loading="lazy"><h3>Barbed Wire Books</h3></a>
+    <a href="scoops-on-the-corner.html"><img src="https://gvmwkltwrlqwbqegieum.supabase.co/storage/v1/object/public/cc-listing-images/e6e64b7f-9c0d-4604-b891-52ac45ccfde3/b98dab85-db9c-50bd-b141-e6eed222e651/329bb481-cb22-430d-9e78-efe45c30d62a.jpg" alt="" loading="lazy"><h3>Scoops on the Corner</h3></a>
+    <a href="shoes-brews.html"><img src="https://50f97fb5999e42a45c2e.cdn6.editmysite.com/uploads/b/50f97fb5999e42a45c2e51425f6695adf947cfbb1df60483fe64583c8c4ffe71/IMG_5536_1767983898.JPG?width=2400&amp;optimize=medium" alt="" loading="lazy"><h3>Shoes &amp; Brews</h3></a>
+  </div>
+  <h2 id="ll-explore-title">More to Explore in Longmont</h2>
+  <nav class="ll-featured-explore" aria-labelledby="ll-explore-title">
+    <a href="businesses.html"><svg viewBox="0 0 32 32" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11h24l-3-7H7zM4 11v3a4 4 0 0 0 8 0 4 4 0 0 0 8 0 4 4 0 0 0 8 0v-3M7 18v10h18V18M13 28v-8h6v8M12 11l1-7m7 7-1-7"/></svg><span>Local<br>Businesses</span></a>
+    <a href="events.html"><svg viewBox="0 0 32 32" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="6" width="24" height="22" rx="3"/><path d="M10 3v7m12-7v7M4 13h24m-18 5h2m4 0h2m4 0h2m-14 5h2m4 0h2"/></svg><span>Events &amp;<br>Happenings</span></a>
+    <a href="things-to-do.html"><svg viewBox="0 0 32 32" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 26 13 10l5 6 4-7 8 17H7m7-5 5-6"/></svg><span>Things<br>to Do</span></a>
+    <a href="animals.html"><svg viewBox="0 0 32 32" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><g fill="currentColor" stroke="none"><ellipse cx="7" cy="12" rx="3" ry="4" transform="rotate(-25 7 12)"/><ellipse cx="13" cy="7" rx="3" ry="4"/><ellipse cx="20" cy="7" rx="3" ry="4"/><ellipse cx="26" cy="12" rx="3" ry="4" transform="rotate(25 26 12)"/><path d="M9 21c2-3 4-6 7-6s5 3 7 6c3 4 1 7-3 6l-4-1-4 1c-4 1-6-2-3-6z"/></g></svg><span>Animals<br>&amp; Pets</span></a>
+    <a href="jobs.html"><svg viewBox="0 0 32 32" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="9" width="26" height="18" rx="3"/><path d="M11 9V6a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v3M3 16h26m-15 0v4h4v-4"/></svg><span>Jobs<br>in Longmont</span></a>
+    <a href="community.html"><svg viewBox="0 0 32 32" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="9" r="4"/><circle cx="6" cy="13" r="3"/><circle cx="26" cy="13" r="3"/><path d="M8 28v-3a8 8 0 0 1 16 0v3M1 25v-2a5 5 0 0 1 7-5m23 7v-2a5 5 0 0 0-7-5"/></svg><span>Community<br>Resources</span></a>
+  </nav>
 </section>
 <!-- ========================================
      LONGMONT THROUGH OUR LENS
